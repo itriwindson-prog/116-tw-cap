@@ -1,4 +1,7 @@
-// sw.js — 離線快取（cache-first）。改版內容後把 CACHE 版本號 +1 即可讓使用者更新。
+// sw.js — 離線快取（stale-while-revalidate）：
+//   先回快取(秒開、可離線)，同時在背景抓最新版寫回快取 → 老師 push 更新後，
+//   學生「下一次有網路開啟」就會自動拿到新內容，不需手動改版本號。
+//   （只有改動下面 SHELL 清單本身時，才需要把 CACHE 版本 +1。）
 const CACHE = "studysync-v1";
 const SHELL = [
   "index.html", "schedule.html", "subject.html", "quiz.html", "mistakes.html",
@@ -23,14 +26,15 @@ self.addEventListener("activate", e => {
 self.addEventListener("fetch", e => {
   const req = e.request;
   if (req.method !== "GET") return;
-  // ignoreSearch：schedule.html?date=… 等帶參數的網址也命中已快取的頁面
+  // stale-while-revalidate；ignoreSearch 讓 schedule.html?date=… 等帶參數網址也命中
   e.respondWith(
-    caches.match(req, { ignoreSearch: true }).then(hit => hit || fetch(req).then(res => {
-      if (res && res.ok && new URL(req.url).origin === location.origin) {
-        const copy = res.clone();
-        caches.open(CACHE).then(c => c.put(req, copy));
-      }
-      return res;
-    }).catch(() => caches.match("index.html")))
+    caches.open(CACHE).then(async cache => {
+      const cached = await cache.match(req, { ignoreSearch: true });
+      const fresh = fetch(req).then(res => {
+        if (res && res.ok && new URL(req.url).origin === location.origin) cache.put(req, res.clone());
+        return res;
+      }).catch(() => null);
+      return cached || (await fresh) || cache.match("index.html");
+    })
   );
 });
