@@ -57,6 +57,16 @@
     <div class="cal" id="cal"></div>
   </div>
 
+  <details class="card plan" style="margin-top:18px">
+    <summary><b>📅 本月計畫</b> <span class="muted" id="monthPlanYm"></span></summary>
+    <div class="plan-body" id="monthPlanBody"></div>
+  </details>
+
+  <details class="card plan" style="margin-top:14px">
+    <summary><b>🗓 本週計畫</b> <span class="muted" id="weekPlanLabel"></span></summary>
+    <div class="plan-body" id="weekPlanBody"></div>
+  </details>
+
   <div class="card" style="margin-top:18px">
     <h2>今日任務 <span class="muted" style="font-size:15px" id="todayDate"></span></h2>
     <div id="todayTasks"></div>
@@ -161,6 +171,36 @@
     document.getElementById("calNext").addEventListener("click", () => { if (++m > 11) { m = 0; y++; } render(); });
     document.getElementById("calToday").addEventListener("click", () => { y = now.getFullYear(); m = now.getMonth(); render(); });
     render();
+  })();
+
+  // 本月計畫（折疊）：本月 focus + 各週重點（計畫尚未開始時顯示最近一個月）
+  (function () {
+    const { month: m, upcoming } = SS.currentMonth();
+    const body = document.getElementById("monthPlanBody");
+    document.getElementById("monthPlanYm").textContent = m ? (m.ym + (upcoming ? "（即將開始）" : "")) : today.slice(0, 7);
+    if (!m) { body.appendChild(SS.el("div", { class: "muted", text: "尚無月計畫。" })); return; }
+    body.appendChild(SS.el("div", { style: "font-weight:700", text: m.title }));
+    body.appendChild(SS.el("div", { class: "muted", style: "margin:4px 0 8px", text: m.focus }));
+    if (m.weeks) { const ul = SS.el("ul", { style: "margin:0;padding-left:18px" }); m.weeks.forEach(w => ul.appendChild(SS.el("li", { class: "muted", text: w.label + "：" + w.focus }))); body.appendChild(ul); }
+  })();
+
+  // 本週計畫（折疊）：本週 focus + 日～六快速跳當天 + 本週重點測驗
+  (function () {
+    const wplan = SS.dayPlan(today);
+    document.getElementById("weekPlanLabel").textContent = wplan.weekLabel || "";
+    const body = document.getElementById("weekPlanBody");
+    if (wplan.weekFocus) body.appendChild(SS.el("div", { class: "muted", style: "margin-bottom:8px", text: "本週重點：" + wplan.weekFocus }));
+    const strip = SS.el("div", { class: "weekstrip" });
+    const base = SS.parseDate(today), dow = base.getDay(), names = ["日", "一", "二", "三", "四", "五", "六"];
+    for (let i = 0; i < 7; i++) {
+      const d = new Date(base); d.setDate(base.getDate() - dow + i); const ds = SS.fmt(d);
+      strip.appendChild(SS.el("a", { class: "wd" + (ds === today ? " today" : ""), href: "schedule.html?date=" + ds, title: ds }, [
+        SS.el("div", { class: "wd-dow", text: names[i] }),
+        SS.el("div", { class: "wd-num", text: String(d.getDate()) })
+      ]));
+    }
+    body.appendChild(strip);
+    if (wplan.links && wplan.links.length) { body.appendChild(SS.el("div", { class: "muted", style: "margin-top:10px", text: "本週重點測驗：" })); body.appendChild(SS.renderDayLinks(wplan)); }
   })();
 
   // 匯出 / 匯入 / 重設

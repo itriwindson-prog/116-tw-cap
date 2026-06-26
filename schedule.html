@@ -28,12 +28,10 @@
     <h2 style="margin-top:0">每日計畫 <span class="muted" style="font-size:14px">（依週計畫自動展開，可在 schedule.js 用 dayOverrides 覆蓋特定日）</span></h2>
     <div style="margin-bottom:12px">查看某天：<input type="date" id="datePick"></div>
     <div id="dayBox"></div>
-    <h3>本週每日計畫</h3>
-    <div class="timeline" id="weekDays"></div>
   </div>
 
-  <h2 style="margin:24px 0 10px">月計畫</h2>
-  <div class="grid cols" id="months"></div>
+  <h2 style="margin:24px 0 10px">月計畫 <span class="muted" style="font-size:14px">（點月份展開／收合）</span></h2>
+  <div id="months"></div>
 </div>
 
 <script src="js/data/config.js"></script>
@@ -86,25 +84,29 @@
   dp.addEventListener("change", () => dp.value && showDay(dp.value));
   showDay(initDay);
 
-  // 本週每日計畫（日～六）
-  const wd = document.getElementById("weekDays"), base = SS.parseDate(today), dow = base.getDay();
-  for (let i = 0; i < 7; i++) { const d = new Date(base); d.setDate(base.getDate() - dow + i); wd.appendChild(dayCard(SS.dayPlan(SS.fmt(d)))); }
-
-  // 月計畫卡片
+  // 月計畫（每月一個折疊；本月／最近即將開始的月預設展開）
+  const ym = today.slice(0, 7);
+  const cm = SS.currentMonth(), upcomingYm = cm.upcoming && cm.month ? cm.month.ym : null;
   const mbox = document.getElementById("months");
   S.months.forEach(m => {
-    const isNow = m.ym === ym;
-    const card = SS.el("div", { class: "card" + (isNow ? " " : ""), style: isNow ? "border-color:var(--primary)" : "" }, [
-      SS.el("div", { class: "muted", text: m.ym }),
-      SS.el("h3", { text: m.title + (isNow ? " 👈 本月" : "") }),
-      SS.el("div", { text: m.focus })
+    const isNow = m.ym === ym, isUpcoming = m.ym === upcomingYm;
+    const attrs = { class: "card plan", style: "margin-top:12px" }; if (isNow || isUpcoming) attrs.open = "";
+    const det = SS.el("details", attrs);
+    const sum = SS.el("summary", {}, [
+      SS.el("span", { class: "muted", text: m.ym + "　" }),
+      SS.el("b", { text: m.title })
     ]);
+    if (isNow) sum.appendChild(SS.el("span", { class: "pill", style: "margin-left:8px", text: "本月" }));
+    else if (isUpcoming) sum.appendChild(SS.el("span", { class: "pill", style: "margin-left:8px", text: "即將開始" }));
+    det.appendChild(sum);
+    const body = SS.el("div", { class: "plan-body" }, [SS.el("div", { text: m.focus })]);
     if (m.weeks) {
       const ul = SS.el("ul", { style: "margin:8px 0 0;padding-left:18px" });
-      m.weeks.forEach(w => ul.appendChild(SS.el("li", { class: "muted", text: w.label + "：" + w.focus })));
-      card.appendChild(ul);
+      m.weeks.forEach(w => ul.appendChild(SS.el("li", { class: "muted", text: w.label + "：" + w.focus + (w.quizTarget ? "（" + w.quizTarget + "）" : "") })));
+      body.appendChild(ul);
     }
-    mbox.appendChild(card);
+    det.appendChild(body);
+    mbox.appendChild(det);
   });
 })();
 </script>

@@ -28,6 +28,12 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     return phases.length ? phases[phases.length - 1] : null;
   };
   SS.inSprint = function () { const d = SS.daysUntilExam(); return d >= 0 && d <= (D.config.sprintDays || 60); };
+  // 本月月計畫；計畫尚未開始 → 回最近一個「即將開始」的月（months 依 ym 升冪）
+  SS.currentMonth = function () {
+    const ym = SS.todayStr().slice(0, 7), ms = (D.schedule && D.schedule.months) || [];
+    const m = ms.find(x => x.ym === ym);
+    return m ? { month: m, upcoming: false } : { month: ms.find(x => x.ym > ym) || null, upcoming: true };
+  };
 
   // 每日計畫：由「週 focus + 星期」自動展開；dayOverrides 可手動覆蓋某天
   SS.dayPlan = function (dateStr) {
