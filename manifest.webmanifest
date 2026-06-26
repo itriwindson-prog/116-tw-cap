@@ -1,0 +1,16 @@
+{
+  "name": "會考總複習 StudySync",
+  "short_name": "會考總複習",
+  "description": "民國116年國中教育會考總複習：筆記、測驗、進度與錯題本（離線可用）。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "zh-TW",
+  "background_color": "#fbf7f2",
+  "theme_color": "#e0917a",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

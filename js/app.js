@@ -307,6 +307,11 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     r.readAsText(file);
   };
 
+  // ---------- PWA：註冊 service worker（僅 http/https；file:// 不支援，照常離線運作）----------
+  if ("serviceWorker" in navigator && location.protocol.indexOf("http") === 0) {
+    window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+  }
+
   // ---------- 自我檢查：開 ?selftest=1 看 console ----------
   if (SS.param("selftest") === "1") {
     console.group("STUDYSYNC selftest");
