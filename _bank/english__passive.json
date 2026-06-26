@@ -1,0 +1,258 @@
+{
+  "topicId": "passive",
+  "isNew": false,
+  "newQuiz": [
+    {
+      "stem": "A new shopping mall ___ near the station now; it should open next spring.",
+      "options": [
+        "is built",
+        "is being built",
+        "has built",
+        "builds"
+      ],
+      "answer": 1,
+      "explanation": "now 表動作正在進行,且 mall 是被建造者,須用現在進行被動 is being built。",
+      "trap": "⚠ 現在進行被動結構為 is/are being + p.p.,別漏掉 being 而填 is built(那是單純現在被動,無『正在』之意);has built 是主動完成,語意成『商場蓋了東西』不通。"
+    },
+    {
+      "stem": "By the time we arrived, all the tickets ___, so we had to go home disappointed.",
+      "options": [
+        "had sold out",
+        "had been sold",
+        "have been sold",
+        "were selling"
+      ],
+      "answer": 1,
+      "explanation": "By the time we arrived(過去某時)之前票已被賣完,用過去完成被動 had been sold。",
+      "trap": "⚠ tickets 是被賣的,須用被動;且『在過去某時間點之前已完成』要用過去完成 had been + p.p.,別用 have been sold(現在完成,與過去時間軸不符)。"
+    },
+    {
+      "stem": "The injured passengers ___ to the nearest hospital before the ambulance left the scene.",
+      "options": [
+        "have been taken",
+        "had been taken",
+        "took",
+        "were taking"
+      ],
+      "answer": 1,
+      "explanation": "before the ambulance left(過去)之前傷者已被送醫,且乘客是被送的,用過去完成被動 had been taken。",
+      "trap": "⚠ passengers 是受動者要用被動(被送往醫院);兩個過去事件有先後,先發生的『送醫』用過去完成 had been taken;were taking 是主動進行,語意變成乘客自己在帶人。"
+    },
+    {
+      "stem": "Children under twelve ___ to enter the construction site without an adult.",
+      "options": [
+        "must not allow",
+        "must not be allowed",
+        "are not allowing",
+        "do not allow"
+      ],
+      "answer": 1,
+      "explanation": "兒童是『不被允許』的對象,情態動詞被動為 must not be + p.p.,故 must not be allowed。",
+      "trap": "⚠ 主詞 children 是被允許的對象須用被動;情態動詞 must 後接 be + p.p.,別填主動的 must not allow(語意變成『兒童不可以允許』);allow 後通常接 to V，此句為 be allowed to。"
+    },
+    {
+      "stem": "The old theater is going to ___ into a public library next year.",
+      "options": [
+        "turn",
+        "be turned",
+        "turning",
+        "be turning"
+      ],
+      "answer": 1,
+      "explanation": "戲院是被改建的,be going to 後的被動為 be going to be + p.p.,故 be turned。",
+      "trap": "⚠ theater 是受動者要用被動;be going to 之後接原形,被動形是 be turned(be + p.p.);turn 為主動(戲院自己變),語意不通。"
+    },
+    {
+      "stem": "Every detail of the wedding ___ care of by a professional planner, so the couple felt relaxed.",
+      "options": [
+        "was taken",
+        "took",
+        "was taking",
+        "has taking"
+      ],
+      "answer": 0,
+      "explanation": "片語動詞 take care of 改被動須保留 of:be taken care of;此處過去事實用 was taken care of。",
+      "trap": "⚠ 片語動詞 take care of 變被動時 of 不可丟,完整為 be taken care of by...;別只看 care of 而漏掉被動的 was taken;主詞 detail 是被照料的對象故用被動。"
+    },
+    {
+      "stem": "The students ___ a difficult question by the examiner, and none of them could answer it.",
+      "options": [
+        "were asked",
+        "asked",
+        "were asking",
+        "are asked"
+      ],
+      "answer": 0,
+      "explanation": "ask 為授與動詞,主動 The examiner asked the students a question,改被動學生當主詞 were asked a question。",
+      "trap": "⚠ 雙受詞動詞 ask sb sth 改被動,人當主詞時 sth 仍留在後面(were asked a question);主詞 students 是被問者用過去被動 were asked;by the examiner 點出真正動作者。"
+    },
+    {
+      "stem": "Look! The whole street ___ with colorful lights for the coming festival.",
+      "options": [
+        "decorates",
+        "is decorating",
+        "is being decorated",
+        "has decorated"
+      ],
+      "answer": 2,
+      "explanation": "Look! 提示動作正在發生,街道是被裝飾者,用現在進行被動 is being decorated。",
+      "trap": "⚠ Look! 表此刻正在進行,且 street 是被裝飾者,須用現在進行被動 is being decorated;is decorating 是主動(街道自己在裝飾)不通,has decorated 沒有『正在』之意。"
+    },
+    {
+      "stem": "This kind of traditional pottery ___ by hand for over five hundred years.",
+      "options": [
+        "has made",
+        "has been made",
+        "is making",
+        "made"
+      ],
+      "answer": 1,
+      "explanation": "for over five hundred years 表持續到現在,陶器是被製作者,用現在完成被動 has been made。",
+      "trap": "⚠ for + 一段時間延續到現在用現在完成;陶器是被做的須用被動,合為 has been made;has made 是主動(陶器做了東西)語意不通。"
+    },
+    {
+      "stem": "When I got to the office, I found that my report ___ on my desk by someone.",
+      "options": [
+        "left",
+        "had left",
+        "had been left",
+        "has been left"
+      ],
+      "answer": 2,
+      "explanation": "report 是被留下的,且在『我到辦公室(過去)』之前已發生,用過去完成被動 had been left。",
+      "trap": "⚠ report 是受動者要用被動;『發現時』報告早已被放在桌上,先發生的動作用過去完成 had been left;had left 是主動(報告自己離開)不通。"
+    },
+    {
+      "stem": "The naughty boy doesn't like ___ in front of his classmates by the teacher.",
+      "options": [
+        "scolding",
+        "to scold",
+        "being scolded",
+        "scolded"
+      ],
+      "answer": 2,
+      "explanation": "男孩是被罵的對象,like 後接動名詞,動名詞被動為 being + p.p.,故 being scolded。",
+      "trap": "⚠ 男孩是被責罵者須用被動;動名詞的被動形是 being + p.p.(being scolded);scolding 是主動(男孩罵人),scolded 缺 being 無法當動名詞主體。"
+    },
+    {
+      "stem": "It is said ___ thousands of stars in that part of the night sky, though we can barely see them.",
+      "options": [
+        "there are",
+        "there to be",
+        "to have",
+        "having"
+      ],
+      "answer": 1,
+      "explanation": "It is said that there are... 改不定詞時 there are 變 there to be,故 It is said there to be。",
+      "trap": "⚠ It is said that + 子句可轉為不定詞:there are → there to be;此題考被動句型 It is said... 後 there 結構的不定詞轉換,易誤填 there are(那需 that 引導子句)。"
+    },
+    {
+      "stem": "The famous scientist ___ to have discovered a new way to store solar energy.",
+      "options": [
+        "believes",
+        "is believing",
+        "is believed",
+        "has believed"
+      ],
+      "answer": 2,
+      "explanation": "People believe the scientist...改被動 The scientist is believed to have...,主詞是被相信的對象,用 is believed。",
+      "trap": "⚠ 主詞 scientist 是『被認為』的對象,用被動 is believed to V;believes 是主動(科學家相信別人)語意相反;to have discovered 表比主句更早發生的動作。"
+    },
+    {
+      "stem": "Not until the bill was huge ___ how much electricity had been wasted at home.",
+      "options": [
+        "we realized",
+        "did we realize",
+        "we were realized",
+        "were we realized"
+      ],
+      "answer": 1,
+      "explanation": "Not until 置句首主句須倒裝(did + 主詞 + 原形);realize 是主動知覺,故 did we realize;而 electricity 是被浪費的用被動 had been wasted。",
+      "trap": "⚠ 兩層陷阱:Not until 倒裝主句用 did we realize(realize 是主動,人不是被實現);後半 electricity 才是被浪費者用被動 had been wasted;別把 realize 也改成被動 were realized。"
+    },
+    {
+      "stem": "These ancient documents must ___ with great care, or they will fall apart.",
+      "options": [
+        "handle",
+        "be handled",
+        "being handled",
+        "to be handled"
+      ],
+      "answer": 1,
+      "explanation": "文件是被處理的對象,情態動詞 must 後被動為 be + p.p.,故 must be handled。",
+      "trap": "⚠ documents 是被處理者要用被動;must 後接原形,被動形 be handled;handle 是主動(文件處理東西)不通,being/to be handled 不接在 must 之後。"
+    },
+    {
+      "stem": "The road ___ when the heavy rain suddenly started, so the workers had to stop and take cover.",
+      "options": [
+        "was repaired",
+        "was being repaired",
+        "had repaired",
+        "repaired"
+      ],
+      "answer": 1,
+      "explanation": "大雨『突然開始』時道路正在被修,過去某動作進行中用過去進行被動 was being repaired。",
+      "trap": "⚠ 一個過去動作進行中被另一動作打斷,用過去進行式;road 是被修者須被動,合為 was being repaired;was repaired 只表單純過去被動,少了『正在』被打斷的語意。"
+    },
+    {
+      "stem": "She was very upset because she ___ for the team she had supported all her life.",
+      "options": [
+        "didn't choose",
+        "wasn't chosen",
+        "hasn't chosen",
+        "wasn't choosing"
+      ],
+      "answer": 1,
+      "explanation": "由語境『她很沮喪』可知她沒被選上;她是被選的對象,過去否定被動用 wasn't chosen。",
+      "trap": "⚠ 主詞 she 是被挑選者,要用被動 was chosen;『沮喪』暗示落選故用否定 wasn't chosen;didn't choose 是主動(她沒選別人)與沮喪語意不符。"
+    },
+    {
+      "stem": "The instructions on the box should ___ carefully before you put the shelf together.",
+      "options": [
+        "follow",
+        "be followed",
+        "have followed",
+        "follows"
+      ],
+      "answer": 1,
+      "explanation": "說明書是被遵循的對象,should 後被動為 be + p.p.,故 should be followed。",
+      "trap": "⚠ instructions 是被遵守者須用被動;should 後接原形被動 be followed;follow 是主動(說明書去遵循)語意不通,別被前面祈使般語氣誤導填原形。"
+    },
+    {
+      "stem": "The missing hikers ___ by the rescue team after being lost in the mountains for three days.",
+      "options": [
+        "found",
+        "were found",
+        "were finding",
+        "have been finding"
+      ],
+      "answer": 1,
+      "explanation": "登山者是被搜救隊找到的,過去事實用過去被動 were found。",
+      "trap": "⚠ hikers 是被尋獲者要用被動 were found;found(主動)語意變成登山者找到東西;were finding/have been finding 為主動進行,皆與『被尋獲』語意不符。"
+    },
+    {
+      "stem": "By next month, more than two hundred trees ___ along both sides of this avenue.",
+      "options": [
+        "will plant",
+        "will be planted",
+        "will have been planted",
+        "are planting"
+      ],
+      "answer": 2,
+      "explanation": "By next month 表『到未來某時間點之前已完成』,樹是被種的,用未來完成被動 will have been planted。",
+      "trap": "⚠ By + 未來時間 表到那時已完成,用未來完成 will have been + p.p.;trees 是被種者須被動;will be planted 只是單純未來被動,缺『在那時間點前已完成』之意。"
+    },
+    {
+      "stem": "The thief ___ running out of the bank, but he managed to escape before the police came.",
+      "options": [
+        "saw",
+        "was seen",
+        "has seen",
+        "was seeing"
+      ],
+      "answer": 1,
+      "explanation": "小偷是被看見的對象,知覺動詞被動 be seen V-ing 表看見正在進行的動作,故 was seen running。",
+      "trap": "⚠ thief 是被目擊者用被動 was seen;知覺動詞 see sb V-ing 改被動後保留 V-ing(was seen running);saw 是主動(小偷看見東西)語意相反,was seeing 亦為主動。"
+    }
+  ]
+}

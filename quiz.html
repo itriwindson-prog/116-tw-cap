@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>測驗</title>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.setAttribute("data-theme", localStorage.getItem("ss.theme") || "light");</script>
+</head>
+<body>
+<nav class="nav">
+  <span class="brand">📚 會考總複習</span>
+  <a href="index.html">儀表板</a>
+  <a href="schedule.html">進度計畫</a>
+  <a href="subject.html?subject=math">各科筆記</a>
+  <a href="mistakes.html">錯題本</a>
+  <span class="spacer"></span>
+  <button class="theme-btn" id="themeBtn" title="深色／淺色">🌙</button>
+  <a id="backLink" class="btn ghost small">← 回筆記</a>
+</nav>
+
+<div class="wrap">
+  <div class="card">
+    <h2 id="quizTitle">測驗</h2>
+    <div class="muted">點選答案後立即顯示對錯與詳解。標 ⚠ 的題目送出前會請你再讀一次題目。</div>
+    <div id="quizArea" style="margin-top:16px"></div>
+    <div id="result"></div>
+  </div>
+</div>
+
+<script src="js/data/config.js"></script>
+<script src="js/data/schedule.js"></script>
+<script src="js/data/math.js"></script>
+<script src="js/data/chinese.js"></script>
+<script src="js/data/english.js"></script>
+<script src="js/data/social.js"></script>
+<script src="js/data/science.js"></script>
+<script src="js/data/writing.js"></script>
+<script src="js/app.js"></script>
+<script>
+(function () {
+  const SS = window.STUDYSYNC;
+  document.getElementById("themeBtn").addEventListener("click", () => SS.theme.toggle());
+  const subjId = SS.param("subject", "math"), setParam = SS.param("set"), topicId = SS.param("topic");
+  const data = SS.subjectData(subjId);
+  if (!data) { document.getElementById("quizArea").innerHTML = "<p class='muted'>找不到此科目。</p>"; return; }
+
+  let built, setId, modeName, backTopic = "";
+  if (setParam) {
+    built = SS.buildQuizSet(subjId, { set: setParam });
+    const ymd = SS.todayStr(), seq = SS.daysBetween(SS.data.config.startDate, ymd), dow = SS.parseDate(ymd).getDay();
+    const monSeq = seq - (dow === 0 ? 6 : dow - 1);
+    setId = setParam === "daily" ? ("daily-" + ymd) : setParam === "weekly" ? ("weekly-" + monSeq) : setParam === "monthly" ? ("monthly-" + ymd.slice(0, 7)) : setParam;
+    modeName = { daily: "每日測驗（10 題）", weekly: "週測（20 題）", monthly: "本科綜合·月考（30 題）" }[setParam] || "測驗";
+  } else {
+    const tid = topicId || data.topics[0].id;
+    built = SS.buildQuizSet(subjId, { topic: tid });
+    setId = tid;
+    modeName = tid === "all" ? "綜合測驗（全主題）" : ((data.topics.find(t => t.id === tid) || {}).name || tid);
+    if (tid !== "all") backTopic = "&topic=" + tid;
+  }
+  document.getElementById("backLink").href = "subject.html?subject=" + subjId + backTopic;
+
+  if (!built.length) { document.getElementById("quizArea").innerHTML = "<p class='muted'>此範圍尚無題目。</p>"; return; }
+  document.getElementById("quizTitle").textContent = "測驗 · " + data.name + " · " + modeName;
+
+  const Q = built.map(b => b.q);
+  const refs = built.map(b => ({ topicId: b.topicId, qi: b.qi }));
+  const answers = new Array(Q.length).fill(null);  // 記錄選擇
+  const area = document.getElementById("quizArea");
+  const labels = ["A", "B", "C", "D", "E"];
+
+  Q.forEach((q, qi) => {
+    const block = SS.el("div", { class: "q" });
+    const trapMark = q.trap ? " ⚠" : "";
+    block.appendChild(SS.el("div", { class: "stem", text: (qi + 1) + ". " + q.stem + trapMark }));
+    const explainEl = SS.el("div");
+    const optBtns = [];
+
+    q.options.forEach((opt, oi) => {
+      const btn = SS.el("button", { class: "opt", text: labels[oi] + ". " + opt });
+      btn.addEventListener("click", () => {
+        if (answers[qi] !== null) return;  // 已作答，不可改
+        // 防粗心：trap 題第一次點擊先確認再讀題
+        if (q.trap && !btn.dataset.confirmed) {
+          if (!confirm("⚠ 這題容易看錯，請再讀一次題目：\n\n" + q.stem + "\n\n確定選『" + labels[oi] + "』嗎？")) return;
+          btn.dataset.confirmed = "1";
+        }
+        answers[qi] = oi;
+        const correct = oi === q.answer;
+        btn.classList.add(correct ? "correct" : "wrong");
+        if (!correct) optBtns[q.answer].classList.add("correct");
+        optBtns.forEach(b => b.disabled = true);
+        explainEl.className = "explain" + (correct ? "" : " bad");
+        explainEl.innerHTML = (correct ? "✅ 答對了！" : "❌ 答錯了。正確答案：" + labels[q.answer] + "。") +
+          "<br><b>詳解：</b>" + q.explanation +
+          (q.trap ? "<br><b>⚠ 為何容易看錯：</b>" + q.trap : "");
+        maybeFinish();
+      });
+      optBtns.push(btn);
+      block.appendChild(btn);
+    });
+    block.appendChild(explainEl);
+    area.appendChild(block);
+  });
+
+  function maybeFinish() {
+    if (answers.some(a => a === null)) return;
+    const score = answers.reduce((s, a, i) => s + (a === Q[i].answer ? 1 : 0), 0);
+    const wrongN = Q.length - score;
+    SS.progress.saveQuiz(subjId, setId, score, Q.length, answers, refs);
+    const pct = Math.round(score / Q.length * 100);
+    const res = document.getElementById("result");
+    res.innerHTML = "";
+    const card = SS.el("div", { class: "card", style: "margin-top:18px;text-align:center" }, [
+      SS.el("h2", { text: "結算：" + score + " / " + Q.length + "（" + pct + " 分）" }),
+      SS.el("div", { style: "font-size:18px;margin:6px 0" }, [
+        SS.el("span", { style: "color:var(--good);font-weight:700", text: "答對 " + score + " 題" }),
+        SS.el("span", { text: "　·　" }),
+        SS.el("span", { style: "color:var(--bad);font-weight:700", text: "答錯 " + wrongN + " 題" })
+      ]),
+      SS.el("div", { class: "bar", style: "margin:12px auto;max-width:300px" }, [SS.el("i", { style: "width:" + pct + "%" })]),
+      SS.el("div", { class: "muted", text: wrongN ? ("錯的 " + wrongN + " 題已收進錯題本，記得回去看『粗心點』！") : "全對！繼續保持 🎉" }),
+      SS.el("div", { style: "margin-top:14px" }, [
+        SS.el("a", { class: "btn", href: "index.html", text: "回儀表板（已更新分數）" }),
+        SS.el("a", { class: "btn ghost", style: "margin-left:10px", href: "mistakes.html", text: "看錯題本" }),
+        SS.el("button", { class: "btn ghost", style: "margin-left:10px", text: "重做這份", onclick: () => location.reload() })
+      ])
+    ]);
+    res.appendChild(card);
+    res.scrollIntoView({ behavior: "smooth" });
+  }
+})();
+</script>
+</body>
+</html>

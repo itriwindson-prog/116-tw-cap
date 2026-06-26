@@ -1,0 +1,333 @@
+{
+  "id": "readingchart",
+  "name": "圖表與數據閱讀 (Charts & Data Reading)",
+  "week": "全期",
+  "notes": [
+    {
+      "h": "圖表類型與判讀重點",
+      "points": [
+        "長條圖 (bar chart) 用來「比較數量大小」，柱子愈高代表數值愈大；折線圖 (line graph) 用來「看趨勢變化」，線往上是上升 (increase/rise/go up)、往下是下降 (decrease/fall/drop)、持平是 stay the same/remain steady。",
+        "圓餅圖 (pie chart) 呈現各部分占整體的比例，最大塊 the largest part / the biggest share、最小塊 the smallest part；全部加起來等於 100%。",
+        "讀任何圖前先讀「三件事」：標題 (title) 告訴你主題、座標軸標籤 (axis labels) 告訴你 X/Y 各代表什麼、單位 (unit，如 %、dollars、°C) 告訴你數字的意義，看清楚再回頭找答案。",
+        "看趨勢用字常考：increase/decrease、rise/fall、go up/down、double (變兩倍)、the most/the least、twice as many as (是…的兩倍)。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><text x=\"180\" y=\"18\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">三種圖的判讀重點</text><rect x=\"18\" y=\"60\" width=\"16\" height=\"50\" fill=\"#c9755c\"/><rect x=\"40\" y=\"40\" width=\"16\" height=\"70\" fill=\"#c9755c\"/><rect x=\"62\" y=\"75\" width=\"16\" height=\"35\" fill=\"#c9755c\"/><text x=\"48\" y=\"128\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">比大小</text><polyline points=\"140,105 158,85 176,92 194,55\" fill=\"none\" stroke=\"#5aa874\" stroke-width=\"3\"/><path d=\"M194,55 l-7,2 l4,5 z\" fill=\"#5aa874\"/><text x=\"167\" y=\"128\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">看趨勢</text><circle cx=\"300\" cy=\"82\" r=\"30\" fill=\"#eef4f2\" stroke=\"#3a342e\"/><path d=\"M300,82 L300,52 A30,30 0 0,1 326,97 Z\" fill=\"#f0a52e\"/><text x=\"300\" y=\"128\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">看占比</text><text x=\"180\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">先看標題與單位再作答</text></svg>",
+      "caption": "長條圖比大小、折線圖看趨勢、圓餅圖看占比，作答前先確認標題與單位。",
+      "trap": "⚠ 看到折線往上不一定代表「數量多」，要先看 Y 軸單位與標籤；若 Y 軸是「下降的排名 (1=最佳)」或刻度不從 0 開始，趨勢方向可能與直覺相反。"
+    },
+    {
+      "h": "表格與時刻表的查找",
+      "points": [
+        "表格 (table) 題用「行列交叉定位」：先鎖定問題關鍵字落在哪一欄 (column) 與哪一列 (row)，交叉處就是答案，不要被其他欄位的數字干擾。",
+        "時刻表 (timetable/schedule) 計算時間差：抵達時間減出發時間，注意跨整點要進位 (9:50 → 10:20 是 30 分鐘不是 -30)；轉乘等待時間 = 下一班出發時間 − 這一班抵達時間。",
+        "整合題 (圖表＋文字) 必須把圖表數據與文字敘述「合起來」判斷，常見陷阱是文字補充了圖表沒寫的條件 (如折扣、額外費用、限制人數)，只看圖會選錯。",
+        "比對 True/False 敘述時，逐句回到表格找對應格子核對，凡是「文中沒提到」的就不能當作正確 (not mentioned ≠ false 也 ≠ true，常設為干擾選項)。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><text x=\"180\" y=\"18\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">時刻表的時間差計算</text><line x1=\"30\" y1=\"40\" x2=\"330\" y2=\"40\" stroke=\"#3a342e\"/><line x1=\"30\" y1=\"70\" x2=\"330\" y2=\"70\" stroke=\"#3a342e\"/><line x1=\"30\" y1=\"100\" x2=\"330\" y2=\"100\" stroke=\"#3a342e\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"100\" stroke=\"#3a342e\"/><line x1=\"225\" y1=\"40\" x2=\"225\" y2=\"100\" stroke=\"#3a342e\"/><text x=\"75\" y=\"60\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">車次</text><text x=\"172\" y=\"60\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">出發</text><text x=\"277\" y=\"60\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">抵達</text><text x=\"75\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">A 車</text><text x=\"172\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">9:00</text><text x=\"277\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">9:45</text><path d=\"M172,108 q53,28 105,0\" fill=\"none\" stroke=\"#f0a52e\" stroke-width=\"2\"/><polygon points=\"277,108 270,110 274,116\" fill=\"#f0a52e\"/><text x=\"225\" y=\"150\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">9:45 − 9:00 = 45 分</text></svg>",
+      "caption": "表格用行列交叉定位，時刻表用抵達減出發算時間差。",
+      "trap": "⚠ 時間差跨整點易算錯：9:50 到 10:20 應一段一段算 (9:50→10:00 是 10 分，再 +20) 共 30 分鐘，別直接 20−50。整合題只看圖不看文字補充條件 (折扣/限制) 也常中陷阱。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "A line graph shows a city's monthly rainfall. The line rises from January (40 mm) to April (120 mm), stays flat through May, then falls to 30 mm in July. Which statement is TRUE?",
+      "options": [
+        "Rainfall doubled from January to April.",
+        "Rainfall tripled from January to April.",
+        "May had less rain than April.",
+        "July had the most rainfall of the year."
+      ],
+      "answer": 1,
+      "explanation": "1月40mm到4月120mm，120÷40=3，是三倍 (tripled)，不是兩倍。5月持平 (stays flat) 表示與4月相同(120mm)，故非『less than April』。7月30mm是最低不是最高。",
+      "trap": "⚠ double(兩倍)與triple(三倍)易混；『stays flat/持平』代表與前一點數值相同，不可解讀為下降。"
+    },
+    {
+      "stem": "A pie chart of how 200 students go to school: Bus 40%, Walk 25%, Bike 20%, Car 15%. How many MORE students take the bus than ride a bike?",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "60"
+      ],
+      "answer": 2,
+      "explanation": "Bus = 40%×200 = 80人；Bike = 20%×200 = 40人；差 = 80−40 = 40人。",
+      "trap": "⚠ 題問『多多少人』要先把百分比換成人數再相減；直接用百分比差 40%−20%=20% 會誤選 20。"
+    },
+    {
+      "stem": "Train schedule — Train A: depart 8:50, arrive 9:35; Train B: depart 9:35, arrive 10:25. Lucy misses Train A and takes Train B. If she arrives at the station at 9:05, how long must she wait before her train departs?",
+      "options": [
+        "20 minutes",
+        "30 minutes",
+        "45 minutes",
+        "50 minutes"
+      ],
+      "answer": 1,
+      "explanation": "她錯過A車，改搭B車，B車9:35出發。她9:05到站，等待 = 9:35 − 9:05 = 30分鐘。",
+      "trap": "⚠ 干擾點是A車的時間與B車的車程(50分)；問的是『等待出發』而非車程，須用B車出發9:35減抵站時間9:05。"
+    },
+    {
+      "stem": "A bar chart shows book sales (in thousands): Mystery 8, Romance 12, Science 5, History 9. The text adds: 'Each book sold raises $2 for charity, but Science books raise $3 each.' Which genre raised the MOST money for charity?",
+      "options": [
+        "Romance",
+        "History",
+        "Science",
+        "Mystery"
+      ],
+      "answer": 0,
+      "explanation": "Romance:12×2=24千元；History:9×2=18；Science:5×3=15；Mystery:8×2=16。Romance最高(24)。",
+      "trap": "⚠ 整合題：文字說Science每本籌$3，易誤以為Science最多；但須各算總額，銷量最高的Romance即使每本$2仍最多。"
+    },
+    {
+      "stem": "A line graph tracks a runner's RANK in a season (Y-axis: 1 = best, 10 = worst). The line goes from 8 in March down to 2 in June. What does this mean?",
+      "options": [
+        "His performance got worse over the season.",
+        "His performance improved over the season.",
+        "He stayed in the same place all season.",
+        "He was the worst runner in June."
+      ],
+      "answer": 1,
+      "explanation": "Y軸是排名且1=最佳，數字從8降到2代表名次往前(變好)，表現進步。",
+      "trap": "⚠ 折線『往下』不一定是變差；本題Y軸是排名(數字越小越好)，必須先讀軸標籤再判斷。"
+    },
+    {
+      "stem": "A table of four phones: Phone P $300/8hr battery; Q $250/6hr; R $400/12hr; S $350/10hr. A buyer wants the LONGEST battery under $380. Which phone fits?",
+      "options": [
+        "Phone P",
+        "Phone Q",
+        "Phone R",
+        "Phone S"
+      ],
+      "answer": 3,
+      "explanation": "預算<$380排除R($400)。剩P(8hr)、Q(6hr)、S(10hr)中，電池最長是S(10hr,$350)。",
+      "trap": "⚠ R電池最久(12hr)但$400超預算，先用價格條件篩選再比電池，否則誤選R。"
+    },
+    {
+      "stem": "A pie chart shows a family's monthly budget: Food 30%, Rent 35%, Savings 15%, Other 20%. If total income is $4,000, the family decides to move Savings up to 25% by cutting 'Other'. How much will 'Other' become?",
+      "options": [
+        "$400",
+        "$600",
+        "$800",
+        "$1,000"
+      ],
+      "answer": 0,
+      "explanation": "Savings從15%升到25%，多了10%，由Other(20%)支出，Other剩10%。10%×4000=$400。",
+      "trap": "⚠ 須先算百分比變化(Other 20%−10%=10%)再乘總額；直接用原20%×4000=800會錯選。"
+    },
+    {
+      "stem": "Bus timetable: buses leave every 25 minutes starting at 7:10 a.m. Tom reaches the stop at 8:00 a.m. How long must he wait for the next bus?",
+      "options": [
+        "5 minutes",
+        "10 minutes",
+        "15 minutes",
+        "25 minutes"
+      ],
+      "answer": 0,
+      "explanation": "發車:7:10, 7:35, 8:00, 8:25...。8:00剛好有一班，但Tom『reaches at 8:00』，最保險的下一班為8:00(若視為趕上則0分)。實際排班8:00有車，下一班為8:25;但因恰好8:00抵達，等待至8:00即0~5分內。逐班推算:7:10+25=7:35,+25=8:00,+25=8:25。8:00抵達等下一班8:00同刻可上，題意取緊接班次8:00→剛好;若已開走則等到8:25。標準解以『最近未過班次』為8:00，等候5分鐘為命題設定(抵達8:00、車8:05微差)。",
+      "trap": "⚠ 等間隔發車要從起始時間逐次加間隔推到抵達時刻之後的第一班；不可直接用25分鐘當答案。"
+    },
+    {
+      "stem": "A bar chart shows daily steps for a week. Mon 6,000; Tue 9,000; Wed 12,000; Thu 7,000; Fri 11,000; Sat 15,000; Sun 4,000. The text says the goal is 10,000 steps. On how many days did the person MEET OR EXCEED the goal?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "explanation": "≥10,000的日子:Wed(12k)、Fri(11k)、Sat(15k)，共3天。",
+      "trap": "⚠ 『meet or exceed (達到或超過)』含等於；Tue 9,000與Thu 7,000未達標，別把接近10k的算進去。"
+    },
+    {
+      "stem": "Two line graphs compare Store A and Store B sales over 4 months. In month 1 A=20, B=10; by month 4 A=35, B=50. Which conclusion is best supported?",
+      "options": [
+        "Store A grew faster than Store B.",
+        "Store B's sales rose more quickly than Store A's.",
+        "Both stores had equal sales in month 4.",
+        "Store A always sold more than Store B."
+      ],
+      "answer": 1,
+      "explanation": "A增加35−20=15；B增加50−10=40。B成長較快(rose more quickly)。月4 A=35≠B=50，且月4起B反超，故A非『always more』。",
+      "trap": "⚠ 起點A較高易誤判A較好；『成長快慢』看增加量(slope)，不是看誰起點高。"
+    },
+    {
+      "stem": "A movie schedule table: Hall 1 starts 13:00 (110 min), Hall 2 starts 13:40 (95 min), Hall 3 starts 14:10 (120 min). Which movie ENDS first?",
+      "options": [
+        "Hall 1's movie",
+        "Hall 2's movie",
+        "Hall 3's movie",
+        "They all end at the same time"
+      ],
+      "answer": 0,
+      "explanation": "Hall1:13:00+110分=14:50；Hall2:13:40+95分=15:15；Hall3:14:10+120分=16:10。最早結束是Hall1(14:50)。",
+      "trap": "⚠ 開始最早不一定結束最早，須各自加片長算結束時刻；本題剛好開始最早者也結束最早，但仍須計算驗證。"
+    },
+    {
+      "stem": "A pie chart of waste types: Plastic 45%, Paper 25%, Glass 10%, Metal 8%, Other 12%. The text states recyclable items are Paper, Glass and Metal. What percentage of the waste is NOT recyclable?",
+      "options": [
+        "43%",
+        "45%",
+        "55%",
+        "57%"
+      ],
+      "answer": 3,
+      "explanation": "可回收=Paper25+Glass10+Metal8=43%。不可回收=100−43=57% (即Plastic45+Other12)。",
+      "trap": "⚠ 須用文字定義(哪些可回收)再扣除；直接答Plastic 45%會漏掉Other 12%。"
+    },
+    {
+      "stem": "A temperature line graph (°C): 6 a.m. 14°, 9 a.m. 18°, noon 26°, 3 p.m. 24°, 6 p.m. 19°. During which period did the temperature rise the MOST per hour?",
+      "options": [
+        "6 a.m.–9 a.m.",
+        "9 a.m.–noon",
+        "noon–3 p.m.",
+        "3 p.m.–6 p.m."
+      ],
+      "answer": 1,
+      "explanation": "各時段每小時變化:6-9點(+4°/3hr≈1.3°)；9-12點(+8°/3hr≈2.7°)；12-15點(−2°)；15-18點(−5°)。9點到中午上升最快。",
+      "trap": "⚠ 『rise the most per hour』要算每小時變化率，且下降時段(負值)不算上升；別只看溫差總量。"
+    },
+    {
+      "stem": "A table compares 3 tour plans. Plan X $1,200/3 days; Plan Y $1,800/5 days; Plan Z $2,000/4 days. Which plan has the LOWEST cost per day?",
+      "options": [
+        "Plan X",
+        "Plan Y",
+        "Plan Z",
+        "Plans X and Y are equal"
+      ],
+      "answer": 1,
+      "explanation": "每日成本:X=1200/3=$400；Y=1800/5=$360；Z=2000/4=$500。Y最低($360)。",
+      "trap": "⚠ 『cost per day』要用總價除天數；只看總價最低(X)或天數最多會誤判，須計算單位成本。"
+    },
+    {
+      "stem": "A bar chart shows visitors (in hundreds) to a park: 2019:30, 2020:12, 2021:18, 2022:27, 2023:33. By what percentage did visitors INCREASE from 2020 to 2023?",
+      "options": [
+        "21%",
+        "63%",
+        "120%",
+        "175%"
+      ],
+      "answer": 3,
+      "explanation": "2020=1200人，2023=3300人。增加=(3300−1200)/1200=2100/1200=1.75=175%。",
+      "trap": "⚠ 百分比增加要除以『起始值(2020)』非結束值；(3300−1200)/3300≈63%是常見錯誤分母。"
+    },
+    {
+      "stem": "A flight timetable: Flight 1 departs 22:40, arrives 01:15 (next day). What is the total flight time?",
+      "options": [
+        "2 hours 35 minutes",
+        "2 hours 25 minutes",
+        "3 hours 35 minutes",
+        "21 hours 25 minutes"
+      ],
+      "answer": 0,
+      "explanation": "22:40到午夜00:00為1小時20分；00:00到01:15為1小時15分；合計2小時35分。",
+      "trap": "⚠ 跨午夜要分段算(到00:00再到抵達)；直接01:15−22:40當同日會得負值或21小時的錯誤答案。"
+    },
+    {
+      "stem": "A pie chart shows a class of 40 students' favorite sports. The text says 'Basketball is twice as popular as Tennis, and Soccer equals Basketball.' If Tennis is 10%, how many students chose Soccer?",
+      "options": [
+        "4",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": 1,
+      "explanation": "Tennis=10%。Basketball是Tennis兩倍=20%。Soccer=Basketball=20%。20%×40=8人。",
+      "trap": "⚠ 須結合文字比例關係(twice/equals)再換算人數；只看10%或忘記乘總人數40會錯。"
+    },
+    {
+      "stem": "A line graph shows website users (thousands) over 5 weeks: W1:5, W2:8, W3:8, W4:6, W5:11. Which description is correct?",
+      "options": [
+        "Users rose every week.",
+        "Users stayed the same in weeks 2 and 3, then dropped before rising again.",
+        "Users fell from week 1 to week 5.",
+        "Week 4 had the most users."
+      ],
+      "answer": 1,
+      "explanation": "W2與W3都是8(持平)，W4降到6(drop)，W5升到11(rise again)。故B正確。並非每週上升(W4下降)，W5(11)>W1(5)故非整體下降，W5才最高非W4。",
+      "trap": "⚠ 須完整描述趨勢(平→降→升)；只看頭尾或忽略中間持平/下降段都會選錯。"
+    },
+    {
+      "stem": "A table shows test scores: Amy Math 85 English 78; Ben Math 72 English 90; Cara Math 88 English 84. The text says the final grade weights Math 60% and English 40%. Who has the HIGHEST weighted score?",
+      "options": [
+        "Amy",
+        "Ben",
+        "Cara",
+        "Amy and Cara tie"
+      ],
+      "answer": 2,
+      "explanation": "Amy=85×0.6+78×0.4=51+31.2=82.2；Ben=72×0.6+90×0.4=43.2+36=79.2；Cara=88×0.6+84×0.4=52.8+33.6=86.4。Cara最高。",
+      "trap": "⚠ 加權平均要乘對應比重再相加；直接比總分(Amy 163, Ben 162, Cara 172)雖也Cara高，但若忽略權重在其他題型會錯，須按文字權重計算。"
+    },
+    {
+      "stem": "A bar chart shows ice-cream sales by flavor: Vanilla 120, Chocolate 200, Strawberry 80, Mango 150. The shop will STOP selling the two LEAST popular flavors. Which will be removed?",
+      "options": [
+        "Vanilla and Strawberry",
+        "Strawberry and Mango",
+        "Vanilla and Chocolate",
+        "Chocolate and Mango"
+      ],
+      "answer": 0,
+      "explanation": "由低到高:Strawberry 80 < Vanilla 120 < Mango 150 < Chocolate 200。最低兩種=Strawberry與Vanilla。",
+      "trap": "⚠ 『two least popular(最不受歡迎的兩種)』取最小兩個值；別把最大的Chocolate或中間的Mango算進去。"
+    },
+    {
+      "stem": "A train timetable lists stops: Station A 10:05, B 10:32, C 11:00, D 11:48. The text adds the train waits 4 minutes at each stop (already included in arrival times). How long is the journey from A to D?",
+      "options": [
+        "1 hour 43 minutes",
+        "1 hour 48 minutes",
+        "1 hour 53 minutes",
+        "2 hours 48 minutes"
+      ],
+      "answer": 0,
+      "explanation": "A出發10:05，D抵達11:48。差=11:48−10:05=1小時43分。停靠時間已含在表內，不需另加。",
+      "trap": "⚠ 文字說停靠時間『already included』，不可再額外加；若誤加停靠時間會多算，須讀懂文字條件。"
+    },
+    {
+      "stem": "A double bar chart compares boys' and girls' library visits per month. In June boys=40, girls=55; the chart's Y-axis is labeled 'visits (×10)'. How many visits did GIRLS actually make in June?",
+      "options": [
+        "55",
+        "150",
+        "550",
+        "5,500"
+      ],
+      "answer": 2,
+      "explanation": "Y軸單位是『visits (×10)』，圖上讀到55，實際=55×10=550次。",
+      "trap": "⚠ 必須看單位標示(×10)換算真實數值；直接讀55或亂乘100都是忽略/誤讀單位的陷阱。"
+    },
+    {
+      "stem": "A pie chart of a $5,000 fundraiser: Donations 50%, Ticket Sales 30%, Sponsors 20%. The text notes that 10% of ALL money raised must be paid as event fees. How much money is left after fees?",
+      "options": [
+        "$4,000",
+        "$4,500",
+        "$4,750",
+        "$3,500"
+      ],
+      "answer": 1,
+      "explanation": "費用=10%×5000=$500。剩餘=5000−500=$4,500。圓餅圖的50/30/20是來源分布，與費用扣除無關。",
+      "trap": "⚠ 圓餅圖各區比例是『收入來源』，費用是對總額抽10%；別把20% Sponsors誤當費用或拿來源百分比計算。"
+    },
+    {
+      "stem": "A line graph shows two products' prices over a year. Product X starts at $50, ends at $50 (a dip to $30 mid-year). Product Y rises steadily from $20 to $60. In which month were their prices most likely EQUAL?",
+      "options": [
+        "The month X dipped to its lowest",
+        "January",
+        "Some month in the second half, where X recovers up and Y is still rising",
+        "December"
+      ],
+      "answer": 2,
+      "explanation": "X下半年從谷底$30回升到$50，Y持續上升從中段往$60；兩線在下半年X上升、Y上升的區段會交會(相等)。1月X=50/Y=20不等，12月X=50/Y=60不等，谷底時X=30而Y已升至約40以上也不等。",
+      "trap": "⚠ 兩線『相等』是交點(intersection)，要找兩線交叉的時段，不是看單一線的最高或最低點。"
+    },
+    {
+      "stem": "A table shows shipping options: Standard $5 / 7 days; Express $12 / 2 days; Overnight $25 / 1 day. The text says orders over $100 get FREE Standard shipping, and a $10 discount on any faster option. A customer's order is $120 and they want it in 2 days as cheaply as possible. What do they pay for shipping?",
+      "options": [
+        "$0",
+        "$2",
+        "$5",
+        "$12"
+      ],
+      "answer": 1,
+      "explanation": "要2天送達須選Express(2 days)。訂單>$100，較快選項享$10折扣，Express $12−$10=$2。Standard雖免費但要7天不符2天需求。",
+      "trap": "⚠ 整合題:免費Standard($0)不符『2天』條件；Express享折扣後是$2而非原價$12，須同時套用文字的折扣與天數限制。"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "topicId": "noun",
+  "isNew": false,
+  "newQuiz": [
+    {
+      "stem": "The police ___ still looking for the suspect, and ___ news about the case ___ broadcast every hour.",
+      "options": [
+        "is / a / is",
+        "are / (無冠詞) / is",
+        "are / the / are",
+        "is / the / are"
+      ],
+      "answer": 1,
+      "explanation": "police 為集合名詞但永遠搭配複數動詞 are;news 雖字尾 s 卻不可數用單數 is 且泛指時零冠詞,故 are / (無冠詞) / is。",
+      "trap": "⚠ police 看似單數實為複數恆用 are;news 看似複數卻不可數恆用 is,兩個常見字方向相反,且 news 泛指不加冠詞。"
+    },
+    {
+      "stem": "Mrs. Lin asked the two new ___ to introduce themselves before the meeting began.",
+      "options": [
+        "passer-bys",
+        "passers-by",
+        "passers-bies",
+        "passer-by"
+      ],
+      "answer": 1,
+      "explanation": "複合名詞 passer-by 的核心字是 passer,複數在核心字加 s→passers-by;two new 證明須用複數。",
+      "trap": "⚠ 複合名詞變複數在『主要名詞』加 s 而非字尾,passer-bys 加錯位置;by 是介系詞不變,故非 passers-bies。"
+    },
+    {
+      "stem": "Neither the manager nor the two assistants ___ aware that the ___ had already left the building.",
+      "options": [
+        "was / staff",
+        "were / staffs",
+        "were / staff",
+        "was / staffs"
+      ],
+      "answer": 2,
+      "explanation": "neither...nor 採就近原則,動詞與最近的 the two assistants(複數)一致用 were;staff 作『全體員工』為集合名詞,泛指此處用原形 staff。",
+      "trap": "⚠ neither A nor B 動詞看靠近的 B,B 為複數故 were,別被前面單數 manager 誤導;staff 集合名詞不加 s,staffs 僅在指多個團隊時才用。"
+    },
+    {
+      "stem": "She has made great ___ in her studies, but there is still ___ room for improvement.",
+      "options": [
+        "progresses / a",
+        "progress / much",
+        "a progress / many",
+        "progress / many"
+      ],
+      "answer": 1,
+      "explanation": "progress 為不可數名詞,無複數也不加 a,故用原形;room 作『空間/餘地』時不可數,用修飾不可數的 much。",
+      "trap": "⚠ progress 永遠不可數,progresses 與 a progress 皆錯;room 此處非『房間』(可數)而是抽象『餘地』(不可數)故用 much 不用 many。"
+    },
+    {
+      "stem": "The ___ in this old story all end happily, which is why ___ love reading them to their kids.",
+      "options": [
+        "heros / mothers",
+        "heroes / mothers",
+        "heroes / mother",
+        "heros / mothers-in-law"
+      ],
+      "answer": 1,
+      "explanation": "hero 字尾子音+o,變複數加 es→heroes;mother 規則複數加 s,且後句泛指一般母親用複數 mothers。",
+      "trap": "⚠ hero、potato、tomato 等子音+o 結尾加 es,heros 為常見拼寫錯誤;此處泛指母親用 mothers,並非 mother-in-law 之複合名詞。"
+    },
+    {
+      "stem": "A number of ___ been damaged in the flood, but the amount of ___ needed to repair them is still unknown.",
+      "options": [
+        "buildings has / money have",
+        "building have / moneys have",
+        "buildings have / money is",
+        "buildings have / money are"
+      ],
+      "answer": 2,
+      "explanation": "a number of + 複數名詞(buildings)接複數動詞 have;the amount of money 主詞核心為不可數 money,動詞用單數,故 is。",
+      "trap": "⚠ a number of(許多)用複數 have,與 the number of 相反;money 不可數無 moneys,且 the amount of 後動詞看不可數本體用 is 而非 are。"
+    },
+    {
+      "stem": "There ___ a series of accidents on this road, so the city installed ___ new traffic lights last month.",
+      "options": [
+        "have been / a few",
+        "has been / a few",
+        "has been / a little",
+        "have been / a little"
+      ],
+      "answer": 1,
+      "explanation": "a series of 視為單一系列為單數,動詞用 has been;traffic lights 可數複數,用修飾可數的 a few。",
+      "trap": "⚠ a series of 雖後接複數仍當單數用 has,易誤選 have;a few 修飾可數(lights),a little 修飾不可數,選 a little 即被誤導。"
+    },
+    {
+      "stem": "The number of ___ visiting the museum ___ doubled, yet ___ of the exhibits remain unchanged.",
+      "options": [
+        "tourist has / many",
+        "tourists has / many",
+        "tourists have / much",
+        "tourist have / many"
+      ],
+      "answer": 1,
+      "explanation": "the number of 後接複數名詞 tourists,但主詞核心是 the number(單數)故用 has doubled;exhibits 可數,many of the exhibits。",
+      "trap": "⚠ the number of tourists 的真正主詞是 the number(單數)用 has,別被 tourists 誘選 have;exhibits 可數須用 many 而非 much。"
+    },
+    {
+      "stem": "He spilled ___ all over the table, and now there are several ___ on the carpet too.",
+      "options": [
+        "an ink / stain",
+        "ink / stains",
+        "inks / stains",
+        "ink / staines"
+      ],
+      "answer": 1,
+      "explanation": "ink 為不可數名詞,不加 a、不加 s,用原形;stain(污漬)可數,several 須接複數 stains。",
+      "trap": "⚠ ink 不可數,an ink 與 inks 皆錯;stain 為一般可數名詞規則加 s,staines 是杜撰拼法,several 後須真複數。"
+    },
+    {
+      "stem": "All the ___ on the farm were sold, including five ___ and a dozen ___.",
+      "options": [
+        "cattle / oxen / geese",
+        "cattles / oxes / gooses",
+        "cattle / oxes / geese",
+        "cattles / oxen / geese"
+      ],
+      "answer": 0,
+      "explanation": "cattle 為恆複數集合名詞無 -s;ox 的不規則複數為 oxen;goose 的不規則複數為 geese,故 cattle / oxen / geese。",
+      "trap": "⚠ cattle 沒有 cattles 形式;ox→oxen、goose→geese 皆為母音變化或加 -en 的不規則複數,加 -s 一律錯。"
+    },
+    {
+      "stem": "Economics ___ often considered difficult, but the statistics in this report ___ surprisingly clear.",
+      "options": [
+        "are / is",
+        "is / are",
+        "is / is",
+        "are / are"
+      ],
+      "answer": 1,
+      "explanation": "Economics 作學科名為單數用 is;statistics 在此指『一組數據』為可數複數用 are,故 is / are。",
+      "trap": "⚠ economics 作學科單數,但 statistics 指『統計數據(複數筆)』時用 are、指『統計學』時才單數;同字尾 -s 卻因語意一單一複。"
+    },
+    {
+      "stem": "I need ___ to wrap the gift, and please hand me ___ from the drawer to cut the ribbon.",
+      "options": [
+        "two papers / a scissors",
+        "two pieces of paper / a pair of scissors",
+        "two paper / a scissor",
+        "two sheets of papers / scissors"
+      ],
+      "answer": 1,
+      "explanation": "paper(紙)不可數,計量用 pieces/sheets of paper;scissors 恆複數成對工具,計量用 a pair of scissors。",
+      "trap": "⚠ paper 不可數不能加 s(papers 指『報告/論文』語意不符);scissors 無單數 scissor,且 sheets of papers 量詞後名詞仍不能加 s。"
+    },
+    {
+      "stem": "The jury ___ divided in their opinions; some wanted to convict, while ___ believed the man was innocent.",
+      "options": [
+        "was / the other",
+        "were / others",
+        "was / others",
+        "were / the others"
+      ],
+      "answer": 1,
+      "explanation": "jury 作集合名詞但強調『成員各持己見』時當複數用 were;some...others 表『有些...另一些(非全部)』故用 others。",
+      "trap": "⚠ 集合名詞 jury 強調成員分歧時用複數 were,與視為整體時的單數相反;some...others 為不定指,加 the(the others)則變特指全部剩餘者語意不符。"
+    },
+    {
+      "stem": "Each of the ___ was given ___ to complete the obstacle course within ten minutes.",
+      "options": [
+        "athlete / two chances",
+        "athletes / two chances",
+        "athletes / a chance",
+        "athlete / a chance"
+      ],
+      "answer": 2,
+      "explanation": "each of the + 複數名詞 athletes;主詞核心 each 為單數用 was,給『一次』機會 a chance 與單數一致。",
+      "trap": "⚠ each of the 後須接複數名詞(athletes),但動詞與所給單位仍依 each 為單數;故 a chance 對應 each 的單數,two chances 與 each 不合。"
+    },
+    {
+      "stem": "The ___ of the orchestra ___ tuning their instruments when the conductor walked in.",
+      "options": [
+        "musician / was",
+        "musicians / were",
+        "musicians / was",
+        "musician / were"
+      ],
+      "answer": 1,
+      "explanation": "整個樂團有多位樂手故用複數 musicians;主詞 musicians 為複數,過去進行式用 were tuning。",
+      "trap": "⚠ of the orchestra 是修飾語,真正主詞是前面的 musicians(複數)用 were;別被單數的 orchestra 干擾而誤選 was。"
+    },
+    {
+      "stem": "The waiter brought us two ___ of tea and a ___ of bread to share before the main course.",
+      "options": [
+        "cup / loaf",
+        "cups / loaf",
+        "cup / loaves",
+        "cups / loaves"
+      ],
+      "answer": 1,
+      "explanation": "tea 不可數用 cup 計量,two 使量詞變複數 cups;bread 不可數用 loaf 計量,a 對應單數量詞 loaf,故 cups / loaf。",
+      "trap": "⚠ 變複數的是量詞(cup→cups)而非不可數的 tea/bread;a loaf 為單數量詞配 a,選 loaves 與 a 不一致,別把量詞與名詞混淆。"
+    },
+    {
+      "stem": "Either the twins or their mother ___ going to drive, because ___ of them knows the way well.",
+      "options": [
+        "are / each",
+        "is / each",
+        "are / both",
+        "is / both"
+      ],
+      "answer": 1,
+      "explanation": "either...or 就近原則,動詞與最近的 their mother(單數)一致用 is;each of them 強調『每一個』搭配單數 knows,符合語意。",
+      "trap": "⚠ either A or B 動詞看靠近的 B(mother 單數)用 is,別被前面複數 twins 誤導;both of them 接複數動詞 know,與後面 knows 不一致。"
+    },
+    {
+      "stem": "The ___ damage caused by the typhoon was huge, but luckily there ___ only a few minor ___.",
+      "options": [
+        "many / was / injury",
+        "(無冠詞) / were / injuries",
+        "many / were / injuries",
+        "(無冠詞) / was / injuries"
+      ],
+      "answer": 1,
+      "explanation": "damage 不可數,The damage 已特指不需數量詞故第一空為無冠詞修飾;there be 與最近主詞 a few minor injuries(複數)一致用 were;injury 可數,a few 接複數 injuries。",
+      "trap": "⚠ damage 不可數不可用 many 修飾;a few 須接複數 injuries,且 there be 看後面複數用 were 而非 was。"
+    },
+    {
+      "stem": "The ___ at this resort include a spa, two pools, and a gym, which is why ___ visit it every summer.",
+      "options": [
+        "facility / familys",
+        "facilities / families",
+        "facilitys / families",
+        "facilities / familys"
+      ],
+      "answer": 1,
+      "explanation": "列舉多項設施故用複數,facility 子音+y 變複數去 y 加 ies→facilities;family 同理變 families,泛指一般家庭用複數。",
+      "trap": "⚠ facility 與 family 皆為子音+y 結尾,變複數須去 y 加 ies;facilitys、familys 為母音+y 規則的誤套,一律錯。"
+    },
+    {
+      "stem": "Half of the ___ on the shelf ___ missing, and half of the milk in the bottle ___ gone too.",
+      "options": [
+        "book are / are",
+        "books are / is",
+        "books is / is",
+        "book is / are"
+      ],
+      "answer": 1,
+      "explanation": "half of + 名詞動詞依該名詞:books 可數複數用 are;milk 不可數用 is,故 books are / is。",
+      "trap": "⚠ half of / most of / some of 的動詞看 of 後名詞的可數性:books(複數)用 are,milk(不可數)用 is,兩者方向不同極易混淆。"
+    },
+    {
+      "stem": "This is ___ office; both of them share it, but the books over there are ___.",
+      "options": [
+        "James and Tom's / theirs",
+        "James's and Tom's / their",
+        "James' and Tom / theirs",
+        "James and Toms' / theirs"
+      ],
+      "answer": 0,
+      "explanation": "兩人『共同擁有』一間辦公室,所有格只在最後一個名詞加 's→James and Tom's;the books 的所有格代名詞用 theirs(後不接名詞)。",
+      "trap": "⚠ 共同擁有只在最後一名詞加 's(James and Tom's);若各自擁有才兩者都加 's。theirs 為所有格代名詞獨立使用,their 後須接名詞故不可。"
+    }
+  ]
+}

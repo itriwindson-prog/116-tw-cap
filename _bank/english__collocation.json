@@ -1,0 +1,208 @@
+{
+  "id": "collocation",
+  "name": "搭配詞與慣用語 (Collocations & Idioms)",
+  "week": "暑假 第1週",
+  "notes": [
+    {
+      "h": "高頻動詞搭配:make / do / take / have",
+      "points": [
+        "make 強調「製造、做出某種抽象結果或決定」:make a decision(做決定)、make a mistake(犯錯)、make noise(製造噪音)、make a plan(訂計畫)、make progress(進步)、make money(賺錢)。",
+        "do 強調「從事、執行某項活動或工作」:do (one's) homework(寫功課)、do the dishes(洗碗)、do exercise(運動)、do one's best(盡力)、do the laundry(洗衣服)、do business(做生意)。",
+        "take 與 have 各有固定圈子:take a photo(拍照)、take a break(休息)、take a shower(洗澡)、take medicine(吃藥);have a meeting(開會)、have fun(玩得開心)、have a try(試試)。",
+        "搭配詞是「約定俗成」的固定組合,不能用同義詞硬換;母語人士憑語感記憶,學習者要把整組片語當「一個單位」背下來,例如 make a decision 不可說成 do a decision。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><rect x=\"10\" y=\"14\" width=\"80\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"50\" y=\"34\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">make</text><rect x=\"95\" y=\"14\" width=\"80\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"135\" y=\"34\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">do</text><rect x=\"180\" y=\"14\" width=\"80\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"220\" y=\"34\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">take</text><rect x=\"265\" y=\"14\" width=\"85\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"307\" y=\"34\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">have</text><text x=\"50\" y=\"66\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">decision</text><text x=\"50\" y=\"84\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">mistake</text><text x=\"50\" y=\"102\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">noise</text><text x=\"135\" y=\"66\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">homework</text><text x=\"135\" y=\"84\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">dishes</text><text x=\"135\" y=\"102\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">exercise</text><text x=\"220\" y=\"66\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">a photo</text><text x=\"220\" y=\"84\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">a break</text><text x=\"220\" y=\"102\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">a shower</text><text x=\"307\" y=\"66\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">a meeting</text><text x=\"307\" y=\"84\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">fun</text><text x=\"307\" y=\"102\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">a try</text><rect x=\"10\" y=\"150\" width=\"340\" height=\"28\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#c9755c\"/><text x=\"180\" y=\"168\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">固定組合,不可互換</text></svg>",
+      "caption": "make/do/take/have 各有固定搭配的名詞圈,需整組記憶。",
+      "trap": "⚠ 最常見錯誤是把 make 與 do 互換:做決定是 make a decision(非 do),寫功課是 do homework(非 make)。記訣:make 偏「無中生有做出結果」,do 偏「執行既有活動」。"
+    },
+    {
+      "h": "形容詞搭配與常見慣用語",
+      "points": [
+        "天氣形容詞有固定搭配:大雨是 heavy rain(不是 big rain)、強風是 strong wind(不是 big wind)、高溫是 high temperature、濃霧是 thick/heavy fog;形容程度大小要選對形容詞。",
+        "慣用語(idioms)語意不能逐字翻譯:a piece of cake = 輕而易舉、break the ice = 打破僵局、once in a blue moon = 難得一次、under the weather = 身體不適、hit the books = 用功讀書。",
+        "介系詞片語也是固定搭配:in trouble(有麻煩)、on time(準時)、in danger(有危險)、by accident(意外地)、in time(及時)、on purpose(故意地);介系詞用錯整個片語語意就變。",
+        "遇到慣用語要從「整體比喻義」理解,切忌把每個單字拆開直譯;例如 It's a piece of cake 是「很簡單」,而非真的「一塊蛋糕」。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><rect x=\"12\" y=\"16\" width=\"160\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"30\" y=\"36\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">heavy rain</text><text x=\"150\" y=\"36\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">✓</text><rect x=\"188\" y=\"16\" width=\"160\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#d98072\"/><text x=\"206\" y=\"36\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">big rain</text><text x=\"340\" y=\"36\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">✗</text><rect x=\"12\" y=\"58\" width=\"336\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#f0a52e\"/><text x=\"20\" y=\"78\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">a piece of cake = 輕而易舉</text><rect x=\"12\" y=\"96\" width=\"336\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#f0a52e\"/><text x=\"20\" y=\"116\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">break the ice = 打破僵局</text><rect x=\"12\" y=\"134\" width=\"336\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#c9755c\"/><text x=\"20\" y=\"154\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">慣用語看整體比喻,別逐字翻</text></svg>",
+      "caption": "形容詞搭配與慣用語都有固定形式,慣用語須取比喻義。",
+      "trap": "⚠ 受中文影響易把「大雨」直譯成 big rain;英文用 heavy rain。慣用語更不能拆字直譯,a piece of cake 不是談蛋糕,而是「小事一樁」。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "After hours of debate, the committee finally ______ a decision that satisfied both sides.",
+      "options": ["did", "made", "took", "had"],
+      "answer": 1,
+      "explanation": "「做決定」的固定搭配是 make a decision。雖然 take a decision 在英式英語偶見,但會考標準答案與美式用法為 make a decision;do/had a decision 皆非固定搭配。",
+      "trap": "⚠ 受中文「做」決定影響易選 did。英文用 make,因 make 表「做出抽象結果」。"
+    },
+    {
+      "stem": "The math problem was so easy for Tina that she described it as ______.",
+      "options": ["a hot potato", "a piece of cake", "a wet blanket", "a couch potato"],
+      "answer": 1,
+      "explanation": "a piece of cake = 輕而易舉,符合「題目很簡單」的語境。a hot potato 是棘手問題、a wet blanket 是掃興的人、a couch potato 是成天看電視的懶人,皆不合。",
+      "trap": "⚠ 四個選項都含食物或物品,易誤判。要看語境是「容易」,只有 a piece of cake 表簡單。"
+    },
+    {
+      "stem": "Because of the ______ rain last night, several roads near the river were flooded this morning.",
+      "options": ["heavy", "big", "strong", "thick"],
+      "answer": 0,
+      "explanation": "「大雨」的固定搭配是 heavy rain。big rain 不合英文習慣;strong 搭配 wind(強風);thick 搭配 fog(濃霧)。",
+      "trap": "⚠ 中文「大」雨直譯成 big rain 是典型陷阱;rain 的程度用 heavy。"
+    },
+    {
+      "stem": "I don't go to the movies often — only ______, maybe twice a year.",
+      "options": ["on time", "in time", "once in a blue moon", "out of the blue"],
+      "answer": 2,
+      "explanation": "once in a blue moon = 難得一次,呼應「一年只兩次」。on time 準時、in time 及時、out of the blue 突然地,皆不合語意。",
+      "trap": "⚠ out of the blue 與 blue moon 都有 blue,易混。前者指「突然」,後者指「很少」。"
+    },
+    {
+      "stem": "Choose the sentence in which the collocation is used CORRECTLY.",
+      "options": ["She makes her homework every evening before dinner.", "He did a serious mistake on the final exam.", "They had a meeting to discuss the new project.", "We took a decision to cancel the trip."],
+      "answer": 2,
+      "explanation": "have a meeting 為正確搭配。(A) 應為 do her homework;(B) 應為 made a mistake;(D) 標準用法為 made a decision。故只有 (C) 正確。",
+      "trap": "⚠ 四句各藏一個搭配,需逐一檢查 make/do/take/have 是否配對正確,不能只看單句通順。"
+    },
+    {
+      "stem": "The new student felt shy, so the teacher told a joke to ______ at the start of class.",
+      "options": ["break the ice", "break a leg", "make ends meet", "pull one's leg"],
+      "answer": 0,
+      "explanation": "break the ice = 打破僵局/緩和氣氛,符合「化解陌生害羞」的情境。break a leg 是祝好運、make ends meet 是收支平衡、pull one's leg 是開玩笑捉弄,皆不合。",
+      "trap": "⚠ break a leg 與 break the ice 都用 break,易混;前者祝演出順利,後者破冰。"
+    },
+    {
+      "stem": "My grandfather always reminds me to ______ my best, no matter how hard the task is.",
+      "options": ["make", "do", "take", "give"],
+      "answer": 1,
+      "explanation": "「盡力」的固定搭配是 do one's best。make/take/give 皆不與 one's best 搭配。",
+      "trap": "⚠ 易誤選 make。one's best 前面固定用 do,不可用 make。"
+    },
+    {
+      "stem": "Which underlined collocation is INCORRECT?",
+      "options": ["The strong wind blew the umbrella away.", "Please take a photo of us in front of the temple.", "I need to make the dishes after dinner.", "We should have fun at the party tonight."],
+      "answer": 2,
+      "explanation": "(C) 應為 do the dishes(洗碗),不是 make the dishes。其餘 strong wind、take a photo、have fun 皆為正確搭配。",
+      "trap": "⚠ 題目問「錯誤」的,易看漏;the dishes 指洗碗用 do,make the dishes 反而像「做菜餚」語意不符。"
+    },
+    {
+      "stem": "The factory has been losing money, and the manager is struggling to ______ to keep workers paid.",
+      "options": ["make ends meet", "make up his mind", "take it easy", "break the news"],
+      "answer": 0,
+      "explanation": "make ends meet = 使收支平衡/勉強維持生計,符合工廠虧錢、勉力支付薪水的語境。make up one's mind 是下定決心、take it easy 是放輕鬆、break the news 是宣布消息,皆不合。",
+      "trap": "⚠ make up his mind 也以 make 開頭,但意思是下決心,與「維持收支」無關。"
+    },
+    {
+      "stem": "It's raining hard outside; we'd better ______ a taxi instead of walking to the station.",
+      "options": ["do", "make", "take", "have"],
+      "answer": 2,
+      "explanation": "搭乘交通工具的固定搭配是 take a taxi/bus/train。do/make/have a taxi 皆非搭配。",
+      "trap": "⚠ 交通工具用 take(take a bus/taxi/train),別受中文「坐/搭」誤導選其他動詞。"
+    },
+    {
+      "stem": "Sorry I'm late — I missed the bus ______ and had to wait for the next one.",
+      "options": ["on purpose", "by accident", "in danger", "on time"],
+      "answer": 1,
+      "explanation": "依語意「我不是故意的」,by accident = 意外地/不小心地,最合理。on purpose 是故意、in danger 有危險、on time 準時,皆與「錯過公車」的歉意語境不符。",
+      "trap": "⚠ on purpose(故意)與 by accident(意外)語意相反;道歉情境應選非故意的 by accident。"
+    },
+    {
+      "stem": "Choose the option that best paraphrases: \"Finishing the report on time was a piece of cake for her.\"",
+      "options": ["It was very difficult for her to finish the report on time.", "It was very easy for her to finish the report on time.", "She refused to finish the report on time.", "She forgot to finish the report on time."],
+      "answer": 1,
+      "explanation": "a piece of cake = 輕而易舉,故全句意為「準時完成報告對她而言很簡單」,(B) 正確改寫。",
+      "trap": "⚠ 慣用語不可直譯成「一塊蛋糕」;a piece of cake 表「非常容易」,選 difficult 就反了。"
+    },
+    {
+      "stem": "The students were asked to ______ research on local history before writing their essays.",
+      "options": ["make", "do", "take", "give"],
+      "answer": 1,
+      "explanation": "do research 為固定搭配(進行研究)。make/take/give research 皆非標準搭配。",
+      "trap": "⚠ 易誤選 make。research(研究)前用 do,表「從事、進行」這項活動。"
+    },
+    {
+      "stem": "I haven't been feeling well today — I think I'm ______.",
+      "options": ["over the moon", "under the weather", "on cloud nine", "in hot water"],
+      "answer": 1,
+      "explanation": "under the weather = 身體不適,符合「今天不太舒服」。over the moon 與 on cloud nine 都是非常開心、in hot water 是惹上麻煩,皆不合。",
+      "trap": "⚠ over the moon 與 on cloud nine 都表開心,語意與「不舒服」相反,別被選項數量誤導。"
+    },
+    {
+      "stem": "Which sentence uses the verb–noun collocation CORRECTLY?",
+      "options": ["Don't make so much noise; the baby is sleeping.", "She always does a lot of mistakes in spelling.", "Let's make our homework together at the library.", "He took a big progress in English this year."],
+      "answer": 0,
+      "explanation": "make noise(製造噪音)正確。(B) 應為 makes mistakes;(C) 應為 do our homework;(D) 應為 made great progress(且程度用 great 非 big)。",
+      "trap": "⚠ (D) 兩處錯:progress 用 make 且程度用 great;big progress 與 took 都不對,別只看單一字。"
+    },
+    {
+      "stem": "Before the big exam, many students stay up late to ______.",
+      "options": ["hit the road", "hit the books", "hit the sack", "hit the ceiling"],
+      "answer": 1,
+      "explanation": "hit the books = 用功讀書,符合考前熬夜唸書的情境。hit the road 是上路出發、hit the sack 是睡覺、hit the ceiling 是大發雷霆,皆不合。",
+      "trap": "⚠ 四個都用 hit,須看後面名詞;讀書是 books,hit the sack 反而是去睡覺。"
+    },
+    {
+      "stem": "The two countries are trying to ______ peace after years of conflict.",
+      "options": ["do", "make", "take", "have"],
+      "answer": 1,
+      "explanation": "make peace = 講和/締造和平,為固定搭配。do/take/have peace 皆非標準搭配。",
+      "trap": "⚠ peace 用 make(make peace),不可用 do;make 表「做出、締造」這個抽象結果。"
+    },
+    {
+      "stem": "Read the dialogue and choose the best answer.\nA: Can you help me move this weekend?\nB: Sure, ______. I'm free on Saturday.",
+      "options": ["it's a piece of cake", "you're pulling my leg", "it's not my cup of tea", "I'm in hot water"],
+      "answer": 0,
+      "explanation": "B 答應幫忙且週六有空,it's a piece of cake(小事一樁)表「很樂意、不費事」最得體。you're pulling my leg 是「你在開玩笑」、not my cup of tea 是「不合我胃口」、in hot water 是「惹上麻煩」,皆不合語境。",
+      "trap": "⚠ 須讀懂對話語境是「樂意幫忙」;not my cup of tea 反而是婉拒,與下一句「我週六有空」矛盾。"
+    },
+    {
+      "stem": "Please be quiet in the library; you should not ______ noise here.",
+      "options": ["do", "take", "make", "have"],
+      "answer": 2,
+      "explanation": "make noise(製造噪音)為固定搭配。do/take/have noise 皆非搭配。",
+      "trap": "⚠ noise 用 make,別受中文影響選 do;make 表「製造出」噪音這個結果。"
+    },
+    {
+      "stem": "Which of the following collocations about weather is CORRECT?",
+      "options": ["a big snow fell overnight", "a strong rain hit the city", "thick fog covered the valley", "a heavy wind broke the branches"],
+      "answer": 2,
+      "explanation": "thick fog(濃霧)為正確搭配。(A) 應為 heavy snow;(B) 應為 heavy rain;(D) 應為 strong wind。",
+      "trap": "⚠ 各天氣名詞搭配不同形容詞:rain/snow 用 heavy、wind 用 strong、fog 用 thick/heavy,不可混用。"
+    },
+    {
+      "stem": "He promised to call me, but he never did. He was just ______.",
+      "options": ["breaking the ice", "pulling my leg", "doing me a favor", "making my day"],
+      "answer": 1,
+      "explanation": "依語意「他答應卻沒做到」,pull one's leg = 開玩笑/唬人,最合理。break the ice 是破冰、do someone a favor 是幫忙、make one's day 是讓人開心,皆不合。",
+      "trap": "⚠ pull my leg 不是「拉我的腿」,而是「開玩笑、耍我」,須取慣用語比喻義。"
+    },
+    {
+      "stem": "Students should ______ exercise regularly to stay healthy.",
+      "options": ["make", "do", "take", "have"],
+      "answer": 1,
+      "explanation": "do exercise(做運動)為固定搭配。亦可說 take exercise(英式),但會考標準與美式常用為 do exercise;make/have exercise 皆非搭配,在四選項中 do 為最佳答案。",
+      "trap": "⚠ exercise 表「運動」時用 do;易誤選 make。注意 take exercise 雖存在,但本題正解圈定 do。"
+    },
+    {
+      "stem": "The meeting starts at nine, so please arrive ______ to get a good seat.",
+      "options": ["in time", "on time", "at time", "by time"],
+      "answer": 1,
+      "explanation": "on time = 準時(剛好在規定時間),符合「九點開會請準時到」。in time 是「及時、來得及」,語意略不同;at time 與 by time 皆非標準片語。",
+      "trap": "⚠ on time(準時)與 in time(及時)易混:強調「不遲到、按時」用 on time。"
+    },
+    {
+      "stem": "Choose the sentence where the idiom matches its meaning \"to feel extremely happy.\"",
+      "options": ["After hearing the good news, she was over the moon.", "After hearing the good news, she was under the weather.", "After hearing the good news, she was in hot water.", "After hearing the good news, she was a wet blanket."],
+      "answer": 0,
+      "explanation": "over the moon = 極為開心,符合題目要求。under the weather 是身體不適、in hot water 是惹麻煩、a wet blanket 是掃興的人,皆與「開心」不符。",
+      "trap": "⚠ 須先讀懂題目要的是「非常開心」,再配對慣用語;under the weather 等與開心無關。"
+    },
+    {
+      "stem": "It took us a long time to ______ friends with the shy new classmate.",
+      "options": ["do", "make", "take", "have"],
+      "answer": 1,
+      "explanation": "make friends (with) = 交朋友,為固定搭配。do/take/have friends 皆非此搭配。",
+      "trap": "⚠ 「交朋友」用 make friends,易誤選 have;make 表「建立、結交」這段關係。"
+    }
+  ]
+}

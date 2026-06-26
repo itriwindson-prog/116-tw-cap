@@ -1,0 +1,153 @@
+{
+  "topicId": "pronoun",
+  "isNew": false,
+  "newQuiz": [
+    {
+      "stem": "Read the note: \"To my dear students, the success of this class belongs to you, not to ___. You worked hard; I merely guided.\" Who does the underlined blank refer to?",
+      "options": ["I", "me", "my", "mine"],
+      "answer": 1,
+      "explanation": "介系詞 to 後須用受格,且與前面的 to you 平行,寫信者指『我自己』用 me。",
+      "trap": "⚠ 介系詞 to 後一定用受格 me,別因句子正式而誤選主格 I;my 為所有格形容詞須接名詞,mine 為所有格代名詞語意不符『不是因為我這個人』。"
+    },
+    {
+      "stem": "\"Whoever finishes first should help ___ struggling,\" the coach said, pointing at the slower runners behind.",
+      "options": ["whoever is", "whomever is", "those who are", "they who are"],
+      "answer": 2,
+      "explanation": "help 的受詞指『那些正在掙扎的人』,用 those who are struggling,who 在子句中作主詞配合 are。",
+      "trap": "⚠ help 後需要受詞且指複數人群,用 those who are(指示+關代);whoever/whomever 引導的是名詞子句,單數語感且與後面 struggling 的複數情境及 are 不合。"
+    },
+    {
+      "stem": "Survey result: 60% of the staff support the plan; 40% oppose ___. Clearly, the majority are in favor of ___.",
+      "options": ["them / it", "it / it", "it / them", "them / them"],
+      "answer": 1,
+      "explanation": "兩個空格都指涉單數的 the plan,故皆用 it。",
+      "trap": "⚠ 兩格指涉的都是單數的 the plan 這一個計畫,皆用 it;別被 staff、majority 等集合或複數概念誤導而選 them。"
+    },
+    {
+      "stem": "Each of the three finalists believed that ___ deserved to win, yet only one could take the trophy.",
+      "options": ["they", "he or she", "them", "their"],
+      "answer": 1,
+      "explanation": "Each of + 複數作主詞視為單數,Each 強調個別,正式語法用單數 he or she 作 believed 子句的主詞。",
+      "trap": "⚠ Each 強調『每一個』為單數,that 子句主詞用單數 he or she;雖有 three finalists,但 Each of 鎖定單數;them 為受格不可作主詞,their 為所有格。"
+    },
+    {
+      "stem": "The detective said, \"The thief left ___ fingerprints all over the safe, but smartly wiped the doorknob clean.\"",
+      "options": ["its", "their", "his or her", "whose"],
+      "answer": 2,
+      "explanation": "the thief 為單數且性別不明,正式書面語的通性單數所有格用 his or her,修飾名詞 fingerprints。",
+      "trap": "⚠ the thief 是單數人,正式語法用 his or her;its 用於非人/動物,their 雖口語常見但與明確單數先行詞在正式句不一致,whose 為關係/疑問所有格。"
+    },
+    {
+      "stem": "\"It wasn't ___ who broke the vase!\" cried the boy. \"It was the cat that knocked it off the shelf.\"",
+      "options": ["I", "me", "my", "mine"],
+      "answer": 0,
+      "explanation": "分裂句 It was/wasn't ___ who... 中,空格是 who 子句動詞 broke 的真正主詞,正式語法用主格 I。",
+      "trap": "⚠ 後接 who + 動詞 broke,該代名詞是子句主詞,正式語法用主格 I,不是口語的 me;my/mine 為所有格皆不可作主詞。"
+    },
+    {
+      "stem": "Either the manager or the two assistants will present ___ findings at the meeting tomorrow.",
+      "options": ["his", "her", "their", "its"],
+      "answer": 2,
+      "explanation": "Either A or B 結構,所有格依就近的 B(the two assistants,複數)決定,用 their。",
+      "trap": "⚠ Either...or... 適用就近原則,所有格看最靠近的 the two assistants(複數)用 their;別被前面單數的 the manager 誤導而選 his/her。"
+    },
+    {
+      "stem": "The committee could not agree ___; in the end, half voted yes and half voted no.",
+      "options": ["among them", "among themselves", "with each other", "between themselves"],
+      "answer": 1,
+      "explanation": "委員會成員彼此(主受詞同群)無法達成共識,且為三人以上,用 among themselves。",
+      "trap": "⚠ 主詞與受詞指同一群人須用反身 themselves,不用 them;三人以上用 among 非 between;agree among themselves 為固定搭配,with each other 在此不如此自然。"
+    },
+    {
+      "stem": "\"This trophy means more to me than any other in my collection, because I earned ___ entirely on ___ own,\" she said.",
+      "options": ["it / my", "them / mine", "it / mine", "it / her"],
+      "answer": 0,
+      "explanation": "第一格指單數 trophy 用受格 it;第二格 on one's own(靠自己)用所有格形容詞,主詞 I 對應 my。",
+      "trap": "⚠ trophy 單數用 it;on my own(獨力)固定用所有格形容詞 my + own,不能用 mine 或 her;說話者是 I 故對應 my。"
+    },
+    {
+      "stem": "Not a single one of the volunteers brought ___ own water bottle, so the organizers had to buy dozens.",
+      "options": ["their", "his or her", "its", "your"],
+      "answer": 1,
+      "explanation": "Not a single one (of...) 強調『沒有任何一個人』為單數,正式語法的通性所有格用 his or her。",
+      "trap": "⚠ one 為單數核心,Not a single one 視為單數,正式語法用 his or her;雖有複數 volunteers,但 one of 鎖定單數;its 用於非人,your 人稱錯誤。"
+    },
+    {
+      "stem": "The two countries signed the treaty, promising never to attack ___ again.",
+      "options": ["themselves", "each other", "one another's", "them"],
+      "answer": 1,
+      "explanation": "兩個國家『互相』不再攻擊對方,兩者之間用 each other 作 attack 的受詞。",
+      "trap": "⚠ 兩方互相用 each other,作受詞;themselves 表『攻擊自己』語意荒謬;one another's 為所有格須接名詞;them 指涉不清且非『彼此』。"
+    },
+    {
+      "stem": "Of all the paintings in the gallery, the one I admired most was ___ hanging by the entrance.",
+      "options": ["it", "the one", "that", "this"],
+      "answer": 1,
+      "explanation": "代替前述單數可數名詞 painting 並後接修飾語 hanging by the entrance,用 the one。",
+      "trap": "⚠ 代替前面可數單數名詞且後有後位修飾(hanging...)用 the one;it 不可後接分詞片語作此指定;that/this 指示詞在此指代不明確。"
+    },
+    {
+      "stem": "\"Between the two of us, I trust you far more than ___ trust me,\" he admitted with a sigh.",
+      "options": ["I", "me", "you", "your"],
+      "answer": 2,
+      "explanation": "比較句 than 後是完整子句的主詞 + 動詞 trust me,須用主格 you(=than you trust me)。",
+      "trap": "⚠ than 後接的是子句 you trust me,空格是動詞 trust 的主詞用 you;後面有動詞 trust 即知需要主格主詞,非受格。"
+    },
+    {
+      "stem": "The new policy will affect every employee, regardless of ___ rank or department.",
+      "options": ["their", "his or her", "its", "whose"],
+      "answer": 1,
+      "explanation": "every employee 為單數且性別不定,正式語法的通性單數所有格用 his or her。",
+      "trap": "⚠ every + 單數名詞 employee 視為單數,正式語法用 his or her;their 雖口語可接受,但 every 明確為單數在正式測驗用 his or her;its 用於非人,whose 為關係/疑問所有格。"
+    },
+    {
+      "stem": "\"Give the prize to ___ scores the highest,\" announced the host, \"no matter which team they come from.\"",
+      "options": ["who", "whom", "whoever", "whomever"],
+      "answer": 2,
+      "explanation": "介系詞 to 後接名詞子句,子句內代名詞作 scores 的主詞,用主格的 whoever。",
+      "trap": "⚠ 決定格位的是子句內角色:作 scores 的主詞用主格 whoever,不因前有介系詞 to 就用 whomever;單純 who/whom 缺『無論誰』之意。"
+    },
+    {
+      "stem": "She and her sister look so similar that strangers often mistake one for ___.",
+      "options": ["another", "the other", "other", "others"],
+      "answer": 1,
+      "explanation": "兩者中『一個錯認成另一個』,two 中特定的另一個用 the other。",
+      "trap": "⚠ 僅有姊妹兩人,one... the other(兩者中特定的另一個);another 用於三者以上不特定的『再一個』;other 須接名詞;others 為複數,皆不合『兩人互認』情境。"
+    },
+    {
+      "stem": "\"The fault is entirely ___,\" the captain said, taking responsibility. \"My crew followed orders; I gave the wrong ones.\"",
+      "options": ["my", "mine", "me", "myself"],
+      "answer": 1,
+      "explanation": "be 動詞後表『過錯是我的』,須用所有格代名詞 mine(= my fault),單獨使用。",
+      "trap": "⚠ The fault is ___ 補語位置用所有格代名詞 mine 表『我的(過錯)』;my 為所有格形容詞須接名詞;me/myself 不能表所屬,語意錯誤。"
+    },
+    {
+      "stem": "Many people claim to support the charity, but few actually donate any of ___ own money to it.",
+      "options": ["his", "their", "its", "your"],
+      "answer": 1,
+      "explanation": "few 指涉前面複數的 many people,所有格用複數 their。",
+      "trap": "⚠ few 在此承接複數先行詞 people,所有格用 their;主詞為複數人群非單數,故非 his;its 用於非人,your 人稱不一致。"
+    },
+    {
+      "stem": "The students whose projects were chosen will each receive a certificate, and ___ will be displayed in the lobby.",
+      "options": ["it", "they", "theirs", "those"],
+      "answer": 1,
+      "explanation": "and 後子句的主詞指涉前面複數的 projects(這些作品將被展示),用主格 they。",
+      "trap": "⚠ 後句主詞指複數的 projects,用主格 they;it 為單數不合;theirs 為所有格代名詞語意不對;those 須接名詞或修飾語在此突兀。"
+    },
+    {
+      "stem": "\"You can blame the weather, the traffic, or the alarm — but the truth is, only ___ are to blame for being late,\" the boss told the two of them.",
+      "options": ["you", "your", "yourself", "yourselves"],
+      "answer": 3,
+      "explanation": "主詞 you 指『你們兩人』為複數,強調『該怪你們自己』用複數反身代名詞 yourselves。",
+      "trap": "⚠ 對象是兩個人(the two of them),反身代名詞用複數 yourselves,不是單數 yourself;此處配合主詞 you 作強調,your 為所有格不可作主詞補語。"
+    },
+    {
+      "stem": "Neither the evidence nor the witnesses convinced the jury; in the end, ___ found the defendant not guilty.",
+      "options": ["it", "they", "he", "one"],
+      "answer": 1,
+      "explanation": "後句主詞指涉前面的 the jury(陪審團成員),強調集合中多位成員共同裁決時用複數 they,配合動詞 found。",
+      "trap": "⚠ the jury 作『一群成員共同行動』時用複數 they;雖 jury 可作單數,但此處強調陪審員集體做出裁決,they 最自然;it 指物、he 指特定單一男性、one 泛指皆不合。"
+    }
+  ]
+}

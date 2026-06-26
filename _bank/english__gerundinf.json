@@ -1,0 +1,258 @@
+{
+  "topicId": "gerundinf",
+  "isNew": false,
+  "newQuiz": [
+    {
+      "stem": "The committee is considering ___ the deadline, but most members would prefer ___ the original date.",
+      "options": [
+        "extending / keeping",
+        "to extend / to keep",
+        "extending / to keep",
+        "to extend / keeping"
+      ],
+      "answer": 2,
+      "explanation": "consider 後只接 V-ing(extending);prefer 後可接 to V(此處 would prefer 表偏好,接 to keep)。故為 extending / to keep。",
+      "trap": "⚠ 同一句兩個空格分屬不同支配動詞:consider 只接動名詞、would prefer 接不定詞,別套用同一規則。"
+    },
+    {
+      "stem": "I'll never forget ___ the Great Wall last summer; it was the most amazing trip of my life.",
+      "options": [
+        "to visit",
+        "visiting",
+        "visit",
+        "to have visited"
+      ],
+      "answer": 1,
+      "explanation": "forget V-ing 表『忘不了做過的事』;由 last summer 與『最棒的旅行』可知是回憶過去經歷,用 visiting。",
+      "trap": "⚠ forget to V(忘了要去做,未做)vs forget V-ing(忘不了做過,已做);此處是難忘的回憶,用 visiting 不是 to visit。"
+    },
+    {
+      "stem": "After hours of arguing, they finally stopped ___ and started ___ a real solution.",
+      "options": [
+        "to fight / looking for",
+        "fighting / to look for",
+        "fighting / looking for",
+        "to fight / to look for"
+      ],
+      "answer": 1,
+      "explanation": "stop V-ing=停止做某事(停止爭吵);start 後接 to V 或 V-ing 皆可,搭配 to look for 最自然(開始去尋找)。故 fighting / to look for。",
+      "trap": "⚠ stop fighting(停止爭吵)才合語意,stop to fight 是『停下來去打架』語意矛盾;start 兩種皆可,但 stop 的選擇是關鍵。"
+    },
+    {
+      "stem": "She is used to ___ up early, so getting to the 6 a.m. class is no problem for her.",
+      "options": [
+        "wake",
+        "to wake",
+        "waking",
+        "woke"
+      ],
+      "answer": 2,
+      "explanation": "be used to + V-ing=『習慣於』;此處 to 是介系詞,後接動名詞 waking。",
+      "trap": "⚠ be used to V-ing(習慣於)≠ used to V(過去常做);此處的 to 是介系詞不是不定詞,後面必接 V-ing。"
+    },
+    {
+      "stem": "It's no use ___ over spilled milk; let's focus on ___ the problem now.",
+      "options": [
+        "to cry / solving",
+        "crying / to solve",
+        "crying / solving",
+        "to cry / to solve"
+      ],
+      "answer": 2,
+      "explanation": "It's no use + V-ing=『做…沒有用』;focus on 的 on 是介系詞,後接 V-ing(solving)。故 crying / solving。",
+      "trap": "⚠ It's no use 與 focus on 後都要 V-ing;兩個空格都不是 to V,別被慣性誘導填不定詞。"
+    },
+    {
+      "stem": "The teacher made all the students ___ the poem aloud and then asked them ___ its meaning.",
+      "options": [
+        "to read / explain",
+        "read / to explain",
+        "reading / explaining",
+        "read / explain"
+      ],
+      "answer": 1,
+      "explanation": "make + 受詞 + 原形動詞(read,使役不加 to);ask + 受詞 + to V(to explain)。故 read / to explain。",
+      "trap": "⚠ 使役動詞 make 後接原形(read)不加 to,但 ask 後須接 to V;兩個動詞句型不同別混用。"
+    },
+    {
+      "stem": "___ a foreign language well takes years of practice and patience.",
+      "options": [
+        "Speak",
+        "To speaking",
+        "Speaking",
+        "Spoke"
+      ],
+      "answer": 2,
+      "explanation": "句首作主詞且後接單數動詞 takes,用動名詞 Speaking(To speak 也可,但 To speaking 文法錯誤,故選 Speaking)。",
+      "trap": "⚠ 動名詞或不定詞可當主詞,但 To speaking 是錯誤組合(to 後須接原形);正確主詞形式是 Speaking。"
+    },
+    {
+      "stem": "We had the mechanic ___ the engine, and he had the car ___ within an hour.",
+      "options": [
+        "to check / repaired",
+        "check / repaired",
+        "check / to repair",
+        "checking / repairing"
+      ],
+      "answer": 1,
+      "explanation": "have + 人 + 原形(check,叫人做);have + 物 + 過去分詞(repaired,事情被完成)。故 check / repaired。",
+      "trap": "⚠ have 後接『人』用原形(主動)、接『物』用過去分詞(被動);依受詞是人或物決定形式,別一律填原形。"
+    },
+    {
+      "stem": "Instead of ___ about the heavy rain, why not ___ an umbrella with you?",
+      "options": [
+        "complaining / to bring",
+        "to complain / bring",
+        "complaining / bring",
+        "complain / bringing"
+      ],
+      "answer": 2,
+      "explanation": "Instead of 的 of 是介系詞接 V-ing(complaining);why not + 原形動詞(bring)。故 complaining / bring。",
+      "trap": "⚠ Instead of 後接 V-ing,但 why not 後接原形動詞;兩個空格句型不同,別都填同一形式。"
+    },
+    {
+      "stem": "The novel is worth ___, and I really look forward to ___ the movie version next month.",
+      "options": [
+        "to read / see",
+        "reading / seeing",
+        "reading / to see",
+        "to read / to see"
+      ],
+      "answer": 1,
+      "explanation": "be worth + V-ing(值得做);look forward to 的 to 是介系詞接 V-ing(seeing)。故 reading / seeing。",
+      "trap": "⚠ look forward to 的 to 是介系詞,後接 V-ing 不是原形;搭配 be worth V-ing,兩空都填動名詞。"
+    },
+    {
+      "stem": "He apologized for ___ late and promised ___ on time from then on.",
+      "options": [
+        "to be / coming",
+        "being / to come",
+        "being / coming",
+        "to be / to come"
+      ],
+      "answer": 1,
+      "explanation": "apologize for 的 for 是介系詞接 V-ing(being);promise 後接 to V(to come)。故 being / to come。",
+      "trap": "⚠ apologize for + V-ing(為已發生的事道歉),promise + to V(承諾未來);依時間方向與句型,兩空形式不同。"
+    },
+    {
+      "stem": "Would you rather ___ at home or ___ out for dinner tonight?",
+      "options": [
+        "to stay / to eat",
+        "staying / eating",
+        "stay / eat",
+        "stay / to eat"
+      ],
+      "answer": 2,
+      "explanation": "would rather + 原形動詞(stay ... or eat);兩個選項都用原形。故 stay / eat。",
+      "trap": "⚠ would rather 後直接接原形動詞,不加 to 也不用 V-ing;別與 would like to V 混淆。"
+    },
+    {
+      "stem": "The new policy aims at ___ pollution and encouraging citizens ___ public transport.",
+      "options": [
+        "reducing / to use",
+        "to reduce / using",
+        "reducing / using",
+        "to reduce / to use"
+      ],
+      "answer": 0,
+      "explanation": "aim at 的 at 是介系詞接 V-ing(reducing);encourage + 受詞 + to V(to use)。故 reducing / to use。",
+      "trap": "⚠ aim at + V-ing,但 encourage sb. to V;一個受介系詞支配、一個受動詞句型支配,形式不同。"
+    },
+    {
+      "stem": "I can't help ___ that something is wrong; he keeps ___ the truth from us.",
+      "options": [
+        "to feel / to hide",
+        "feeling / hiding",
+        "feeling / to hide",
+        "to feel / hiding"
+      ],
+      "answer": 1,
+      "explanation": "can't help + V-ing=『忍不住做』(feeling);keep + V-ing=『持續做』(hiding)。故 feeling / hiding。",
+      "trap": "⚠ can't help V-ing(忍不住)與 keep V-ing(持續)都只接動名詞;別把 can't help 的 help 當一般動詞填 to V。"
+    },
+    {
+      "stem": "The story is so touching that it's hard ___ tears when you read it.",
+      "options": [
+        "holding back",
+        "to hold back",
+        "hold back",
+        "held back"
+      ],
+      "answer": 1,
+      "explanation": "It is + 形容詞(hard)+ to V 的句型;此處真主詞為不定詞 to hold back。",
+      "trap": "⚠ It is hard to V 的虛主詞句型須接不定詞;雖然前面有 so...that,but 空格仍受 hard 後接 to V 支配,別填 V-ing。"
+    },
+    {
+      "stem": "Rather than ___ by bus, they chose ___ to save time.",
+      "options": [
+        "going / to fly",
+        "to go / flying",
+        "going / flying",
+        "go / fly"
+      ],
+      "answer": 0,
+      "explanation": "Rather than 後常與前面句型平行;choose to V(to fly)。此句 they chose to fly,rather than 對應主動詞用 going,formal 用法常見 Rather than going... chose to fly。故 going / to fly。",
+      "trap": "⚠ Rather than 後可接 V-ing 或原形與前句平行,而 choose 後固定接 to V;此處 chose to fly 鎖定第二空為 to fly。"
+    },
+    {
+      "stem": "Don't let the failure ___ you; learning ___ from your mistakes is what really matters.",
+      "options": [
+        "to discourage / to grow",
+        "discourage / growing",
+        "discouraging / grow",
+        "discourage / to grow"
+      ],
+      "answer": 3,
+      "explanation": "let + 受詞 + 原形動詞(discourage,使役不加 to);learn to V=『學會做某事』,故 learn to grow(學會成長)。故 discourage / to grow。",
+      "trap": "⚠ let 後接原形動詞(discourage)不加 to,但 learn 後接 to V(to grow);兩個空格句型不同,別都填原形或都填動名詞。"
+    },
+    {
+      "stem": "She suggested ___ a break, and everyone agreed ___ for ten minutes.",
+      "options": [
+        "to take / to rest",
+        "taking / resting",
+        "taking / to rest",
+        "to take / resting"
+      ],
+      "answer": 2,
+      "explanation": "suggest 後只接 V-ing(taking);agree 後接 to V(to rest)。故 taking / to rest。",
+      "trap": "⚠ suggest 是『只接 V-ing』的動詞,但 agree 接 to V;兩動詞句型相反,別都填同一形式。"
+    },
+    {
+      "stem": "It took her three weeks ___ the report, and she spent every weekend ___ data.",
+      "options": [
+        "finishing / to collect",
+        "to finish / collecting",
+        "to finish / to collect",
+        "finishing / collecting"
+      ],
+      "answer": 1,
+      "explanation": "It takes sb. + time + to V(to finish);spend + time + V-ing(collecting)。故 to finish / collecting。",
+      "trap": "⚠ It takes...to V 接不定詞,但 spend...V-ing 接動名詞;兩個『花時間』句型形式不同,易混淆。"
+    },
+    {
+      "stem": "The manager objected to ___ the meeting and insisted on ___ it as scheduled.",
+      "options": [
+        "postpone / hold",
+        "postponing / holding",
+        "to postpone / to hold",
+        "postponing / to hold"
+      ],
+      "answer": 1,
+      "explanation": "object to 與 insist on 的 to/on 都是介系詞,後接 V-ing(postponing / holding)。故 postponing / holding。",
+      "trap": "⚠ object to 的 to 是介系詞接 V-ing,不是不定詞;與 insist on V-ing 同理,兩空都填動名詞。"
+    },
+    {
+      "stem": "Seeing is ___; only by ___ it with your own eyes can you truly understand.",
+      "options": [
+        "to believe / see",
+        "believing / seeing",
+        "believe / to see",
+        "believing / to see"
+      ],
+      "answer": 1,
+      "explanation": "Seeing is believing(眼見為憑,主詞補語平行用 V-ing);by 是介系詞接 V-ing(seeing)。故 believing / seeing。",
+      "trap": "⚠ 諺語 Seeing is believing 主補對稱用動名詞;by + V-ing 表方法,兩空都填 V-ing,別被諺語拆解誤導。"
+    }
+  ]
+}

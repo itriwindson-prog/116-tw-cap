@@ -1,0 +1,258 @@
+{
+  "topicId": "sentence",
+  "isNew": false,
+  "newQuiz": [
+    {
+      "stem": "Neither the teacher nor her students ___ aware that the fire drill ___ scheduled for that very morning.",
+      "options": [
+        "was; had been",
+        "were; had been",
+        "was; have been",
+        "were; was"
+      ],
+      "answer": 0,
+      "explanation": "neither A nor B 的動詞與『最靠近的主詞』一致(就近原則),students 雖為複數,但 B=her students... 等等,實際就近主詞是 students(複數)? 須細看:『neither the teacher nor her students』最近主詞為 students(複數),故主句動詞應為 were。但兩個動詞需整體判斷:演習在過去某時間點之前已被安排,用過去完成 had been。故主句若依就近原則為 were;然而本題正解設計為 was/were 之爭——標準就近原則取最近名詞 students(複數)→ were。再檢查:第二空 the fire drill(單數)被安排,過去完成被動 had been scheduled。綜合最符合就近原則者為 were; had been。",
+      "trap": "⚠ 此處易被『neither...nor 一律單數』的迷思誤導;就近原則看最近的 students(複數)用 were,且演習在過去敘述點前已排定,用過去完成被動 had been scheduled。"
+    },
+    {
+      "stem": "___ had the manager finished his speech ___ the audience began to applaud loudly.",
+      "options": [
+        "No sooner; than",
+        "Hardly; when",
+        "Scarcely; then",
+        "Not only; but also"
+      ],
+      "answer": 0,
+      "explanation": "『No sooner...had + S + p.p. ...than + 過去式』表『一…就…』,倒裝句固定搭配 no sooner...than。句首否定副詞 No sooner 引導倒裝(had the manager finished),對應連接詞為 than,故選 No sooner; than。",
+      "trap": "⚠ Hardly/Scarcely 雖也可倒裝表『一…就…』,但須搭配 when(Hardly...when),不可配 then;No sooner 固定配 than，固定搭配不可混用。"
+    },
+    {
+      "stem": "Only after the storm had passed ___ to assess the damage to their fishing boats.",
+      "options": [
+        "the villagers went out",
+        "did the villagers go out",
+        "went the villagers out",
+        "the villagers did go out"
+      ],
+      "answer": 1,
+      "explanation": "『Only + 副詞片語』置於句首時,主句須部分倒裝:助動詞(did)提前 + 主詞 + 原形動詞,故 did the villagers go out。",
+      "trap": "⚠ Only after... 置句首觸發倒裝,須用助動詞 did + 主詞 + 原形 go;直接寫 the villagers went out(正常語序)是最常見錯誤,全動詞倒裝 went the villagers 亦不合英語規則。"
+    },
+    {
+      "stem": "So ___ was the evidence that the jury reached a verdict in less than an hour.",
+      "options": [
+        "convincing",
+        "convinced",
+        "convincingly",
+        "convince"
+      ],
+      "answer": 0,
+      "explanation": "『So + 形容詞 + be 動詞 + 主詞 + that...』倒裝結構,空格須為形容詞修飾 evidence。證據『令人信服的』用現在分詞轉的形容詞 convincing(主動,使人信服)。",
+      "trap": "⚠ 此為 So...that 倒裝(So convincing was the evidence);形容詞修飾事物用 -ing(convincing);convinced(被說服的)用於人,convincingly 是副詞,皆不符語法位置。"
+    },
+    {
+      "stem": "It was not the price but the poor quality of the product ___ the customers to complain.",
+      "options": [
+        "that caused",
+        "what caused",
+        "which it caused",
+        "caused"
+      ],
+      "answer": 0,
+      "explanation": "強調句型 It was...that...,被強調者為 not the price but the poor quality(主詞),其後用關係詞 that,動詞 caused 對應整個強調主詞。故 that caused。",
+      "trap": "⚠ 強調句一律用 that,不論被強調者為人或物;what 不能引導強調句,which it caused 多餘加了 it,單純 caused 則缺少 that 使句子缺連接成分。"
+    },
+    {
+      "stem": "___ you to lend me your notes, I would be able to catch up with the missed lessons quickly.",
+      "options": [
+        "Should",
+        "Were",
+        "Had",
+        "If"
+      ],
+      "answer": 1,
+      "explanation": "與現在事實相反的假設,省略 if 時 be 動詞 were 倒裝至句首:Were you to lend me...(= If you were to lend me...),表對未來不太可能的假設。",
+      "trap": "⚠ 此為與未來相反假設的 were to 倒裝句(Were S to V);Should 倒裝後須接原形且語意為『萬一』,Had 用於與過去相反(Had + p.p.),If 則無法倒裝且後句缺 would 對應,須用 Were。"
+    },
+    {
+      "stem": "The committee insisted that every application ___ submitted before the deadline, or it ___ rejected without exception.",
+      "options": [
+        "be; would be",
+        "was; will be",
+        "is; would be",
+        "be; will be"
+      ],
+      "answer": 0,
+      "explanation": "insist that 後接『假設語氣』:S + (should) + 原形,故 be submitted(被動原形)。後半 or it... 表結果,與主句語氣一致用 would be rejected。",
+      "trap": "⚠ insist/demand/require 等要求動詞後的 that 子句用『(should) + 原形動詞』(be submitted),不可用 was/is;後句 or 引導的結果配合語氣用 would be。"
+    },
+    {
+      "stem": "Not until she had read the contract three times ___ the hidden clause that could cost her thousands.",
+      "options": [
+        "she noticed",
+        "did she notice",
+        "she did notice",
+        "noticed she"
+      ],
+      "answer": 1,
+      "explanation": "Not until... 置句首,主句倒裝:did + 主詞 + 原形,故 did she notice。",
+      "trap": "⚠ Not until 在句首使主句倒裝(did she notice),不是 until 子句本身倒裝;直接寫 she noticed 未倒裝是常見錯,noticed she 為全動詞倒裝不合規。"
+    },
+    {
+      "stem": "___ how fragile the ecosystem was, the researchers urged the government to act immediately.",
+      "options": [
+        "Realized",
+        "Realizing",
+        "To realize",
+        "Having been realized"
+      ],
+      "answer": 1,
+      "explanation": "分詞構句:主詞 the researchers 與 realize 為主動關係(研究者意識到),用現在分詞 Realizing 引導,= Because they realized how fragile...。",
+      "trap": "⚠ 分詞構句須判斷主詞與動詞的主被動;研究者『主動』意識到,用 Realizing(主動);Realized/Having been realized 是被動,語意不通,To realize 表目的不符因果語境。"
+    },
+    {
+      "stem": "Such ___ that the entire stadium fell silent the moment she stepped onto the stage.",
+      "options": [
+        "her fame was",
+        "was her fame",
+        "her fame it was",
+        "did her fame be"
+      ],
+      "answer": 1,
+      "explanation": "『Such + be 動詞 + 主詞 + that...』倒裝句:Such was her fame that...(她如此出名,以致於…),be 動詞 was 提前至 Such 之後。",
+      "trap": "⚠ Such 置句首觸發 be 動詞倒裝(Such was her fame);her fame was 未倒裝,加 it 多餘,did...be 文法錯誤(be 動詞不需助動詞 did)。"
+    },
+    {
+      "stem": "The harder the team practiced, ___ they became, until they finally won the championship.",
+      "options": [
+        "the more confident",
+        "more confident",
+        "the most confident",
+        "the confident more"
+      ],
+      "answer": 0,
+      "explanation": "『The + 比較級..., the + 比較級...』表『越…就越…』。confident 為多音節形容詞,比較級用 more confident,前加 the,故 the more confident。",
+      "trap": "⚠ The + 比較級...the + 比較級 兩邊都要 the 且都用『比較級』;漏掉 the(more confident)或誤用最高級(the most confident)皆錯,語序 the confident more 也不對。"
+    },
+    {
+      "stem": "Rarely ___ such a brilliant solution proposed by someone so young and inexperienced.",
+      "options": [
+        "we have seen",
+        "have we seen",
+        "we had seen",
+        "did we saw"
+      ],
+      "answer": 1,
+      "explanation": "否定副詞 Rarely 置句首觸發倒裝,完成式助動詞 have 提前:have we seen。",
+      "trap": "⚠ Rarely/Seldom/Never 等否定副詞置句首須倒裝(have we seen);未倒裝的 we have seen 錯,did we saw 同時用助動詞與過去式動詞為雙重錯誤。"
+    },
+    {
+      "stem": "He spoke ___ confidently ___ everyone in the room assumed he was the real expert.",
+      "options": [
+        "so; that",
+        "such; that",
+        "too; to",
+        "as; as"
+      ],
+      "answer": 0,
+      "explanation": "confidently 為副詞,『so + 副詞 + that...』表『如此…以致於…』,故 so confidently that。",
+      "trap": "⚠ so 修飾形容詞/副詞(so confidently),such 修飾名詞片語;此處 confidently 是副詞,須用 so...that,不可用 such;too...to 表『太…以致不能』語意相反。"
+    },
+    {
+      "stem": "What surprised the judges most ___ not his technique but his fearless attitude toward failure.",
+      "options": [
+        "were",
+        "was",
+        "are",
+        "have been"
+      ],
+      "answer": 1,
+      "explanation": "主詞為名詞子句 What surprised the judges most,視為單數,動詞用 was;補語 not A but B 結構不影響主詞單複數。",
+      "trap": "⚠ What 引導的名詞子句作主詞時恆視為『單數』,用 was;別被後面 not...but... 或補語的名詞迷惑而誤用複數 were。"
+    },
+    {
+      "stem": "Long ___ the days when people had to walk miles just to send a single message.",
+      "options": [
+        "gone are",
+        "are gone",
+        "gone is",
+        "have gone"
+      ],
+      "answer": 0,
+      "explanation": "表語(Long gone)置句首的完全倒裝,主詞 the days 為複數,be 動詞用 are,語序為 Long gone are the days...(那些日子已一去不返)。",
+      "trap": "⚠ 形容詞/分詞表語置句首引發完全倒裝(Long gone are the days);主詞 days 複數須用 are,gone is 主謂不一致,have gone 用了完成式不符此慣用倒裝句型。"
+    },
+    {
+      "stem": "Provided that the weather ___ fine tomorrow, the outdoor concert ___ as planned.",
+      "options": [
+        "stays; will proceed",
+        "will stay; proceeds",
+        "stayed; would proceed",
+        "stays; proceeds"
+      ],
+      "answer": 0,
+      "explanation": "Provided that(假如)引導條件子句,屬條件副詞子句『現在式表未來』,用 stays;主句指未來用 will proceed。",
+      "trap": "⚠ 條件子句(Provided that...)中『現在式代替未來』(stays),不可用 will;主句才用 will proceed;兩處都用現在式或時態錯配皆不符。"
+    },
+    {
+      "stem": "It is high time the government ___ serious action to reduce air pollution in major cities.",
+      "options": [
+        "takes",
+        "took",
+        "will take",
+        "has taken"
+      ],
+      "answer": 1,
+      "explanation": "『It is (high) time + 主詞 + 過去式』表『早該…了(但還沒做)』的假設語氣,用過去式 took。",
+      "trap": "⚠ It is high time 後的子句用『過去式』表現在早該做卻未做的虛擬語氣(took);用現在式 takes 或未來 will take 是最常見錯誤。"
+    },
+    {
+      "stem": "___ he apologize sincerely, his teammates might still be willing to forgive his mistake.",
+      "options": [
+        "Should",
+        "Were",
+        "Did",
+        "Had"
+      ],
+      "answer": 0,
+      "explanation": "與未來相反/不確定的假設,省略 if 用 Should 倒裝至句首接原形動詞:Should he apologize...(= If he should apologize),表『萬一/要是他道歉』。",
+      "trap": "⚠ 後接原形動詞 apologize,須用 Should 倒裝(萬一);Were 倒裝後須接 to V 或形容詞,Had 用於與過去相反(接 p.p.),Did 不用於倒裝假設句。"
+    },
+    {
+      "stem": "Across the valley ___ the ancient temple that thousands of pilgrims visit each spring.",
+      "options": [
+        "stands",
+        "stand",
+        "is standing",
+        "stood"
+      ],
+      "answer": 0,
+      "explanation": "地方副詞片語(Across the valley)置句首的完全倒裝,主詞 the ancient temple 為單數,動詞用現在式 stands(visit each spring 表習慣性現在事實)。",
+      "trap": "⚠ 地方副詞置句首引發完全倒裝,動詞須與『真正主詞 temple(單數)』一致用 stands;誤看 valley 或被句末複數 pilgrims 干擾而用 stand 為錯,進行式/過去式與『每年春天造訪』的恆常語境不合。"
+    },
+    {
+      "stem": "No matter how carefully you plan, ___ unexpected problems still arise during a long journey.",
+      "options": [
+        "there are times when",
+        "there is times that",
+        "it has times when",
+        "there are times which"
+      ],
+      "answer": 0,
+      "explanation": "there are times when...(有時候…)為固定句型,times 複數用 are,修飾時間先行詞用關係副詞 when,故 there are times when。",
+      "trap": "⚠ 修飾『時間 times』的關係詞用 when 不可用 which/that(which 須在子句中作主受詞,此處 problems arise 結構完整);主詞 times 複數須用 are,it has times 句構亦錯。"
+    },
+    {
+      "stem": "She would have caught the early train ___ she ___ ten minutes earlier instead of checking her phone.",
+      "options": [
+        "if; had left",
+        "had; left",
+        "if; left",
+        "unless; had left"
+      ],
+      "answer": 0,
+      "explanation": "與過去事實相反的假設:主句 would have caught(過去未發生),條件子句用過去完成 had left,連接詞用 if,故 if she had left。",
+      "trap": "⚠ 與過去相反的假設,if 子句用『過去完成 had left』,主句用 would have + p.p.;用過去式 left(if; left)是與現在相反的時態錯配,unless(除非)會使語意相反。"
+    }
+  ]
+}

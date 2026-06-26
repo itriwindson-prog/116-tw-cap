@@ -1,0 +1,258 @@
+{
+  "topicId": "dailyenglish",
+  "isNew": false,
+  "newQuiz": [
+    {
+      "stem": "A: 'I've been waiting here for almost an hour!' B: 'I'm terribly sorry. ___ The traffic was a nightmare.' A: 'Well, you might have called me at least.'",
+      "options": [
+        "It's none of your business.",
+        "I couldn't help it.",
+        "I can't agree more.",
+        "It serves you right."
+      ],
+      "answer": 1,
+      "explanation": "I couldn't help it.(我也是沒辦法/身不由己)用來為遲到道歉並說明原因;A 接著抱怨『至少該打通電話』,可見 B 在辯解。",
+      "trap": "⚠ couldn't help it 不是『沒幫上忙』,而是『無法控制、情非得已』;與後句塞車理由連貫。It serves you right(活該)是責備對方,語氣完全相反。"
+    },
+    {
+      "stem": "A: 'How was the job interview you were so nervous about?' B: '___ They told me I got the position right on the spot!'",
+      "options": [
+        "It couldn't have gone worse.",
+        "It couldn't have gone better.",
+        "It could have been worse.",
+        "I wish it had gone well."
+      ],
+      "answer": 1,
+      "explanation": "後句『當場就告訴我錄取了』是極好的結果,故用 It couldn't have gone better.(不可能更好了=好得不能再好)。",
+      "trap": "⚠ couldn't have gone better 雖含否定 couldn't,實為最高肯定(好到極點)。It could have been worse(本來可能更糟,還算可以)語氣太弱;I wish it had gone well 暗示沒成功,皆與『當場錄取』矛盾。"
+    },
+    {
+      "stem": "A: 'Shall we take the seven o'clock train or the later one?' B: 'It's ___ to me. Either works for my schedule.'",
+      "options": [
+        "all the same",
+        "all the way",
+        "all of a sudden",
+        "all at once"
+      ],
+      "answer": 0,
+      "explanation": "It's all the same to me.(對我來說都一樣/沒差)呼應後句 Either works(哪個都行)。",
+      "trap": "⚠ all the same 是慣用語『都一樣、無所謂』;all the way 是『一路、徹底』,all of a sudden / all at once 都是『突然』,皆不合語境。"
+    },
+    {
+      "stem": "A: 'Do you think Tom will lend us his car for the trip?' B: 'Don't ___ it. He's very protective of that car.'",
+      "options": [
+        "count on",
+        "look after",
+        "give up",
+        "put off"
+      ],
+      "answer": 0,
+      "explanation": "count on(指望、依賴)+ Don't 表『別指望』,呼應後句『他很寶貝那台車』。",
+      "trap": "⚠ count on=指望/依靠;look after=照顧,give up=放棄,put off=延期,皆無『指望某事發生』之意。注意此處 it 指『借車這件事』。"
+    },
+    {
+      "stem": "Waiter: 'Here's your bill, sir.' Customer: 'Excuse me, I think there must be ___. We didn't order the dessert listed here.'",
+      "options": [
+        "a mistake",
+        "no doubt",
+        "a pleasure",
+        "an order"
+      ],
+      "answer": 0,
+      "explanation": "There must be a mistake.(一定是弄錯了)用來客氣指出帳單有誤,呼應『我們沒點這道甜點』。",
+      "trap": "⚠ 此情境是禮貌地指出帳單錯誤,須用 a mistake;there's no doubt(毫無疑問)語氣與『質疑帳單』相反,a pleasure / an order 語意不符。"
+    },
+    {
+      "stem": "A: 'I'm thinking of quitting school to start a business.' B: 'If I ___ you, I'd finish my studies first. You can always start later.'",
+      "options": [
+        "am",
+        "was",
+        "were",
+        "had been"
+      ],
+      "answer": 2,
+      "explanation": "與現在事實相反的假設『如果我是你』用 If I were you,主句配 I'd(=I would)。",
+      "trap": "⚠ 表建議的『假如我是你』固定用 were(假設語氣),即使主詞是 I 也不用 was;主句用 would 對應,故選 were。"
+    },
+    {
+      "stem": "A: 'Would you mind passing me the salt?' B: '___' (B then hands over the salt.)",
+      "options": [
+        "Yes, I would.",
+        "Not at all.",
+        "Never mind.",
+        "I'd rather not."
+      ],
+      "answer": 1,
+      "explanation": "Would you mind…? 答應(不介意去做)用 Not at all,且 B 隨後遞出鹽,證明是答應。",
+      "trap": "⚠ Would you mind…? 答應要用否定(Not at all);Yes, I would 與 I'd rather not 都是拒絕,與『遞出鹽』的動作矛盾。本題考 Would you mind + 動名詞(請求做事),與既有題的 Do you mind if(請求許可)不同。"
+    },
+    {
+      "stem": "A: 'My grandmother passed away last week.' B: '___ Please let me know if there's anything I can do.'",
+      "options": [
+        "Congratulations!",
+        "I'm sorry to hear that.",
+        "What a coincidence!",
+        "It's a piece of cake."
+      ],
+      "answer": 1,
+      "explanation": "聽到對方親人過世表達哀悼用 I'm sorry to hear that.(我很遺憾),再接『有需要儘管說』。",
+      "trap": "⚠ 此處 sorry 不是道歉而是『遺憾、節哀』;Congratulations(恭喜)在喪事語境極不得體,What a coincidence(真巧)與 a piece of cake(輕而易舉)皆失禮。"
+    },
+    {
+      "stem": "Sign at the museum: 'Visitors are kindly reminded to refrain from touching the exhibits.' This sign tells visitors that they ___.",
+      "options": [
+        "may take photos of the exhibits",
+        "must not touch the exhibits",
+        "should clean the exhibits",
+        "are allowed to handle the exhibits"
+      ],
+      "answer": 1,
+      "explanation": "refrain from touching=克制不要觸碰,等於『不可觸摸展品』(must not touch)。",
+      "trap": "⚠ refrain from + V-ing 意為『避免、忍住不做』,等同禁止;選項 D『允許觸碰』正好相反，A、C 與標示內容無關。此為告示判讀題。"
+    },
+    {
+      "stem": "A: 'I heard you finally got your driver's license. ___' B: 'Thanks! I was so relieved to pass on my third try.'",
+      "options": [
+        "What a shame!",
+        "Good for you!",
+        "Take it easy.",
+        "Don't mention it."
+      ],
+      "answer": 1,
+      "explanation": "為對方考到駕照道賀用 Good for you!(真替你高興/做得好),呼應 B 道謝。",
+      "trap": "⚠ Good for you 是真誠祝賀;What a shame(真可惜)語氣相反,Take it easy(放輕鬆/別緊張)與 Don't mention it(不客氣)都答非所問。"
+    },
+    {
+      "stem": "A: 'Could you turn down the music? I'm trying to study.' B: 'Oh, ___ I didn't realize it was that loud.'",
+      "options": [
+        "my pleasure.",
+        "I'm afraid not.",
+        "sorry about that.",
+        "you're welcome."
+      ],
+      "answer": 2,
+      "explanation": "對方因吵到而要求關小聲，B 道歉用 Sorry about that.(抱歉),並說沒意識到那麼大聲。",
+      "trap": "⚠ 後句『沒發覺那麼大聲』是道歉理由，須選 sorry；I'm afraid not(恐怕不行)等於拒絕關小聲，與語境衝突；my pleasure / you're welcome 是回應道謝，用錯場合。"
+    },
+    {
+      "stem": "A: 'This is the third time you've forgotten your homework this week!' B: '___ I'll make sure it never happens again.' A: 'See that it doesn't.'",
+      "options": [
+        "It won't take long.",
+        "It won't happen again, I promise.",
+        "It doesn't matter.",
+        "It's up to you."
+      ],
+      "answer": 1,
+      "explanation": "被責備後保證改進，用 It won't happen again, I promise.(我保證不會再犯),呼應後句『我會確保不再發生』及 A 的 See that it doesn't(你最好別)。",
+      "trap": "⚠ 說話者是被責備的一方，應道歉並保證；It doesn't matter(沒關係)是安慰別人，立場相反；It's up to you(由你決定)、It won't take long(不會花太久)皆不合。"
+    },
+    {
+      "stem": "A: 'Why didn't you tell me the meeting was cancelled? I drove all the way here for nothing!' B: 'I assumed someone else ___ you. I'm sorry for the mix-up.'",
+      "options": [
+        "has informed",
+        "had informed",
+        "would inform",
+        "informs"
+      ],
+      "answer": 1,
+      "explanation": "B『以為別人(在此之前)已通知過你』，是在過去某時點之前完成的動作，用過去完成式 had informed。",
+      "trap": "⚠ 主句 assumed 為過去式，從屬子句表『更早之前已完成』須用過去完成式 had informed；has informed(現在完成)與時態主軸不符，would inform 指未來、informs 為現在，皆錯。"
+    },
+    {
+      "stem": "A: 'Excuse me, do you know where I can find the nearest pharmacy?' B: 'Sorry, ___ I'm new to this area myself.'",
+      "options": [
+        "you can't miss it.",
+        "I have no idea.",
+        "go straight ahead.",
+        "it's just around the corner."
+      ],
+      "answer": 1,
+      "explanation": "B 解釋自己也是新來的(I'm new to this area)，所以不知道，用 I have no idea.(我也不清楚)。",
+      "trap": "⚠ 後句『我自己也是新來的』是『不知道』的理由，須選 I have no idea；其餘三個都是『知道並指路』的回答，與 B 不熟此區矛盾。"
+    },
+    {
+      "stem": "A: 'I'm not sure I can finish this report by Friday.' B: 'Take your time. ___ Quality matters more than speed here.'",
+      "options": [
+        "There's no rush.",
+        "Hurry up.",
+        "It's about time.",
+        "You'd better be quick."
+      ],
+      "answer": 0,
+      "explanation": "Take your time(慢慢來)+ There's no rush.(不急)+『品質比速度重要』，三者語氣一致。",
+      "trap": "⚠ 整段都在叫對方別急，故選 There's no rush；Hurry up / You'd better be quick 是催促，It's about time(早該如此/終於)帶責備語氣，皆與『慢慢來』衝突。"
+    },
+    {
+      "stem": "Phone call. A: 'Hello, may I speak to Mr. Lin?' B: 'I'm afraid he's not available right now. ___' A: 'Yes, please tell him David called.'",
+      "options": [
+        "Who's speaking?",
+        "Would you like to leave a message?",
+        "Speaking.",
+        "You've got the wrong number."
+      ],
+      "answer": 1,
+      "explanation": "林先生不在，B 詢問是否留言 Would you like to leave a message?，呼應 A 回『請告訴他 David 打過來』。",
+      "trap": "⚠ A 回應內容是留言，故 B 須問是否留言；Speaking(我就是)用於本人接電話，與『他不在』矛盾；Who's speaking 是問來電者是誰，A 不會以留言內容回答。電話用語判讀題。"
+    },
+    {
+      "stem": "A: 'You look exhausted. You've been working for ten hours straight.' B: 'I know, but I can't stop now. The deadline is ___.'",
+      "options": [
+        "out of the question",
+        "around the clock",
+        "just around the corner",
+        "on the house"
+      ],
+      "answer": 2,
+      "explanation": "deadline is just around the corner.(截止日近在眼前)解釋為何不能停下休息。",
+      "trap": "⚠ just around the corner=迫在眉睫/即將到來(此處指時間，非地點);around the clock 是『日以繼夜』修飾動作而非 deadline，out of the question 是『不可能』，on the house 是『店家招待』，皆不合。"
+    },
+    {
+      "stem": "A: 'I'd like a refund for this jacket. The zipper broke after one day.' B: 'I see. ___, but do you have the receipt with you?' A: 'Yes, here it is.'",
+      "options": [
+        "That's out of the question",
+        "I'm afraid we can't help you",
+        "No problem at all",
+        "It's none of my business"
+      ],
+      "answer": 2,
+      "explanation": "店員願意處理退款並接著問收據，用 No problem at all(沒問題),語氣配合後面 but(但須先確認收據)。",
+      "trap": "⚠ 後面顧客順利出示收據、互動正向，店員應是同意處理；That's out of the question(門都沒有)與 I'm afraid we can't help 都是拒絕，It's none of my business(不關我的事)失禮，皆不合服務情境。"
+    },
+    {
+      "stem": "A: 'Congratulations on winning first prize! You must be thrilled.' B: '___ I honestly didn't expect to win at all.'",
+      "options": [
+        "I couldn't care less.",
+        "I can hardly believe it!",
+        "It's not my cup of tea.",
+        "I told you so."
+      ],
+      "answer": 1,
+      "explanation": "得獎又『完全沒料到會贏』，用 I can hardly believe it!(我簡直不敢相信)表達驚喜。",
+      "trap": "⚠ I can hardly believe it 是『難以置信(的驚喜)』;I couldn't care less(我一點都不在乎)與得獎興奮矛盾，not my cup of tea(不合我胃口)、I told you so(我早說吧)皆與『沒料到會贏』衝突。"
+    },
+    {
+      "stem": "A: 'Why are you carrying an umbrella? It's perfectly sunny.' B: 'The forecast says it ___ later this afternoon, so I'd rather be safe than sorry.'",
+      "options": [
+        "rained",
+        "is going to rain",
+        "has rained",
+        "rains"
+      ],
+      "answer": 1,
+      "explanation": "氣象預報對未來的預測，且帶 later this afternoon，用 be going to rain；『有備無患』故帶傘。",
+      "trap": "⚠ later this afternoon 指未來，須用未來式 is going to rain；rained / has rained 指過去或已完成，與帶傘防雨的未來情境矛盾；rains 為現在習慣，不合『稍晚』預測。"
+    },
+    {
+      "stem": "A: 'I can't decide between the blue one and the red one. They both look great on you.' B: 'Why don't you get ___? They're on sale today, after all.'",
+      "options": [
+        "either",
+        "neither",
+        "both",
+        "none"
+      ],
+      "answer": 2,
+      "explanation": "兩件都好看又在打折，建議『兩件都買』用 both，呼應 after all(反正都特價)。",
+      "trap": "⚠ 後句『反正今天都打折』暗示鼓勵全買，故選 both；either 是『兩者任一』未解決猶豫，neither/none 是『都不』與『兩件都好看』矛盾。"
+    }
+  ]
+}

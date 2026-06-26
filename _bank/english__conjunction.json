@@ -1,0 +1,258 @@
+{
+  "topicId": "conjunction",
+  "isNew": false,
+  "newQuiz": [
+    {
+      "stem": "___ had I sat down ___ the phone started ringing again.",
+      "options": [
+        "No sooner ... than",
+        "Hardly ... when",
+        "Not only ... but",
+        "As soon ... as"
+      ],
+      "answer": 1,
+      "explanation": "Hardly/Scarcely ... when ... 與 No sooner ... than ... 都表「一…就…」。句首倒裝為 Hardly had I + p.p.，後半須搭配 when，故選 Hardly ... when。",
+      "trap": "⚠ No sooner 必須配 than（不是 when），Hardly/Scarcely 才配 when；倒裝用了 had（過去完成）排除 As soon as，又因兩個空格須成對，唯一正確配對是 Hardly ... when。"
+    },
+    {
+      "stem": "She is good not only at singing ___ at dancing, which makes her the star of the show.",
+      "options": [
+        "and also",
+        "but also",
+        "or also",
+        "as well"
+      ],
+      "answer": 1,
+      "explanation": "not only A but also B 為固定成對連接詞（不僅 A 而且 B），故空格填 but also。",
+      "trap": "⚠ not only 的固定搭配是 but also（不是 and also）；as well 須以 as well as 形式出現且不與 not only 配對，別被「也」的中文語感誤導成 and also。"
+    },
+    {
+      "stem": "___ you study or play, you should always do your best — that's my father's motto.",
+      "options": [
+        "Weather",
+        "Whether",
+        "Either",
+        "Neither"
+      ],
+      "answer": 1,
+      "explanation": "Whether A or B 表「無論是 A 還是 B」，引導讓步副詞子句。句意為「無論讀書或玩」，故用 Whether。",
+      "trap": "⚠ Whether（無論）才能引導子句並配 or；Either 配 or 是連接對等項而非引導完整子句作主句的狀語，且此處需「無論…都…」的讓步語氣；Weather（天氣）為同音陷阱。"
+    },
+    {
+      "stem": "The harder you work, ___ you will become — success doesn't come by luck.",
+      "options": [
+        "the successful",
+        "more successful",
+        "the more successful",
+        "the most successful"
+      ],
+      "answer": 2,
+      "explanation": "「The + 比較級 ..., the + 比較級 ...」表「越…就越…」。前半 The harder，後半須對應 the more successful。",
+      "trap": "⚠ 此句型後半也必須有 the，且 successful 為多音節形容詞須用 the more successful（不是 the successful 或 more successful）；漏掉 the 或誤用最高級皆錯。"
+    },
+    {
+      "stem": "He spoke so fast ___ none of us could follow what he was saying.",
+      "options": [
+        "such that",
+        "that",
+        "so that",
+        "as that"
+      ],
+      "answer": 1,
+      "explanation": "so + 形容詞/副詞 + that 表「如此…以致於…」。此處 so fast that 引導結果子句，故填 that。",
+      "trap": "⚠ 已有 so（修飾副詞 fast），結果子句只需 that；so that 是「為了」表目的且不與前面的 so 並用，such that 須搭配名詞（such + n. + that），此處是副詞故用 so ... that。"
+    },
+    {
+      "stem": "___ the weather was terrible, the rescue team kept searching for the missing climbers all night.",
+      "options": [
+        "Despite",
+        "Even though",
+        "In spite of",
+        "Because of"
+      ],
+      "answer": 1,
+      "explanation": "空格後接完整子句（the weather was terrible），須用「連接詞」Even though（即使／儘管），表讓步。",
+      "trap": "⚠ Despite / In spite of 是「介系詞」只能接名詞或動名詞，不能接子句；後面是 the weather was terrible（含主詞+動詞的子句），故須用連接詞 Even though，別被「儘管」的中文誤導選成介系詞。"
+    },
+    {
+      "stem": "Take this umbrella with you; ___ you'll get soaked in the heavy rain on the way home.",
+      "options": [
+        "therefore",
+        "otherwise",
+        "moreover",
+        "however"
+      ],
+      "answer": 1,
+      "explanation": "前句建議帶傘，後句說明「否則」會淋濕，前後為「條件—不利後果」關係，用 otherwise（否則，= or else）。",
+      "trap": "⚠ otherwise 表「否則／不然」連接「未照做的負面後果」；therefore（因此）是順承結果、however（然而）是轉折、moreover（此外）是補充，皆不符「不帶傘就會淋濕」的假設語氣。"
+    },
+    {
+      "stem": "___ he is rich, he is far from happy; money alone cannot buy a peaceful mind.",
+      "options": [
+        "Rich as he is",
+        "As rich he is",
+        "Rich though as he is",
+        "Though rich as he is"
+      ],
+      "answer": 0,
+      "explanation": "讓步倒裝句型「形容詞 + as/though + 主詞 + be」表「雖然…」，正確語序為 Rich as he is（= Although he is rich）。",
+      "trap": "⚠ 此讓步倒裝須把形容詞提到句首：Rich as he is；不可寫成 As rich he is，也不可 as 與 though 並用（Rich though...或 Rich as... 擇一），故唯一正確是 Rich as he is。"
+    },
+    {
+      "stem": "I will lend you the book ___ you promise to return it by Friday.",
+      "options": [
+        "unless",
+        "in case",
+        "as long as",
+        "even if"
+      ],
+      "answer": 2,
+      "explanation": "「我會借你書，只要你答應週五前還」表正向條件，as long as（只要）= if，引導條件子句。",
+      "trap": "⚠ as long as（只要）引導肯定條件；unless（除非＝if not）會使語意反轉成「除非你答應…否則才借」邏輯不通，in case（以防）、even if（即使）也不符「附帶條件才借」之意。"
+    },
+    {
+      "stem": "Neither the teachers nor the principal ___ aware of the change in the exam schedule.",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "have been"
+      ],
+      "answer": 1,
+      "explanation": "neither ... nor ... 連接兩主詞時動詞依「就近原則」與最靠近的 the principal（單數）一致，故用 is。",
+      "trap": "⚠ neither A nor B 的動詞看「最靠近」的 B（the principal 單數）→ is；雖然前面有複數 the teachers，但就近原則以 nor 後的單數為準，別誤用 are/were。"
+    },
+    {
+      "stem": "It won't be long ___ the new high-speed rail connects the two cities.",
+      "options": [
+        "until",
+        "since",
+        "before",
+        "after"
+      ],
+      "answer": 2,
+      "explanation": "It won't be long before ... 為固定句型，表「不久之後就會…」。故填 before。",
+      "trap": "⚠ It will/won't be long before... 是固定搭配，意為「不久就…」；此處不可用 until（It won't be long until 並非標準用法），before 才能正確表達「在…之前不會太久」。"
+    },
+    {
+      "stem": "He ran to the station as fast as he could, ___ he still missed the train.",
+      "options": [
+        "only to find that",
+        "so that",
+        "in order that",
+        "now that"
+      ],
+      "answer": 0,
+      "explanation": "only to + V 表「結果卻（出乎意料地）…」。拼命跑到車站卻仍錯過火車，用 only to find that 表意外的負面結果。",
+      "trap": "⚠ only to（不料卻…）表非預期的負面結果；so that / in order that 表「目的」（為了），now that 表「既然」，皆不符「努力後卻落空」的轉折，別把結果誤當目的。"
+    },
+    {
+      "stem": "___ you have made up your mind, there's no point in arguing about it any further.",
+      "options": [
+        "Now that",
+        "So that",
+        "In case",
+        "By the time"
+      ],
+      "answer": 0,
+      "explanation": "Now that 表「既然／由於現在…」，引導原因子句。句意「既然你已下定決心，再爭也沒意義」。",
+      "trap": "⚠ Now that（既然）兼具時間與原因，引導「已成立的前提」；So that（為了/以致）、In case（以防）、By the time（到…時候）皆不符「既然…就別再…」的因果語氣。"
+    },
+    {
+      "stem": "The plan sounds perfect in theory; ___, it is almost impossible to carry out in real life.",
+      "options": [
+        "as a result",
+        "in addition",
+        "nevertheless",
+        "for instance"
+      ],
+      "answer": 2,
+      "explanation": "前句「理論上完美」與後句「現實幾乎無法執行」為強烈轉折，用 nevertheless（然而、儘管如此）。",
+      "trap": "⚠ 前後語意對立（理論完美 vs 現實做不到）須用轉折詞 nevertheless；as a result（因此）順承、in addition（此外）補充、for instance（舉例）皆不符對比邏輯。"
+    },
+    {
+      "stem": "___ both of them apologized ___ the manager forgave them, for the damage was simply too great.",
+      "options": [
+        "Although ... but",
+        "Even though ... yet",
+        "Neither ... nor",
+        "Whether ... or"
+      ],
+      "answer": 2,
+      "explanation": "句意「兩人都道歉了，但經理也沒原諒他們」其實是『兩者皆未發生原諒』的全否；空格為「Neither A nor B」結構，表「既沒…也沒…」，配合後句「損失太大」最合理。",
+      "trap": "⚠ Although/Even though 是連接詞不可與 but/yet 並用（英文擇一），故排除前兩項；Whether...or 表「無論」語意不合。Neither A nor B（兩者皆否）才能呼應「道歉也沒原諒（皆未成立）」的全盤否定。"
+    },
+    {
+      "stem": "Read the dialogue: A: \"Will the picnic be cancelled?\" B: \"___ it rains, we'll move it indoors, so don't worry.\" Choose the best word for the blank.",
+      "options": [
+        "Unless",
+        "In case",
+        "Even if",
+        "As though"
+      ],
+      "answer": 2,
+      "explanation": "B 說「就算下雨，我們也會移到室內」，表示讓步——即使下雨野餐照辦，用 Even if（即使）最能傳達「不必擔心」。",
+      "trap": "⚠ Even if（即使）強調「下雨也照常」的安撫語氣；Unless（除非＝if not）會變成「除非下雨否則移室內」邏輯顛倒，In case（以防萬一）語氣較弱不貼合「別擔心」，As though（彷彿）語意不通。"
+    },
+    {
+      "stem": "Look at the sign: \"Keep quiet in the library ___ others can concentrate on their reading.\" The blank means the purpose of the rule. Choose the best answer.",
+      "options": [
+        "so",
+        "so that",
+        "such that",
+        "because"
+      ],
+      "answer": 1,
+      "explanation": "標示說明保持安靜的『目的』是讓他人能專心閱讀，目的副詞子句用 so that（為了…）。",
+      "trap": "⚠ 表「目的」用 so that + 子句；單獨的 so 表「結果」、because 表「原因」（方向相反，是因為別人要專心才安靜嗎？語意不順），such that 需搭名詞，故正解 so that。"
+    },
+    {
+      "stem": "From the weather report: \"It will be sunny in the morning; ___, a sudden storm may hit the coast by evening.\" Choose the connector that fits the contrast.",
+      "options": [
+        "thus",
+        "likewise",
+        "on the other hand",
+        "in conclusion"
+      ],
+      "answer": 2,
+      "explanation": "上午晴、傍晚卻可能有暴風雨，前後天氣對比，用 on the other hand（另一方面、相對地）表轉折對照。",
+      "trap": "⚠ 前後為對比關係用 on the other hand；thus（因此）順承、likewise（同樣地）表類比、in conclusion（總之）為總結，皆無法表達「晴 vs 暴風雨」的相反走向。"
+    },
+    {
+      "stem": "___ how hard the problem looks, our teacher always reminds us never to give up.",
+      "options": [
+        "No matter",
+        "However",
+        "Whatever",
+        "Despite"
+      ],
+      "answer": 0,
+      "explanation": "No matter how + 形容詞/副詞 表「無論多麼…」，引導讓步子句。No matter how hard = 無論多難。",
+      "trap": "⚠ 後接 how + adj.（how hard）須用 No matter；However 雖也可接形容詞（However hard），但 However how 連用是錯的，此處空格後緊跟 how，故只能是 No matter how；Despite 為介系詞不接子句，Whatever 須接名詞。"
+    },
+    {
+      "stem": "She had ___ finished her homework ___ the power suddenly went out across the whole neighborhood.",
+      "options": [
+        "no sooner ... when",
+        "scarcely ... than",
+        "hardly ... than",
+        "barely ... when"
+      ],
+      "answer": 3,
+      "explanation": "「一…就…」句型中，hardly/scarcely/barely 配 when，no sooner 配 than。此處兩空為 barely ... when，正確成對。",
+      "trap": "⚠ 配對規則：hardly/scarcely/barely → when；no sooner → than。選項 1(no sooner...when)、2(scarcely...than)、3(hardly...than)皆配錯，唯有 barely ... when 正確；別把 than 與 when 混用。"
+    },
+    {
+      "stem": "Study the chart of two students' scores: Tom rose from 60 to 90, ___ Mary dropped from 85 to 70 over the same term. Choose the connector showing the contrast.",
+      "options": [
+        "while",
+        "since",
+        "as",
+        "for"
+      ],
+      "answer": 0,
+      "explanation": "Tom 進步、Mary 退步，同一學期內形成對比，用 while（然而、相對地）表「對比」用法最恰當。",
+      "trap": "⚠ while 除「當…時」外亦可表「然而／相對」的對比，正好連接 Tom 升、Mary 降；since（既然/自從）、as（因為/當）、for（因為）都偏「原因/時間」而非「對比」，會誤把對照關係讀成因果。"
+    }
+  ]
+}

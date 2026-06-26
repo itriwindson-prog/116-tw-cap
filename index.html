@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>會考總複習 · 學習儀表板</title>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.setAttribute("data-theme", localStorage.getItem("ss.theme") || "light");</script>
+</head>
+<body>
+<nav class="nav">
+  <span class="brand">📚 會考總複習</span>
+  <a href="index.html" class="active">儀表板</a>
+  <a href="schedule.html">進度計畫</a>
+  <a href="subject.html?subject=math">各科筆記</a>
+  <a href="mistakes.html">錯題本</a>
+  <span class="spacer"></span>
+  <button class="theme-btn" id="themeBtn" title="深色／淺色">🌙</button>
+  <button class="btn ghost small" id="exportBtn">匯出</button>
+  <button class="btn ghost small" id="importBtn">匯入</button>
+  <input type="file" id="importFile" accept="application/json" hidden>
+  <button class="btn ghost small" id="resetBtn">重設進度</button>
+</nav>
+
+<div class="wrap">
+  <div class="grid" style="grid-template-columns: 1.2fr 1fr 1fr;">
+    <div class="card">
+      <div class="muted" id="examName">會考</div>
+      <div class="big"><span id="dday">–</span> 天</div>
+      <div class="muted">距離會考 · <span id="examDate"></span></div>
+      <div style="margin-top:10px"><span class="pill" id="phasePill">階段</span></div>
+    </div>
+    <div class="card">
+      <div class="muted">連續達成</div>
+      <div class="big"><span id="streak">0</span> 天 🔥</div>
+      <div class="muted">每天完成任務就會 +1</div>
+    </div>
+    <div class="card">
+      <div class="muted">測驗平均</div>
+      <div class="big"><span id="avg">0</span> 分</div>
+      <div class="bar" style="margin-top:10px"><i id="avgBar" style="width:0%"></i></div>
+      <div class="muted" style="margin-top:8px" id="qstats">作答 0 題</div>
+    </div>
+  </div>
+
+  <h2 style="margin:24px 0 10px">各科進度</h2>
+  <div class="grid cols" id="subjectGrid"></div>
+
+  <div class="card" style="margin-top:18px">
+    <div style="display:flex;align-items:center;gap:10px">
+      <button class="btn ghost small" id="calPrev" title="上個月">‹</button>
+      <h2 id="calTitle" style="margin:0;flex:1;text-align:center">本月進度</h2>
+      <button class="btn ghost small" id="calNext" title="下個月">›</button>
+      <button class="btn ghost small" id="calToday" title="回到本月">本月</button>
+    </div>
+    <div class="muted" style="margin-top:6px">綠底＝當天任務完成 · 紅底＝過期未完成 · 今天閃爍 · 點任一天進入當天任務。</div>
+    <div class="cal" id="cal"></div>
+  </div>
+
+  <div class="card" style="margin-top:18px">
+    <h2>今日任務 <span class="muted" style="font-size:15px" id="todayDate"></span></h2>
+    <div id="todayTasks"></div>
+    <label style="display:flex;align-items:center;gap:10px;margin-top:12px;font-weight:700">
+      <input type="checkbox" id="doneToday" style="width:20px;height:20px"> 今天的任務都完成了！
+    </label>
+  </div>
+</div>
+
+<script src="js/data/config.js"></script>
+<script src="js/data/schedule.js"></script>
+<script src="js/data/math.js"></script>
+<script src="js/data/chinese.js"></script>
+<script src="js/data/english.js"></script>
+<script src="js/data/social.js"></script>
+<script src="js/data/science.js"></script>
+<script src="js/data/writing.js"></script>
+<script src="js/app.js"></script>
+<script>
+(function () {
+  const SS = window.STUDYSYNC, C = SS.data.config, today = SS.todayStr();
+  document.getElementById("themeBtn").addEventListener("click", () => SS.theme.toggle());
+  document.getElementById("examName").textContent = C.examName;
+  document.getElementById("examDate").textContent = C.examDate;
+  const dday = SS.daysUntilExam();
+  document.getElementById("dday").textContent = dday >= 0 ? dday : "已考完";
+
+  const phase = SS.currentPhase();
+  const pill = document.getElementById("phasePill");
+  pill.textContent = phase ? phase.name : "—";
+  if (SS.inSprint()) pill.classList.add("sprint");
+
+  document.getElementById("streak").textContent = SS.progress.updateStreak();
+  const avg = SS.progress.quizAverage();
+  document.getElementById("avg").textContent = avg;
+  document.getElementById("avgBar").style.width = avg + "%";
+  const st = SS.progress.stats();
+  document.getElementById("qstats").innerHTML = "作答 " + st.answered + " 題　·　<span style='color:var(--good)'>對 " + st.correct + "</span>　<span style='color:var(--bad)'>錯 " + st.wrong + "</span>";
+
+  // 今日任務
+  document.getElementById("todayDate").textContent = "（" + today + "）";
+  const plan = SS.dayPlan(today);
+  const box = document.getElementById("todayTasks");
+  if (plan.weekFocus) box.appendChild(SS.el("div", { class: "muted", style: "margin-bottom:6px", text: (plan.weekLabel ? plan.weekLabel + "｜" : "") + "本週重點：" + plan.weekFocus }));
+  if (plan.note) box.appendChild(SS.el("div", { class: "trap", html: "📌 " + plan.note }));
+  plan.tasks.forEach(t => box.appendChild(SS.el("div", { class: "note-sec", style: "padding:8px 0", text: "・" + t })));
+  if (plan.coreDaily && plan.coreDaily.length) {
+    const head = { daily: "今日測驗（國英數·每科 10 題）", weekly: "本週週測（每科 20 題）", monthly: "本月月考（每科綜合 30 題）" }[plan.dayType] || "每日核心";
+    box.appendChild(SS.el("div", { style: "margin-top:10px;font-weight:700", text: head }));
+    box.appendChild(SS.renderCoreDaily(plan));
+  }
+  if (plan.links && plan.links.length) {
+    box.appendChild(SS.el("div", { style: "margin-top:10px;font-weight:700", text: "本週重點" }));
+    box.appendChild(SS.renderDayLinks(plan));
+  }
+  const chk = document.getElementById("doneToday");
+  chk.checked = SS.progress.isDailyDone(today);
+  chk.addEventListener("change", () => {
+    SS.progress.markDaily(today, chk.checked);
+    document.getElementById("streak").textContent = SS.progress.updateStreak();
+  });
+
+  // 各科卡片
+  const grid = document.getElementById("subjectGrid");
+  C.subjects.forEach(s => {
+    const data = SS.subjectData(s.id);
+    const total = data ? data.topics.length : 0;
+    const done = SS.progress.subjectDone(s.id);
+    const pct = total ? Math.round(done / total * 100) : 0;
+    const card = SS.el("div", { class: "card" }, [
+      SS.el("h3", { text: s.name + (s.subs ? "（" + s.subs.map(x => x.name).join("·") + "）" : "") }),
+      SS.el("div", { class: "muted", text: total ? ("已測 " + done + " / " + total + " 主題") : "（內容待補）" }),
+      SS.el("div", { class: "bar", style: "margin:10px 0" }, [SS.el("i", { style: "width:" + pct + "%" })]),
+      SS.el("a", { class: "btn small", href: "subject.html?subject=" + s.id, text: total ? "開始讀" : "看骨架" })
+    ]);
+    grid.appendChild(card);
+  });
+
+  // 進度月曆（可上/下月切換，預設當月）
+  (function () {
+    const now = new Date();
+    let y = now.getFullYear(), m = now.getMonth();  // 顯示中的年/月
+    const cal = document.getElementById("cal");
+    function render() {
+      cal.innerHTML = "";
+      document.getElementById("calTitle").textContent = y + " 年 " + (m + 1) + " 月進度";
+      const daily = SS.progress.get("daily", {});
+      ["日", "一", "二", "三", "四", "五", "六"].forEach(w => cal.appendChild(SS.el("div", { class: "cell head", text: w })));
+      const first = new Date(y, m, 1).getDay(), days = new Date(y, m + 1, 0).getDate();
+      for (let i = 0; i < first; i++) cal.appendChild(SS.el("div", { class: "cell blank" }));
+      for (let d = 1; d <= days; d++) {
+        const ds = SS.fmt(new Date(y, m, d));
+        let cls = "cell clickable";
+        if (daily[ds]) cls += " done";
+        else if (ds < today) cls += " overdue";
+        if (ds === today) cls += " today";
+        cal.appendChild(SS.el("div", { class: cls, text: String(d), title: ds + " · 進入當天任務",
+          onclick: () => location.href = "schedule.html?date=" + ds }));
+      }
+    }
+    document.getElementById("calPrev").addEventListener("click", () => { if (--m < 0) { m = 11; y--; } render(); });
+    document.getElementById("calNext").addEventListener("click", () => { if (++m > 11) { m = 0; y++; } render(); });
+    document.getElementById("calToday").addEventListener("click", () => { y = now.getFullYear(); m = now.getMonth(); render(); });
+    render();
+  })();
+
+  // 匯出 / 匯入 / 重設
+  document.getElementById("exportBtn").addEventListener("click", () => SS.exportProgress());
+  const file = document.getElementById("importFile");
+  document.getElementById("importBtn").addEventListener("click", () => file.click());
+  file.addEventListener("change", () => {
+    if (!file.files[0]) return;
+    SS.importProgress(file.files[0], ok => { alert(ok ? "匯入成功！" : "匯入失敗：檔案格式不正確"); if (ok) location.reload(); });
+  });
+  document.getElementById("resetBtn").addEventListener("click", () => {
+    if (!confirm("確定要清除所有進度與測驗紀錄嗎？")) return;
+    const pw = prompt("此動作需要密碼（預設 0000，可在 config.js 修改）：");
+    if (pw === null) return;
+    if (pw !== String(C.resetPassword || "0000")) { alert("密碼錯誤，已取消重置。"); return; }
+    SS.progress.reset(); location.reload();
+  });
+})();
+</script>
+</body>
+</html>

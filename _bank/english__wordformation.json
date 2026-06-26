@@ -1,0 +1,153 @@
+{
+  "topicId": "wordformation",
+  "isNew": false,
+  "newQuiz": [
+    {
+      "stem": "The witnesses gave ___ accounts of the crash, so the judge had no idea which version was true.",
+      "options": ["contradict", "contradictory", "contradiction", "contradicted"],
+      "answer": 1,
+      "explanation": "空格修飾名詞 accounts,需形容詞;『法官不知哪個版本為真』表示說法『互相矛盾的』,動詞 contradict 加 -ory 變形容詞 contradictory。",
+      "trap": "⚠ contradict 是動詞、contradiction 是名詞皆不能修飾名詞 accounts;陷阱在 -ory 是不常見的形容詞字尾,別只挑眼熟的名詞 contradiction。"
+    },
+    {
+      "stem": "Although the new intern looked nervous, she handled the crisis with surprising ___, calming everyone down.",
+      "options": ["mature", "maturely", "maturity", "matured"],
+      "answer": 2,
+      "explanation": "介系詞 with + surprising(形容詞)後需名詞;mature 加 -ity 變抽象名詞 maturity(成熟),with maturity = 成熟地。",
+      "trap": "⚠ 介系詞片語 with + 形容詞 + 名詞;mature(adj.)/maturely(adv.)/matured(過去分詞)皆不能當 with 的受詞;-ity 名詞字尾才正確。"
+    },
+    {
+      "stem": "The medicine works fast, but it should be used with care because of its possible ___ effects on the heart.",
+      "options": ["harm", "harmful", "harmfully", "harmless"],
+      "answer": 1,
+      "explanation": "空格與 possible 並列修飾名詞 effects,需形容詞;『須小心使用、可能對心臟…』表示『有害的』,harm + -ful = harmful。",
+      "trap": "⚠ harmless(無害的)與『須小心使用』語意矛盾;harm 是名/動詞、harmfully 是副詞皆不能修飾名詞 effects;判讀 with care 指向 -ful。"
+    },
+    {
+      "stem": "The country's economy began to ___ after the new trade policy opened more markets to local farmers.",
+      "options": ["wide", "widely", "widen", "width"],
+      "answer": 2,
+      "explanation": "助動詞片語 began to 後需原形動詞;形容詞 wide 加 -en 變動詞 widen(使變寬/擴大),此處指市場擴大。",
+      "trap": "⚠ wide(adj.)/widely(adv.)/width(n.)皆非動詞;to 後須接原形動詞,-en 把形容詞變動詞是關鍵,別誤填副詞 widely。"
+    },
+    {
+      "stem": "Her explanation was so ___ that even after listening twice, the students still asked many questions.",
+      "options": ["clarify", "clear", "unclear", "clarity"],
+      "answer": 2,
+      "explanation": "be 動詞 was 後接形容詞作補語;『聽兩次仍問很多問題』表示說明『不清楚的』,un- + clear = unclear。",
+      "trap": "⚠ 反向判讀:students still asked many questions 暗示『不清楚』而非清楚;clear 語意相反、clarify 是動詞、clarity 是名詞皆不符。"
+    },
+    {
+      "stem": "Scientists warn that some species may soon ___ if their forest homes keep being cut down at this speed.",
+      "options": ["appear", "disappear", "reappear", "appearance"],
+      "answer": 1,
+      "explanation": "助動詞 may 後需原形動詞;『森林被砍光、物種…』表示『消失』,dis-(否定/離開)+ appear = disappear(消失/絕跡)。",
+      "trap": "⚠ reappear 是『再次出現』、appear 是『出現』語意相反;破壞情境 forest homes cut down 指向消失;appearance 是名詞不能接在 may 後。"
+    },
+    {
+      "stem": "The manager praised the new system for its ___; it almost never broke down even under heavy use.",
+      "options": ["depend", "dependable", "dependence", "dependability"],
+      "answer": 3,
+      "explanation": "所有格 its 後需名詞;『幾乎不故障』表示系統『可靠度』,depend → dependable(adj.)→ 再加 -ity 變 dependability(可靠性)。",
+      "trap": "⚠ its 後須接名詞,dependable 是形容詞、depend 是動詞皆不可;dependence 意為『依賴』語意不符,須用『可靠性』dependability,兩步驟構詞。"
+    },
+    {
+      "stem": "The two designs are almost ___; only an expert can tell the tiny difference between them.",
+      "options": ["ident", "identify", "identical", "identity"],
+      "answer": 2,
+      "explanation": "be 動詞 are 後接形容詞作補語;『只有專家能分辨微小差異』表示兩者『幾乎一模一樣的』,identical(完全相同的)。",
+      "trap": "⚠ identify 是動詞(辨認)、identity 是名詞(身分)皆不符;are 後須形容詞,almost 修飾形容詞 identical 才合理。"
+    },
+    {
+      "stem": "The volunteers' ___ to help strangers after the earthquake moved the whole nation to tears.",
+      "options": ["willing", "willingly", "willingness", "unwilling"],
+      "answer": 2,
+      "explanation": "所有格 volunteers' 後需名詞當主詞;『願意幫陌生人、感動全國』表示『樂意』,willing + -ness = willingness。",
+      "trap": "⚠ 所有格之後必接名詞,willing(adj.)/willingly(adv.)/unwilling(adj.)皆不可當主詞;情境為正面感人故非 un-,須用 willingness。"
+    },
+    {
+      "stem": "Despite the heavy rain, the runners kept going ___, refusing to give up before the finish line.",
+      "options": ["courage", "courageous", "courageously", "encourage"],
+      "answer": 2,
+      "explanation": "空格修飾動詞 kept going(持續前進),需副詞;courageous 加 -ly 變 courageously(勇敢地),呼應 refusing to give up。",
+      "trap": "⚠ 修飾動詞須用副詞;courage 是名詞、courageous 是形容詞、encourage 是動詞皆不能修飾 kept going,別誤填形容詞。"
+    },
+    {
+      "stem": "The reporter's question was so ___ that the minister refused to answer and quickly left the room.",
+      "options": ["sense", "sensible", "sensitive", "senseless"],
+      "answer": 2,
+      "explanation": "be 動詞 was 後接形容詞;『部長拒答並離開』表示問題觸及『敏感的』議題,sense + -itive = sensitive(敏感的)。",
+      "trap": "⚠ sensible 意為『明智的』、senseless 意為『無意義的』皆不符『拒答離開』的情境;同字根 sense 衍生多形容詞,須依語意選 sensitive。"
+    },
+    {
+      "stem": "The old computer is now almost ___; no shop sells parts for it anymore.",
+      "options": ["use", "useful", "useless", "usable"],
+      "answer": 2,
+      "explanation": "be 動詞 is 後接形容詞;『再也買不到零件』表示電腦『沒用了、無用的』,use + -less = useless。",
+      "trap": "⚠ useful(有用的)/usable(可用的)與『買不到零件』矛盾;use 是名/動詞;否定字尾 -less 才符合『派不上用場』之意。"
+    },
+    {
+      "stem": "Good leaders must learn to ___ power to others instead of trying to do everything themselves.",
+      "options": ["power", "powerful", "powerfully", "empower"],
+      "answer": 3,
+      "explanation": "助動詞 must learn to 後需原形動詞;字首 en/em-(使…)+ power = empower(授權給…),呼應『把權力交給他人』。",
+      "trap": "⚠ power 雖可當動詞但意為『供電』不符;powerful(adj.)/powerfully(adv.)皆非此處所需動詞;em- 用在 p 開頭(同 im- 規則),構出 empower。"
+    },
+    {
+      "stem": "The bridge was built to be ___; engineers say it can stand strong for at least a hundred years.",
+      "options": ["dure", "durable", "duration", "durably"],
+      "answer": 1,
+      "explanation": "be 動詞 be 後接形容詞作補語;『能屹立至少百年』表示『耐用的、持久的』,字根 dur(持續)+ -able = durable。",
+      "trap": "⚠ duration 是名詞(期間)、durably 是副詞皆不符;to be 後須形容詞;字根 dur 較少見,別因不熟而漏選 -able 形容詞。"
+    },
+    {
+      "stem": "His remarks were completely ___ to the topic, so the chairperson asked him to stay on point.",
+      "options": ["relevant", "irrelevant", "relevance", "relevantly"],
+      "answer": 1,
+      "explanation": "be 動詞 were 後接形容詞;『主席請他切回正題』表示發言『離題、不相關的』,否定字首 ir- + relevant = irrelevant。",
+      "trap": "⚠ relevant(相關的)語意相反;relevance 是名詞、relevantly 是副詞皆不符;否定字首在 r 開頭字前用 ir-(如 irregular),別誤拼 inrelevant。"
+    },
+    {
+      "stem": "After months of training, the once shy boy spoke on stage with great ___ and won first prize.",
+      "options": ["assure", "assured", "assurance", "assuredly"],
+      "answer": 2,
+      "explanation": "介系詞 with + great(形容詞)後需名詞;assure 加 -ance 變名詞 assurance(自信、把握),with assurance = 有把握地。",
+      "trap": "⚠ with + 形容詞 + 名詞;assure 是動詞、assured 是分詞/形容詞、assuredly 是副詞皆不能當 with 的受詞;名詞 assurance 才正確。"
+    },
+    {
+      "stem": "The author's latest novel is highly ___; readers say they simply cannot put it down once they start.",
+      "options": ["read", "readable", "reader", "reading"],
+      "answer": 1,
+      "explanation": "be 動詞 is 後接形容詞(highly 為副詞修飾它);『一翻開就停不下來』表示小說『可讀性高、好讀的』,read + -able = readable。",
+      "trap": "⚠ reader(讀者)/reading(閱讀)是名詞、read 是動詞皆不能接在 is highly 後當補語;副詞 highly 後須形容詞 readable。"
+    },
+    {
+      "stem": "The committee found the evidence ___ and therefore dropped all charges against the suspect.",
+      "options": ["convince", "convincing", "unconvincing", "convinced"],
+      "answer": 2,
+      "explanation": "find + 受詞 + 形容詞(受詞補語);『因此撤銷所有指控』表示證據『沒有說服力的』,un- + convincing = unconvincing。",
+      "trap": "⚠ convincing(有說服力的)會導致『起訴』而非『撤銷』,語意相反;判讀 dropped all charges 須加否定字首 un-;convinced 意為『被說服的』修飾人不合此處。"
+    },
+    {
+      "stem": "Some chemicals in the lab are highly ___; one small spark could cause a huge explosion.",
+      "options": ["flame", "inflame", "flammable", "flameless"],
+      "answer": 2,
+      "explanation": "be 動詞 are 後接形容詞;『一點火花就爆炸』表示化學品『易燃的』,flame → flammable(易燃的)。",
+      "trap": "⚠ flameless(無火焰的)語意相反;inflame 是動詞(使發炎/激怒)、flame 是名詞皆不符;易燃要用 -able 字尾的 flammable。"
+    },
+    {
+      "stem": "The instructions were written so ___ that workers from many countries could follow them without help.",
+      "options": ["simple", "simply", "simplify", "simplicity"],
+      "answer": 1,
+      "explanation": "空格修飾動詞 written(被寫),需副詞;simple 去 e 加 -ly 變 simply(簡單地),呼應『各國工人都能照做』。",
+      "trap": "⚠ 修飾過去分詞 written 的方式須用副詞 simply;simple 是形容詞、simplify 是動詞、simplicity 是名詞皆不能修飾動詞,別誤填形容詞。"
+    },
+    {
+      "stem": "The young scientist's ___ in solving the puzzle amazed even the senior professors at the meeting.",
+      "options": ["wise", "wisely", "wisdom", "wiseness"],
+      "answer": 2,
+      "explanation": "所有格 scientist's 後需名詞當主詞;形容詞 wise 的名詞形不規則變化為 wisdom(智慧),『令資深教授驚嘆』。",
+      "trap": "⚠ 所有格之後必接名詞;wise 是形容詞、wisely 是副詞皆不可當主詞;wise 的名詞並非加 -ness(無 wiseness 一字),而是不規則的 wisdom,易拼錯選錯。"
+    }
+  ]
+}

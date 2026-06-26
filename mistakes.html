@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>錯題本</title>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.setAttribute("data-theme", localStorage.getItem("ss.theme") || "light");</script>
+</head>
+<body>
+<nav class="nav">
+  <span class="brand">📚 會考總複習</span>
+  <a href="index.html">儀表板</a>
+  <a href="schedule.html">進度計畫</a>
+  <a href="subject.html?subject=math">各科筆記</a>
+  <a href="mistakes.html" class="active">錯題本</a>
+  <span class="spacer"></span>
+  <button class="theme-btn" id="themeBtn" title="深色／淺色">🌙</button>
+</nav>
+
+<div class="wrap">
+  <div class="card">
+    <h2 style="margin-top:0">錯題本 📕</h2>
+    <div class="muted">自動收集你在測驗中答錯的題目。把每題的「為何容易看錯」讀熟，就是你的防粗心小抄。</div>
+  </div>
+  <div id="list"></div>
+</div>
+
+<script src="js/data/config.js"></script>
+<script src="js/data/schedule.js"></script>
+<script src="js/data/math.js"></script>
+<script src="js/data/chinese.js"></script>
+<script src="js/data/english.js"></script>
+<script src="js/data/social.js"></script>
+<script src="js/data/science.js"></script>
+<script src="js/data/writing.js"></script>
+<script src="js/app.js"></script>
+<script>
+(function () {
+  const SS = window.STUDYSYNC;
+  document.getElementById("themeBtn").addEventListener("click", () => SS.theme.toggle());
+  const labels = ["A", "B", "C", "D", "E"];
+  const list = document.getElementById("list");
+  const ms = SS.allMistakes();
+  if (!ms.length) {
+    list.innerHTML = "<div class='card'><p class='muted'>目前沒有錯題，太棒了！去 <a href='subject.html?subject=math'>各科筆記</a> 做點測驗吧。</p></div>";
+    return;
+  }
+  // 依科目分組
+  const bySubj = {};
+  ms.forEach(m => { (bySubj[m.subject] = bySubj[m.subject] || []).push(m); });
+  Object.keys(bySubj).forEach(subj => {
+    const wrap = SS.el("div", { class: "card", style: "margin-top:16px" });
+    wrap.appendChild(SS.el("h3", { text: subj + "（" + bySubj[subj].length + " 題）" }));
+    bySubj[subj].forEach(m => {
+      const box = SS.el("div", { class: "mistake" });
+      box.appendChild(SS.el("div", { class: "meta", text: m.topic + "　·　" + (m.date || "") }));
+      box.appendChild(SS.el("div", { style: "font-weight:700;margin:4px 0", text: m.q.stem }));
+      box.appendChild(SS.el("div", { class: "yc" }, [
+        SS.el("span", { class: "your", text: "你選：" + labels[m.your] + ". " + m.q.options[m.your] }),
+        SS.el("span", { class: "corr", text: "正解：" + labels[m.q.answer] + ". " + m.q.options[m.q.answer] })
+      ]));
+      box.appendChild(SS.el("div", { class: "explain", html: "<b>詳解：</b>" + m.q.explanation + (m.q.trap ? "<br><b>⚠ 為何容易看錯：</b>" + m.q.trap : "") }));
+      box.appendChild(SS.el("a", { class: "btn small ghost", style: "margin-top:8px", href: "quiz.html?subject=" + m.subjectId + "&topic=" + m.topicId, text: "重做這個主題" }));
+      wrap.appendChild(box);
+    });
+    list.appendChild(wrap);
+  });
+})();
+</script>
+</body>
+</html>

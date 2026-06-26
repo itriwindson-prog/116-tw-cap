@@ -1,0 +1,208 @@
+{
+  "id": "confusingwords",
+  "name": "易混淆字辨析 (Confusing Words)",
+  "week": "暑假 第1週",
+  "notes": [
+    {
+      "h": "音近與形近易混字",
+      "points": [
+        "音近字最常考拼字一字之差卻詞性不同:lose（丟失,動詞,/luːz/)對 loose（鬆的,形容詞,/luːs/);advice（建議,名詞,不可數)對 advise（勸告,動詞);要靠句中位置與詞性判斷。",
+        "affect 是動詞「影響」(The weather affects my mood),effect 是名詞「效果/影響」(have an effect on),最常見的關鍵字是前面有 the/an 或 a 就要用名詞 effect。",
+        "形近字靠拼字差一兩個字母區分:quite（相當)對 quiet（安靜);desert（沙漠/拋棄,重音在前/d-)對 dessert（甜點,雙 s,重音在後);看到雙 s 又指食物就是甜點。",
+        "辨識步驟:先判斷句子需要的「詞性」(名詞/動詞/形容詞),再回頭挑拼字符合該詞性的字,而非只憑發音相近隨手填。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><rect x=\"14\" y=\"16\" width=\"150\" height=\"44\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"24\" y=\"36\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">lose 丟失 v.</text><text x=\"24\" y=\"52\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">loose 鬆的 adj.</text><rect x=\"196\" y=\"16\" width=\"150\" height=\"44\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"206\" y=\"36\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">advice 建議 n.</text><text x=\"206\" y=\"52\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">advise 勸告 v.</text><rect x=\"14\" y=\"74\" width=\"150\" height=\"44\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#c9755c\"/><text x=\"24\" y=\"94\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">affect 影響 v.</text><text x=\"24\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">effect 效果 n.</text><rect x=\"196\" y=\"74\" width=\"150\" height=\"44\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#c9755c\"/><text x=\"206\" y=\"94\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">desert 沙漠</text><text x=\"206\" y=\"110\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">dessert 甜點 ss</text><text x=\"180\" y=\"148\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#f0a52e\" text-anchor=\"middle\">先判詞性</text><path d=\"M150 160 L210 160\" stroke=\"#c9755c\" stroke-width=\"2\"/><text x=\"180\" y=\"176\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">再挑拼字</text></svg>",
+      "caption": "音近(lose/loose、advice/advise、affect/effect)與形近(quite/quiet、desert/dessert)各成一組,先判詞性再選字。",
+      "trap": "⚠ 不要只憑發音相近隨手填:advice/advise、effect/affect 詞性不同,句中該用名詞還是動詞才是判斷關鍵。"
+    },
+    {
+      "h": "語意相對與用法不同",
+      "points": [
+        "方向相反的成對動詞最易錯:borrow 是「向別人借進」(I borrowed a book from him),lend 是「把東西借出給人」(He lent me a book);bring 是「帶來(朝說話者)」,take 是「帶去(離開說話者)」。",
+        "中文都譯「說」但用法不同:tell 後直接接人(tell me a story、tell him the truth);say 接說話內容(say sorry、say that...);speak/talk 強調說話這個動作(speak English、talk to her),其中只有 tell 慣常後接「人+事」雙受詞。",
+        "rise 是不及物動詞「(自己)上升」,後面不接受詞(The sun rises);raise 是及物動詞「舉起/提高」,必須接受詞(raise your hand、raise prices),看後面有沒有受詞就能判斷。",
+        "lie(躺,不及物,lie-lay-lain)與 lay(放置,及物,lay-laid-laid)也是同類陷阱:及物要受詞用 lay,不及物無受詞用 lie。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><circle cx=\"180\" cy=\"60\" r=\"24\" fill=\"#f3e7df\" stroke=\"#3a342e\"/><text x=\"180\" y=\"64\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">我</text><path d=\"M150 60 L70 60\" stroke=\"#5aa874\" stroke-width=\"2\" marker-end=\"url(#a)\"/><defs><marker id=\"a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0 0 L6 3 L0 6\" fill=\"#5aa874\"/></marker><marker id=\"b\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0 0 L6 3 L0 6\" fill=\"#c9755c\"/></marker></defs><text x=\"68\" y=\"50\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">borrow 借進</text><path d=\"M210 60 L290 60\" stroke=\"#c9755c\" stroke-width=\"2\" marker-end=\"url(#b)\"/><text x=\"230\" y=\"50\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">lend 借出</text><text x=\"180\" y=\"112\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">bring 朝我 / take 離我</text><rect x=\"30\" y=\"130\" width=\"140\" height=\"44\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/><text x=\"40\" y=\"150\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">rise 自升 無受詞</text><text x=\"40\" y=\"166\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">lie 躺 不及物</text><rect x=\"190\" y=\"130\" width=\"140\" height=\"44\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"200\" y=\"150\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">raise 舉 接受詞</text><text x=\"200\" y=\"166\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">lay 放 及物</text></svg>",
+      "caption": "以說話者為中心:borrow/bring 朝向自己、lend/take 朝向外;rise/lie 無受詞,raise/lay 必接受詞。",
+      "trap": "⚠ rise/raise、lie/lay 判斷關鍵是「後面有無受詞」;tell 才直接接人,say 接內容,別把 say me 寫成一句。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "My grandfather always gives me good ______, and he ______ me to study harder whenever I feel lazy.",
+      "options": ["advise; advice", "advice; advise", "advice; advices", "advise; advises"],
+      "answer": 1,
+      "explanation": "第一空前有 good 修飾且作 gives 的受詞,需名詞 advice(不可數,無複數);第二空 he ______ me 需動詞,用 advise。故選 advice; advise。",
+      "trap": "⚠ advice 是不可數名詞沒有 advices;advise 才是動詞。兩字詞性不同,別憑發音互換。"
+    },
+    {
+      "stem": "The heavy traffic will ______ our arrival time, but luckily the bad weather had little ______ on the flight.",
+      "options": ["effect; affect", "affect; affect", "affect; effect", "effect; effect"],
+      "answer": 2,
+      "explanation": "第一空 will ______ 需動詞「影響」用 affect;第二空 little ______ 前有 little(限定詞)需名詞,have an effect on 的 effect。故 affect; effect。",
+      "trap": "⚠ affect 動詞、effect 名詞。看到前面有 a/an/little/the 等限定詞就要用名詞 effect。"
+    },
+    {
+      "stem": "\"Could you ______ me your bike? I need to ______ one because mine is broken,\" Tom asked his neighbor.",
+      "options": ["borrow; lend", "lend; borrow", "lend; lend", "borrow; borrow"],
+      "answer": 1,
+      "explanation": "Tom 請鄰居「借出」腳踏車給他,主詞是出借方,用 lend(lend sb sth);第二句 Tom 自己要「借進」一台,用 borrow。故 lend; borrow。",
+      "trap": "⚠ 方向相反:擁有者借出用 lend,需求者借入用 borrow。看主詞是給出方還是取得方。"
+    },
+    {
+      "stem": "Please ______ still on the mat and ______ your hand if you have a question; don't ______ your bag on the clean desk.",
+      "options": ["lay; rise; lie", "lie; raise; lay", "lie; rise; lay", "lay; raise; lie"],
+      "answer": 1,
+      "explanation": "第一空 ______ still「保持躺著不動」不及物用 lie;第二空 ______ your hand 接受詞「舉手」用及物 raise;第三空 ______ your bag 接受詞「放置背包」用及物 lay。故 lie; raise; lay,選 B。",
+      "trap": "⚠ lie 不及物(lie still 無受詞);raise 及物(舉手需受詞);lay 及物(放背包需受詞)。一題同時辨 lie/lay 與 rise/raise。"
+    },
+    {
+      "stem": "It was ______ in the library, and the room was ______ large, so we could hear even a dropped pin.",
+      "options": ["quiet; quite", "quite; quiet", "quiet; quiet", "quite; quite"],
+      "answer": 0,
+      "explanation": "第一空 It was ______「很安靜」用形容詞 quiet;第二空 ______ large「相當大」用副詞 quite 修飾形容詞 large。故 quiet; quite。",
+      "trap": "⚠ quiet 形容詞(安靜),quite 副詞(相當)。只差一個字母位置,靠語意與被修飾詞判斷。"
+    },
+    {
+      "stem": "After crossing the dry ______, the travelers were so tired that no one wanted ______ after dinner.",
+      "options": ["dessert; desert", "desert; dessert", "desert; desert", "dessert; dessert"],
+      "answer": 1,
+      "explanation": "第一空 dry ______「乾燥的沙漠」用 desert(單 s,重音在前);第二空 after dinner wanted ______「甜點」用 dessert(雙 s)。故 desert; dessert。",
+      "trap": "⚠ 甜點 dessert 有兩個 s;沙漠/拋棄 desert 一個 s。記「sweet stuff = double s」。"
+    },
+    {
+      "stem": "Don't ______ your temper just because your shoelaces are ______; stay calm and tie them again.",
+      "options": ["loose; lose", "lose; loose", "lose; lose", "loose; loose"],
+      "answer": 1,
+      "explanation": "lose one's temper 是「發脾氣」固定用法,動詞 lose;第二空 shoelaces are ______「鞋帶鬆了」用形容詞 loose。故 lose; loose。",
+      "trap": "⚠ lose 動詞(/luːz/,丟失/失去),loose 形容詞(/luːs/,鬆的)。lose your temper 不可寫 loose。"
+    },
+    {
+      "stem": "Which sentence uses the underlined word CORRECTLY?",
+      "options": ["She told that she was tired.", "He said me an interesting story.", "Can you speak me what happened?", "Please tell me the truth right now."],
+      "answer": 3,
+      "explanation": "tell 後可直接接人再接事:tell me the truth 正確。(A)told 後不能直接接 that 子句而漏受詞,應 said that;(B)say 不接人,應 told me;(C)speak 不接人作此用,應 tell me。故選 D。",
+      "trap": "⚠ tell 直接接人(tell sb sth),say 接內容不接人(say that),speak/talk 強調動作。四者中文都是「說」但用法不同。"
+    },
+    {
+      "stem": "\"When you come to my house tonight, please ______ your sister with you; and after the party, ______ some cookies home with you,\" said the host.",
+      "options": ["take; bring", "bring; take", "bring; bring", "take; take"],
+      "answer": 1,
+      "explanation": "說話者(host)在「my house」是目的地,客人朝這裡移動「帶來妹妹」用 bring;派對後客人「帶餅乾回自己家」是離開說話者所在處,用 take。故 bring; take,選 B。",
+      "trap": "⚠ 判斷基準是說話者(host)所在的 my house:朝這裡來用 bring,離開這裡回家用 take。同句兩方向相反。"
+    },
+    {
+      "stem": "The price of oil has ______ sharply, which forced many companies to ______ the prices of their products.",
+      "options": ["raised; rise", "risen; raise", "risen; rise", "raised; raise"],
+      "answer": 1,
+      "explanation": "第一空 has ______ sharply 主詞是 price 自己上漲,不及物 rise 的完成式 risen;第二空 ______ the prices 接受詞「提高價格」用及物 raise。故 risen; raise。",
+      "trap": "⚠ rise(rise-rose-risen)不及物無受詞;raise(raise-raised-raised)及物必接受詞。混用三態也是陷阱。"
+    },
+    {
+      "stem": "Which sentence is grammatically CORRECT?",
+      "options": ["The cat is laying on the warm floor.", "He laid the baby gently in the crib.", "I want to lay down for a while.", "The book lays on the table all day."],
+      "answer": 1,
+      "explanation": "lay(放置,及物,lay-laid-laid):He laid the baby(接受詞 the baby)正確。(A)躺著無受詞應 lying;(C)躺下無受詞應 lie down;(D)書躺著無受詞應 lies。故選 B。",
+      "trap": "⚠ lay 及物(放某物,需受詞),lie 不及物(自己躺,無受詞)。lay 的過去式 laid 與 lie 的過去式 lay 拼法重疊更易混。"
+    },
+    {
+      "stem": "Reading good books can ______ your mind, and the ______ of regular reading on vocabulary is huge.",
+      "options": ["effect; affect", "affect; effect", "affect; affect", "effect; effect"],
+      "answer": 1,
+      "explanation": "第一空 can ______ your mind 需動詞「影響」用 affect;第二空 the ______ of...前有 the 需名詞,effect。故 affect; effect。",
+      "trap": "⚠ 同一題兩字都考:can 後接原形動詞 affect;the 後接名詞 effect。詞性決定一切。"
+    },
+    {
+      "stem": "Find the sentence where the underlined word is used WRONGLY.",
+      "options": ["I borrowed some money from the bank.", "She lent her umbrella to a stranger.", "Could you borrow me your pen?", "He always borrows books from the library."],
+      "answer": 2,
+      "explanation": "(C)borrow 是「借入」不能用「borrow me」表借給我,應為 lend me 或 Can I borrow your pen。其餘 A、B、D 用法正確。故錯誤者為 C。",
+      "trap": "⚠ 「借我」要說 lend me,不是 borrow me。borrow 永遠是向外借「進」,主詞是取得方。"
+    },
+    {
+      "stem": "We ______ a lot of fun at the party, and our teacher ______ a short speech before the games began.",
+      "options": ["did; made", "made; had", "had; made", "had; did"],
+      "answer": 2,
+      "explanation": "have fun 是固定搭配「玩得開心」用 had;make a speech「發表演說」固定搭配用 made。故 had; made。",
+      "trap": "⚠ 雖非典型音形混淆,但 have/make/do 搭配固定:have fun、make a speech 不可互換,逐字中譯易錯。"
+    },
+    {
+      "stem": "The doctor's ______ helped a lot; it greatly ______ how quickly the patient recovered.",
+      "options": ["advise; effected", "advice; affected", "advice; effected", "advise; affected"],
+      "answer": 1,
+      "explanation": "第一空 The doctor's ______ 需名詞 advice;第二空 it greatly ______ how...需動詞「影響」用 affected(affect 的過去式)。故 advice; affected。",
+      "trap": "⚠ 兩組各一字:advice(名詞)非 advise;affected(動詞 affect)非 effected。effect 作動詞義為「實現」與此處「影響」不同。"
+    },
+    {
+      "stem": "Choose the sentence with NO error.",
+      "options": ["Please rise your hand to answer.", "The sun raises in the east every morning.", "They raised enough money for the trip.", "Prices have raised since last year."],
+      "answer": 2,
+      "explanation": "(C)raised enough money 及物接受詞,正確。(A)rise 不及物不能接 your hand,應 raise;(B)太陽自升用 rises;(D)價格自漲用 have risen。故選 C。",
+      "trap": "⚠ raise 一定要有受詞;沒有受詞(太陽、價格自己動)就用 rise。raised 與 risen 三態也要分清。"
+    },
+    {
+      "stem": "It was so ______ in the museum that I could hear my own heartbeat, and the exhibition was ______ impressive.",
+      "options": ["quite; quiet", "quiet; quite", "quiet; quiet", "quite; quite"],
+      "answer": 1,
+      "explanation": "第一空 It was so ______「很安靜」需形容詞 quiet;第二空 ______ impressive「相當令人印象深刻」需副詞 quite 修飾形容詞。故 quiet; quite。",
+      "trap": "⚠ so 後接形容詞 quiet;quite 作副詞修飾另一形容詞 impressive。注意 so quite 不通,應 so quiet。"
+    },
+    {
+      "stem": "Which option correctly completes: \"She ______ me that she would ______ goodbye before leaving for the ______ where the camels lived.\"",
+      "options": ["said; tell; dessert", "told; say; desert", "told; say; dessert", "said; say; desert"],
+      "answer": 1,
+      "explanation": "第一空後接人 me 用 told;第二空 say goodbye 固定用 say;第三空 camels lived「駱駝住的地方=沙漠」desert。故 told; say; desert。",
+      "trap": "⚠ 三重陷阱:接人用 told、say goodbye 固定用 say、駱駝住沙漠 desert(單 s)。dessert 是甜點。"
+    },
+    {
+      "stem": "The strong wind didn't ______ the race much, but the heavy rain had a serious ______ on the runners' speed.",
+      "options": ["effect; affect", "affect; effect", "affect; affect", "effect; effect"],
+      "answer": 1,
+      "explanation": "第一空 didn't ______ 需原形動詞 affect;第二空 a serious ______ 前有 a 需名詞 effect(have an effect on)。故 affect; effect。",
+      "trap": "⚠ didn't 後接原形動詞 affect;a serious 後接名詞 effect。have an effect on 是固定片語。"
+    },
+    {
+      "stem": "Find the INCORRECT sentence.",
+      "options": ["My shoelace came loose during the run.", "Don't loose your passport at the airport.", "I lost my keys somewhere in the park.", "These pants are too loose for me."],
+      "answer": 1,
+      "explanation": "(B)「弄丟護照」需動詞 lose,不能用形容詞 loose,應 Don't lose your passport。其餘 A、C、D 中 loose/lost 用法皆正確。故 B 錯誤。",
+      "trap": "⚠ lose 是動詞(丟失),loose 是形容詞(鬆的)。Don't lose 不可寫 Don't loose。"
+    },
+    {
+      "stem": "\"Can you ______ me how to ______ this word in English?\" the student asked, hoping the teacher could ______ more slowly.",
+      "options": ["say; tell; speak", "tell; say; speak", "tell; speak; say", "speak; tell; say"],
+      "answer": 1,
+      "explanation": "第一空後接人 me 用 tell;第二空 how to ______ this word「怎麼說這個字」說出內容用 say;第三空 ______ more slowly「說(話)慢一點」強調說話動作不接受詞,用 speak。故 tell; say; speak,選 B。",
+      "trap": "⚠ tell 接人(tell me)、say 接內容(say this word)、speak 強調動作不接受詞(speak slowly)。三者中譯都是「說」。"
+    },
+    {
+      "stem": "The teacher gave us some helpful ______ and ______ us to read more, which positively ______ our writing.",
+      "options": ["advise; adviced; effected", "advice; advised; affected", "advice; adviced; affected", "advise; advised; effected"],
+      "answer": 1,
+      "explanation": "第一空 some helpful ______ 名詞 advice;第二空 ______ us to read 動詞 advise 過去式 advised;第三空 positively ______ our writing 動詞 affect 過去式 affected。故 advice; advised; affected。",
+      "trap": "⚠ advise 過去式是 advised 不是 adviced;名詞 advice 與動詞 advise 拼字不同;影響用 affected 非 effected。"
+    },
+    {
+      "stem": "Which sentence is CORRECT in both underlined words?",
+      "options": ["He lay the book down and lie on the sofa.", "He laid the book down and lay on the sofa.", "He laid the book down and laid on the sofa.", "He lay the book down and laid on the sofa."],
+      "answer": 1,
+      "explanation": "「放下書」及物用 lay 的過去式 laid;「躺到沙發上」不及物用 lie 的過去式 lay。故 laid the book; lay on the sofa,選 B。",
+      "trap": "⚠ lay(放,及物)過去式 laid;lie(躺,不及物)過去式 lay。lie 的過去式 lay 與 lay 的原形同形,是最大陷阱。"
+    },
+    {
+      "stem": "The smell of the freshly baked ______ made everyone forget how tired they were after crossing the ______.",
+      "options": ["desert; dessert", "dessert; desert", "dessert; dessert", "desert; desert"],
+      "answer": 1,
+      "explanation": "第一空 freshly baked ______「現烤的甜點」用 dessert(雙 s);第二空 after crossing the ______「穿越沙漠」用 desert。故 dessert; desert。",
+      "trap": "⚠ 順序顛倒設陷阱:先甜點 dessert(雙 s)後沙漠 desert(單 s)。靠 baked/crossing 線索判斷,別只看位置。"
+    },
+    {
+      "stem": "Read the dialogue: A: \"I think I will ______ the game if I stay this nervous.\" B: \"Relax! Just ______ your hand when you're ready and ______ me what you need.\" Choose the best set of words.",
+      "options": ["loose; rise; say", "lose; raise; tell", "lose; rise; tell", "loose; raise; say"],
+      "answer": 1,
+      "explanation": "第一空 will ______ the game「輸掉比賽」動詞 lose;第二空 ______ your hand「舉手」及物 raise;第三空 ______ me「告訴我」接人用 tell。故 lose; raise; tell。",
+      "trap": "⚠ 三點整合:lose(動詞,非 loose)、raise(及物舉手,非 rise)、tell(接人,非 say)。情境題須同時判斷三組易混字。"
+    }
+  ]
+}

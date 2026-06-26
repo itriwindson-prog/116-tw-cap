@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>進度計畫</title>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.setAttribute("data-theme", localStorage.getItem("ss.theme") || "light");</script>
+</head>
+<body>
+<nav class="nav">
+  <span class="brand">📚 會考總複習</span>
+  <a href="index.html">儀表板</a>
+  <a href="schedule.html" class="active">進度計畫</a>
+  <a href="subject.html?subject=math">各科筆記</a>
+  <a href="mistakes.html">錯題本</a>
+  <span class="spacer"></span>
+  <button class="theme-btn" id="themeBtn" title="深色／淺色">🌙</button>
+</nav>
+
+<div class="wrap">
+  <div class="card">
+    <h2 style="margin-top:0">階段時程（暑假 → 考前 60 天衝刺）</h2>
+    <div class="timeline" id="phases"></div>
+  </div>
+
+  <div class="card" style="margin-top:18px">
+    <h2 style="margin-top:0">每日計畫 <span class="muted" style="font-size:14px">（依週計畫自動展開，可在 schedule.js 用 dayOverrides 覆蓋特定日）</span></h2>
+    <div style="margin-bottom:12px">查看某天：<input type="date" id="datePick"></div>
+    <div id="dayBox"></div>
+    <h3>本週每日計畫</h3>
+    <div class="timeline" id="weekDays"></div>
+  </div>
+
+  <h2 style="margin:24px 0 10px">月計畫</h2>
+  <div class="grid cols" id="months"></div>
+</div>
+
+<script src="js/data/config.js"></script>
+<script src="js/data/schedule.js"></script>
+<script src="js/data/math.js"></script>
+<script src="js/data/chinese.js"></script>
+<script src="js/data/english.js"></script>
+<script src="js/data/social.js"></script>
+<script src="js/data/science.js"></script>
+<script src="js/data/writing.js"></script>
+<script src="js/app.js"></script>
+<script>
+(function () {
+  const SS = window.STUDYSYNC, S = SS.data.schedule, today = SS.todayStr();
+  document.getElementById("themeBtn").addEventListener("click", () => SS.theme.toggle());
+  const nowPhase = SS.currentPhase();
+
+  // 階段時間軸
+  const pbox = document.getElementById("phases");
+  S.phases.forEach(p => {
+    const isNow = nowPhase && p.id === nowPhase.id;
+    const row = SS.el("div", { class: "phase" + (isNow ? " now" : "") }, [
+      SS.el("span", { class: "dot" }),
+      SS.el("div", {}, [
+        SS.el("div", { html: "<b>" + p.name + "</b>　<span class='muted'>" + p.start + " ～ " + p.end + "</span>" + (isNow ? " <span class='pill" + (SS.inSprint() ? " sprint" : "") + "'>進行中</span>" : "") }),
+        SS.el("div", { class: "muted", text: p.goal })
+      ])
+    ]);
+    pbox.appendChild(row);
+  });
+
+  // 每日計畫卡片
+  function dayCard(p) {
+    const body = SS.el("div");
+    body.appendChild(SS.el("div", { html: "<b>" + p.date + "</b>" + (p.date === today ? " <span class='pill'>今天</span>" : "") + (p.isOverride ? " <span class='pill sprint'>自訂</span>" : "") }));
+    if (p.weekFocus) body.appendChild(SS.el("div", { class: "muted", text: (p.weekLabel ? p.weekLabel + "｜" : "") + p.weekFocus }));
+    if (p.note) body.appendChild(SS.el("div", { class: "trap", html: "📌 " + p.note }));
+    p.tasks.forEach(t => body.appendChild(SS.el("div", { text: "・" + t })));
+    if (p.coreDaily && p.coreDaily.length) { const h = { daily: "今日測驗（每科10題）", weekly: "週測（每科20題）", monthly: "月考綜合（每科30題）" }[p.dayType] || "每日核心"; body.appendChild(SS.el("div", { class: "muted", style: "margin-top:6px", text: h + "：" })); body.appendChild(SS.renderCoreDaily(p)); }
+    if (p.links && p.links.length) { body.appendChild(SS.el("div", { class: "muted", style: "margin-top:6px", text: "本週重點：" })); body.appendChild(SS.renderDayLinks(p)); }
+    return SS.el("div", { class: "phase" + (p.date === today ? " now" : "") }, [SS.el("span", { class: "dot" }), body]);
+  }
+
+  // 任選日期查看
+  const dp = document.getElementById("datePick"), dayBox = document.getElementById("dayBox");
+  const qDate = new URLSearchParams(location.search).get("date");
+  const initDay = (qDate && /^\d{4}-\d{2}-\d{2}$/.test(qDate)) ? qDate : today;
+  dp.value = initDay;
+  function showDay(ds) { dayBox.innerHTML = ""; dayBox.appendChild(dayCard(SS.dayPlan(ds))); }
+  dp.addEventListener("change", () => dp.value && showDay(dp.value));
+  showDay(initDay);
+
+  // 本週每日計畫（日～六）
+  const wd = document.getElementById("weekDays"), base = SS.parseDate(today), dow = base.getDay();
+  for (let i = 0; i < 7; i++) { const d = new Date(base); d.setDate(base.getDate() - dow + i); wd.appendChild(dayCard(SS.dayPlan(SS.fmt(d)))); }
+
+  // 月計畫卡片
+  const mbox = document.getElementById("months");
+  S.months.forEach(m => {
+    const isNow = m.ym === ym;
+    const card = SS.el("div", { class: "card" + (isNow ? " " : ""), style: isNow ? "border-color:var(--primary)" : "" }, [
+      SS.el("div", { class: "muted", text: m.ym }),
+      SS.el("h3", { text: m.title + (isNow ? " 👈 本月" : "") }),
+      SS.el("div", { text: m.focus })
+    ]);
+    if (m.weeks) {
+      const ul = SS.el("ul", { style: "margin:8px 0 0;padding-left:18px" });
+      m.weeks.forEach(w => ul.appendChild(SS.el("li", { class: "muted", text: w.label + "：" + w.focus })));
+      card.appendChild(ul);
+    }
+    mbox.appendChild(card);
+  });
+})();
+</script>
+</body>
+</html>

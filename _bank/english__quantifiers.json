@@ -1,0 +1,208 @@
+{
+  "id": "quantifiers",
+  "name": "數量詞與不定代名詞 (Quantifiers & Indefinite Pronouns)",
+  "week": "暑假 第2週",
+  "notes": [
+    {
+      "h": "可數性與數量詞選用",
+      "points": [
+        "先判斷名詞可數或不可數:可數名詞(books, apples)用 many / (a) few / several;不可數名詞(water, money, information)用 much / (a) little;a lot of / lots of / some / plenty of 則兩者皆可。",
+        "a few / a little 帶肯定語氣,表「有一些、足夠」;few / little(前面沒有 a)帶否定語氣,表「幾乎沒有」。例:He has a few friends(他有幾個朋友)vs He has few friends(他幾乎沒朋友)。",
+        "some 通常用於肯定句,以及表「提供、邀請、請求」而期待肯定回答的疑問句(Would you like some tea?);any 用於否定句與一般疑問句(I don't have any money / Do you have any questions?)。",
+        "注意常被誤判的不可數名詞:advice、information、furniture、homework、news、bread 皆不可數,故用 much / (a) little,且不加 -s。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><line x1=\"180\" y1=\"14\" x2=\"180\" y2=\"110\" stroke=\"#c9755c\" stroke-width=\"2\"/><text x=\"90\" y=\"32\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">可數 countable</text><text x=\"270\" y=\"32\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">不可數 uncount.</text><text x=\"90\" y=\"58\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"middle\">many books</text><text x=\"90\" y=\"80\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"middle\">a few / several</text><text x=\"270\" y=\"58\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"middle\">much water</text><text x=\"270\" y=\"80\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"middle\">a little money</text><rect x=\"60\" y=\"128\" width=\"110\" height=\"46\" fill=\"#eef4f2\" stroke=\"#5aa874\" stroke-width=\"1.5\"/><text x=\"115\" y=\"148\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">a few = 有一些</text><text x=\"115\" y=\"166\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\" text-anchor=\"middle\">肯定語氣</text><rect x=\"195\" y=\"128\" width=\"110\" height=\"46\" fill=\"#eef4f2\" stroke=\"#d98072\" stroke-width=\"1.5\"/><text x=\"250\" y=\"148\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">few = 幾乎沒</text><text x=\"250\" y=\"166\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#d98072\" text-anchor=\"middle\">否定語氣</text></svg>",
+      "caption": "左可數右不可數;有無 a 決定 few/little 的肯定或否定語氣。",
+      "trap": "⚠ 別把 advice、information、furniture、news 當可數而用 many 或加 -s;它們是不可數,要用 much / a little。"
+    },
+    {
+      "h": "every/each/all 與動詞一致",
+      "points": [
+        "every / each + 單數名詞 + 單數動詞:Every student is here. / Each book has a number. 即使語意上指很多人,動詞仍用單數。",
+        "all / both + 複數名詞 + 複數動詞:All the students are here. / Both answers are correct;but all + 不可數名詞時動詞用單數(All the water is gone)。",
+        "either / neither 當主詞(指兩者之一)接單數動詞:Neither of them is right;both 則接複數。注意 none of 後接複數名詞時動詞單複數皆可,正式文體偏單數。",
+        "複合不定代名詞 someone / anything / everybody / nobody 一律視為單數,接單數動詞:Everybody is happy. / Nothing was wrong;但其代名詞回指口語常用 they(Everyone brought their book)。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><text x=\"180\" y=\"26\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">主詞與動詞一致</text><text x=\"14\" y=\"60\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">each student</text><text x=\"352\" y=\"60\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"end\">is (單)</text><line x1=\"120\" y1=\"55\" x2=\"300\" y2=\"55\" stroke=\"#c9755c\" stroke-width=\"1.5\" marker-end=\"url(#a)\"/><defs><marker id=\"a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6\" fill=\"#c9755c\"/></marker></defs><text x=\"14\" y=\"96\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">all students</text><text x=\"352\" y=\"96\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"end\">are (複)</text><line x1=\"120\" y1=\"91\" x2=\"300\" y2=\"91\" stroke=\"#c9755c\" stroke-width=\"1.5\" marker-end=\"url(#a)\"/><circle cx=\"60\" cy=\"140\" r=\"30\" fill=\"#f3e7df\" stroke=\"#f0a52e\" stroke-width=\"2\"/><text x=\"60\" y=\"137\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">everybody</text><text x=\"60\" y=\"153\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\">單數</text><text x=\"110\" y=\"137\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">→ is happy</text><text x=\"110\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#d98072\">neither + 單數動詞</text></svg>",
+      "caption": "each/every/複合不定代名詞接單數動詞;all/both 接複數動詞。",
+      "trap": "⚠ Every / Each 後縱使指眾多人,動詞仍用單數;誤用 are 是會考常見陷阱(Everyone is,非 are)。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "There is ____ traffic on the road today, so we arrived much later than we had expected.",
+      "options": ["so many", "a great deal of", "a number of", "few"],
+      "answer": 1,
+      "explanation": "traffic 為不可數名詞,只能搭配表「大量」的不可數量詞 a great deal of。many / a number of / few 都只接可數複數名詞。",
+      "trap": "⚠ traffic 看似可指很多車,但它是不可數名詞,不能用 many 或 a number of。"
+    },
+    {
+      "stem": "\"Did you make any friends at the summer camp?\" \"Yes, I made ____. In fact, two of them still write to me every week.\"",
+      "options": ["a few", "few", "little", "much"],
+      "answer": 0,
+      "explanation": "後句說「其中兩個還每週寫信」,語氣肯定且 friends 可數,故用 a few(有一些)。few 為否定語氣(幾乎沒有),與下文矛盾;little/much 接不可數名詞。",
+      "trap": "⚠ a few 與 few 拼字僅差一個 a,卻分屬肯定與否定;由後文「still write to me」判斷應為肯定的 a few。"
+    },
+    {
+      "stem": "____ of the two proposals is perfect, but we have to choose one before Friday.",
+      "options": ["Neither", "None", "Both", "Either"],
+      "answer": 0,
+      "explanation": "指「兩者之中沒有一個」用 Neither + 單數動詞 is,與 the two 相符。None 用於三者以上;Both 接複數動詞 are;Either 表「兩者任一」語意不合(後文有 but 轉折表都不完美)。",
+      "trap": "⚠ 兩者皆否定用 Neither,三者以上才用 None;且 Neither 接單數動詞 is。"
+    },
+    {
+      "stem": "The teacher reminded us that every student ____ responsible for keeping the lab clean, even if only one of them uses it.",
+      "options": ["are", "is", "have been", "were"],
+      "answer": 1,
+      "explanation": "every + 單數名詞 student 為單數主詞,接單數動詞 is。雖語意指全班學生,文法上仍視為單數。",
+      "trap": "⚠ every student 語意上人很多,但 every 一律接單數動詞,誤選 are/were 是典型錯誤。"
+    },
+    {
+      "stem": "I asked the clerk for some information about the tour, but she gave me ____ that I still don't know when it starts.",
+      "options": ["so little", "so few", "too many", "a few"],
+      "answer": 0,
+      "explanation": "information 不可數,且後文「我還是不知道何時開始」表示資訊少到幾乎沒有,用否定語氣的 so little。few 與 many 接可數名詞;a few 為肯定語氣不合句意。",
+      "trap": "⚠ information 不可數,排除 few/many;again 由「still don't know」確認需否定語氣的 so little。"
+    },
+    {
+      "stem": "Would you like ____ more coffee? There's still ____ left in the pot.",
+      "options": ["any / a little", "some / a little", "some / a few", "any / a few"],
+      "answer": 1,
+      "explanation": "第一格為提供(offer),雖是疑問句仍用 some;第二格 coffee 不可數且語氣肯定(還有一些),用 a little。",
+      "trap": "⚠ 表提供或邀請的疑問句用 some 而非 any;coffee 不可數須用 a little 而非 a few。"
+    },
+    {
+      "stem": "____ of the students has to hand in his or her own report; group submissions are not allowed.",
+      "options": ["All", "Both", "Each", "Several"],
+      "answer": 2,
+      "explanation": "後文 has 為單數動詞且 his or her own 指個別,故主詞用 Each(每一個)+ of the students + 單數動詞。All/Both/Several 都接複數動詞 have。",
+      "trap": "⚠ 由單數動詞 has 與 his or her own 反推,主詞須為表「個別」的 Each。"
+    },
+    {
+      "stem": "We bought ____ furniture for the new office, but the rooms still look empty.",
+      "options": ["a few pieces of", "a few", "several", "many"],
+      "answer": 0,
+      "explanation": "furniture 不可數,要表「幾件家具」須用單位詞 pieces of:a few pieces of furniture。其餘三者皆直接接複數名詞,不能用於不可數的 furniture。",
+      "trap": "⚠ furniture 不可數,計數時必須借助 pieces of,不能說 a few furnitures 或 several furniture。"
+    },
+    {
+      "stem": "Hardly ____ of the volunteers showed up, so the clean-up event had to be canceled.",
+      "options": ["some", "any", "none", "no"],
+      "answer": 1,
+      "explanation": "hardly 本身含否定意味,後接 any 構成「幾乎沒有」(hardly any of the volunteers)。some 用於肯定;none/no 與 hardly 連用造成雙重否定,不合語法。",
+      "trap": "⚠ hardly 已是否定詞,需搭配 any,不能再用 none/no 造成雙重否定。"
+    },
+    {
+      "stem": "____ has its advantages and disadvantages, so you should compare the two job offers carefully.",
+      "options": ["Each", "All", "None", "Every"],
+      "answer": 0,
+      "explanation": "句中 has its 為單數,且 the two job offers 指兩者,用代名詞性質的 Each(每一個,可單獨當主詞)。Every 須接名詞不可獨立當主詞;All/None 接複數動詞 have。",
+      "trap": "⚠ Each 可單獨當主詞,Every 後面一定要接名詞;由 has its 與「兩者」判斷選 Each。"
+    },
+    {
+      "stem": "There isn't ____ milk in the fridge, but there are still ____ eggs for breakfast.",
+      "options": ["much / a few", "many / a few", "much / a little", "many / a little"],
+      "answer": 0,
+      "explanation": "milk 不可數,否定句用 much;eggs 可數且語氣肯定(還有一些)用 a few。",
+      "trap": "⚠ 要同時判斷兩個名詞的可數性:milk 用 much、eggs 用 a few,任一搭錯即錯。"
+    },
+    {
+      "stem": "Of all the books on the shelf, ____ is worth reading; they are all outdated.",
+      "options": ["any", "none", "neither", "either"],
+      "answer": 1,
+      "explanation": "all the books 指三者以上,且後文「都過時了」表全部否定,用 none + 單數動詞 is。neither/either 只用於兩者;any 不能單獨當肯定主詞表「沒有一個」。",
+      "trap": "⚠ 三者以上的「沒有一個」用 none,不可用只限兩者的 neither。"
+    },
+    {
+      "stem": "\"Is there anything I can do to help?\" \"No, ____. Everything is already under control.\"",
+      "options": ["something", "anything", "nothing", "none"],
+      "answer": 2,
+      "explanation": "簡短回答「不,沒有什麼」用否定複合代名詞 nothing(= there is nothing)。回答中已含 No 但仍須以 nothing 表達否定內容;anything 須與否定詞連用,單獨回答不成立。",
+      "trap": "⚠ 簡短回答時直接用 nothing 表否定,不能單獨用 anything(anything 須配否定詞)。"
+    },
+    {
+      "stem": "____ of the twins speaks Japanese fluently, though they both studied it for years.",
+      "options": ["Neither", "None", "Either", "Both"],
+      "answer": 0,
+      "explanation": "twins 指兩人,搭配單數動詞 speaks 表「兩者都不」,用 Neither。Both 接複數動詞 speak;Either 語意為「任一」與後文 though 轉折不合;None 用於三者以上。",
+      "trap": "⚠ 由單數動詞 speaks 與「twins(兩人)」反推為 Neither,而非接複數動詞的 Both。"
+    },
+    {
+      "stem": "The survey shows that ____ people are willing to pay more for eco-friendly products than ten years ago.",
+      "options": ["much more", "many more", "a great deal of more", "the most"],
+      "answer": 1,
+      "explanation": "people 可數複數,「更多的人」用 many more(many 的比較表達)。much more 修飾不可數名詞;a great deal of more 語法不通;the most 為最高級不合 than 比較句。",
+      "trap": "⚠ more 前的修飾語要看名詞可數性:可數的 people 用 many more,不可數才用 much more。"
+    },
+    {
+      "stem": "Almost ____ in the class has finished the project; only Tom and Mary are still working on theirs.",
+      "options": ["everyone", "everybody else", "all", "the others"],
+      "answer": 0,
+      "explanation": "後文用單數動詞 has,且 almost 修飾不定代名詞,主詞用 everyone(視為單數)。all 接複數 have;everybody else 語意排除說話者不合;the others 接複數動詞。",
+      "trap": "⚠ 由單數動詞 has 判斷主詞為單數的 everyone,而非接複數動詞的 all。"
+    },
+    {
+      "stem": "I have read ____ of his novels, but I still haven't read the one that made him famous.",
+      "options": ["most", "almost", "the most of", "almost all"],
+      "answer": 0,
+      "explanation": "「他大部分的小說」用 most of his novels。almost 為副詞不能直接接名詞片語;the most of 用法錯誤;almost all 須直接接名詞或代名詞(almost all his novels)而非 almost all of 此處未含 of,故 most 最正確。",
+      "trap": "⚠ almost 是副詞不能接 of his novels;表「大部分」直接用 most of。"
+    },
+    {
+      "stem": "Neither of the answers ____ correct, so the whole class had to do the exercise again.",
+      "options": ["are", "were", "is", "have been"],
+      "answer": 2,
+      "explanation": "Neither of + 複數名詞當主詞時,正式語法接單數動詞 is(neither 指「兩者之中沒有一個」,本質單數)。",
+      "trap": "⚠ 受 the answers 干擾易選 are/were;但主詞核心是 Neither,正式文體用單數 is。"
+    },
+    {
+      "stem": "There were so ____ applicants for the position that the manager could hardly choose, even after reading every résumé.",
+      "options": ["much", "many", "little", "a lot"],
+      "answer": 1,
+      "explanation": "applicants 為可數複數,搭配 so many 表「如此多」。much/little 接不可數;a lot 不與 so 連用且不能直接接名詞修飾結構 so ... that。",
+      "trap": "⚠ so ... that 句型中,可數名詞 applicants 用 so many,不可用 so much 或 so a lot。"
+    },
+    {
+      "stem": "____ student who passes the final exam will receive a certificate, and ____ certificates will be mailed next week.",
+      "options": ["Every / all the", "Each / every", "All / each", "Every / each"],
+      "answer": 0,
+      "explanation": "第一格修飾單數名詞 student 用 Every(+單數動詞 passes);第二格修飾複數名詞 certificates 用 all the。Each/Every 後須接單數名詞,不能配複數 certificates。",
+      "trap": "⚠ every/each 只接單數名詞;第二格名詞 certificates 為複數,故須用 all the。"
+    },
+    {
+      "stem": "We have plenty of time, so there's no need to rush; ____ of us has to leave before noon anyway.",
+      "options": ["any", "none", "neither", "either"],
+      "answer": 1,
+      "explanation": "us 指三人以上(we),表「我們沒有一個人」用 none + 單數動詞 has。neither/either 限兩者;any 不能單獨當主詞表否定。",
+      "trap": "⚠ 群體三人以上的「沒有一個」用 none,且接單數動詞 has,而非 neither。"
+    },
+    {
+      "stem": "The report contains ____ useful data, but unfortunately ____ of it is up to date.",
+      "options": ["many / few", "much / little", "a few / none", "a lot of / none"],
+      "answer": 3,
+      "explanation": "data 在此作不可數,「許多」用 a lot of;後句「沒有一個是最新的」指其中沒有,用 none of it。much/little 雖也接不可數,但 'much useful data ... little of it' 中 little 表「很少」語意尚可,惟 none 與「unfortunately」全盤否定更貼切,且 a lot of 比 much 更自然;故最佳為 a lot of / none。",
+      "trap": "⚠ data 視為不可數排除 many/a few;由 unfortunately 與全盤否定語氣,後格選 none of it 最貼切。"
+    },
+    {
+      "stem": "____ of the three candidates is qualified enough; the committee decided to reopen the application.",
+      "options": ["Neither", "None", "Either", "Both"],
+      "answer": 1,
+      "explanation": "three candidates 為三者,表「沒有一個」用 None + 單數動詞 is。Neither/Either/Both 都只用於兩者。",
+      "trap": "⚠ 出現 three 即排除只限兩者的 Neither/Either/Both,須用 None。"
+    },
+    {
+      "stem": "She gave me ____ advice on how to write my essay, and ____ of her suggestions turned out to be really helpful.",
+      "options": ["many / many", "some / a few", "a few / a few", "much / a number"],
+      "answer": 1,
+      "explanation": "advice 不可數,「一些建議」用 some;suggestions 可數複數,「其中幾個」用 a few。many/a few 接可數,不能修飾 advice;a number 後須接 of 且修飾可數。",
+      "trap": "⚠ advice 不可數(用 some)但 suggestions 可數(用 a few);兩個名詞可數性不同,別一律用同一量詞。"
+    },
+    {
+      "stem": "By the end of the day, ____ of the cake was gone, and ____ of the children admitted eating it.",
+      "options": ["most / none", "many / no one", "most / no one", "much / none"],
+      "answer": 2,
+      "explanation": "cake 在此不可數(整塊蛋糕)用 most of;children 可數複數指人,「沒有人承認」用 no one(指人,接單數動詞 admitted)。none of 雖也可指人,但 no one 更直接表「無人」;much 修飾不可數但與 'of the cake' 語意不如 most 自然。",
+      "trap": "⚠ 兩格分別判斷:不可數 cake 用 most of;指人的「沒有人」用 no one,別誤用接不可數的 much/none 組合。"
+    }
+  ]
+}

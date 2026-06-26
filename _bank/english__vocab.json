@@ -1,0 +1,153 @@
+{
+  "topicId": "vocab",
+  "isNew": false,
+  "newQuiz": [
+    {
+      "stem": "The reporter's account was completely ___; she had invented every detail to make the story more exciting.",
+      "options": ["credible", "fictitious", "factual", "objective"],
+      "answer": 1,
+      "explanation": "後句『她捏造了每個細節』提示報導內容是虛構的,fictitious(虛構的、捏造的)最合;credible(可信的)、factual(真實的)、objective(客觀的)皆與『捏造』矛盾。",
+      "trap": "⚠ 須由後句 invented every detail 反推空格為負面『虛構』;credible 與 factual 是正面褒義,放進去與『捏造』前後矛盾,別只看到 account 就選『可信』。"
+    },
+    {
+      "stem": "Despite repeated warnings, the factory continued to ___ the river with chemical waste.",
+      "options": ["pollute", "polluted", "pollution", "pollutant"],
+      "answer": 0,
+      "explanation": "continued to 之後接原形動詞,且後面有受詞 the river,須用動詞 pollute(污染);pollution(n.污染)、pollutant(n.污染物)為名詞不能接受詞。",
+      "trap": "⚠ continued to 後須接原形動詞而非名詞;pollution/pollutant 雖語意相關卻是名詞,無法帶受詞 the river,須先看句構再選詞性。"
+    },
+    {
+      "stem": "The two plans look similar, but on closer inspection, the ___ between them are huge.",
+      "options": ["difference", "differences", "different", "differently"],
+      "answer": 1,
+      "explanation": "the ___ between them are huge,動詞 are 為複數,主詞須用可數複數名詞 differences(差異);different 是形容詞、differently 是副詞皆不能當主詞。",
+      "trap": "⚠ 動詞 are(複數)決定主詞須為複數名詞 differences,不是 difference(單數搭 is);別漏看 are 而選了單數形。"
+    },
+    {
+      "stem": "After failing the exam three times, he was on the ___ of giving up his dream of becoming a doctor.",
+      "options": ["edge", "verge", "side", "point"],
+      "answer": 1,
+      "explanation": "片語 on the verge of + V-ing=瀕臨、即將;『瀕臨放棄夢想』語意最合;on the point of 雖也表即將,但慣用搭配為 on the verge of giving up。",
+      "trap": "⚠ on the verge of 為固定搭配(瀕臨);on the edge 多指『邊緣/緊張』,on the side 是『附帶』,意思皆不符『即將放棄』。"
+    },
+    {
+      "stem": "The medicine had a strong ___ effect, so the doctor told her not to drive after taking it.",
+      "options": ["sleepy", "asleep", "sleeping", "sleep"],
+      "answer": 2,
+      "explanation": "空格修飾名詞 effect,須用形容詞;sleeping 在此作分詞形容詞表『使人想睡的(令人嗜睡的)』;sleepy(感到睏的)修飾人,asleep 不能放名詞前,sleep 是名詞/動詞。",
+      "trap": "⚠ asleep 為敘述性形容詞只能當補語,不能放在名詞 effect 前;sleepy 描述『人感到睏』而非『藥的作用』,此處修飾 effect 用 sleeping。"
+    },
+    {
+      "stem": "Her boss kept ___ her work in front of others, which made her feel embarrassed and worthless.",
+      "options": ["praising", "criticizing", "encouraging", "admiring"],
+      "answer": 1,
+      "explanation": "後句『讓她感到難堪又無價值』為負面感受,故空格須為負面動作 criticizing(批評);praising/encouraging/admiring 皆正面,與後果矛盾。",
+      "trap": "⚠ 由結果 embarrassed and worthless(負面)反推動作須為負面;praise(讚美)等正面詞會造成前後語意衝突,情境判讀是關鍵。"
+    },
+    {
+      "stem": "The witness's two statements ___ each other, so the jury could not decide which one to believe.",
+      "options": ["supported", "matched", "contradicted", "confirmed"],
+      "answer": 2,
+      "explanation": "後句『陪審團無法決定該信哪一個』暗示兩份證詞互相矛盾,contradicted(與…矛盾)最合;support/match/confirm 皆表一致,與『無法決定信哪個』衝突。",
+      "trap": "⚠ 關鍵在 could not decide which one to believe=兩說法衝突;support/match/confirm 表彼此一致,若一致就無須猶豫該信誰,故須選『矛盾』。"
+    },
+    {
+      "stem": "The new manager is very ___; she lets her team make their own decisions instead of controlling every detail.",
+      "options": ["strict", "flexible", "stubborn", "demanding"],
+      "answer": 1,
+      "explanation": "後句『讓團隊自行決定而非掌控每個細節』描述開明有彈性的作風,flexible(有彈性的、開明的)最合;strict/stubborn/demanding 皆表嚴格固執,與『放手讓人決定』相反。",
+      "trap": "⚠ 須由分號後的說明判斷:不控制細節、讓人自主=flexible;strict(嚴格)、demanding(要求高)、stubborn(固執)都與『放手』語意相反。"
+    },
+    {
+      "stem": "It took the rescue team several hours to ___ the survivors from the collapsed building.",
+      "options": ["release", "rescue", "remove", "recover"],
+      "answer": 1,
+      "explanation": "rescue team 從倒塌建築中『救出』生還者,rescue(救援、救出)最合且常與 from 連用;release(釋放)、remove(移除)、recover(尋回/康復)語意皆不貼切。",
+      "trap": "⚠ recover 雖可指『尋回』,但多用於物品或遺體;對『生還者(survivors)』從倒塌建築救出應用 rescue,須區分對象是活人還是物。"
+    },
+    {
+      "stem": "The instructions were written in such ___ language that even experts had trouble understanding them.",
+      "options": ["plain", "simple", "technical", "casual"],
+      "answer": 2,
+      "explanation": "後句『連專家都難以理解』暗示語言艱深專業,technical(專業術語的)最合;plain/simple/casual 皆表淺白,與『連專家都看不懂』矛盾。",
+      "trap": "⚠ such...that 結果子句『experts had trouble understanding』指內容艱深;plain/simple(簡單)放進去前後矛盾——若簡單,專家不會看不懂。"
+    },
+    {
+      "stem": "He apologized so ___ that we could tell he truly regretted what he had done.",
+      "options": ["sincere", "sincerely", "sincerity", "insincere"],
+      "answer": 1,
+      "explanation": "空格修飾動詞 apologized(道歉的方式),且 so 後接副詞 sincerely(誠懇地);sincere 是形容詞、sincerity 是名詞、insincere 語意相反。",
+      "trap": "⚠ so 後可接 adj. 或 adv.,須看修飾對象:此處修飾動詞 apologized,故用副詞 sincerely;若誤判成形容詞會選 sincere。"
+    },
+    {
+      "stem": "The teacher reminded us that success ___ on hard work, not on luck.",
+      "options": ["depends", "decides", "insists", "consists"],
+      "answer": 0,
+      "explanation": "depend on=取決於、依靠;『成功取決於努力』語意最合且搭配 on;decide on 是『決定選擇』、insist on 是『堅持』、consist of 才合語法,皆語意不符。",
+      "trap": "⚠ 四個動詞都常接介系詞,但只有 depend on 表『取決於』;insist on(堅持)、decide on(選定)、consist of(由…組成)意思全不同,須看語意搭配。"
+    },
+    {
+      "stem": "The charity provides food and shelter for people who have nowhere else to ___.",
+      "options": ["turn", "look", "go", "reach"],
+      "answer": 0,
+      "explanation": "片語 have nowhere to turn=走投無路、求助無門;『沒有其他地方可求助的人』語意最合,turn 為固定用法。",
+      "trap": "⚠ have nowhere to turn 是固定片語(求助無門);中文易想成『可去 go』,但英文慣用 turn 表『求助』,片語不可任意替換動詞。"
+    },
+    {
+      "stem": "Although the test was difficult, she managed to answer every question ___.",
+      "options": ["correct", "correctly", "correction", "correctness"],
+      "answer": 1,
+      "explanation": "空格修飾動詞 answer(回答的方式),須用副詞 correctly(正確地);correct 是形容詞、correction/correctness 是名詞皆不能修飾動詞。",
+      "trap": "⚠ 修飾『回答』這個動作用副詞 correctly;answer correct 是常見錯誤,因為動詞後修飾動作須用副詞而非形容詞。"
+    },
+    {
+      "stem": "The price of the phone is far ___ what most students can afford, so few of them buy it.",
+      "options": ["beyond", "above", "over", "across"],
+      "answer": 0,
+      "explanation": "beyond what one can afford=超出能力負擔;『遠超過多數學生負擔得起的範圍』語意最合,beyond 表超出限度。",
+      "trap": "⚠ beyond 表『超出(能力/範圍)』,與 afford 搭配最自然;above/over 多指數量或位置高於,放在 what... can afford 前不如 beyond 道地。"
+    },
+    {
+      "stem": "The coach's encouraging words ___ the players' confidence right before the final match.",
+      "options": ["boosted", "reduced", "doubted", "ignored"],
+      "answer": 0,
+      "explanation": "encouraging words(鼓勵的話)的效果應是『提升』信心,boost(提升、增強)最合;reduce(減少)、doubt(懷疑)、ignore(忽略)皆與『鼓勵』的正面效果矛盾。",
+      "trap": "⚠ 由主詞 encouraging words(鼓勵)推動作須為正面;reduce/doubt/ignore 是負面或中性,與『鼓勵能提升信心』的因果不符。"
+    },
+    {
+      "stem": "Reading widely will ___ your vocabulary and help you express ideas more clearly.",
+      "options": ["expand", "expense", "expand on", "expert"],
+      "answer": 0,
+      "explanation": "expand=擴充、擴大;『大量閱讀會擴充字彙量』語意最合且直接接受詞 your vocabulary;expense 是名詞、expert 是名詞、expand on 是『詳述』語意不符。",
+      "trap": "⚠ expand 直接接受詞表『擴充』;expand on 是『進一步闡述(某主題)』,接 vocabulary 語意不通,別被相似片語誤導。"
+    },
+    {
+      "stem": "The shy student felt ___ when the teacher suddenly asked him to sing in front of the whole class.",
+      "options": ["confident", "awkward", "relaxed", "delighted"],
+      "answer": 1,
+      "explanation": "由 shy student(害羞的學生)突然被叫到全班面前唱歌,合理感受是『尷尬不自在』,awkward(尷尬的)最合;confident/relaxed/delighted 皆與害羞者的處境不符。",
+      "trap": "⚠ 須結合人物特質(shy)與情境(突然被叫上台)判斷情緒;對害羞的人而言此情境是難堪,故 awkward,而非 confident/delighted 等正面詞。"
+    },
+    {
+      "stem": "The government set up a fund to ___ families who lost their homes in the earthquake.",
+      "options": ["assist", "resist", "insist", "consist"],
+      "answer": 0,
+      "explanation": "assist=援助、幫助;『援助地震中失去家園的家庭』語意最合;resist(抵抗)、insist(堅持)、consist(構成,須接 of)皆語意不符且不接此受詞。",
+      "trap": "⚠ assist/resist/insist/consist 四字字尾相同極易混淆;設立基金的目的是『幫助』受災家庭,故 assist,別只憑字形眼熟亂選。"
+    },
+    {
+      "stem": "She remained ___ throughout the crisis, calmly giving orders while everyone else panicked.",
+      "options": ["nervous", "composed", "confused", "frightened"],
+      "answer": 1,
+      "explanation": "後句『冷靜下達命令、而其他人都慌亂』提示她保持鎮定,composed(鎮定的、沉著的)最合;nervous/confused/frightened 皆與『冷靜下令』矛盾。",
+      "trap": "⚠ 由對比 while everyone else panicked(別人慌亂)反推她是『鎮定 composed』;若選 nervous/frightened 便與後句 calmly giving orders 自相矛盾。"
+    },
+    {
+      "stem": "The novel was so ___ that I couldn't put it down until I had read the very last page.",
+      "options": ["bored", "boring", "gripping", "tiring"],
+      "answer": 2,
+      "explanation": "後句『放不下手直到讀完最後一頁』表小說極引人入勝,gripping(扣人心弦的)最合;boring/tiring 是負面,bored 形容人感到無聊,皆不符。",
+      "trap": "⚠ couldn't put it down 是『欲罷不能』的線索,須選正面 gripping;boring(令人厭煩)與 bored(感到無聊)方向相反,且 bored 修飾人不修飾 novel。"
+    }
+  ]
+}

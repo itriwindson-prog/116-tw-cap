@@ -1,0 +1,208 @@
+{
+  "id": "imperative",
+  "name": "祈使句與感嘆句 (Imperatives & Exclamations)",
+  "week": "開學 第2週",
+  "notes": [
+    {
+      "h": "祈使句的形式與功能",
+      "points": [
+        "祈使句用來表達命令、請求、指示或建議,句子以原形動詞開頭,主詞 you 省略不寫,例如 Close the door. 等於 (You) close the door.",
+        "否定祈使句一律用 Don't + 原形動詞,即使主詞概念上是第三人稱也用 Don't;be 動詞句型的否定是 Don't be... (例 Don't be late.),不可寫成 Aren't 或 Not be。",
+        "Let's + 原形動詞 (= Let us) 用來提出「我們一起做」的建議,否定為 Let's not + 原形;Let me + 原形則是「讓我來」,兩者意義不同不可混用。",
+        "祈使句 + and 表示「就會」帶來好結果 (Study hard, and you'll pass.);祈使句 + or 表示「否則」帶來壞結果 (Hurry up, or you'll miss the bus.),and 與 or 的選擇取決於後半句是正面還是負面結果。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><text x=\"12\" y=\"26\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">(You) Close the door.</text><rect x=\"12\" y=\"34\" width=\"42\" height=\"18\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"16\" y=\"47\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\">You</text><text x=\"60\" y=\"47\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">省略主詞</text><line x1=\"120\" y1=\"80\" x2=\"120\" y2=\"110\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><text x=\"40\" y=\"76\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">祈使句,</text><line x1=\"120\" y1=\"95\" x2=\"175\" y2=\"75\" stroke=\"#5aa874\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"95\" x2=\"175\" y2=\"125\" stroke=\"#d98072\" stroke-width=\"1.5\"/><text x=\"180\" y=\"70\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">and 好結果</text><text x=\"180\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">就會…</text><text x=\"180\" y=\"125\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">or 壞結果</text><text x=\"180\" y=\"148\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">否則…</text><text x=\"12\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">否定:Don't + 原形動詞</text></svg>",
+      "caption": "祈使句省略主詞 you,and 接正面結果、or 接負面結果。",
+      "trap": "⚠ 否定祈使句要用 Don't(原形),不可用 Aren't / Doesn't;祈使句一律用原形動詞,不可加 s 或用 to。"
+    },
+    {
+      "h": "What 與 How 感嘆句",
+      "points": [
+        "What 引導的感嘆句結構為 What + (a/an) + 形容詞 + 名詞 (+ 主詞 + 動詞)!,核心是「名詞」,例如 What a nice day (it is)!;可數單數名詞前要加 a/an。",
+        "How 引導的感嘆句結構為 How + 形容詞/副詞 (+ 主詞 + 動詞)!,核心是「形容詞或副詞」,後面不接名詞,例如 How beautiful (the flower is)!",
+        "判斷關鍵:看驚嘆的核心後面是否接名詞——接名詞用 What,只接形容詞或副詞用 How;同一句意常可用兩種改寫 (What a fast runner he is! = How fast he runs!)。",
+        "感嘆句語序為「主詞 + 動詞」正常順序(非疑問句倒裝);複數或不可數名詞用 What 時不加 a/an (What delicious food!、What cute dogs!)。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><text x=\"130\" y=\"26\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">感嘆核心是什麼?</text><line x1=\"130\" y1=\"34\" x2=\"60\" y2=\"66\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"34\" x2=\"230\" y2=\"66\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><rect x=\"18\" y=\"68\" width=\"110\" height=\"22\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"73\" y=\"83\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">後接名詞 → What</text><rect x=\"175\" y=\"68\" width=\"150\" height=\"22\" fill=\"#f3e7df\" stroke=\"#5aa874\"/><text x=\"250\" y=\"83\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\" text-anchor=\"middle\">只接形容詞副詞→ How</text><text x=\"12\" y=\"118\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">What a nice day!</text><text x=\"12\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">How beautiful it is!</text><text x=\"12\" y=\"168\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\">單數可數名詞才加 a/an</text></svg>",
+      "caption": "後面接名詞用 What,只接形容詞或副詞用 How。",
+      "trap": "⚠ What 後面接複數或不可數名詞時不可加 a/an;感嘆句用正常語序「主詞+動詞」,不要寫成疑問句倒裝。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "Choose the correct way to tell a friend not to be nervous before the exam.",
+      "options": ["Not be nervous.", "Don't be nervous.", "Aren't nervous.", "No nervous."],
+      "answer": 1,
+      "explanation": "否定祈使句用 Don't + 原形動詞,be 動詞句型寫成 Don't be nervous.。",
+      "trap": "⚠ be 動詞的否定祈使句不可用 Aren't;原形是 be,所以是 Don't be，不是 Don't are/is。"
+    },
+    {
+      "stem": "\"_____ a wonderful surprise you prepared for us!\" Which word fits the blank?",
+      "options": ["How", "What", "How a", "What an"],
+      "answer": 1,
+      "explanation": "後接名詞片語 a wonderful surprise,用 What;surprise 為單數可數名詞前已有 a,所以選 What 而非 What an。",
+      "trap": "⚠ 空格後是「a + 形容詞 + 名詞」,核心是名詞用 What;若選 What an 會多一個冠詞,因為後面已有 a。"
+    },
+    {
+      "stem": "Which sentence has the SAME meaning as \"What a careful driver Mr. Lin is!\"?",
+      "options": ["How careful Mr. Lin drives!", "How carefully Mr. Lin drives!", "What carefully Mr. Lin drives!", "How careless Mr. Lin is!"],
+      "answer": 1,
+      "explanation": "What a careful driver (名詞片語) 改成 How 句要把形容詞 careful 變副詞 carefully 並改用動詞 drives:How carefully Mr. Lin drives!。",
+      "trap": "⚠ 修飾動詞 drives 要用副詞 carefully,不可用形容詞 careful;(D) careless 語意相反。"
+    },
+    {
+      "stem": "\"Take the umbrella, _____ you'll get wet in the rain.\" Choose the best word.",
+      "options": ["and", "or", "but", "so"],
+      "answer": 1,
+      "explanation": "後半句「淋濕」是負面結果,祈使句 + or 表示「否則」,故選 or。",
+      "trap": "⚠ and 接正面結果、or 接負面結果;這裡 get wet 是壞結果,要用 or。"
+    },
+    {
+      "stem": "Your team is tired. You want to suggest taking a break together. Which is most appropriate?",
+      "options": ["Let me take a break.", "Let's take a break.", "Let us to take a break.", "Take a break for me."],
+      "answer": 1,
+      "explanation": "提議「我們一起」休息用 Let's (= Let us) + 原形動詞,Let's take a break.。",
+      "trap": "⚠ Let me 是「讓我來」只指自己;Let us 後接原形不加 to。建議大家一起做要用 Let's。"
+    },
+    {
+      "stem": "Which underlined part is INCORRECT? \"Don't talks so loudly in the library, please.\"",
+      "options": ["Don't", "talks", "so loudly", "please"],
+      "answer": 1,
+      "explanation": "祈使句用原形動詞,Don't 之後應接 talk 而非 talks。",
+      "trap": "⚠ 祈使句一律用原形,即使語氣像第三人稱也不可加 s;Don't 後永遠接原形。"
+    },
+    {
+      "stem": "\"_____ delicious the soup smells!\" Choose the correct word.",
+      "options": ["What", "What a", "How", "How a"],
+      "answer": 2,
+      "explanation": "空格後是形容詞 delicious(無名詞),用 How;How + 形容詞 + 主詞 + 動詞 (How delicious the soup smells!)。",
+      "trap": "⚠ delicious 是形容詞、後面沒有名詞,所以用 How 不用 What;How 後絕不加 a/an。"
+    },
+    {
+      "stem": "Choose the correct sentence.",
+      "options": ["What a beautiful flowers they are!", "What beautiful flowers they are!", "How beautiful flowers they are!", "What a beautiful flowers!"],
+      "answer": 1,
+      "explanation": "flowers 為複數名詞,用 What 時不加 a/an:What beautiful flowers they are!。",
+      "trap": "⚠ What 後接複數或不可數名詞時不加 a/an;有名詞就不能用 How。"
+    },
+    {
+      "stem": "Rewrite \"How fast that boy runs!\" using What. Which is correct?",
+      "options": ["What a fast boy that boy is!", "What a fast runner that boy is!", "What fast that boy runs!", "What a fast runs that boy!"],
+      "answer": 1,
+      "explanation": "How + 副詞 (fast) + 主詞 + 動詞 (runs) 改成 What 句,需把副詞變形容詞並補名詞 runner:What a fast runner that boy is!。",
+      "trap": "⚠ How fast he runs 改 What 句要造出名詞 (runner) 並用 is;不能直接套 runs。"
+    },
+    {
+      "stem": "\"Practice every day, _____ your English will improve a lot.\" Choose the best word.",
+      "options": ["or", "and", "but", "though"],
+      "answer": 1,
+      "explanation": "「英文進步」是正面結果,祈使句 + and 表示「就會」,故選 and。",
+      "trap": "⚠ 後半句是好結果 (improve),用 and;若用 or 語意會變成威脅式的壞結果。"
+    },
+    {
+      "stem": "Which sentence is grammatically CORRECT?",
+      "options": ["Please don't to touch the paintings.", "Please not touch the paintings.", "Please don't touch the paintings.", "Please doesn't touch the paintings."],
+      "answer": 2,
+      "explanation": "禮貌否定祈使句:Please + Don't + 原形動詞,Please don't touch...。",
+      "trap": "⚠ Don't 後直接接原形,不加 to;祈使句不用 doesn't,please 可放句首或句尾。"
+    },
+    {
+      "stem": "\"_____ honest the little girl is!\" and \"_____ an honest girl she is!\" Which pair fits the blanks?",
+      "options": ["What / How", "How / What", "How / How", "What / What"],
+      "answer": 1,
+      "explanation": "第一句後接形容詞 honest 用 How;第二句後接名詞片語 an honest girl 用 What。故為 How / What。",
+      "trap": "⚠ 同一形容詞 honest:單獨出現用 How,後面帶名詞 (girl) 則用 What。"
+    },
+    {
+      "stem": "Mom is talking to a child. Choose the sentence that means \"我們不要再吵架了。\"",
+      "options": ["Let's not quarrel anymore.", "Let's don't quarrel anymore.", "Not let's quarrel anymore.", "Let us not to quarrel anymore."],
+      "answer": 0,
+      "explanation": "Let's 的否定是 Let's not + 原形動詞:Let's not quarrel anymore.。",
+      "trap": "⚠ Let's 的否定放 not 在 Let's 之後 (Let's not),不是 Let's don't;後接原形不加 to。"
+    },
+    {
+      "stem": "Which underlined word makes the sentence WRONG? \"What an useful information you gave me!\"",
+      "options": ["What", "an", "useful", "information"],
+      "answer": 1,
+      "explanation": "information 是不可數名詞,What 後不可加 a/an,應為 What useful information...。(useful 雖以母音字母 u 開頭但發音為子音,本就該用 a 而非 an,但根本問題是不可數名詞不加冠詞。)",
+      "trap": "⚠ information 不可數,絕不加 a/an;同理 advice、furniture、news 都不可加冠詞。"
+    },
+    {
+      "stem": "\"_____ down your name and phone number here, please.\" Choose the best word.",
+      "options": ["Writing", "To write", "Write", "Writes"],
+      "answer": 2,
+      "explanation": "祈使句以原形動詞開頭:Write down your name...,please 表禮貌。",
+      "trap": "⚠ 祈使句開頭用原形 Write,不可用 V-ing、to V 或加 s。"
+    },
+    {
+      "stem": "Which sentence correctly turns \"It is a very interesting story.\" into an exclamation?",
+      "options": ["How an interesting story it is!", "What an interesting story it is!", "What interesting story it is!", "How a interesting story it is!"],
+      "answer": 1,
+      "explanation": "核心名詞 story (單數可數),用 What + an + 形容詞 + 名詞:What an interesting story it is!。",
+      "trap": "⚠ 有名詞用 What;interesting 以母音開頭故用 an;How 後不接名詞。"
+    },
+    {
+      "stem": "\"Turn off the lights before you leave, _____ we'll waste electricity.\" Choose the best word.",
+      "options": ["and", "so", "or", "because"],
+      "answer": 2,
+      "explanation": "「浪費電」是負面結果,祈使句 + or 表「否則」,選 or。",
+      "trap": "⚠ waste electricity 是壞結果,用 or;and 會誤指這是好結果。"
+    },
+    {
+      "stem": "Choose the sentence with the CORRECT word order.",
+      "options": ["How tall is the tree!", "How tall the tree is!", "How is the tree tall!", "How the tree tall is!"],
+      "answer": 1,
+      "explanation": "感嘆句用正常語序:How + 形容詞 + 主詞 + 動詞,How tall the tree is!。",
+      "trap": "⚠ 感嘆句不是疑問句,不可倒裝成 is the tree;主詞與動詞照正常順序 the tree is。"
+    },
+    {
+      "stem": "A teacher wants students to be quiet but politely. Which is the most polite and correct?",
+      "options": ["Quiet!", "Be quiet, please.", "Please are quiet.", "You quiet please."],
+      "answer": 1,
+      "explanation": "祈使句以原形 Be 開頭,加 please 表禮貌:Be quiet, please.。",
+      "trap": "⚠ 形容詞 quiet 前需要原形動詞 Be;不可用 are,主詞 you 要省略。"
+    },
+    {
+      "stem": "\"_____ hard you have worked this year!\" Choose the correct word.",
+      "options": ["What", "What a", "How", "What an"],
+      "answer": 2,
+      "explanation": "hard 在此為副詞修飾 worked,後面無名詞,用 How:How hard you have worked!。",
+      "trap": "⚠ hard 此處是副詞,不接名詞,要用 How;有 you have worked 的主詞動詞屬正常語序。"
+    },
+    {
+      "stem": "Which sentence is the correct negative imperative for \"不要對長輩無禮\"?",
+      "options": ["Don't are rude to your elders.", "Be not rude to your elders.", "Don't be rude to your elders.", "Not be rude to your elders."],
+      "answer": 2,
+      "explanation": "否定祈使句 + be 動詞:Don't be + 形容詞,Don't be rude to your elders.。",
+      "trap": "⚠ be 動詞祈使句的否定是 Don't be,不是 Be not 或 Don't are。"
+    },
+    {
+      "stem": "Combine into one exclamation: The cake is so sweet. (Use What) Which is correct?",
+      "options": ["What sweet cake it is!", "What a sweet cake it is!", "How a sweet cake it is!", "What sweet a cake it is!"],
+      "answer": 1,
+      "explanation": "cake 為單數可數名詞,What + a + 形容詞 + 名詞:What a sweet cake it is!。",
+      "trap": "⚠ 冠詞 a 要放在形容詞之前 (a sweet cake);單數可數名詞不可省 a。"
+    },
+    {
+      "stem": "\"Wear your seatbelt, _____ you may get hurt in an accident.\" Which word best completes it?",
+      "options": ["and", "or", "but", "while"],
+      "answer": 1,
+      "explanation": "「受傷」是負面結果,祈使句 + or 表「否則」,選 or。",
+      "trap": "⚠ get hurt 是壞結果,用 or;若用 and 會誤導成正面結果。"
+    },
+    {
+      "stem": "Which of the following is an INCORRECT sentence?",
+      "options": ["What lovely weather we have today!", "How lovely the weather is today!", "What a lovely weather we have today!", "The weather is lovely today."],
+      "answer": 2,
+      "explanation": "weather 是不可數名詞,What 後不可加 a:應為 What lovely weather...,故 (C) 錯誤。",
+      "trap": "⚠ weather 不可數,加 a 即錯;判斷感嘆句正誤先確認名詞可數性。"
+    },
+    {
+      "stem": "Read the sign: \"KEEP OFF THE GRASS. DO NOT PICK THE FLOWERS.\" What does the sign ask people to do?",
+      "options": ["Walk on the grass and pick flowers.", "Stay off the grass and leave the flowers alone.", "Plant flowers on the grass.", "Water the grass and the flowers."],
+      "answer": 1,
+      "explanation": "Keep off the grass = 勿踏草坪;Do not pick the flowers = 不要採花,故要求人們遠離草坪並別摘花。",
+      "trap": "⚠ Keep off 是「遠離/勿進入」,Do not pick 是否定祈使句「不要採」;兩個都是禁止,不是允許。"
+    }
+  ]
+}

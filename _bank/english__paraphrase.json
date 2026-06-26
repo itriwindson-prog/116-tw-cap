@@ -1,0 +1,333 @@
+{
+  "id": "paraphrase",
+  "name": "同義改寫與句意理解 (Paraphrase & Sentence Meaning)",
+  "week": "下學期 期中後",
+  "notes": [
+    {
+      "h": "常見同義句型轉換",
+      "points": [
+        "too...to V(太…而不能)= so...that...not:He was too tired to walk = He was so tired that he couldn't walk;改寫時 that 子句必須補回否定 not。",
+        "not...until(直到…才)強調『在某時間點之前都沒發生』= only when / It was not until...that...;as soon as(一…就)= the moment / on + V-ing。",
+        "表原因時 because + 句子 可換成 because of / due to / thanks to + 名詞(片語):He was late because it rained = He was late because of the rain。",
+        "enough to V 與 so...that 也可互換:old enough to drive = so old that he can drive,留意主詞與肯定否定要一致。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" rx=\"10\" fill=\"#f3e7df\"/><rect x=\"14\" y=\"30\" width=\"150\" height=\"54\" rx=\"8\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"24\" y=\"54\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">too tired</text><text x=\"24\" y=\"74\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">to walk</text><text x=\"168\" y=\"60\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\" text-anchor=\"middle\">=</text><rect x=\"182\" y=\"30\" width=\"164\" height=\"54\" rx=\"8\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"192\" y=\"54\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">so tired that</text><text x=\"192\" y=\"74\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">he can't walk</text><text x=\"180\" y=\"120\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">改寫要補回 not</text><line x1=\"150\" y1=\"100\" x2=\"210\" y2=\"100\" stroke=\"#f0a52e\" stroke-width=\"2\"/><text x=\"180\" y=\"160\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">too...to ↔ so...that not</text></svg>",
+      "caption": "圖示 too...to 與 so...that...not 雙向等值,改寫時別漏掉否定。",
+      "trap": "⚠ too...to 改 so...that 時最常忘了補 not(too...to 本身已含否定義);又 not...until 與 not...because 的否定範圍不同,別把 until 句改成單純的 because 句而改變語意。"
+    },
+    {
+      "h": "語態與結構改寫保留原意",
+      "points": [
+        "主動↔被動:They built it = It was built by them;改寫時時態(過去對過去)與單複數(was/were)要一致,真正動作者用 by 帶出或省略。",
+        "比較級↔最高級:No other student is taller than Tom = Tom is the taller than any other / Tom is the tallest;否定主詞(No other)轉成肯定最高級時要涵蓋同一範圍。",
+        "直接↔間接引述:She said,'I am tired.' = She said (that) she was tired;人稱、時態(往前推一級)、時間地點副詞(now→then,here→there)都要對應調整。",
+        "判斷選項是否『改變原意』:重點檢查否定詞有無、數量範圍(all/some/no)、時態先後是否與原句完全一致,意思一變即為錯誤選項。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" rx=\"10\" fill=\"#eef4f2\"/><rect x=\"90\" y=\"12\" width=\"180\" height=\"30\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#3a342e\"/><text x=\"180\" y=\"32\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">原句:意義基準</text><rect x=\"14\" y=\"58\" width=\"150\" height=\"28\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#d98072\"/><text x=\"24\" y=\"77\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">✗ 改了否定</text><rect x=\"196\" y=\"58\" width=\"150\" height=\"28\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#d98072\"/><text x=\"206\" y=\"77\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">✗ 改了範圍</text><rect x=\"14\" y=\"98\" width=\"150\" height=\"28\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#d98072\"/><text x=\"24\" y=\"117\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">✗ 改了時態</text><rect x=\"196\" y=\"98\" width=\"150\" height=\"28\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"206\" y=\"117\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">✓ 意義相同</text><text x=\"180\" y=\"160\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">檢查:否定 範圍 時態</text></svg>",
+      "caption": "四個改寫選項只有一個保留原意,其餘各動了否定、範圍或時態。",
+      "trap": "⚠ 同義改寫題不是找『句型最像』的,而是找『意義完全相同』的;最常見陷阱是選項偷改否定詞、把 some 改成 all/no、或把過去改成現在,句型看似對但語意已變。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "Which sentence has the same meaning as: \"The box was so heavy that no one could lift it alone\"?",
+      "options": [
+        "The box was so light that everyone could lift it alone.",
+        "The box was heavy enough for someone to lift alone.",
+        "The box was not heavy enough to be lifted alone.",
+        "The box was too heavy for anyone to lift alone."
+      ],
+      "answer": 3,
+      "explanation": "so heavy that no one could lift = too heavy to lift(太重以致沒人搬得動);too...to 本身已含否定義,for anyone to lift 正確保留『沒人搬得動』。",
+      "trap": "⚠ 同義改寫要保留『無法達成』的否定義。改成 light 是反義;heavy enough 變肯定(搬得動);not...enough 變『不夠重』。too...to 句的否定義不可丟。"
+    },
+    {
+      "stem": "Choose the sentence closest in meaning to: \"It was not until midnight that the firefighters put out the fire.\"",
+      "options": [
+        "The firefighters never put out the fire that night.",
+        "The firefighters had put out the fire by midnight.",
+        "The firefighters put out the fire before midnight.",
+        "The firefighters did not put out the fire until midnight."
+      ],
+      "answer": 3,
+      "explanation": "It was not until midnight that... 強調『直到午夜才…』,等於 did not...until midnight,即午夜時才撲滅。",
+      "trap": "⚠ not until 表『到某時間點前都沒發生,到那時才發生』。before 或 by midnight 都暗示午夜前已完成,時間錯;never 是完全沒發生,語意全反。"
+    },
+    {
+      "stem": "Which is the correct passive paraphrase of: \"People say that the old castle has hidden many secrets\"?",
+      "options": [
+        "The old castle is said to have hidden many secrets.",
+        "The old castle has been said to hiding many secrets.",
+        "The old castle was said to hide many secrets.",
+        "The old castle is said to hide many secrets."
+      ],
+      "answer": 0,
+      "explanation": "People say + 現在完成(has hidden)改被動:主句用現在 is said,從句動作較早故用完成不定詞 to have hidden。",
+      "trap": "⚠ 原句從句『has hidden(已藏)』比 say 更早,被動須用 to have hidden;to hide 漏了時間先後;was said 把主句時態改成過去;to hiding 文法錯。"
+    },
+    {
+      "stem": "Select the sentence that keeps the original meaning of: \"No sooner had she entered the room than the lights went out.\"",
+      "options": [
+        "The lights went out long before she entered the room.",
+        "She entered the room as soon as the lights went out.",
+        "As soon as she entered the room, the lights went out.",
+        "After the lights went out, she finally entered the room."
+      ],
+      "answer": 2,
+      "explanation": "No sooner...than = 一…就…,事件順序為『先進房,燈就熄』,等同 As soon as she entered..., the lights went out。",
+      "trap": "⚠ No sooner A than B 表 A 先、B 緊接。把『先進房後燈熄』顛倒成燈先熄即錯;long before 也改變了時間關係。主從事件先後不可調換。"
+    },
+    {
+      "stem": "Which sentence means the same as: \"She said to me, 'I will call you tomorrow.'\"?",
+      "options": [
+        "She told me that she will call me tomorrow.",
+        "She asked me whether she would call me the next day.",
+        "She told me that I would call her the following day.",
+        "She told me that she would call me the next day."
+      ],
+      "answer": 3,
+      "explanation": "直接引述改間接:will→would、you→me、tomorrow→the next day,且 said to me 改 told me。",
+      "trap": "⚠ 間接引述須時態後退(will→would)、人稱對應(you→me)、時間轉換(tomorrow→the next day)。未後退時態、改成疑問句、或把『她打給我』顛倒成『我打給她』皆錯。"
+    },
+    {
+      "stem": "Choose the paraphrase that preserves the meaning of: \"He is the most diligent student in our class.\"",
+      "options": [
+        "Some students in our class are more diligent than he is.",
+        "Few students in our class are less diligent than he is.",
+        "He is more diligent than any student in our class.",
+        "No other student in our class is as diligent as he is."
+      ],
+      "answer": 3,
+      "explanation": "最高級『最…』可改為否定主詞 + as...as:No other student is as diligent as he is,範圍與意義一致。",
+      "trap": "⚠ 最高級轉否定主詞句要排除自身:more diligent than any student 漏了 other 會把自己也算進去;說別人更勤奮語意相反;less diligent 比較方向反了。"
+    },
+    {
+      "stem": "Which sentence is closest in meaning to: \"Because of the heavy snow, the train was delayed for hours.\"",
+      "options": [
+        "Although it snowed heavily, the train was not delayed.",
+        "The train was delayed for hours, so it snowed heavily.",
+        "The train was delayed for hours because it snowed heavily.",
+        "The heavy snow was delayed by the train for hours."
+      ],
+      "answer": 2,
+      "explanation": "Because of + 名詞片語(the heavy snow)= because + 句子(it snowed heavily),因果關係不變。",
+      "trap": "⚠ because of(接名詞)與 because(接句子)只是形式不同,因果方向不可變。把因果倒置(誤成誤點導致下雪)、改成 Although 讓步否定、或主受詞錯置皆錯。"
+    },
+    {
+      "stem": "Select the sentence with the same meaning as: \"I prefer reading novels to watching TV.\"",
+      "options": [
+        "I would rather watch TV than read novels.",
+        "I prefer to watch TV rather than read novels.",
+        "I would rather read novels than watch TV.",
+        "I like watching TV more than reading novels."
+      ],
+      "answer": 2,
+      "explanation": "prefer A to B = would rather A than B(較喜歡 A);prefer reading to watching = would rather read than watch。",
+      "trap": "⚠ prefer A-ing to B-ing 與 would rather A than B 互換,動詞形式不同(動名詞 vs 原形)。把偏好對象顛倒成喜歡看電視即錯;to/than 後接的才是『較不喜歡』的。"
+    },
+    {
+      "stem": "Which is the best paraphrase of: \"It is believed that the ancient bridge was built over a thousand years ago.\"",
+      "options": [
+        "The ancient bridge is believed to have been built over a thousand years ago.",
+        "People believe the ancient bridge will build a thousand years ago.",
+        "The ancient bridge is believed to build over a thousand years ago.",
+        "The ancient bridge believes it was built over a thousand years ago."
+      ],
+      "answer": 0,
+      "explanation": "It is believed that + 過去被動(was built)改寫:主詞前移,從句較早且為被動,用 to have been built。",
+      "trap": "⚠ 橋是被建造且時間更早,須用完成被動 to have been built。to build 漏完成且主動;will build 時態語態皆錯;把無生命的橋當主動相信者也錯。"
+    },
+    {
+      "stem": "Choose the sentence closest in meaning to: \"Hardly had the game started when it began to rain.\"",
+      "options": [
+        "The game ended because it rained too hard.",
+        "It stopped raining as soon as the game started.",
+        "The game had barely started when it started to rain.",
+        "It rained for a long time before the game started."
+      ],
+      "answer": 2,
+      "explanation": "Hardly had A when B = A 剛開始 B 就發生;比賽才剛開始就下起雨,等同 barely started when it started to rain。",
+      "trap": "⚠ Hardly...when 表『一…就…』,順序為比賽先、下雨緊接。把順序顛倒、加入比賽結束的因果、或改成停雨皆使語意全變。"
+    },
+    {
+      "stem": "Which sentence keeps the meaning of: \"You must finish the report, or you will be fired.\"",
+      "options": [
+        "Unless you are fired, you must finish the report.",
+        "If you finish the report, you will be fired.",
+        "You will be fired even if you finish the report.",
+        "If you don't finish the report, you will be fired."
+      ],
+      "answer": 3,
+      "explanation": "祈使句 + or + 結果 = If you don't + 同義(否則就…);不完成報告就會被開除。",
+      "trap": "⚠ 『...or...』等於『若不…就會…』,條件要改成否定 If you don't。漏掉否定、把條件與結果對調、或用 even if 變成不論如何都被開除皆錯。"
+    },
+    {
+      "stem": "Select the paraphrase that preserves: \"This is the first time that I have ever eaten such spicy food.\"",
+      "options": [
+        "I had never eaten such spicy food until last year.",
+        "I will eat such spicy food for the first time.",
+        "I often eat such spicy food.",
+        "I have never eaten such spicy food before."
+      ],
+      "answer": 3,
+      "explanation": "This is the first time I have ever eaten... = I have never eaten...before(這是第一次=以前從未)。",
+      "trap": "⚠ 『第一次做某事(現在完成)』等於『以前從未做過』。often 完全相反;will...for the first time 改成未來;until last year 加入錯誤時間點。"
+    },
+    {
+      "stem": "Which sentence has the same meaning as: \"Not only did he break the window, but he also lied about it.\"?",
+      "options": [
+        "He broke the window because he had lied about it.",
+        "He neither broke the window nor lied about it.",
+        "He broke the window and lied about it as well.",
+        "Although he broke the window, he did not lie about it."
+      ],
+      "answer": 2,
+      "explanation": "Not only A but also B = 既 A 又 B(兩件都做);他打破窗戶又說謊,等於 broke...and...as well。",
+      "trap": "⚠ Not only...but also 是『兩者皆是』的倒裝。neither...nor 變兩者皆非;否定了說謊;或加入錯誤因果皆使語意改變。去掉強調後仍應為兩件都成立。"
+    },
+    {
+      "stem": "Choose the sentence closest to: \"The harder you practice, the better you will perform.\"",
+      "options": [
+        "You will perform better, so you should practice harder.",
+        "The more you perform, the harder you must practice.",
+        "Even if you practice harder, you will not perform better.",
+        "If you practice harder, you will perform better."
+      ],
+      "answer": 3,
+      "explanation": "The + 比較級..., the + 比較級... 表『越…就越…』,等同 If you practice harder, you will perform better。",
+      "trap": "⚠ The...the... 是正向遞增。加 even if...not 變否定;把因果倒置;或主從顛倒(把 perform 當條件)皆錯。兩個比較級的因果方向不可互換。"
+    },
+    {
+      "stem": "Which is the correct active paraphrase of: \"The letter is supposed to have been sent last week.\"",
+      "options": [
+        "Someone is supposed to have sent the letter last week.",
+        "Someone is supposed to send the letter next week.",
+        "Someone supposes to have been sent the letter.",
+        "The letter is supposed to send someone last week."
+      ],
+      "answer": 0,
+      "explanation": "be supposed to have been sent(被動完成)改主動:加回施動者 someone,動作較早用 to have sent。",
+      "trap": "⚠ 被動 have been sent 轉主動為 have sent 並補施動者 someone。to send 漏完成且時間改未來;letter 不能當寄信者;supposes 文法錯且仍被動。"
+    },
+    {
+      "stem": "Select the sentence that means the same as: \"Without your help, I could not have finished the project on time.\"",
+      "options": [
+        "Even without your help, I finished the project on time.",
+        "If you had not helped me, I could not have finished the project on time.",
+        "Because you did not help me, I did not finish on time.",
+        "If you helped me, I would finish the project on time."
+      ],
+      "answer": 1,
+      "explanation": "Without + 名詞(過去語境)= If...had not...(與過去事實相反假設);沒有你的幫忙我就無法準時完成。",
+      "trap": "⚠ Without 在『could not have』語境下等於過去假設 If...had not。用現在假設且漏否定、把假設誤讀為事實(實際上有幫忙)、或 even without 變成不需幫忙也完成皆錯。"
+    },
+    {
+      "stem": "Which sentence keeps the meaning of: \"He asked me, 'Where did you buy this jacket?'\"",
+      "options": [
+        "He asked me where did I buy that jacket.",
+        "He asked me where I have bought this jacket.",
+        "He told me where I bought this jacket.",
+        "He asked me where I had bought that jacket."
+      ],
+      "answer": 3,
+      "explanation": "直接問句改間接:疑問句變肯定語序、時態後退(did buy→had bought)、this→that、you→I。",
+      "trap": "⚠ 間接問句須用直述語序(I had bought)不可保留 did。保留疑問語序 did I buy、用 told 引導問句、或時態未後退且 this 未改 that 皆錯。"
+    },
+    {
+      "stem": "Choose the paraphrase closest to: \"Few people, if any, can solve this puzzle.\"",
+      "options": [
+        "Many people can easily solve this puzzle.",
+        "No one has ever tried to solve this puzzle.",
+        "Almost no one can solve this puzzle.",
+        "Everyone is able to solve this puzzle."
+      ],
+      "answer": 2,
+      "explanation": "Few...if any 強調『幾乎沒有人』;few 本身是否定意味(很少),if any 更加強,等同 almost no one。",
+      "trap": "⚠ few...if any 是強調極少的否定語氣(few≠a few)。改成很多人會、人人會、或改成沒人嘗試(與『會不會解』無關)皆使語意改變。"
+    },
+    {
+      "stem": "Which sentence has the same meaning as: \"It took me three hours to repair the bike.\"?",
+      "options": [
+        "I cost three hours in repairing the bike.",
+        "The bike took three hours repairing me.",
+        "I spent three hours to repair the bike.",
+        "I spent three hours repairing the bike."
+      ],
+      "answer": 3,
+      "explanation": "It took sb + 時間 + to V = sb spent + 時間 + V-ing;花三小時修車,spend 後接動名詞。",
+      "trap": "⚠ spend 接 V-ing(spent three hours repairing),不接 to V。spent...to repair 錯;主受詞顛倒(bike 修我)錯;cost 主詞須為物或事不用人。"
+    },
+    {
+      "stem": "Select the sentence closest in meaning to: \"Such was his anger that he could hardly speak.\"",
+      "options": [
+        "He was so angry that he could barely speak.",
+        "He was a little angry, so he kept talking.",
+        "His anger made him speak more clearly.",
+        "He spoke calmly despite being angry."
+      ],
+      "answer": 0,
+      "explanation": "Such was his anger that... 為 So...that 的變體倒裝,表『如此生氣以致幾乎說不出話』= so angry that he could barely speak。",
+      "trap": "⚠ Such was N that... 等於 so + adj + that...,hardly/barely 表『幾乎不能』。改成有點生氣且能說、或把『說不出話』改成說得更清楚/平靜皆錯。"
+    },
+    {
+      "stem": "Which is the best paraphrase of: \"You had better not tell her the truth, or she will be hurt.\"",
+      "options": [
+        "If you tell her the truth, she will be hurt.",
+        "You should tell her the truth so that she won't be hurt.",
+        "She will be hurt whether you tell her the truth or not.",
+        "If you don't tell her the truth, she will be hurt."
+      ],
+      "answer": 0,
+      "explanation": "had better not + V, or... = 『最好別…否則…』;此處 \"not tell...or...\" 表『若(真的)告訴她,她會受傷』。",
+      "trap": "⚠ 『had better not do, or...』的 or 接『若做了會發生的壞結果』,故條件是肯定 If you tell。多加否定、變成建議要說、或 whether...or not 變成無論如何都受傷皆錯。"
+    },
+    {
+      "stem": "Choose the sentence that preserves the meaning of: \"Rich as he is, he is never satisfied with what he has.\"",
+      "options": [
+        "Although he is rich, he is never satisfied with what he has.",
+        "He is rich, so he is satisfied with everything he has.",
+        "If he were rich, he would be satisfied with what he has.",
+        "Because he is rich, he is always satisfied with what he has."
+      ],
+      "answer": 0,
+      "explanation": "Adj + as + 主詞 + be 為讓步倒裝,= Although he is rich(雖然他很富有);後句『從不滿足』不變。",
+      "trap": "⚠ 『Rich as he is』是讓步(Although)不是原因。改成 Because 因果且把『從不滿足』改成滿足、或改成 If 假設皆錯。adj+as+S+V 倒裝一律解作『雖然』。"
+    },
+    {
+      "stem": "Which sentence means the same as: \"The more I listened to him, the less I believed his story.\"",
+      "options": [
+        "The longer I listened, the more convinced I became.",
+        "I believed his story more as I kept listening to him.",
+        "I stopped listening because I believed his story.",
+        "As I listened to him more, I believed his story less."
+      ],
+      "answer": 3,
+      "explanation": "The more...the less... 表『越…越不…』;聽得越多越不信,等同 As I listened more, I believed less。",
+      "trap": "⚠ the more...the less 是一升一降的反向關係。改成越聽越信(同向)、或加入錯誤因果皆錯。改寫時務必保留兩端的升降方向。"
+    },
+    {
+      "stem": "Select the paraphrase closest to: \"He would rather stay at home than go to the noisy party.\"",
+      "options": [
+        "He enjoys the noisy party more than staying at home.",
+        "He has to go to the noisy party instead of staying home.",
+        "He prefers staying at home to going to the noisy party.",
+        "He prefers going to the noisy party to staying at home."
+      ],
+      "answer": 2,
+      "explanation": "would rather A than B = prefer A-ing to B-ing(較喜歡 A);留在家更勝於去派對。",
+      "trap": "⚠ would rather...than 與 prefer...to 互換,prefer 後接動名詞且偏好的放前。把偏好對象顛倒成喜歡派對、或 has to 變成被迫去皆錯。to 後接的是『較不想要』的。"
+    },
+    {
+      "stem": "Which sentence keeps the original meaning of: \"Only after the storm passed did the villagers return home.\"",
+      "options": [
+        "The villagers never returned home after the storm.",
+        "The villagers returned home only after the storm passed.",
+        "The villagers returned home before the storm passed.",
+        "As the storm passed, the villagers had already returned home."
+      ],
+      "answer": 1,
+      "explanation": "Only after...did + 主詞 + 原形 為倒裝強調,= The villagers returned home only after the storm passed(暴風雨過後才返家)。",
+      "trap": "⚠ Only after 置句首須倒裝,還原後語意不變。before 把時序前移;never returned 否定返家;had already returned 改成風暴過前已回皆錯。倒裝只是強調,時間關係不變。"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "readinggenre",
+  "name": "應用文閱讀:廣告告示與書信 (Practical Reading)",
+  "week": "全期",
+  "notes": [
+    {
+      "h": "廣告與告示閱讀策略",
+      "points": [
+        "先看標題與粗體字鎖定主題與目的:廣告多為促銷(sale / off / discount),海報多為活動宣傳,告示(notice)多為規定或警告。掌握目的後再回頭找細節。",
+        "用 5W 掃描關鍵資訊:when(時間/日期)、where(地點)、how much(價格/費用)、who(對象/誰適用)、what(做什麼)。題目問什麼就只掃描對應欄位,不必逐字讀。",
+        "特別留意條件與例外字:except(除外)、only(僅限)、free for...(對某對象免費)、valid until / before(有效期限)、members only(限會員)。會考陷阱常藏在這些限制條件裡。",
+        "數字與折扣要看清楚:20% off 是打八折(付 80%)、buy one get one free 是買一送一、$5 off 是直接減 5 元,三者算法完全不同。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"8\" y=\"8\" width=\"344\" height=\"174\" rx=\"8\" fill=\"#f3e7df\"/><rect x=\"24\" y=\"22\" width=\"170\" height=\"148\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#c9755c\"/><text x=\"109\" y=\"44\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\" text-anchor=\"middle\">BOOK FAIR</text><text x=\"36\" y=\"72\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">June 5, 9am</text><text x=\"36\" y=\"98\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">City Library</text><text x=\"36\" y=\"124\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">Ticket: $50</text><text x=\"36\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\">Free for kids</text><text x=\"262\" y=\"60\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\">when?</text><text x=\"262\" y=\"86\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\">where?</text><text x=\"262\" y=\"112\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\">how much?</text><text x=\"262\" y=\"138\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\">who?</text></svg>",
+      "caption": "海報的標題、日期、地點、價格四項資訊,分別對應 when/where/how much/who 四種提問。",
+      "trap": "⚠ 看到 free for kids 就以為全部免費,或把 20% off 當成只付 20%。折扣與例外條件最常被誤讀,務必看清「對誰」「打幾折」「有沒有期限」。"
+    },
+    {
+      "h": "書信與 email 閱讀",
+      "points": [
+        "開頭稱呼與結尾敬語透露正式程度:Dear Mr./Ms. + 姓 與 Sincerely / Best regards 屬正式(對師長、商家、不熟者);Hi / Hey + 名字 與 Cheers / See you 屬非正式(對朋友、家人)。",
+        "第一段(主旨句)通常點出寫信目的:I'm writing to... / I would like to... / Just wanted to...。抓到這句就掌握全信重點,中間段落才是細節與理由。",
+        "判斷寄件者與收件者的關係與語氣:由稱呼、用字(please / could you 較客氣 vs. 直接命令)、與所談事項(請假、道歉、邀約、抱怨)綜合判斷,別只看單一線索。",
+        "email 特有欄位也是考點:Subject(主旨)概括全信、To/From 看收發雙方、附件(attachment)或行動要求(reply by Friday)常是細節題答案。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"8\" y=\"8\" width=\"344\" height=\"174\" rx=\"8\" fill=\"#eef4f2\"/><rect x=\"24\" y=\"20\" width=\"312\" height=\"26\" rx=\"4\" fill=\"#f3e7df\"/><text x=\"34\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">Subject: Day off</text><text x=\"230\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">主旨</text><text x=\"34\" y=\"66\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">Dear Mr. Lin,</text><text x=\"230\" y=\"66\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">稱呼:正式</text><text x=\"34\" y=\"94\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">I'm writing to ask...</text><text x=\"230\" y=\"94\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\">目的句</text><text x=\"34\" y=\"122\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">...next Monday.</text><text x=\"230\" y=\"122\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\">細節</text><text x=\"34\" y=\"152\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">Sincerely, Amy</text><text x=\"230\" y=\"152\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">結尾:正式</text></svg>",
+      "caption": "email 的主旨、稱呼、目的句、細節、結尾敬語,各自對應不同考點。",
+      "trap": "⚠ 把中段細節當成寫信目的。目的幾乎都在第一段的 I'm writing to...;另外 Dear 不代表親密、Sincerely 才判定正式,要靠整體語氣而非單一字。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "SUMMER SWIM CAMP — July 1–14, 9 a.m.–noon. $120 for two weeks. Sign up before June 20 and get $30 off. Members pay only half price (after the early-bird discount does not apply to members). If a non-member signs up on June 15, how much does he pay?",
+      "options": ["$120", "$90", "$60", "$45"],
+      "answer": 1,
+      "explanation": "非會員在 6/20 前報名,享 $30 早鳥折扣:120 − 30 = $90。會員半價且不適用早鳥,與非會員無關。",
+      "trap": "⚠ 把會員半價($60)誤套到非會員身上。題目明說早鳥折扣不適用會員,且此人是 non-member,只能用 $30 off。"
+    },
+    {
+      "stem": "NOTICE: The library elevator will be out of service from May 3 to May 5 for repairs. During this time, please use the stairs. Visitors who need wheelchair access should call the front desk in advance. What is the main purpose of this notice?",
+      "options": ["To advertise a new elevator", "To inform readers the elevator cannot be used for a few days", "To ask visitors to stop coming to the library", "To sell wheelchairs at the front desk"],
+      "answer": 1,
+      "explanation": "告示目的是通知電梯 5/3–5/5 維修停用,請改走樓梯。屬「通知 + 規定」性質。",
+      "trap": "⚠ 看到 wheelchair / front desk 就選賣輪椅,或看到 out of service 就以為叫人別來。告示核心是「停用通知」,其餘是配套說明。"
+    },
+    {
+      "stem": "From: coach_wang@school.edu  To: team members  Subject: Saturday's game\n\nHi all, our game this Saturday has been moved from 2 p.m. to 10 a.m. because of the afternoon rain forecast. Please arrive at the field 30 minutes early to warm up. Reply to let me know if you can make it. — Coach Wang\n\nWhat time should players get to the field?",
+      "options": ["9:30 a.m.", "10:00 a.m.", "1:30 p.m.", "2:00 p.m."],
+      "answer": 0,
+      "explanation": "比賽改到 10 a.m.,且要求提前 30 分鐘到場熱身,故 10:00 − 0:30 = 9:30 a.m.。",
+      "trap": "⚠ 直接選 10:00(比賽時間)或 1:30(舊時間的提前 30 分)。要結合「新時間」與「提前 30 分鐘」兩個條件計算。"
+    },
+    {
+      "stem": "BUY 2 GET 1 FREE on all T-shirts! Each T-shirt is $200. The free one is the cheapest among the three. Lisa picks three T-shirts priced $200, $200, and $250. How much does she pay?",
+      "options": ["$650", "$450", "$400", "$250"],
+      "answer": 1,
+      "explanation": "買二送一,免費的是三件中最便宜者($200)。付 250 + 200 = $450。",
+      "trap": "⚠ 誤把最貴($250)當贈品,或全付 $650 忘了折扣。規則明說 free one is the cheapest,要扣掉最便宜的 $200。"
+    },
+    {
+      "stem": "Dear Ms. Chen,\n\nI am writing to apologize for missing the meeting last Friday. My train was delayed for over two hours, and I could not reach the office in time. I have attached the notes I prepared so the team can still review them. Please let me know if a make-up meeting is needed.\n\nSincerely,\nDavid\n\nWhat is the main purpose of this email?",
+      "options": ["To invite Ms. Chen to a party", "To apologize for being absent and offer his notes", "To complain about the train company", "To ask for a day off next week"],
+      "answer": 1,
+      "explanation": "第一段 I am writing to apologize for missing the meeting 即點明目的:為缺席致歉,並附上筆記供團隊參考。",
+      "trap": "⚠ 火車誤點只是「原因」,不是寫信目的;附上 notes 與提議補會是補充。目的句永遠看第一段的 I am writing to...。"
+    },
+    {
+      "stem": "TRAIN TIMETABLE (to Hualien)\nDeparture 07:50 → Arrival 10:35\nDeparture 09:10 → Arrival 11:30\nDeparture 11:00 → Arrival 14:05\nTom must arrive in Hualien before 11:45 for a meeting. Which is the LAST train he can take?",
+      "options": ["07:50 train", "09:10 train", "11:00 train", "None of the trains work"],
+      "answer": 1,
+      "explanation": "需在 11:45 前抵達:07:50→10:35(可)、09:10→11:30(可,且最晚)、11:00→14:05(太晚)。最後一班合格的是 09:10。",
+      "trap": "⚠ 題目問「最晚 latest」可搭的車,不是最早。07:50 雖可,但 09:10 也在 11:45 前抵達且更晚,才是答案。"
+    },
+    {
+      "stem": "MENU — Lunch Set (11:00–14:00 only): Main + Soup + Drink for $180. Extra dessert +$40. Drinks: coffee, tea, or juice (juice +$20). Anna orders a lunch set with juice and adds a dessert at 1 p.m. How much is her bill?",
+      "options": ["$180", "$220", "$240", "$280"],
+      "answer": 2,
+      "explanation": "午間套餐 $180,果汁加 $20,甜點加 $40:180 + 20 + 40 = $240。13:00 在 11:00–14:00 內,套餐成立。",
+      "trap": "⚠ 漏算 juice 的 +$20(以為飲料全免費),只算成 $220。菜單常在括號藏「某選項要加價」。"
+    },
+    {
+      "stem": "WANTED: Part-time helper at Sunny Café. Weekends only, 8 a.m.–2 p.m. Must be over 18. No experience needed; training provided. Call 02-1234-5678. Which person is suitable to apply?",
+      "options": ["A 16-year-old student free on weekends", "A 20-year-old free only on weekday evenings", "A 25-year-old with no café experience, free on Saturdays and Sundays", "A 30-year-old who can only work mornings on Mondays"],
+      "answer": 2,
+      "explanation": "條件:週末、8–14 點、滿 18 歲、無經驗可。25 歲、週六日有空、無經驗者完全符合。",
+      "trap": "⚠ 16 歲不滿 18(出局)、週間晚上或週一早上都不符「週末」。No experience needed 是「不需要經驗」,別誤以為「需要經驗」而排除無經驗者。"
+    },
+    {
+      "stem": "Hey Mark,\n\nLong time no see! A bunch of us are getting together at my place this Friday night for board games and pizza. Bring your little brother if you want — the more the merrier. Just text me back so I know how much pizza to order. Can't wait!\n\nCheers,\nJenny\n\nWhat can we tell about the relationship between Jenny and Mark?",
+      "options": ["They are strangers", "They are close friends", "Jenny is Mark's teacher", "Jenny is Mark's boss"],
+      "answer": 1,
+      "explanation": "由 Hey / Long time no see / Cheers / the more the merrier 等非正式、親切用語,可判斷兩人是好朋友。",
+      "trap": "⚠ Bring your brother、text me 等口語暗示親近;師生或上司下屬不會這樣寫。語氣判斷要綜合稱呼與整體用字,而非單看一句。"
+    },
+    {
+      "stem": "GYM MEMBERSHIP\nMonthly: $900/month\nYearly: $9,000/year (one-time payment)\nStudents get 10% off any plan. Ben is a student who plans to work out for a whole year. Which choice is cheaper, and by how much?",
+      "options": ["Monthly is cheaper by $1,620", "Yearly is cheaper by $900", "Yearly is cheaper by $1,620", "They cost the same"],
+      "answer": 2,
+      "explanation": "學生一律 9 折。月繳一整年:900×12 = 10,800,×0.9 = $9,720;年繳:9,000×0.9 = $8,100。年繳較便宜,差 9,720 − 8,100 = $1,620。",
+      "trap": "⚠ 折扣要對「兩種方案都套用」後再比較,不能拿打折前的價差($1,800)當答案,也別忘了月繳要先乘 12 個月。"
+    },
+    {
+      "stem": "POOL RULES\n1. No running.\n2. Children under 12 must be with an adult.\n3. No food in the pool area, except in the snack zone.\n4. The pool closes at 8 p.m.\nWhich action is ALLOWED by the rules?",
+      "options": ["A 10-year-old swimming alone", "Eating a sandwich in the snack zone", "Running beside the pool", "Staying in the pool until 9 p.m."],
+      "answer": 1,
+      "explanation": "規則 3 有例外:食物在 snack zone 是允許的。其餘三項都違規(獨自、跑步、超過 8 點)。",
+      "trap": "⚠ 規則 3 的 except in the snack zone 正是答案來源。看到 No food 就以為全面禁食,會錯過例外條件。"
+    },
+    {
+      "stem": "Dear Customer,\n\nThank you for your order (#A203). Unfortunately, the blue jacket you ordered is out of stock. We can either send you the same jacket in black, or give you a full refund. Please reply within 7 days to tell us your choice. After 7 days, we will issue a refund automatically.\n\nBest regards,\nOnline Store Team\n\nIf the customer does NOT reply, what will happen?",
+      "options": ["They will receive the blue jacket", "They will receive a black jacket", "They will get a refund", "Nothing will happen"],
+      "answer": 2,
+      "explanation": "信中說 7 天內沒回覆,將「自動退款」(issue a refund automatically)。故不回覆 = 退款。",
+      "trap": "⚠ 黑色外套需「主動回覆選擇」才會寄;不回覆的預設結果是退款。要看清「若不行動」對應哪個結果。"
+    },
+    {
+      "stem": "A piece of text reads: 'Fasten your seat belt. Put your seat back up. We will land in about 20 minutes.' Where would you most likely hear or read this?",
+      "options": ["On a ship", "On an airplane", "In a movie theater", "At a swimming pool"],
+      "answer": 1,
+      "explanation": "fasten your seat belt、seat back up、land(降落)等用語為飛機廣播,故情境是在飛機上。",
+      "trap": "⚠ seat belt 也用於汽車,但 land(降落)與 seat back up 是飛機特有。依文體判斷情境須抓最具決定性的線索詞。"
+    },
+    {
+      "stem": "FLASH SALE — TODAY ONLY!\nAll shoes 25% off. Pay with our store card to get an EXTRA 10% off the discounted price. A pair of shoes is originally $1,000. If you pay with the store card, how much do you pay?",
+      "options": ["$650", "$675", "$700", "$750"],
+      "answer": 1,
+      "explanation": "先打 75 折:1,000×0.75 = 750;再以店卡折 10%:750×0.9 = $675。折扣須「先後相乘」而非相加。",
+      "trap": "⚠ 把 25% + 10% 加成 35% off 而選 $650。兩段折扣是「在折後價再打折」,要相乘(0.75×0.9),不可直接相加。"
+    },
+    {
+      "stem": "From: lisa@mail.com  To: hotel@stay.com  Subject: Booking question\n\nHello, I booked a room for two nights (June 10–12). I'd like to check in earlier, at around 11 a.m. on June 10, instead of the usual 3 p.m. Is early check-in possible, and is there an extra fee? Thank you. — Lisa\n\nWhat does Lisa want to know?",
+      "options": ["Whether she can cancel her booking", "Whether she can check in early and if it costs extra", "Whether the hotel has a swimming pool", "Whether breakfast is included"],
+      "answer": 1,
+      "explanation": "信中明問兩件事:能否提早入住(early check-in)以及是否額外收費(extra fee)。",
+      "trap": "⚠ 只抓到 early check-in 卻漏掉 extra fee。書信細節題常一句問兩件事,正解須完整涵蓋,別選只對一半的選項。"
+    },
+    {
+      "stem": "MOVIE SCHEDULE — 'Space Heroes' (Screen 2)\n13:00 / 15:30 / 18:00 / 20:30\nThe movie is 120 minutes long. Kevin wants to finish watching before 18:00 so he can catch a 6:30 p.m. bus. Which is the LATEST showing he can choose?",
+      "options": ["13:00", "15:30", "18:00", "20:30"],
+      "answer": 1,
+      "explanation": "片長 120 分鐘。15:30 開演 → 17:30 結束(在 18:00 前,可)。18:00 場 → 20:00 結束(太晚)。故最晚是 15:30。",
+      "trap": "⚠ 看到 before 18:00 就選 18:00 場。要把「開演時間 + 120 分鐘」算出散場時間,散場須早於 18:00。"
+    },
+    {
+      "stem": "LOST & FOUND NOTICE: A black umbrella was found in Room 305 on Monday. The owner can pick it up at the office before Friday. After Friday, it will be given to charity. Who is this notice mainly for?",
+      "options": ["The cleaning staff of Room 305", "The person who lost a black umbrella", "People who want to donate umbrellas", "Visitors looking for Room 305"],
+      "answer": 1,
+      "explanation": "失物招領告示的對象是「遺失黑傘的人」,提醒其週五前到辦公室領取。",
+      "trap": "⚠ charity / office 等字可能誤導成捐贈者或清潔人員。Lost & Found 告示的訴求對象永遠是「失主」。"
+    },
+    {
+      "stem": "Dear Principal Wu,\n\nOn behalf of the parents, I am writing to express our thanks for the new library. The bright reading room and the wide range of books have made our children love reading more. We hope the school will keep up such good work.\n\nRespectfully,\nThe Parents' Association\n\nWhat is the tone of this letter?",
+      "options": ["Angry and complaining", "Grateful and formal", "Worried and uncertain", "Casual and joking"],
+      "answer": 1,
+      "explanation": "On behalf of、express our thanks、Respectfully 等用語顯示「感謝且正式」的語氣。",
+      "trap": "⚠ keep up such good work 是鼓勵而非抱怨。語氣判斷要看 express our thanks 等情感字眼與正式敬語,別被單一字誤導成不滿。"
+    },
+    {
+      "stem": "PARKING NOTICE: Free parking for the first 30 minutes. After that, $30 per hour (any part of an hour counts as a full hour). Mr. Lin parks for 2 hours and 10 minutes. How much does he pay?",
+      "options": ["$30", "$60", "$90", "$120"],
+      "answer": 1,
+      "explanation": "前 30 分免費,計費時間為 2 時 10 分 − 30 分 = 1 時 40 分。不足一小時以一小時計,故算 2 小時:2×30 = $60。",
+      "trap": "⚠ 忘了扣前 30 分免費(直接算 2 時 10 分→3 小時 $90),或忽略「不足一小時算一小時」。兩個條件都要套用。"
+    },
+    {
+      "stem": "Which of the following is the MOST appropriate closing for a formal complaint email to a company you have never contacted before?",
+      "options": ["Love, Amy", "Cheers, Amy", "Yours sincerely, Amy Wang", "XOXO, Amy"],
+      "answer": 2,
+      "explanation": "對不熟悉的公司寫正式投訴信,結尾用 Yours sincerely + 全名最得體。Love / Cheers / XOXO 都太私人或隨意。",
+      "trap": "⚠ Cheers 看似有禮但屬非正式;正式商業書信用 Yours sincerely / Best regards。書信結束語須匹配對象的正式程度。"
+    },
+    {
+      "stem": "CONCERT TICKETS\nRegular: $800\nStudent: $500 (must show student ID at the door)\nGroup (4+ people): $600 each\nA group of 5 students buys tickets together. They want the cheapest total. Which option should they choose and what is the total?",
+      "options": ["Student price, $2,500", "Group price, $3,000", "Regular price, $4,000", "Mix of student and group, $2,700"],
+      "answer": 0,
+      "explanation": "5 名學生:學生票 500×5 = $2,500;團體票 600×5 = $3,000。學生票較便宜,選 $2,500。",
+      "trap": "⚠ 以為人多就該選 group。團體票 $600 反而比學生票 $500 貴,5 人皆有學生證時學生票最划算。要逐項比價而非看人數。"
+    },
+    {
+      "stem": "Dear Editor,\n\nI read your article about cutting down trees in City Park last week. While I understand the need for a new road, I strongly believe the park's old trees should be protected. They give us clean air and shade. I hope the city will think again before making a final decision.\n\nA Concerned Reader\n\nWhat is the writer's attitude toward cutting down the trees?",
+      "options": ["Strongly in favor of it", "Against it", "Has no opinion", "Only cares about the new road"],
+      "answer": 1,
+      "explanation": "writer 說 strongly believe the park's old trees should be protected、希望市府 think again,態度是「反對砍樹」。",
+      "trap": "⚠ I understand the need for a new road 只是先讓步,真正立場在 but/strongly believe 之後。看到讓步句別誤判為贊成。"
+    },
+    {
+      "stem": "WORKSHOP REGISTRATION\nFee: $300. Early-bird (before Oct 1): $250. Pay online and get $50 off the price you qualify for. Mia registers online on September 28. How much does she pay?",
+      "options": ["$300", "$250", "$200", "$150"],
+      "answer": 2,
+      "explanation": "9/28 在 10/1 前 → 早鳥價 $250;再線上付款折 $50:250 − 50 = $200。",
+      "trap": "⚠ 漏掉早鳥(直接 300 − 50 = 250)或漏掉線上折扣。the price you qualify for 指「她符合的早鳥價」,兩段折扣都要套。"
+    },
+    {
+      "stem": "From: school_office  Subject: Field Trip Form\n\nThe field trip to the Science Museum is on May 20. Please return the signed permission form and the $250 fee to your homeroom teacher by May 13. Students without a signed form by the deadline cannot join the trip. What MUST students do to join?",
+      "options": ["Pay $250 only", "Return the signed form only", "Return the signed form and pay $250 by May 13", "Show up at the museum on May 20"],
+      "answer": 2,
+      "explanation": "通知要求:在 5/13 前「繳回簽名同意書」並「繳交 $250」給導師,兩者皆須。未交簽名表者不能參加。",
+      "trap": "⚠ 只選付錢或只選交表都不完整;deadline 是 5/13(非出遊日 5/20)。細節題須同時滿足「兩個條件 + 期限」。"
+    },
+    {
+      "stem": "A short text reads: 'Add 2 cups of flour. Stir in 1 egg. Bake at 180°C for 25 minutes. Let it cool before serving.' What type of text is this?",
+      "options": ["A weather report", "A recipe (cooking instructions)", "A love letter", "A movie review"],
+      "answer": 1,
+      "explanation": "Add、Stir、Bake、cool before serving 等步驟性祈使句,且含材料與溫度時間,是「食譜/烹飪說明」。",
+      "trap": "⚠ 依文體判斷要抓格式特徵:一連串祈使動詞 + 份量 + 溫度時間 = 食譜。別被單一字(cup, egg)誤導去想其他情境。"
+    }
+  ]
+}

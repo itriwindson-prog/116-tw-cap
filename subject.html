@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>各科筆記</title>
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.setAttribute("data-theme", localStorage.getItem("ss.theme") || "light");</script>
+</head>
+<body>
+<nav class="nav">
+  <span class="brand">📚 會考總複習</span>
+  <a href="index.html">儀表板</a>
+  <a href="schedule.html">進度計畫</a>
+  <a href="subject.html?subject=math" class="active">各科筆記</a>
+  <a href="mistakes.html">錯題本</a>
+  <span class="spacer"></span>
+  <button class="theme-btn" id="themeBtn" title="深色／淺色">🌙</button>
+  <span id="subjectNav"></span>
+</nav>
+
+<div class="wrap">
+  <div class="layout">
+    <aside class="card">
+      <h3 id="subjName" style="margin-top:0"></h3>
+      <ul class="toclist" id="toc"></ul>
+    </aside>
+    <main>
+      <div class="tts-bar">
+        🔊 語速
+        <input type="range" id="rate" min="0.5" max="1.5" step="0.05" style="flex:1;max-width:200px">
+        <span id="rateVal" class="muted"></span>
+        <button class="btn small accent" id="readAll">朗讀整頁</button>
+        <button class="btn small ghost" id="stopAll">停止</button>
+      </div>
+      <div class="card" id="noteArea"></div>
+      <div style="margin-top:16px" id="quizLink"></div>
+    </main>
+  </div>
+</div>
+
+<script src="js/data/config.js"></script>
+<script src="js/data/schedule.js"></script>
+<script src="js/data/math.js"></script>
+<script src="js/data/chinese.js"></script>
+<script src="js/data/english.js"></script>
+<script src="js/data/social.js"></script>
+<script src="js/data/science.js"></script>
+<script src="js/data/writing.js"></script>
+<script src="js/app.js"></script>
+<script>
+(function () {
+  const SS = window.STUDYSYNC, C = SS.data.config;
+  document.getElementById("themeBtn").addEventListener("click", () => SS.theme.toggle());
+  const subjId = SS.param("subject", "math");
+  const data = SS.subjectData(subjId);
+  const meta = SS.findSubject(subjId);
+
+  // 科目切換導覽
+  const nav = document.getElementById("subjectNav");
+  nav.innerHTML = C.subjects.map(s =>
+    '<a href="subject.html?subject=' + s.id + '"' + (s.id === subjId ? ' class="active"' : '') + '>' + s.name + '</a>'
+  ).join(" · ");
+
+  document.getElementById("subjName").textContent = meta ? meta.name : subjId;
+
+  // 語速滑桿
+  const rate = document.getElementById("rate"), rateVal = document.getElementById("rateVal");
+  rate.value = SS.tts.rate; rateVal.textContent = "×" + (+SS.tts.rate).toFixed(2);
+  rate.addEventListener("input", () => { SS.tts.setRate(rate.value); rateVal.textContent = "×" + (+rate.value).toFixed(2); });
+  document.getElementById("stopAll").addEventListener("click", () => SS.tts.stop());
+
+  if (!data || !data.topics.length) {
+    document.getElementById("noteArea").innerHTML = "<p class='muted'>此科目尚未填入內容，請依 <code>js/data/schema.md</code> 照 <code>math.js</code> 結構新增。</p>";
+    return;
+  }
+
+  // 目錄（依子科分組）
+  const toc = document.getElementById("toc");
+  const wantTopic = SS.param("topic");
+  let current = data.topics.find(t => t.id === wantTopic) || data.topics[0];
+  const subs = meta && meta.subs ? meta.subs : null;
+
+  function renderToc() {
+    toc.innerHTML = "";
+    function addTopic(t) {
+      const a = SS.el("a", { href: "#", text: t.name, class: t.id === current.id ? "active" : "" });
+      a.addEventListener("click", e => { e.preventDefault(); current = t; renderToc(); renderNote(); });
+      toc.appendChild(SS.el("li", {}, [a]));
+    }
+    if (subs) {
+      subs.forEach(sub => {
+        const list = data.topics.filter(t => t.sub === sub.id);
+        if (!list.length) return;
+        toc.appendChild(SS.el("li", { class: "sub-h", text: sub.name }));
+        list.forEach(addTopic);
+      });
+      data.topics.filter(t => !t.sub).forEach(addTopic);  // 無子科者
+    } else {
+      data.topics.forEach(addTopic);
+    }
+  }
+
+  function renderNote() {
+    const area = document.getElementById("noteArea");
+    area.innerHTML = "";
+    area.appendChild(SS.el("h2", { text: current.name }));
+    if (current.week) area.appendChild(SS.el("div", { class: "muted", text: "📅 " + current.week }));
+
+    (current.notes || []).forEach(n => {
+      const sec = SS.el("div", { class: "note-sec" });
+      const title = SS.el("h3", {}, [document.createTextNode(n.h)]);
+      const speakText = n.h + "。" + (n.points || []).join("。") + (n.trap ? "。注意：" + n.trap : "");
+      const btn = SS.el("button", { class: "icon-btn", title: "朗讀本段", text: "🔊" });
+      btn.addEventListener("click", () => SS.tts.speak(speakText, n.audioSrc));
+      title.appendChild(btn);
+      sec.appendChild(title);
+      if (n.points) { const ul = SS.el("ul"); n.points.forEach(p => ul.appendChild(SS.el("li", { text: p }))); sec.appendChild(ul); }
+      if (n.formula) sec.appendChild(SS.el("div", { class: "formula", text: n.formula }));
+      if (n.svg || n.img) {  // 圖解
+        const fig = SS.el("figure", { class: "figure" });
+        if (n.svg) fig.appendChild(SS.el("div", { class: "figbox", html: n.svg }));
+        else fig.appendChild(SS.el("img", { src: n.img, alt: n.caption || n.h, style: "max-width:100%" }));
+        if (n.caption) fig.appendChild(SS.el("figcaption", { class: "muted", text: "圖：" + n.caption }));
+        sec.appendChild(fig);
+      }
+      if (n.trap) sec.appendChild(SS.el("div", { class: "trap", html: "<b>⚠ 粗心提醒：</b>" + n.trap }));
+      area.appendChild(sec);
+    });
+
+    const ql = document.getElementById("quizLink");
+    ql.innerHTML = "";
+    if (current.quiz && current.quiz.length) {
+      const a = SS.el("a", { class: "btn", href: "quiz.html?subject=" + subjId + "&topic=" + current.id, text: "✏ 進入「" + current.name + "」測驗（隨機 " + Math.min(10, current.quiz.length) + " 題）" });
+      ql.appendChild(a);
+    }
+    if (SS.aggregateQuiz(data).length) {
+      ql.appendChild(SS.el("a", { class: "btn accent", style: "margin-left:10px", href: "quiz.html?subject=" + subjId + "&set=monthly", text: "📝 本科綜合測驗（隨機 30 題）" }));
+    }
+  }
+
+  document.getElementById("readAll").addEventListener("click", () => {
+    const text = (current.notes || []).map(n => n.h + "。" + (n.points || []).join("。") + (n.trap ? "。注意：" + n.trap : "")).join("。");
+    SS.tts.speak(text);
+  });
+
+  renderToc(); renderNote();
+})();
+</script>
+</body>
+</html>

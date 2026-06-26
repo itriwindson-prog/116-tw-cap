@@ -1,0 +1,153 @@
+{
+  "topicId": "relative",
+  "isNew": false,
+  "newQuiz": [
+    {
+      "stem": "The scientist ___ research on coral reefs won an award has just published a new book about climate change.",
+      "options": ["who", "whose", "whom", "which"],
+      "answer": 1,
+      "explanation": "空格後接名詞 research,且 research 是 the scientist 的『研究』,表所有格,須用 whose(the scientist's research won an award)。",
+      "trap": "⚠ 看到先行詞是人就直覺選 who 會錯;關鍵在空格後緊接名詞 research 表所有關係,只有 whose 後可直接接名詞,who/whom 後不接名詞。"
+    },
+    {
+      "stem": "Is this the restaurant ___ you told me the chef once cooked for the president?",
+      "options": ["which", "where", "that", "whose"],
+      "answer": 1,
+      "explanation": "先行詞 restaurant 是地點,且去掉插入語 you told me 後,子句 the chef once cooked for the president (here) 結構完整、不缺主受詞,須用關係副詞 where。",
+      "trap": "⚠ 易被 you told me 干擾而選 which/that;判斷時把插入語拿掉,子句已是完整句(主詞 the chef、動詞 cooked 都在),缺的是『地點副詞』,故用 where 而非關代 which。"
+    },
+    {
+      "stem": "He gave me several reasons, none of ___ sounded convincing enough to change my mind.",
+      "options": ["them", "which", "that", "whom"],
+      "answer": 1,
+      "explanation": "非限定子句中『介系詞/數量詞 of + 關代』指物用 which(none of which);先行詞 reasons 是物。",
+      "trap": "⚠ none of them 會造成逗號連接兩個獨立句的逗號黏接錯誤(comma splice),須用關代 which 連接;指物用 which 不可用 whom,且 of 後不可用 that。"
+    },
+    {
+      "stem": "The little girl ___ I thought was lost turned out to be the manager's daughter.",
+      "options": ["whom", "who", "which", "whose"],
+      "answer": 1,
+      "explanation": "把插入語 I thought 拿掉,子句為 (who) was lost,關代在子句中當主詞(後接 was),指人用主格 who。",
+      "trap": "⚠ I thought 是插入語,易誤判關代為 thought 的受詞而選 whom;實際上關代是 was lost 的主詞,須用主格 who,插入的 I thought 不影響格位。"
+    },
+    {
+      "stem": "2025 was the year ___ our school celebrated its hundredth anniversary with a grand ceremony.",
+      "options": ["which", "when", "that", "whose"],
+      "answer": 1,
+      "explanation": "先行詞 the year 是時間,且後接的子句 our school celebrated... 結構完整不缺主受詞,須用關係副詞 when(=in which)。",
+      "trap": "⚠ 先行詞是時間且子句完整時用關係副詞 when,不可用指物的 which/that(那需子句缺主詞或受詞);此句 celebrated 已有主詞 our school、受詞 anniversary,故用 when。"
+    },
+    {
+      "stem": "My grandmother, ___ I owe everything I have today, passed away peacefully last winter.",
+      "options": ["who", "whom", "that", "which"],
+      "answer": 1,
+      "explanation": "關代是 owe ... to 的受詞(owe everything to her),非限定子句指人當受詞用 whom;原句 to whom I owe everything 的 to 移到後方,留下 whom。",
+      "trap": "⚠ 非限定子句(逗號)不可用 that;此處關代當動詞 owe 的間接受詞(owe sth to sb),指人當受詞用受格 whom 不可用主格 who。"
+    },
+    {
+      "stem": "The committee will accept any proposal ___ they believe can solve the problem effectively.",
+      "options": ["whom", "which", "what", "whichever"],
+      "answer": 1,
+      "explanation": "去掉插入語 they believe,子句為 (which) can solve the problem,關代當主詞、先行詞 proposal 是物,用 which。",
+      "trap": "⚠ they believe 為插入語,關代其實是 can solve 的主詞,須用主格;指物用 which 不可用 whom;what 不能引導關係子句(本身含先行詞 proposal 已出現)。"
+    },
+    {
+      "stem": "Few of the tourists ___ visited the island last summer were aware of the danger hidden beneath the calm sea.",
+      "options": ["which", "who", "whom", "whose"],
+      "answer": 1,
+      "explanation": "先行詞 the tourists 是人,關代在子句中當主詞(後接動詞 visited),用主格 who。",
+      "trap": "⚠ 別被句首 Few of 與後方長定語干擾;關代緊接動詞 visited 當主詞,指人用 who,不可用受格 whom 或指物的 which。"
+    },
+    {
+      "stem": "This is exactly the kind of help ___ we have been looking for during the past few months.",
+      "options": ["what", "which", "who", "where"],
+      "answer": 1,
+      "explanation": "先行詞 help(物),關代當 looking for 的受詞,用 which(或 that);關代當受詞雖可省略,但選項中正解為 which。",
+      "trap": "⚠ what 不能引導關係子句(先行詞 the kind of help 已出現);先行詞是物用 which 不可用 who;look for 的受詞由關代充當,缺受詞故非 where。"
+    },
+    {
+      "stem": "Tom apologized to everyone in the room, ___ made the atmosphere much less tense.",
+      "options": ["that", "which", "what", "who"],
+      "answer": 1,
+      "explanation": "逗號後的 which 為非限定子句,指代『前面整件事』(Tom 道歉這件事),這種用法只能用 which。",
+      "trap": "⚠ 關代指『前面整句/整件事』時固定用 which,不可用 that 或 what;此處先行詞不是 everyone(否則語意變成『每個人讓氣氛緩和』),而是整個道歉的行為。"
+    },
+    {
+      "stem": "The old bridge, the railings of ___ had rusted badly, was finally closed for repairs.",
+      "options": ["it", "which", "that", "whose"],
+      "answer": 1,
+      "explanation": "the railings of which = whose railings,指物的所有格用『of which』結構;先行詞 the bridge 是物,of 後接關代用 which。",
+      "trap": "⚠ the railings of it 會造成逗號黏接兩個獨立句的錯誤;of 後不可接 that,且須用關代 which 連接子句;此結構等同 whose railings，但本題空格在 of 之後故選 which。"
+    },
+    {
+      "stem": "She is one of those people ___ never give up no matter how difficult the situation becomes.",
+      "options": ["who", "which", "whom", "that's"],
+      "answer": 0,
+      "explanation": "先行詞為 those people(複數人),關代當子句主詞用 who,動詞配合複數先行詞用原形 give(one of those people who give up)。",
+      "trap": "⚠ one of + 複數名詞 + who 時,關代指的是複數的 people 而非 one,故動詞用 give 不用 gives;指人用 who 不可用 which。"
+    },
+    {
+      "stem": "There was something strange about the way ___ he stared at the painting for nearly an hour.",
+      "options": ["which", "how", "in which", "that"],
+      "answer": 3,
+      "explanation": "先行詞為 the way 時,關係副詞用 that 或 in which,或兩者皆省略;the way how 為錯誤用法,故選 that。",
+      "trap": "⚠ the way 後不可用 how(the way how 是錯誤搭配),須用 that、in which 或省略;選項有 how 與 in which 干擾,正確習慣用法是 the way that。"
+    },
+    {
+      "stem": "The professor recommended three books, all of ___ are now out of print and hard to find.",
+      "options": ["them", "which", "that", "those"],
+      "answer": 1,
+      "explanation": "non-restrictive 子句中『all of + 關代』指物用 which(all of which);先行詞 three books 是物。",
+      "trap": "⚠ all of them 會造成兩獨立句以逗號相連的黏接錯誤,須用關代 which;of 後不可接 that,指物不可用指人結構,故為 all of which。"
+    },
+    {
+      "stem": "Anyone ___ wishes to join the debate club must sign up before this Friday afternoon.",
+      "options": ["whom", "who", "which", "whose"],
+      "answer": 1,
+      "explanation": "先行詞 Anyone(指人)且關代當子句主詞(後接 wishes),用主格 who。",
+      "trap": "⚠ Anyone/Everyone 等不定代名詞指人,關代用 who;此處當主詞用 who 不可用受格 whom,也不可用指物的 which。"
+    },
+    {
+      "stem": "It was in this very house ___ the famous writer spent the last ten years of his life.",
+      "options": ["which", "that", "where", "when"],
+      "answer": 1,
+      "explanation": "此為強調句 It was ... that ...,強調地點副詞片語 in this very house,連接詞用 that(不是關係副詞 where)。",
+      "trap": "⚠ 這是『It is/was ... that ...』強調句而非關係子句:被強調的 in this very house 已含介系詞,故空格用 that;若誤判為先行詞 house 而填 where,則 in 會多餘。"
+    },
+    {
+      "stem": "The reason ___ he gave for being late sounded too unbelievable to be true.",
+      "options": ["why", "which", "where", "for that"],
+      "answer": 1,
+      "explanation": "先行詞 the reason,但子句 he gave (the reason) 缺受詞(give 的受詞),須用關代 which/that 當受詞,而非關係副詞 why。",
+      "trap": "⚠ 看到 the reason 易反射選 why,但 why 後須接完整句;此句 gave 缺受詞,關代要當 gave 的受詞,故用 which 不可用 why(why=for which 是副詞不佔受詞位)。"
+    },
+    {
+      "stem": "We finally reached a small village, beyond ___ lay nothing but endless desert.",
+      "options": ["that", "which", "where", "it"],
+      "answer": 1,
+      "explanation": "介系詞 beyond + 關代,先行詞 village 是物,介系詞後指物用 which(beyond which lay... 為倒裝);介系詞後不可用 that。",
+      "trap": "⚠ 介系詞(beyond)後不可接 that,指物須用 which;此句為地方副詞置前的倒裝(beyond which lay nothing),別因有地點概念就選 where,where 前不加介系詞。"
+    },
+    {
+      "stem": "The two candidates, neither of ___ had enough experience, were rejected by the hiring panel.",
+      "options": ["who", "whom", "them", "which"],
+      "answer": 1,
+      "explanation": "non-restrictive 子句『neither of + 關代』指人用 whom(neither of whom);先行詞 candidates 是人,介系詞 of 後用受格 whom。",
+      "trap": "⚠ neither of them 造成逗號黏接錯誤,須用關代;介系詞 of 後指人用受格 whom 不可用主格 who;先行詞是人不可用 which。"
+    },
+    {
+      "stem": "That was the moment ___ I realized how much my parents had sacrificed for me over the years.",
+      "options": ["which", "that", "when", "what"],
+      "answer": 2,
+      "explanation": "先行詞 the moment 是時間,後接子句 I realized... 結構完整(主詞 I、動詞 realized、受詞子句皆在),用關係副詞 when。",
+      "trap": "⚠ 子句若完整不缺主受詞,先行詞為時間須用 when 而非 which/that;此句 realized 已有主詞 I 與受詞 how 子句,故空格填時間副詞 when,不可用 what(what 不引導關係子句)。"
+    },
+    {
+      "stem": "The medicine ___ side effects had not been fully tested was pulled from the market immediately.",
+      "options": ["which", "whose", "that", "of which"],
+      "answer": 1,
+      "explanation": "空格後接名詞 side effects,且是 the medicine 的『副作用』,表所有格用 whose(物亦可用 whose);the medicine's side effects had not been tested。",
+      "trap": "⚠ 先行詞是物也可用 whose 表所有格;空格後緊接名詞 side effects,只有 whose 能直接接名詞,which/that 後須接動詞或缺成分的句子,of which 則需放在名詞之後(side effects of which)。"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "vocab2",
+  "name": "進階字彙與一字多義 (Advanced Vocabulary)",
+  "week": "暑假 第2週",
+  "notes": [
+    {
+      "h": "主題式核心字彙",
+      "points": [
+        "把單字依主題分組記憶最有效率:環保(environment)主題常見 pollution(汙染,n.)、recycle(回收,v.)、protect(保護,v.)、reduce(減少,v.),這些字常成群出現在同一篇閱讀中。",
+        "科技(technology)主題:device(裝置,n.)、online(線上的,adj./adv.)、application(應用程式/申請,n.)、develop(發展/開發,v.),會考克漏字與閱讀常以此為情境。",
+        "健康(health)主題:exercise(運動,n./v.)、healthy(健康的,adj.)、disease(疾病,n.)、prevent(預防,v.)、medicine(藥,n.),注意 healthy 是形容詞、health 才是名詞。",
+        "分主題建立『字群』而非零散背誦,遇到陌生文章時能由主題線索預測可能出現的字,加快判讀速度。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><circle cx=\"70\" cy=\"70\" r=\"52\" fill=\"#eef4f2\" stroke=\"#5aa874\" stroke-width=\"2\"/><circle cx=\"290\" cy=\"70\" r=\"52\" fill=\"#eef4f2\" stroke=\"#c9755c\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"140\" r=\"52\" fill=\"#eef4f2\" stroke=\"#d98072\" stroke-width=\"2\"/><text x=\"70\" y=\"50\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"middle\">環保</text><text x=\"70\" y=\"68\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">pollution</text><text x=\"70\" y=\"84\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">recycle</text><text x=\"70\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">protect</text><text x=\"290\" y=\"50\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\" text-anchor=\"middle\">科技</text><text x=\"290\" y=\"68\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">device</text><text x=\"290\" y=\"84\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">online</text><text x=\"290\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">develop</text><text x=\"180\" y=\"132\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\" text-anchor=\"middle\">健康</text><text x=\"180\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">exercise</text><text x=\"180\" y=\"166\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">prevent</text></svg>",
+      "caption": "把核心字依環保、科技、健康三大主題分群記憶,效率更高。",
+      "trap": "⚠ healthy 是形容詞、health 才是名詞;medicine(藥)不可數,不要寫成 a medicine 指一種藥時要 a kind of medicine。"
+    },
+    {
+      "h": "一字多義與語境判斷",
+      "points": [
+        "同一個字常因詞性不同而意義不同:book 當名詞是『書』,當動詞是『預訂』(book a table 訂位);light 當名詞是『光』,當形容詞是『輕的』,當動詞是『點燃』。",
+        "判斷多義字的字義必須看『整句』的詞性與語境,不能只看單字。例如 run 可以是『跑』、『經營』(run a shop)、『運作』(The machine runs well),要靠受詞與上下文決定。",
+        "同義詞之間有程度與正式度的差異:表『大』由小到大為 big < large < huge < enormous;正式書面常用 large,口語常用 big。",
+        "遇到生字時可用前後文(context clues)推測:看定義、舉例、對比(but/however)或因果(because)等線索反推字義,不必每字都查。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><rect x=\"140\" y=\"78\" width=\"80\" height=\"34\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\" stroke-width=\"2\"/><text x=\"180\" y=\"100\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">light</text><line x1=\"140\" y1=\"95\" x2=\"70\" y2=\"45\" stroke=\"#5aa874\" stroke-width=\"2\"/><line x1=\"180\" y1=\"78\" x2=\"180\" y2=\"30\" stroke=\"#f0a52e\" stroke-width=\"2\"/><line x1=\"220\" y1=\"95\" x2=\"290\" y2=\"45\" stroke=\"#d98072\" stroke-width=\"2\"/><rect x=\"18\" y=\"28\" width=\"104\" height=\"30\" rx=\"6\" fill=\"#fff\" stroke=\"#5aa874\"/><text x=\"70\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\" text-anchor=\"middle\">光 (n.)</text><rect x=\"132\" y=\"12\" width=\"96\" height=\"30\" rx=\"6\" fill=\"#fff\" stroke=\"#f0a52e\"/><text x=\"180\" y=\"32\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\">輕的 (adj.)</text><rect x=\"238\" y=\"28\" width=\"104\" height=\"30\" rx=\"6\" fill=\"#fff\" stroke=\"#d98072\"/><text x=\"290\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#d98072\" text-anchor=\"middle\">點燃 (v.)</text><text x=\"180\" y=\"150\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">看詞性與語境定字義</text><text x=\"180\" y=\"172\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">big &lt; large &lt; huge &lt; enormous</text></svg>",
+      "caption": "同一字 light 依詞性分光、輕、點燃三義,須看整句判斷。",
+      "trap": "⚠ 多義字最忌只看單字就選最熟悉的意思;務必確認該字在句中是名詞、動詞還是形容詞,再對應字義。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "The factory near the river has caused serious water _____, killing many fish and making the water unsafe to drink.",
+      "options": ["protection", "pollution", "prevention", "production"],
+      "answer": 1,
+      "explanation": "句意:工廠造成嚴重水『汙染』,殺死魚並使水不安全。pollution(汙染)符合語境。protection 保護、prevention 預防、production 生產皆不合。",
+      "trap": "⚠ 四個選項字尾都是 -tion 且字形相近,易誤選 production(生產);要抓 killing fish / unsafe 的負面線索定 pollution。"
+    },
+    {
+      "stem": "Could you _____ a table for four at the restaurant for tonight? I'll pay when we get there.",
+      "options": ["read", "book", "cook", "look"],
+      "answer": 1,
+      "explanation": "book 當動詞意為『預訂』,book a table 即訂位。read 讀、cook 煮、look 看皆不合 a table 與 restaurant 語境。",
+      "trap": "⚠ 看到 book 直覺想成名詞『書』就會排除它;此處 book 是動詞『預訂』,由 Could you + 原形動詞判斷。"
+    },
+    {
+      "stem": "My uncle used to _____ a small bakery downtown, but he sold it last year because the work was too hard.",
+      "options": ["run", "ran", "running", "runs"],
+      "answer": 0,
+      "explanation": "used to + 原形動詞,run 此處意為『經營』。used to run a bakery = 過去經營一家麵包店。其餘為時態/形式錯誤。",
+      "trap": "⚠ 易被 run『跑』的字面意誤導,且 used to 後必接原形,故選 run 而非 ran/runs/running。"
+    },
+    {
+      "stem": "These boxes are very _____, so even a child can carry them upstairs without any trouble.",
+      "options": ["heavy", "light", "dark", "bright"],
+      "answer": 1,
+      "explanation": "light 當形容詞意為『輕的』。由 even a child can carry them(連小孩都能搬)推知箱子很輕。heavy 重的語意相反。",
+      "trap": "⚠ light 多義(光/輕/點燃),此處是形容詞『輕』;若只記得『光』會選不出來。dark/bright 與重量無關。"
+    },
+    {
+      "stem": "The Pacific is an _____ ocean—far too large to cross in a single day even by the fastest plane.",
+      "options": ["enormous", "tiny", "narrow", "shallow"],
+      "answer": 0,
+      "explanation": "由 far too large 線索知需填表『極大』的字。enormous(巨大的)程度最強,符合 big < large < huge < enormous。tiny 微小、narrow 窄、shallow 淺皆反義或不合。",
+      "trap": "⚠ 同義詞程度題:large 已出現在句中作線索,需選比 large 更強的 enormous,而非再選一個普通的『大』。"
+    },
+    {
+      "stem": "Many people now use a mobile _____ to read news, pay bills, and chat with friends anytime, anywhere.",
+      "options": ["disease", "device", "medicine", "weather"],
+      "answer": 1,
+      "explanation": "device 意為『裝置』。mobile device(行動裝置)可讀新聞、付款、聊天。disease 疾病、medicine 藥、weather 天氣皆不合科技語境。",
+      "trap": "⚠ device 與 disease 字形極相近,易混淆;由 read news / pay bills / chat 的科技功能線索選 device。"
+    },
+    {
+      "stem": "Regular exercise can help _____ many diseases, so doctors often advise people to stay active.",
+      "options": ["prevent", "produce", "present", "promote"],
+      "answer": 0,
+      "explanation": "prevent diseases = 預防疾病,符合運動有助健康的語意。produce 生產、present 呈現、promote 促進皆與『預防疾病』不符。",
+      "trap": "⚠ 四個 pr- 開頭動詞字形相近;若選 promote(促進)會變成『促進疾病』,語意完全相反,須由 help...diseases 判斷。"
+    },
+    {
+      "stem": "In the dark cave, our guide stopped to _____ a torch so that we could see the path ahead.",
+      "options": ["light", "weight", "fight", "sight"],
+      "answer": 0,
+      "explanation": "light 當動詞意為『點燃』。light a torch = 點燃火把,使我們看得見前方。weight/fight/sight 皆不合 a torch 與 see 語境。",
+      "trap": "⚠ 此題考 light 第三義『點燃(v.)』;在黑暗中 stopped to light a torch,由 so that we could see 確認是點火照明。"
+    },
+    {
+      "stem": "Although the hotel room looked _____ on the website, it turned out to be quite shabby and old when we arrived.",
+      "options": ["luxurious", "humble", "ordinary", "crowded"],
+      "answer": 0,
+      "explanation": "Although 表轉折,與後句 shabby and old(破舊)相反,故前面網站上看起來『豪華』。luxurious(豪華的)與 shabby 形成對比。其餘與轉折不符。",
+      "trap": "⚠ 反義對比題:Although 信號詞要求前後語意相反;humble(樸素)與 shabby 同向,不構成對比,故不選。"
+    },
+    {
+      "stem": "The new policy aims to _____ the amount of plastic waste by encouraging people to bring their own bags.",
+      "options": ["increase", "reduce", "collect", "recycle"],
+      "answer": 1,
+      "explanation": "由 encouraging people to bring their own bags(自備購物袋)推知目的在『減少』塑膠垃圾。reduce(減少)正確。increase 增加相反;recycle 是回收而非減量,且自備袋對應減量而非回收。",
+      "trap": "⚠ recycle 也與環保有關易誤選;但自備袋的直接效果是『減少』塑膠用量(reduce),非回收(recycle)。"
+    },
+    {
+      "stem": "Read the dialogue and choose the best meaning of the underlined word.\nAmy: Why are you so upset?\nBen: My computer keeps crashing, and I lost all my files!\nThe word \"crashing\" here most likely means _____.",
+      "options": ["making a loud noise", "suddenly stopping working", "hitting another car", "falling down the stairs"],
+      "answer": 1,
+      "explanation": "由語境 lost all my files(檔案全丟)與 computer 知 crash 指電腦『當機/突然停止運作』。其餘為 crash 的其他字面義(撞擊聲、撞車、跌落)皆不合電腦情境。",
+      "trap": "⚠ crash 多義(撞車/巨響/當機);須用 computer + lost files 的情境判斷,選『突然停止運作』而非字面撞擊。"
+    },
+    {
+      "stem": "Which sentence uses the word \"run\" correctly to mean \"to operate or manage\"?",
+      "options": ["She runs three miles every morning before work.", "Tears ran down her cheeks during the sad movie.", "His family has run this hotel for over thirty years.", "The bus runs every fifteen minutes on weekdays."],
+      "answer": 2,
+      "explanation": "run = 經營/管理,run a hotel(經營旅館)符合題目要求。(A) run 是跑步;(B) ran 是流下;(D) runs 是行駛/運行,皆非『經營管理』義。",
+      "trap": "⚠ 四句都用 run 但意思各異;題目要『經營管理』義,只有 run a hotel 符合,勿被熟悉的『跑步』義(A)吸引。"
+    },
+    {
+      "stem": "In a formal report, which word is the most appropriate replacement for \"kids\" in the sentence \"The program helps kids learn science\"?",
+      "options": ["guys", "children", "folks", "buddies"],
+      "answer": 1,
+      "explanation": "正式書面語應用 children(兒童)取代口語的 kids。guys/folks/buddies 皆屬非正式口語,不適合 formal report。",
+      "trap": "⚠ 正式 vs 非正式用字題:四選項都指『人/小孩』,但只有 children 為正式書面用語,其餘均為口語。"
+    },
+    {
+      "stem": "Choose the word that does NOT belong to the same topic as the others.",
+      "options": ["recycle", "pollution", "environment", "application"],
+      "answer": 3,
+      "explanation": "recycle、pollution、environment 皆屬『環保』主題;application(應用程式/申請)屬科技或一般用語,不屬環保主題。",
+      "trap": "⚠ 主題字群題:前三字環保線索明顯,application 雖也常見但屬科技/申請類,是唯一不同主題者。"
+    },
+    {
+      "stem": "The medicine is supposed to _____ the pain within twenty minutes, but mine still hurts after an hour.",
+      "options": ["release", "relieve", "relive", "review"],
+      "answer": 1,
+      "explanation": "relieve the pain = 緩解疼痛,符合藥物功效。release 釋放、relive 重新體驗、review 複習皆不合『減輕疼痛』。",
+      "trap": "⚠ relieve(緩解)與 relive(重新經歷)、release(釋放)字形極近;健康情境下緩解疼痛用 relieve。"
+    },
+    {
+      "stem": "Choose the pair of words that are antonyms (opposite in meaning).",
+      "options": ["huge — enormous", "protect — harm", "develop — improve", "reduce — decrease"],
+      "answer": 1,
+      "explanation": "protect(保護)與 harm(傷害)為反義詞。其餘三組皆為近義詞:huge≈enormous、develop≈improve、reduce≈decrease。",
+      "trap": "⚠ 題目要『反義』,但三組是近義詞干擾;只有 protect↔harm 真正相反,勿被『看起來不同』的近義詞誤導。"
+    },
+    {
+      "stem": "After studying abroad for years, she became _____ in both English and French, able to switch between them with ease.",
+      "options": ["familiar", "fluent", "frequent", "fortunate"],
+      "answer": 1,
+      "explanation": "be fluent in a language = 流利,able to switch...with ease(輕鬆切換)正呼應流利。familiar 熟悉(常接 with)、frequent 頻繁、fortunate 幸運皆不合。",
+      "trap": "⚠ f- 開頭形容詞群易混;表『語言流利』固定用 fluent in,且 with ease 為線索,非 familiar。"
+    },
+    {
+      "stem": "Read the context and guess the meaning of \"sluggish.\"\nAfter the huge lunch, Tom felt so sluggish that he could hardly keep his eyes open or move from the sofa.\nThe word \"sluggish\" most likely means _____.",
+      "options": ["energetic and lively", "slow and lacking energy", "angry and impatient", "curious and excited"],
+      "answer": 1,
+      "explanation": "由 hardly keep his eyes open / could not move(幾乎睜不開眼、動不了)推知 sluggish 意為『遲緩無精神的』。energetic 精力充沛語意相反。",
+      "trap": "⚠ 猜字義題要靠上下文:huge lunch 後的疲倦線索指向『慢而無力』,勿選與情境相反的 energetic。"
+    },
+    {
+      "stem": "Which sentence uses \"light\" as a noun meaning \"brightness\"?",
+      "options": ["This jacket is light enough for spring weather.", "Please turn off the light before you leave.", "He lit the candles on the birthday cake.", "She prefers light music while studying."],
+      "answer": 1,
+      "explanation": "turn off the light 的 light 為名詞,指『燈/光』。(A) light 形容詞『輕的』;(C) lit 動詞『點燃』的過去式;(D) light music 形容詞『輕柔的』。",
+      "trap": "⚠ 四句都含 light/lit,僅 (B) 是名詞『光/燈』;注意 (C) 已變 lit(動詞)、(A)(D) 為形容詞。"
+    },
+    {
+      "stem": "The two countries finally reached an _____ after months of talks, agreeing to stop the conflict and trade freely.",
+      "options": ["argument", "agreement", "amusement", "arrangement"],
+      "answer": 1,
+      "explanation": "reach an agreement = 達成協議,呼應 agreeing to stop the conflict。argument 爭論語意相反;amusement 娛樂、arrangement 安排不合 talks/conflict 語境。",
+      "trap": "⚠ agreement 與 argument 字形相近且都與『談』有關;但 agreeing 與停止衝突的線索指向 agreement(協議),非 argument(爭吵)。"
+    },
+    {
+      "stem": "Choose the most suitable word: The charity was set up to _____ awareness of climate change and to raise money for green projects.",
+      "options": ["prevent", "reduce", "raise", "lower"],
+      "answer": 2,
+      "explanation": "raise awareness = 提高意識,為固定搭配,且與 raise money 並列呼應。prevent 預防、reduce/lower 降低皆與『提高意識』相反或不合搭配。",
+      "trap": "⚠ 搭配題:awareness 慣與 raise 連用(raise awareness);選 reduce/lower 會變成『降低意識』語意相反。"
+    },
+    {
+      "stem": "Read the notice and answer the question.\nNOTICE: Due to the storm, all outdoor activities are \"called off\" until further notice.\nWhat does \"called off\" mean here?",
+      "options": ["delayed for an hour", "cancelled", "moved indoors", "made longer"],
+      "answer": 1,
+      "explanation": "call off 為片語動詞,意為『取消』。因暴風雨戶外活動被『取消』直到另行通知。delayed 延後、moved indoors 改室內、made longer 延長皆不合。",
+      "trap": "⚠ call off(取消)是片語動詞,不能逐字理解;注意它不是『延後一小時』(delay),而是直接取消。"
+    },
+    {
+      "stem": "She felt a deep sense of _____ when she saw the team she had trained win the national championship.",
+      "options": ["pride", "proud", "proudly", "prouder"],
+      "answer": 0,
+      "explanation": "a deep sense of 後需接『名詞』,pride(驕傲,n.)正確。proud 形容詞、proudly 副詞、prouder 比較級皆不能接在 a sense of 之後。",
+      "trap": "⚠ 抽象名詞題:a sense of 後固定接名詞,易誤選熟悉的形容詞 proud;名詞是 pride 而非 proud。"
+    },
+    {
+      "stem": "The scientist spent ten years trying to _____ a vaccine that could protect children from the deadly disease.",
+      "options": ["develop", "developed", "development", "developing"],
+      "answer": 0,
+      "explanation": "trying to + 原形動詞,develop a vaccine = 研發疫苗。其餘為過去式、名詞、現在分詞,皆不合 to 後接原形的結構。",
+      "trap": "⚠ to + 原形動詞;develop 在此是動詞『研發/開發』,勿選名詞 development 或誤判時態。"
+    },
+    {
+      "stem": "Which underlined word is used INCORRECTLY?\nThe new app helps users (A)reduce their screen time, (B)protect their privacy, and (C)develop healthy habits, but some say it (D)effects their mood negatively.",
+      "options": ["(A) reduce", "(B) protect", "(C) develop", "(D) effects"],
+      "answer": 3,
+      "explanation": "(D) 應用動詞 affects(影響),而非名詞 effects。affect 是動詞、effect 是名詞,此處需動詞,故 effects 用錯。(A)(B)(C) 皆正確的動詞用法。",
+      "trap": "⚠ affect(v. 影響)與 effect(n. 影響)極易混淆;句中需動詞,正確為 affects,故 effects 為錯用字。"
+    }
+  ]
+}

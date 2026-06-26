@@ -1,0 +1,333 @@
+{
+  "id": "reportedspeech",
+  "name": "直接與間接引述 (Reported Speech)",
+  "week": "下學期 期中前",
+  "notes": [
+    {
+      "h": "陳述句的間接引述",
+      "points": [
+        "當引述動詞 (said, told) 為過去式時,從句時態必須「後移」一格:現在式→過去式 (is→was)、現在進行→過去進行 (am doing→was doing)、現在完成與過去式→過去完成 (have done / did→had done)、will→would、can→could、may→might、must→had to。",
+        "代名詞要隨「新說話者的立場」調整:第一人稱 I/we/my/our 通常變成 he/she/they/his/her/their,第二人稱 you 依文意指向實際的人;受詞代名詞 me→him/her 也同步轉換。",
+        "時間與地點副詞要轉換以符合「事後轉述」的時空:now→then、today→that day、tonight→that night、tomorrow→the next day / the following day、yesterday→the day before、ago→before、here→there、this→that、these→those。",
+        "若引述的是「不變的真理或現在仍成立的事實」,時態可不後移 (The teacher said the earth is round.);這是會考常設的例外陷阱。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><text x=\"180\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">直述句轉間接引述</text><rect x=\"20\" y=\"42\" width=\"320\" height=\"34\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"30\" y=\"63\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">He said: \"I am tired.\"</text><line x1=\"180\" y1=\"80\" x2=\"180\" y2=\"108\" stroke=\"#c9755c\" stroke-width=\"2\"/><polygon points=\"180,114 175,104 185,104\" fill=\"#c9755c\"/><rect x=\"20\" y=\"118\" width=\"320\" height=\"34\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"30\" y=\"139\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">He said he was tired.</text><circle cx=\"168\" cy=\"131\" r=\"15\" fill=\"none\" stroke=\"#d98072\" stroke-width=\"2\"/><text x=\"180\" y=\"176\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\">am→was 時態後移</text></svg>",
+      "caption": "引述動詞為過去式時,從句時態後移一格、代名詞與時空副詞隨之調整。",
+      "trap": "⚠ 別忘了「同步」轉換三件事:時態、代名詞、時間地點副詞,三者常一起考;另外「永恆真理」時態可不後移,易被誤判為錯。"
+    },
+    {
+      "h": "問句與祈使句的間接引述",
+      "points": [
+        "是非問句 (Yes/No question) 轉間接:用 if 或 whether 引導,並把「助動詞+主詞」的倒裝語序「還原成直述語序」(主詞+動詞),且時態一樣後移。例:\"Are you OK?\" → She asked if I was OK.",
+        "wh- 問句轉間接:保留疑問詞 (what/where/when/why/how) 當連接詞,但其後語序改為「直述語序」,不可再倒裝、不可再加 do/does/did。例:\"Where does she live?\" → He asked where she lived.",
+        "祈使句轉間接:用 tell/ask/order + 受詞 + to + 原形動詞 (told me to wait);否定祈使句用 not to V (asked me not to be late);請求語氣常用 ask,命令語氣常用 tell/order。",
+        "引述問句時引述動詞改用 ask (不可用 say);間接問句句尾用句點而非問號,這是標點常見陷阱。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><text x=\"180\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">問句轉間接:語序還原</text><rect x=\"20\" y=\"38\" width=\"320\" height=\"32\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"30\" y=\"58\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">\"Are you OK?\" (倒裝)</text><line x1=\"180\" y1=\"72\" x2=\"180\" y2=\"96\" stroke=\"#5aa874\" stroke-width=\"2\"/><polygon points=\"180,102 175,92 185,92\" fill=\"#5aa874\"/><rect x=\"20\" y=\"106\" width=\"320\" height=\"32\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"30\" y=\"126\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">asked if I was OK.</text><text x=\"30\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\">用 if/whether,還原直述語序</text><text x=\"30\" y=\"178\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">句尾用句點不用問號</text></svg>",
+      "caption": "問句要還原成直述語序、是非題用 if/whether、祈使句用 tell/ask sb (not) to V。",
+      "trap": "⚠ 間接問句最常錯在「沒還原語序」或「多留了 do/does/did」;且引述問句要用 ask、句尾用句點,別保留問號或倒裝。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "Tom said to me yesterday, \"I will finish the report tomorrow.\" → Tom told me yesterday that he ____ the report ____.",
+      "options": [
+        "will finish / the next day",
+        "would finish / the next day",
+        "would finish / tomorrow",
+        "will finish / that day"
+      ],
+      "answer": 1,
+      "explanation": "引述動詞 told 為過去式,will→would 時態後移;說話時間是 yesterday,所以原句的 tomorrow 要轉為 the next day(隔天)。",
+      "trap": "⚠ 多數人記得 will→would,卻忘了 tomorrow 也要隨時空轉換成 the next day;若 tomorrow 不變則時間基準錯亂。"
+    },
+    {
+      "stem": "Choose the correct reported form: She said, \"I have already eaten lunch here.\"",
+      "options": [
+        "She said she has already eaten lunch here.",
+        "She said she had already eaten lunch there.",
+        "She said she had already ate lunch there.",
+        "She said she already ate lunch here."
+      ],
+      "answer": 1,
+      "explanation": "have eaten(現在完成)後移為 had eaten(過去完成),分詞 eaten 不變;here→there。選項C誤用 ate、A未後移、D既未後移又改錯時態。",
+      "trap": "⚠ had 之後仍接過去分詞 eaten,不可寫成 had ate;同時 here 必須轉成 there。"
+    },
+    {
+      "stem": "\"Did you see my keys this morning?\" he asked her. → He asked her ____.",
+      "options": [
+        "if she saw his keys that morning",
+        "if she had seen his keys that morning",
+        "did she see his keys that morning",
+        "whether she had seen my keys this morning"
+      ],
+      "answer": 1,
+      "explanation": "是非問句用 if 引導並還原語序;did see→had seen(過去完成);my→his、this morning→that morning。選項C保留倒裝、A時態未到位、D未轉 my/this。",
+      "trap": "⚠ 過去式問句 Did you see 轉間接時動詞要後移成 had seen,且去掉 did、還原成 she had seen 的直述語序。"
+    },
+    {
+      "stem": "\"Where are you going now?\" my mother asked me. → My mother asked me where ____.",
+      "options": [
+        "was I going then",
+        "I was going then",
+        "I am going now",
+        "I was going now"
+      ],
+      "answer": 1,
+      "explanation": "wh- 問句保留 where,語序還原為「主詞+動詞」I was going(不可倒裝);are→was 後移,now→then。",
+      "trap": "⚠ 最常見錯誤是保留倒裝 was I going;間接問句一律用直述語序,且 now 要改成 then。"
+    },
+    {
+      "stem": "\"Don't touch the wet paint!\" the worker warned us. → The worker warned us ____.",
+      "options": [
+        "don't touch the wet paint",
+        "not to touch the wet paint",
+        "to not touch the wet paint",
+        "that we didn't touch the wet paint"
+      ],
+      "answer": 1,
+      "explanation": "否定祈使句轉間接用 not to + 原形動詞:warned us not to touch。選項C的 to not touch 語序不自然、A未轉換、D用法錯誤。",
+      "trap": "⚠ 否定祈使句的 not 放在 to 之前(not to V),不是 to not V;且不可保留原本的 Don't。"
+    },
+    {
+      "stem": "Which sentence is grammatically correct?",
+      "options": [
+        "He said me that he was busy.",
+        "He told to me that he was busy.",
+        "He told me that he was busy.",
+        "He said me he is busy."
+      ],
+      "answer": 2,
+      "explanation": "tell 後直接接受詞(tell me),say 不直接接人(需 say to me)。故 told me 正確;said me、told to me 皆錯,D 還未後移。",
+      "trap": "⚠ say 與 tell 的受詞規則相反:tell sb / say to sb。記成 said me 或 told to me 都是典型錯誤。"
+    },
+    {
+      "stem": "\"I bought this car two years ago,\" he said. → He said he ____ that car two years ____.",
+      "options": [
+        "bought / ago",
+        "had bought / before",
+        "has bought / before",
+        "had bought / ago"
+      ],
+      "answer": 1,
+      "explanation": "過去式 bought→had bought(過去完成);ago 在間接引述中轉為 before;this→that。",
+      "trap": "⚠ ago 是以「說話當下」為基準的詞,轉述時必須改成 before;許多人只改時態卻漏改 ago。"
+    },
+    {
+      "stem": "\"Can you help me move these boxes?\" she asked him. → She asked him ____.",
+      "options": [
+        "if he can help her move those boxes",
+        "if he could help her move those boxes",
+        "could he help her move those boxes",
+        "whether he could help me move these boxes"
+      ],
+      "answer": 1,
+      "explanation": "can→could,is 還原語序,me→her、these→those;這裡 Can you...? 是請求,用 if + 直述語序。選項C保留倒裝、A未後移、D未轉 me/these。",
+      "trap": "⚠ can 要後移為 could,且代名詞 me→her、指示詞 these→those 須一併轉換,語序也要還原。"
+    },
+    {
+      "stem": "The teacher said, \"Water boils at 100°C.\" Which is the BEST reported form?",
+      "options": [
+        "The teacher said water boiled at 100°C.",
+        "The teacher said water boils at 100°C.",
+        "The teacher said water had boiled at 100°C.",
+        "The teacher said water would boil at 100°C."
+      ],
+      "answer": 1,
+      "explanation": "科學真理/恆常事實在間接引述中時態可不後移,故保留 boils 最佳。其餘把現在式改掉反而暗示「現在不成立」。",
+      "trap": "⚠ 遇到不變的真理(科學定律、恆常習慣)時態可保持不變;機械式後移成 boiled 反而是陷阱選項。"
+    },
+    {
+      "stem": "Identify the sentence with NO error in reported speech.",
+      "options": [
+        "She asked me what time is it.",
+        "She asked me what time it was.",
+        "She asked me what time was it.",
+        "She asked what time is it then."
+      ],
+      "answer": 1,
+      "explanation": "間接 wh- 問句須用直述語序且時態後移:what time it was。A、C、D 皆保留倒裝或未後移。",
+      "trap": "⚠ 「what time it was」才正確;保留 is it / was it 的倒裝是最常見的錯誤。"
+    },
+    {
+      "stem": "\"You must hand in your homework today,\" the teacher told us. → The teacher told us that we ____ hand in our homework ____.",
+      "options": [
+        "must / today",
+        "had to / that day",
+        "must / that day",
+        "had to / today"
+      ],
+      "answer": 1,
+      "explanation": "表「義務」的 must 後移為 had to;your→our;today→that day。選項中只有 had to + that day 全部正確。",
+      "trap": "⚠ must 表義務時轉述要變 had to,且 today→that day;若 must 不變或 today 不變都算錯。"
+    },
+    {
+      "stem": "\"Why didn't you call me last night?\" she asked him. → She asked him why ____ the night before.",
+      "options": [
+        "didn't he call her",
+        "he hadn't called her",
+        "he didn't call her",
+        "hadn't he called her"
+      ],
+      "answer": 1,
+      "explanation": "wh- 問句保留 why、語序還原;否定的過去式 didn't call→hadn't called(過去完成);me→her;last night→the night before。",
+      "trap": "⚠ 否定問句後移時 didn't call 要變 hadn't called,並去掉助動詞 did、還原成 he hadn't called 的直述語序。"
+    },
+    {
+      "stem": "Which is the correct DIRECT speech for: He asked me whether I had ever been to Japan?",
+      "options": [
+        "He asked me, \"Have you ever been to Japan?\"",
+        "He asked me, \"Had you ever been to Japan?\"",
+        "He asked me, \"Did you ever go to Japan?\"",
+        "He asked me, \"Have I ever been to Japan?\""
+      ],
+      "answer": 0,
+      "explanation": "反向還原:had been 來自原句的現在完成 have been;whether 對應是非問句故還原倒裝 Have you...?;I→you。",
+      "trap": "⚠ 間接轉直接時 had been 的「原形」是 have been(現在完成),而非過去完成;且 I 要還原成第二人稱 you。"
+    },
+    {
+      "stem": "\"Let's not waste any more time,\" Ben suggested. → Ben suggested that ____.",
+      "options": [
+        "let's not waste any more time",
+        "they should not waste any more time",
+        "not to waste any more time",
+        "they shouldn't to waste any more time"
+      ],
+      "answer": 1,
+      "explanation": "Let's (提議) 轉間接常用 suggested (that) + 主詞 + (should) + 原形;否定為 should not waste。選項C、D 文法錯誤,A 未轉換。",
+      "trap": "⚠ Let's 的間接引述不可用 to V,而用 suggested that they (should) + 原形動詞;否定放在 should not 後。"
+    },
+    {
+      "stem": "\"I am meeting my friends here this evening,\" Anna said. → Anna said she ____ her friends ____ that evening.",
+      "options": [
+        "was meeting / there",
+        "is meeting / here",
+        "had met / there",
+        "was meeting / here"
+      ],
+      "answer": 0,
+      "explanation": "現在進行 am meeting→was meeting;here→there;this evening→that evening。選項A 同時正確處理時態與地點副詞。",
+      "trap": "⚠ 現在進行式後移成過去進行式(was meeting),同時 here→there;只改一個常導致錯選。"
+    },
+    {
+      "stem": "Find the INCORRECT reported sentence.",
+      "options": [
+        "He told me he would come the next day.",
+        "She asked if I could swim.",
+        "They said that they have finished the project.",
+        "He ordered the soldiers to stop."
+      ],
+      "answer": 2,
+      "explanation": "C 的引述動詞 said 為過去式,從句 have finished 應後移為 had finished,故 C 錯誤。A、B、D 皆正確。",
+      "trap": "⚠ 主句為過去式 said 時,從句現在完成 have finished 必須後移成 had finished,保留 have 即為錯誤。"
+    },
+    {
+      "stem": "\"How long have you been waiting?\" the clerk asked us. → The clerk asked us how long ____.",
+      "options": [
+        "have we been waiting",
+        "we had been waiting",
+        "had we been waiting",
+        "we have been waiting"
+      ],
+      "answer": 1,
+      "explanation": "wh- 問句保留 how long、語序還原;現在完成進行 have been waiting→had been waiting。選項A、C 倒裝或未後移、D 未後移。",
+      "trap": "⚠ 現在完成進行式後移為 had been waiting,且須用直述語序 we had...,不可保留 had we 倒裝。"
+    },
+    {
+      "stem": "\"Please don't tell anyone my secret,\" she begged me. → She begged me ____ anyone her secret.",
+      "options": [
+        "to not tell",
+        "not to tell",
+        "don't tell",
+        "not telling"
+      ],
+      "answer": 1,
+      "explanation": "否定請求轉間接用 beg/ask sb not to V:not to tell;my→her。選項A 語序錯、C 未轉換、D 用法錯誤。",
+      "trap": "⚠ 否定的 not 必須緊接在 to 前(not to tell),且 Please 在間接引述中省略、my→her。"
+    },
+    {
+      "stem": "\"We will have left before you arrive,\" they said. → They said they ____ before I ____.",
+      "options": [
+        "would have left / arrived",
+        "will have left / arrive",
+        "had left / arrived",
+        "would have left / arrive"
+      ],
+      "answer": 0,
+      "explanation": "未來完成 will have left→would have left;時間從句 arrive→arrived 配合過去基準;you→I。選項A 兩動詞都正確後移。",
+      "trap": "⚠ 未來完成式 will have left 後移為 would have left,連帶時間從句的 arrive 也要變 arrived 才一致。"
+    },
+    {
+      "stem": "Which sentence correctly reports: \"Don't be so noisy, children!\"?",
+      "options": [
+        "She told the children don't be so noisy.",
+        "She told the children not to be so noisy.",
+        "She said the children not to be so noisy.",
+        "She told to the children not be so noisy."
+      ],
+      "answer": 1,
+      "explanation": "否定祈使句:tell sb not to V → told the children not to be so noisy。A 未轉換、C 用 said sb 錯誤、D 多了 to 且漏 to。",
+      "trap": "⚠ 祈使句引述用 tell sb (not) to V,動詞用 tell 不用 say;且 not to be,不可寫 not be。"
+    },
+    {
+      "stem": "\"I saw him here yesterday,\" the witness said. → The witness said ____.",
+      "options": [
+        "she saw him there the day before",
+        "she had seen him there the day before",
+        "she had seen him here yesterday",
+        "she saw him there yesterday"
+      ],
+      "answer": 1,
+      "explanation": "saw→had seen;here→there;yesterday→the day before。選項B 三項全部正確;其餘各漏一項。",
+      "trap": "⚠ 三項要同時轉:時態 had seen、地點 there、時間 the day before;漏改 yesterday 或 here 都是常見錯。"
+    },
+    {
+      "stem": "\"Has the train already left?\" he wondered. → He wondered ____.",
+      "options": [
+        "if had the train already left",
+        "whether the train had already left",
+        "if the train has already left",
+        "whether had the train already left"
+      ],
+      "answer": 1,
+      "explanation": "是非問句用 whether/if + 直述語序;Has...left→had...left(後移)。選項A、D 保留倒裝、C 未後移。",
+      "trap": "⚠ if/whether 之後一律用直述語序(the train had left),不可再倒裝成 had the train。"
+    },
+    {
+      "stem": "Choose the BEST reported speech: \"You should see a doctor,\" my friend advised me.",
+      "options": [
+        "My friend advised me that I should see a doctor.",
+        "My friend advised me to see a doctor.",
+        "My friend advised me seeing a doctor.",
+        "Both A and B are acceptable."
+      ],
+      "answer": 3,
+      "explanation": "advise 既可接 that 子句 (advised that I should see),也可接 to V (advised me to see),兩者皆通順正確;C 的 advised me seeing 用法錯誤。",
+      "trap": "⚠ advise 有兩種正確結構:advise sb to V 與 advise that...;只選一個會漏掉同樣正確的另一個,故選 Both。"
+    },
+    {
+      "stem": "\"I'll call you when I get home tonight,\" Dad said. → Dad said he ____ me when he ____ home that night.",
+      "options": [
+        "will call / gets",
+        "would call / got",
+        "would call / gets",
+        "will call / got"
+      ],
+      "answer": 1,
+      "explanation": "will call→would call;時間從句 get→got 配合過去基準;tonight→that night。選項B 主從子句時態一致且 tonight 正確轉換。",
+      "trap": "⚠ 主句 would call 後移後,when 引導的時間從句 get 也要一起變 got,且 tonight→that night。"
+    },
+    {
+      "stem": "Which transformation of a wh- question is CORRECT?",
+      "options": [
+        "\"What do you want?\" → He asked what did I want.",
+        "\"What do you want?\" → He asked what I wanted.",
+        "\"What do you want?\" → He asked what do I want.",
+        "\"What do you want?\" → He asked what wanted I."
+      ],
+      "answer": 1,
+      "explanation": "wh- 間接問句去掉助動詞 do、語序還原為 I wanted、時態後移 want→wanted。A 保留 did、C 保留 do、D 語序錯誤。",
+      "trap": "⚠ 含 do/does/did 的問句轉間接時要「消掉助動詞」並把時態併入主動詞(wanted),不可保留 did/do。"
+    }
+  ]
+}

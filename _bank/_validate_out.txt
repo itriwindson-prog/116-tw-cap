@@ -1,0 +1,3 @@
+quiz count: 27
+answer dist: {0: 6, 1: 7, 2: 7, 3: 7}
+ERRORS: ['note1 text too long: 邊塞(高岑) 浪漫(李白)']

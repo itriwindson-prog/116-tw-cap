@@ -1,0 +1,333 @@
+{
+  "id": "writingorder",
+  "name": "句子重組與段落排序 (Sentence Reordering)",
+  "week": "全期",
+  "notes": [
+    {
+      "h": "單句重組的文法線索",
+      "points": [
+        "先鎖定主詞 (S) 與動詞 (V),再依五大句型把受詞、補語、修飾語歸位:基本語序為 S + V + O,例如 She bought a book yesterday。",
+        "疑問句把助動詞/be 動詞或疑問詞提前 (Did you finish…? / What are you doing?);Yes/No 問句助動詞在主詞前,Wh- 問句疑問詞在最前。",
+        "否定 not 緊跟在助動詞或 be 動詞之後 (do not / is not);頻率副詞 (always, often) 放一般動詞前、be 動詞後。",
+        "修飾語有固定位置:形容詞放名詞前 (a red car),時間/地點副詞通常放句尾,且地點在前、時間在後 (at school this morning)。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><text x=\"12\" y=\"24\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">散字重組成句</text><rect x=\"14\" y=\"38\" width=\"70\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#c9755c\"/><text x=\"49\" y=\"58\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">bought</text><rect x=\"96\" y=\"38\" width=\"50\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#c9755c\"/><text x=\"121\" y=\"58\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">She</text><rect x=\"158\" y=\"38\" width=\"80\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#c9755c\"/><text x=\"198\" y=\"58\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">a book</text><line x1=\"14\" y1=\"110\" x2=\"346\" y2=\"110\" stroke=\"#5aa874\" stroke-width=\"2\"/><text x=\"40\" y=\"132\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">S</text><text x=\"150\" y=\"132\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\">V</text><text x=\"270\" y=\"132\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#f0a52e\">O</text><text x=\"14\" y=\"166\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">She bought a book.</text></svg>",
+      "caption": "先抓主詞與動詞,再把受詞與修飾語依 S+V+O 軌道歸位。",
+      "trap": "⚠ 常忽略主詞要大寫、句尾要標點;且形容詞、時間副詞放錯位置(把 yesterday 放句首雖可,但 not、頻率副詞位置錯就整句不通)。"
+    },
+    {
+      "h": "段落與對話排序",
+      "points": [
+        "段落結構:主題句 (topic sentence) 當開頭,中間是支持/說明句,結論句收尾;先找出最概括、不含指代詞的句子當第一句。",
+        "善用線索詞:順序詞 First / Then / After that / Finally 顯示先後;轉折詞 However / But 表前後相反;因果詞 So / Because 表理由與結果。",
+        "代名詞與指示詞回指:含 it / they / this / that 的句子通常不是首句,因為它指向前面已出現的名詞,可用來判斷緊接在哪一句之後。",
+        "對話排序依問答邏輯:問句後接答句、招呼語 (Hi/Hello) 開頭、道別語 (Bye/See you) 結尾;邀約後接接受或婉拒。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><rect x=\"12\" y=\"16\" width=\"110\" height=\"34\" rx=\"5\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"20\" y=\"37\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">First …(主題)</text><rect x=\"12\" y=\"62\" width=\"110\" height=\"34\" rx=\"5\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"20\" y=\"83\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">Then …(說明)</text><rect x=\"12\" y=\"108\" width=\"110\" height=\"34\" rx=\"5\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"20\" y=\"129\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">It …(回指)</text><rect x=\"12\" y=\"152\" width=\"110\" height=\"30\" rx=\"5\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"20\" y=\"172\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">Finally …(結論)</text><path d=\"M 130 33 L 200 33\" stroke=\"#5aa874\" stroke-width=\"2\" marker-end=\"url(#a)\"/><defs><marker id=\"a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#5aa874\"/></marker></defs><text x=\"210\" y=\"60\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">順序詞</text><text x=\"210\" y=\"100\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\">代名詞</text><text x=\"210\" y=\"140\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">收尾結論</text></svg>",
+      "caption": "用順序詞、轉折詞與回指代名詞把句子串成 1→2→3→4 的邏輯鏈。",
+      "trap": "⚠ 易把含 it/they/this 的句子誤當首句;首句應是最概括、不依賴前文的主題句,否則整段指代落空。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "Reorder the words into a correct sentence: \"to / never / been / has / she / Japan\". Which is correct?",
+      "options": [
+        "She has never been to Japan.",
+        "She never has been to Japan.",
+        "She has been never to Japan.",
+        "Never she has been to Japan."
+      ],
+      "answer": 0,
+      "explanation": "現在完成式 have/has + p.p.,頻率副詞 never 放在 has 與 been 之間:She has never been to Japan。",
+      "trap": "⚠ never 須放助動詞 has 之後、過去分詞 been 之前;放到 been 之後(been never)或句首倒裝(Never she has,缺助動詞倒裝結構)都錯。"
+    },
+    {
+      "stem": "Put the words in order: \"the / what / you / did / weekend / do / last\". The correct question is:",
+      "options": [
+        "What did you do last the weekend?",
+        "What did you do last weekend?",
+        "What you did do last weekend?",
+        "What did do you last weekend?"
+      ],
+      "answer": 1,
+      "explanation": "Wh- 疑問句語序為 What + did + 主詞 + 原形動詞:What did you do last weekend?「last weekend」前不加 the。",
+      "trap": "⚠ 此題多了一個 the 為干擾;last weekend/last week 等時間片語前不加冠詞 the,且助動詞 did 後主詞要在動詞 do 之前。"
+    },
+    {
+      "stem": "Which is the correct order? \"isn't / there / milk / in / any / the / fridge\"",
+      "options": [
+        "There isn't any milk in the fridge.",
+        "There any milk isn't in the fridge.",
+        "Isn't there milk any in the fridge.",
+        "There isn't milk any in the fridge."
+      ],
+      "answer": 0,
+      "explanation": "There is/isn't 句型 + 數量詞 any + 不可數名詞 milk + 地點片語:There isn't any milk in the fridge。",
+      "trap": "⚠ any 為限定詞須緊接在名詞 milk 前,不能放到 milk 之後;否定的 isn't 緊跟 There。"
+    },
+    {
+      "stem": "Reorder: \"so / it / I / was / cold / a / wore / coat\". The best sentence is:",
+      "options": [
+        "It was so cold I wore a coat.",
+        "It so was cold a coat I wore.",
+        "So it was cold I a coat wore.",
+        "It was cold so I a coat wore."
+      ],
+      "answer": 0,
+      "explanation": "結果關係用 so 連接兩個子句:It was so cold (that) I wore a coat。第二子句維持 S+V+O = I wore a coat。",
+      "trap": "⚠ so 修飾形容詞 cold(so cold),且第二個子句仍須 S+V+O 正常語序(I wore a coat),不能寫成 I a coat wore。"
+    },
+    {
+      "stem": "Arrange the dialogue in a logical order:\n(a) I'd love to. What time?\n(b) Hi, Amy. Would you like to see a movie tonight?\n(c) Great, see you then.\n(d) How about seven?",
+      "options": [
+        "b - a - d - c",
+        "b - d - a - c",
+        "a - b - d - c",
+        "b - a - c - d"
+      ],
+      "answer": 0,
+      "explanation": "招呼+邀約(b)→接受並問時間(a)→提議時間(d)→確認道別(c)。順序為 b-a-d-c。",
+      "trap": "⚠ (a) 先說 \"I'd love to\" 接受邀約後才問時間,(d) 才提出具體時間 seven 回應 \"What time?\";若把 d 放在 a 前則答非所問。"
+    },
+    {
+      "stem": "Order the paragraph:\n(1) Then, beat the eggs and add some sugar.\n(2) First, prepare flour, eggs, and milk.\n(3) Finally, bake it for 20 minutes.\n(4) After that, pour the mixture into a pan.",
+      "options": [
+        "2 - 1 - 4 - 3",
+        "2 - 4 - 1 - 3",
+        "1 - 2 - 4 - 3",
+        "2 - 1 - 3 - 4"
+      ],
+      "answer": 0,
+      "explanation": "依序詞:First(2)→Then(1)→After that(4)→Finally(3),順序為 2-1-4-3。",
+      "trap": "⚠ 完全靠順序詞 First/Then/After that/Finally 定位;\"the mixture\"(4)指前面打好的蛋糊,故 4 必在 1 之後。"
+    },
+    {
+      "stem": "Reorder: \"a / what / beautiful / it / sunset / is\". The exclamatory sentence is:",
+      "options": [
+        "What a beautiful sunset it is!",
+        "What beautiful a sunset it is!",
+        "How a beautiful sunset it is!",
+        "What a sunset beautiful it is!"
+      ],
+      "answer": 0,
+      "explanation": "感嘆句 What + a + 形容詞 + 單數名詞 + 主詞 + 動詞:What a beautiful sunset it is!",
+      "trap": "⚠ 修飾單數可數名詞用 What a...(不可用 How a);冠詞 a 放在形容詞 beautiful 之前、形容詞緊接名詞 sunset 前。"
+    },
+    {
+      "stem": "Which order forms a correct sentence? \"only / did / I / realize / then / the truth\"",
+      "options": [
+        "Only then did I realize the truth.",
+        "Only then I did realize the truth.",
+        "Only then I realized the truth did.",
+        "Did only then I realize the truth."
+      ],
+      "answer": 0,
+      "explanation": "否定/限定副詞片語 Only then 置於句首時引發倒裝:助動詞 did 提到主詞 I 之前 → Only then did I realize the truth。",
+      "trap": "⚠ Only + 時間副詞置句首須部分倒裝(did + 主詞 + 原形動詞);若不倒裝寫 Only then I realized 為錯。"
+    },
+    {
+      "stem": "Order the conversation:\n(a) Sorry, I can't. I have to study for a test.\n(b) Hey, do you want to play basketball after school?\n(c) Maybe next time then.\n(d) That's too bad.",
+      "options": [
+        "b - a - d - c",
+        "b - d - a - c",
+        "b - a - c - d",
+        "a - b - d - c"
+      ],
+      "answer": 0,
+      "explanation": "邀約(b)→婉拒並給理由(a)→表示遺憾(d)→改約下次(c)。順序為 b-a-d-c。",
+      "trap": "⚠ \"That's too bad\"(d) 是回應婉拒,須在 (a) 之後;\"Maybe next time\"(c) 收尾,易與 d 順序顛倒。"
+    },
+    {
+      "stem": "Reorder: \"the / to / table / put / on / books / please / the\". The imperative sentence is:",
+      "options": [
+        "Please put the books on the table.",
+        "Please the books put on the table.",
+        "Put please the books on the table.",
+        "Please put on the books the table."
+      ],
+      "answer": 0,
+      "explanation": "祈使句以原形動詞開頭,Please 放句首:Please put the books on the table。受詞 the books 緊接動詞,地點片語 on the table 在句尾。",
+      "trap": "⚠ 動詞 put 後直接接受詞 the books,介系詞片語 on the table 整組放最後;不可把 on 拆到受詞前(put on the books 意思變成穿戴)。"
+    },
+    {
+      "stem": "Insert \"However, the price was too high for me.\" into the best position:\n(1) I saw a nice jacket in the shop. (2) ___ (3) So I decided not to buy it.",
+      "options": [
+        "Between (1) and (3), at position (2)",
+        "Before (1)",
+        "After (3)",
+        "It cannot fit anywhere"
+      ],
+      "answer": 0,
+      "explanation": "However 表轉折,承接「看到好外套」但「價格太高」,再導出 So I decided not to buy it。故插在 (1) 與 (3) 之間的 (2)。",
+      "trap": "⚠ However 須夾在「正面敘述」與「因價高而不買」的因果之間;放 (1) 前無前文可轉折,放 (3) 後則因果倒置。"
+    },
+    {
+      "stem": "Reorder: \"how / you / could / me / tell / get / there / I / to\". The polite question is:",
+      "options": [
+        "Could you tell me how I could get there?",
+        "Could you tell me how could I get there?",
+        "Could you tell me how I get there could?",
+        "How could you tell me I get there?"
+      ],
+      "answer": 0,
+      "explanation": "間接問句 (embedded question) 的子句須用直述語序:how + 主詞 I + 動詞 could get,不倒裝 → Could you tell me how I could get there?",
+      "trap": "⚠ 間接問句中疑問子句不可再倒裝(how I could get,非 how could I get);這是會考高頻陷阱。"
+    },
+    {
+      "stem": "Order the paragraph:\n(1) They are cheap and good for our health.\n(2) Riding a bike has many benefits.\n(3) Also, bikes do not pollute the air.\n(4) For these reasons, more people should ride bikes.",
+      "options": [
+        "2 - 1 - 3 - 4",
+        "1 - 2 - 3 - 4",
+        "2 - 3 - 1 - 4",
+        "1 - 3 - 2 - 4"
+      ],
+      "answer": 0,
+      "explanation": "主題句(2)總述騎車好處→(1)第一項好處→(3)Also 補第二項→(4)For these reasons 總結。順序 2-1-3-4。",
+      "trap": "⚠ (2) 是最概括的主題句須當首句;(1) 的 They 回指 bikes,且 (3) 的 Also 表追加,故 1 在 3 之前,(4) 用結論詞收尾。"
+    },
+    {
+      "stem": "Reorder: \"neither / nor / likes / he / coffee / tea\". The correct sentence is:",
+      "options": [
+        "He likes neither coffee nor tea.",
+        "He neither likes coffee nor tea.",
+        "He likes nor coffee neither tea.",
+        "Neither he likes coffee nor tea."
+      ],
+      "answer": 0,
+      "explanation": "neither...nor... 連接兩個對等成分(受詞 coffee / tea):He likes neither coffee nor tea。",
+      "trap": "⚠ neither...nor 要對稱連接同類成分;此處連接兩受詞,故 neither 放 coffee 前;若放在 likes 前則連接的是動詞,後面結構不對稱。"
+    },
+    {
+      "stem": "Arrange the dialogue:\n(a) It's on Maple Street, next to the bank.\n(b) Excuse me, where is the post office?\n(c) Thank you very much.\n(d) You're welcome.",
+      "options": [
+        "b - a - c - d",
+        "b - c - a - d",
+        "a - b - c - d",
+        "b - a - d - c"
+      ],
+      "answer": 0,
+      "explanation": "問路(b)→指路(a)→道謝(c)→回應(d)。順序 b-a-c-d。",
+      "trap": "⚠ \"Thank you\"(c) 必在得到答案 (a) 之後,\"You're welcome\"(d) 是對道謝的回應須最後;易把 c、d 順序弄反。"
+    },
+    {
+      "stem": "Reorder: \"so / hard / he / studied / that / the / passed / he / exam\". The correct sentence is:",
+      "options": [
+        "He studied so hard that he passed the exam.",
+        "He studied hard so that he passed the exam.",
+        "He so studied hard that he passed the exam.",
+        "He studied so that hard he passed the exam."
+      ],
+      "answer": 0,
+      "explanation": "so + 副詞 hard + that 子句表結果:He studied so hard that he passed the exam。",
+      "trap": "⚠ so 修飾副詞 hard(so hard),that 引導結果子句;\"so that\" 連用意為「以便」(目的),語意與此題的「如此…以致」不同,易混。"
+    },
+    {
+      "stem": "Insert \"They cost a lot of money.\" into the best position:\n(1) Many students want smartphones. (2) ___ (3) Therefore, some of them save money for months.",
+      "options": [
+        "At position (2)",
+        "Before (1)",
+        "After (3)",
+        "Nowhere fits"
+      ],
+      "answer": 0,
+      "explanation": "They 回指 smartphones,說明手機很貴,(3) 用 Therefore 導出「因此存錢數月」的結果。故插在 (2)。",
+      "trap": "⚠ \"They\" 須有前面的 smartphones(1) 才有所指,故不能放 (1) 前;\"Therefore\"(3) 表結果須在「很貴」這個原因之後。"
+    },
+    {
+      "stem": "Reorder: \"been / has / the / cleaned / room / not / yet\". The correct sentence is:",
+      "options": [
+        "The room has not been cleaned yet.",
+        "The room has been not cleaned yet.",
+        "The room not has been cleaned yet.",
+        "The room has been cleaned not yet."
+      ],
+      "answer": 0,
+      "explanation": "現在完成被動式 has been + p.p.,否定 not 放在 has 之後:The room has not been cleaned yet。yet 用於否定句句尾。",
+      "trap": "⚠ not 緊接助動詞 has(has not been),不可放到 been 之後;被動語態 been cleaned 順序固定,yet 放句尾。"
+    },
+    {
+      "stem": "Order the paragraph:\n(1) But it started to rain heavily in the afternoon.\n(2) We planned to have a picnic last Sunday.\n(3) In the end, we stayed home and watched movies.\n(4) The weather was sunny in the morning.",
+      "options": [
+        "2 - 4 - 1 - 3",
+        "2 - 1 - 4 - 3",
+        "4 - 2 - 1 - 3",
+        "2 - 4 - 3 - 1"
+      ],
+      "answer": 0,
+      "explanation": "(2)計畫野餐→(4)早上晴→(1)But 下午下大雨→(3)In the end 待在家。順序 2-4-1-3。",
+      "trap": "⚠ But(1) 表轉折,須接在「早上晴」(4) 之後形成對比;In the end(3) 收尾。靠轉折詞與時間 morning→afternoon 雙線索定序。"
+    },
+    {
+      "stem": "Reorder: \"made / the / him / news / happy / feel\". The correct sentence is:",
+      "options": [
+        "The news made him feel happy.",
+        "The news made happy him feel.",
+        "The news him made feel happy.",
+        "The news made feel him happy."
+      ],
+      "answer": 0,
+      "explanation": "使役動詞 make + 受詞 him + 原形動詞 feel + 形容詞 happy:The news made him feel happy。",
+      "trap": "⚠ 使役 make 後接受詞再接原形動詞(make him feel),不加 to;feel 為感官動詞後接形容詞 happy 當補語。"
+    },
+    {
+      "stem": "Arrange the dialogue:\n(a) Sure. That will be 90 dollars.\n(b) Can I help you?\n(c) Here you are. Thank you.\n(d) Yes, I'd like to buy these two shirts.",
+      "options": [
+        "b - d - a - c",
+        "b - a - d - c",
+        "d - b - a - c",
+        "b - d - c - a"
+      ],
+      "answer": 0,
+      "explanation": "店員招呼(b)→顧客說要買(d)→店員報價(a)→顧客付款道謝(c)。順序 b-d-a-c。",
+      "trap": "⚠ 報價 (a) 須在顧客表明要買 (d) 之後;\"Here you are\"(c)(付款)為最後動作,不能放報價前。"
+    },
+    {
+      "stem": "Reorder: \"if / I / had / I / time / would / more / help / you\". The correct conditional is:",
+      "options": [
+        "If I had more time, I would help you.",
+        "If I would have more time, I help you.",
+        "If I had more time, I will help you.",
+        "I would help you if I had more time would."
+      ],
+      "answer": 0,
+      "explanation": "與現在事實相反的假設(第二類條件句):If + 主詞 + 過去式 (had), 主詞 + would + 原形 (would help) → If I had more time, I would help you。",
+      "trap": "⚠ 條件句 if 子句用過去式 had,主句用 would + 原形;不可在 if 子句用 would(would have),也不可用 will。"
+    },
+    {
+      "stem": "Order the paragraph:\n(1) For example, we can bring our own bags when shopping.\n(2) There are many ways to protect the environment.\n(3) We can also save water by turning off the tap.\n(4) If everyone does a little, the earth will be better.",
+      "options": [
+        "2 - 1 - 3 - 4",
+        "1 - 2 - 3 - 4",
+        "2 - 3 - 1 - 4",
+        "2 - 1 - 4 - 3"
+      ],
+      "answer": 0,
+      "explanation": "主題句(2)→For example 舉第一例(1)→also 補第二例(3)→If 條件句總結(4)。順序 2-1-3-4。",
+      "trap": "⚠ (2) 是概括主題句;(1) 的 For example 須緊跟主題句舉例,(3) 的 also 表追加須在 (1) 之後,(4) 收尾。"
+    },
+    {
+      "stem": "Reorder: \"you / do / know / where / lives / she / ?\". The correct embedded question is:",
+      "options": [
+        "Do you know where she lives?",
+        "Do you know where does she live?",
+        "Do you know where lives she?",
+        "Where do you know she lives?"
+      ],
+      "answer": 0,
+      "explanation": "間接問句的疑問子句用直述語序:where + 主詞 she + 動詞 lives → Do you know where she lives?",
+      "trap": "⚠ 間接問句子句不可倒裝、不加 does(where she lives,非 where does she live);主句 Do you know 維持問句形式。"
+    },
+    {
+      "stem": "Reorder: \"not / only / he / sing / but / can / also / dance / he\". The correct sentence is:",
+      "options": [
+        "He can not only sing but also dance.",
+        "Not only he can sing but also he dance.",
+        "He not only can sing but he also can dance.",
+        "He can sing not only but also dance."
+      ],
+      "answer": 0,
+      "explanation": "not only...but also... 對等連接兩個動詞(sing / dance),置於助動詞 can 之後:He can not only sing but also dance。",
+      "trap": "⚠ not only 與 but also 須對稱連接同類成分(此處兩個原形動詞 sing/dance);本句未置於句首故不倒裝,且 can 共用於兩動詞。"
+    }
+  ]
+}

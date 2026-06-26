@@ -1,0 +1,8 @@
+# OS 垃圾檔
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 題庫擴充的暫存檔（可由 _bank 內的腳本重新產生）
+_bank/_tmp_*
+_bank/_temp_*

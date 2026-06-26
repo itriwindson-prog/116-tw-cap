@@ -1,0 +1,333 @@
+{
+ "id": "agreement",
+ "name": "主詞動詞一致 (Subject-Verb Agreement)",
+ "week": "下學期 期中前",
+ "notes": [
+  {
+   "h": "基本一致與插入修飾語",
+   "points": [
+    "第三人稱單數主詞搭配單數動詞(動詞加 -s/-es,如 He goes);複數主詞與 I/you 搭配原形動詞(They go)。be 動詞則是 is/was 對單數、are/were 對複數。",
+    "主詞與動詞之間插入的介系詞片語或子句只是修飾語,不影響動詞單複數;判斷時要先剝掉這些片語找出真正主詞。例:The box of apples IS heavy.(真主詞是 box,非 apples)。",
+    "「one of the + 複數名詞」結構,真主詞是 one,動詞用單數:One of the books is missing.;但「one of those who」中 who 引導的子句動詞要配前面的複數名詞。",
+    "there is/there are 由 be 後面的「真主詞」決定:there is + 單數/不可數(There is some water),there are + 複數(There are two pens);與多個並列主詞時,動詞通常配最靠近的第一個。"
+   ],
+   "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/>\n<text x=\"14\" y=\"30\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">One of the students ___ here.</text>\n<rect x=\"20\" y=\"46\" width=\"78\" height=\"26\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\"/>\n<text x=\"59\" y=\"64\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">One</text>\n<text x=\"110\" y=\"64\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">of the students</text>\n<path d=\"M59 74 L59 100\" stroke=\"#c9755c\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#a1)\"/>\n<defs><marker id=\"a1\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"6\" orient=\"auto\"><path d=\"M1 1 L4 6 L7 1\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"1.5\"/></marker></defs>\n<rect x=\"30\" y=\"104\" width=\"60\" height=\"26\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\"/>\n<text x=\"60\" y=\"122\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"middle\">is</text>\n<text x=\"110\" y=\"122\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">of the students</text>\n<text x=\"110\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#d98072\">是修飾語</text>\n<text x=\"14\" y=\"170\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">真主詞是 One,動詞用單數</text>\n</svg>",
+   "caption": "插入的 of the students 是修飾語,真主詞 One 用單數動詞 is。",
+   "trap": "⚠ 看到動詞前緊鄰的複數名詞(students、apples)就直接用複數動詞;正確做法是先找出真主詞,介系詞片語裡的名詞不能當主詞。"
+  },
+  {
+   "h": "特殊主詞與就近原則",
+   "points": [
+    "each / every / either / neither 當主詞或修飾單數名詞時,一律接單數動詞:Each student has a book.;Every boy and girl is here.(every 連接兩名詞仍視為單數)。",
+    "both / a few / many / several 接複數動詞;some / all / most / none 等則看 of 後面的名詞:Some of the milk is gone.(不可數->單數)vs Some of the apples are gone.(複數->複數)。",
+    "not only A but also B、either A or B、neither A nor B 採「就近原則」:動詞配最靠近的 B。Neither the teacher nor the students ARE late.;Either the boys or the girl IS lying.",
+    "集合名詞 family / team / class / audience 視為整體時用單數,強調成員個別動作時可用複數(英式較常見):My family is large. / My family are arguing.;不可數名詞(news、money 作金額時)用單數:The news is good."
+   ],
+   "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/>\n<text x=\"14\" y=\"30\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">Either A or B ___ right.</text>\n<rect x=\"24\" y=\"48\" width=\"40\" height=\"26\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\"/>\n<text x=\"44\" y=\"66\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">A</text>\n<text x=\"74\" y=\"66\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">or</text>\n<rect x=\"104\" y=\"48\" width=\"40\" height=\"26\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/>\n<text x=\"124\" y=\"66\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">B</text>\n<path d=\"M44 76 C70 100 110 100 124 80\" stroke=\"#f0a52e\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#a2)\"/>\n<defs><marker id=\"a2\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"6\" orient=\"auto\"><path d=\"M1 1 L4 6 L7 1\" fill=\"none\" stroke=\"#f0a52e\" stroke-width=\"1.5\"/></marker></defs>\n<text x=\"150\" y=\"66\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">就近原則</text>\n<text x=\"14\" y=\"120\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">動詞配最靠近的 B</text>\n<rect x=\"14\" y=\"134\" width=\"120\" height=\"26\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/>\n<text x=\"74\" y=\"152\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"middle\">B 單數 -&gt; is</text>\n<text x=\"150\" y=\"152\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">B 複數 -&gt; are</text>\n</svg>",
+   "caption": "either A or B 的動詞看最靠近的 B 決定單複數(就近原則)。",
+   "trap": "⚠ 把 either A or B / neither nor 一律當複數,或用「前面那個」決定動詞;會考慣把單數放後面、複數放前面誘導,務必只看緊鄰動詞的 B。"
+  }
+ ],
+ "quiz": [
+  {
+   "stem": "The basket of fresh strawberries and blueberries ___ on the kitchen table, ready for the welcome party.",
+   "options": [
+    "are sitting",
+    "were sitting",
+    "is sitting",
+    "have been sitting"
+   ],
+   "answer": 2,
+   "explanation": "真主詞是 The basket(單數),of fresh strawberries and blueberries 只是介系詞片語修飾語,不影響動詞。單數主詞配 is sitting。",
+   "trap": "⚠ 看到 strawberries and blueberries 兩個複數名詞就選複數動詞;但它們在 of 片語裡,不是主詞。"
+  },
+  {
+   "stem": "One of the volunteers who ___ at the shelter every weekend ___ won an award for her dedication.",
+   "options": [
+    "work / has",
+    "works / have",
+    "work / have",
+    "works / has"
+   ],
+   "answer": 0,
+   "explanation": "who 引導的形容詞子句修飾複數先行詞 the volunteers,故子句動詞用 work;主句真主詞是 One,配單數 has。正解 work / has。",
+   "trap": "⚠ 兩個動詞都跟 One 配成單數(works/has);但 who 子句的動詞要配 the volunteers(複數),只有主句動詞才跟 One。"
+  },
+  {
+   "stem": "Every desk, chair, and bookshelf in the newly renovated classrooms ___ been carefully cleaned before the inspection.",
+   "options": [
+    "have",
+    "has",
+    "were",
+    "are"
+   ],
+   "answer": 1,
+   "explanation": "every 連接數個名詞(desk, chair, bookshelf)時整體仍視為單數,動詞用 has been;in the classrooms 為修飾語。",
+   "trap": "⚠ 把 desk, chair, and bookshelf 三個並列名詞當複數;但由 every 修飾時一律單數。"
+  },
+  {
+   "stem": "Neither the players nor their coach ___ satisfied with the referee final decision after the match.",
+   "options": [
+    "are",
+    "were",
+    "was",
+    "have been"
+   ],
+   "answer": 2,
+   "explanation": "neither A nor B 採就近原則,動詞配最靠近的 their coach(單數),用 was。",
+   "trap": "⚠ 被前面的 the players(複數)誤導選 are/were;就近原則只看緊鄰動詞的 coach。"
+  },
+  {
+   "stem": "Either the manager or the new interns ___ responsible for locking up the office every night this week.",
+   "options": [
+    "is",
+    "was",
+    "has been",
+    "are"
+   ],
+   "answer": 3,
+   "explanation": "either A or B 就近原則,動詞配最靠近的 the new interns(複數),用 are。",
+   "trap": "⚠ 看到單數 the manager 在前就選 is;但動詞要配後面緊鄰的複數 interns。"
+  },
+  {
+   "stem": "On the agenda for today meeting ___ a budget review, three project updates, and a short Q&A session.",
+   "options": [
+    "is",
+    "are",
+    "has",
+    "was"
+   ],
+   "answer": 1,
+   "explanation": "此為倒裝句,真主詞是後面並列的 a budget review、three project updates 與 a Q&A session(整體複數),動詞用 are。",
+   "trap": "⚠ 被句首單數概念誤導;倒裝句要找動詞後的真主詞,並列三項為複數。"
+  },
+  {
+   "stem": "The committee ___ unable to reach an agreement, so its members ___ still arguing late into the night.",
+   "options": [
+    "were / was",
+    "was / are",
+    "was / were",
+    "were / are"
+   ],
+   "answer": 1,
+   "explanation": "The committee 作整體視為單數->was;its members 為複數->are(描述成員當下正在爭論)。正解 was / are。",
+   "trap": "⚠ 把 committee 與 members 一律當同號;committee 整體單數,但 members 是明確複數。"
+  },
+  {
+   "stem": "Not only the students but also the principal ___ surprised that the science fair ___ been canceled.",
+   "options": [
+    "was / had",
+    "were / have",
+    "was / have",
+    "were / had"
+   ],
+   "answer": 0,
+   "explanation": "not only A but also B 就近原則,動詞配 the principal(單數)->was;the science fair 為單數->had been。正解 was / had。",
+   "trap": "⚠ 被 the students(複數)誤導選 were;就近原則看最靠近的 the principal(單數)。"
+  },
+  {
+   "stem": "Most of the information she gathered ___ useful, but none of the sources ___ been properly cited.",
+   "options": [
+    "are / has",
+    "is / have",
+    "is / has",
+    "are / have"
+   ],
+   "answer": 1,
+   "explanation": "Most of + 不可數 information -> 單數 is;none of + 複數 the sources 現代用法多配複數 -> have been。正解 is / have。",
+   "trap": "⚠ 把 most 與 none 一律當固定單複數;它們由 of 後面的名詞決定。information 不可數用 is,sources 複數用 have。"
+  },
+  {
+   "stem": "A number of passengers ___ complained that the number of available seats ___ far too small for the route.",
+   "options": [
+    "has / are",
+    "have / is",
+    "have / are",
+    "has / is"
+   ],
+   "answer": 1,
+   "explanation": "「a number of + 複數名詞」意為「許多」,動詞用複數 -> have;「the number of...」指數目本身,主詞是 number(單數)-> is。正解 have / is。",
+   "trap": "⚠ 把 a number of 與 the number of 搞反;a number of=許多(複數),the number of=數目(單數)。"
+  },
+  {
+   "stem": "Each of the proposals submitted by the three departments ___ its own strengths, but none ___ entirely free of flaws.",
+   "options": [
+    "have / are",
+    "has / is",
+    "has / are",
+    "have / is"
+   ],
+   "answer": 1,
+   "explanation": "each of + 複數,動詞用單數 -> has;此處 none 視為 not one,配單數 -> is。正解 has / is。",
+   "trap": "⚠ each of the proposals 被複數 proposals 誤導選 have;each 一律配單數。"
+  },
+  {
+   "stem": "Reading novels and writing short stories ___ Maria favorite way to relax after a long, exhausting school day.",
+   "options": [
+    "are",
+    "is",
+    "were",
+    "have been"
+   ],
+   "answer": 1,
+   "explanation": "由 and 連接的兩個動名詞片語表達單一概念「閱讀與寫作這件休閒事」,且補語 favorite WAY(單數),動詞用單數 is。",
+   "trap": "⚠ 看到 Reading...and writing... 就當複數選 are;此處兩活動視為一種放鬆方式(單一概念),補語 way 也是單數。"
+  },
+  {
+   "stem": "Twenty thousand dollars ___ a huge amount for a used car, and five years ___ a long time to pay it off.",
+   "options": [
+    "are / are",
+    "is / are",
+    "are / is",
+    "is / is"
+   ],
+   "answer": 3,
+   "explanation": "金額(twenty thousand dollars)與時間長度(five years)當作單一整體單位時用單數,故 is / is。",
+   "trap": "⚠ 看到 dollars、years 複數形就選 are;表「一筆金額/一段時間」的整體量詞時用單數。"
+  },
+  {
+   "stem": "Every teacher and ___ assistant in the program ___ expected to attend the training workshop without exception.",
+   "options": [
+    "their / are",
+    "his or her / is",
+    "their / is",
+    "his or her / are"
+   ],
+   "answer": 1,
+   "explanation": "every 連接 teacher 與 assistant 仍視為單數,動詞用 is;單數先行詞代名詞用 his or her。正解 his or her / is。",
+   "trap": "⚠ 看到 teacher and assistant 兩者就用 their/are;every 修飾下整體單數,代名詞與動詞都用單數。"
+  },
+  {
+   "stem": "Neither of the two explanations the witness offered ___ convincing enough to change the jury final verdict.",
+   "options": [
+    "were",
+    "have been",
+    "are",
+    "was"
+   ],
+   "answer": 3,
+   "explanation": "neither of + 複數,正式用法視為單數(not either one),動詞用 was;the witness offered 為修飾子句。",
+   "trap": "⚠ neither of the two explanations 被複數誤導選 were;neither of 在正式語法中配單數。"
+  },
+  {
+   "stem": "There ___ a long list of rules and, at the very bottom, ___ several warnings printed in bold red letters.",
+   "options": [
+    "are / is",
+    "is / are",
+    "was / was",
+    "are / are"
+   ],
+   "answer": 1,
+   "explanation": "第一個真主詞 a long list(單數)-> is;第二個真主詞 several warnings(複數)-> are。正解 is / are。",
+   "trap": "⚠ 兩處用同一個 be 動詞;there 句型各自由其後真主詞決定,list 單數、warnings 複數。"
+  },
+  {
+   "stem": "She is one of those employees who ___ always willing to stay late, which ___ why everyone respects her.",
+   "options": [
+    "is / is",
+    "are / are",
+    "are / is",
+    "is / are"
+   ],
+   "answer": 2,
+   "explanation": "one of those employees who...：who 修飾複數 employees -> are;後句 which 指前述整件事為單數 -> is。正解 are / is。",
+   "trap": "⚠ 把 who 子句動詞跟 one 配成單數;「one of those who」中 who 修飾複數 employees,動詞用複數。"
+  },
+  {
+   "stem": "\"The Adventures of Tom Sawyer\" ___ often listed among the classics that every young reader ___ encouraged to explore.",
+   "options": [
+    "are / is",
+    "is / are",
+    "is / is",
+    "are / are"
+   ],
+   "answer": 2,
+   "explanation": "書名雖含複數字 Adventures,作為單一作品標題用單數 -> is;every young reader 為單數 -> is encouraged。正解 is / is。",
+   "trap": "⚠ 書名 Adventures 複數形誤導選 are;書名/作品名視為單一整體用單數。"
+  },
+  {
+   "stem": "About sixty percent of the harvest ___ already been sold, while the rest of the apples ___ stored in the cellar.",
+   "options": [
+    "have / is",
+    "has / are",
+    "has / is",
+    "have / are"
+   ],
+   "answer": 1,
+   "explanation": "percent / the rest of 由 of 後名詞決定:the harvest 不可數 -> has been;the apples 複數 -> are stored。正解 has / are。",
+   "trap": "⚠ 把百分比與 the rest of 一律當複數;harvest 不可數用 has,apples 複數用 are。"
+  },
+  {
+   "stem": "A pair of scissors ___ on the desk, but my new jeans ___ still in the laundry basket waiting to be washed.",
+   "options": [
+    "are / is",
+    "is / are",
+    "is / is",
+    "are / are"
+   ],
+   "answer": 1,
+   "explanation": "a pair of scissors 真主詞是 pair(單數)-> is;jeans(成對衣物,無 a pair of 時)視為複數 -> are。正解 is / are。",
+   "trap": "⚠ scissors、jeans 都有 -s 就一律當複數;a pair of 開頭時主詞是 pair(單數)。"
+  },
+  {
+   "stem": "The famous singer and songwriter ___ donating all of tonight ticket sales, which ___ expected to exceed ten thousand dollars.",
+   "options": [
+    "are / are",
+    "is / is",
+    "is / are",
+    "are / is"
+   ],
+   "answer": 2,
+   "explanation": "沒有重複冠詞,the singer and songwriter 指同一人,動詞單數 -> is;ticket sales(複數)-> are expected。正解 is / are。",
+   "trap": "⚠ singer and songwriter 看似兩人選 are;無第二個 the 表同一人,用單數。"
+  },
+  {
+   "stem": "The news about the flooded villages ___ heartbreaking, and the statistics the reporter cited ___ even more alarming.",
+   "options": [
+    "are / is",
+    "is / are",
+    "is / is",
+    "are / are"
+   ],
+   "answer": 1,
+   "explanation": "news 雖有 -s 為不可數,單數 -> is;此處 statistics 指「具體統計數據」為複數 -> are。正解 is / are。",
+   "trap": "⚠ 把 news 當複數、statistics 一律當單數;news 永遠單數,statistics 指數據時為複數。"
+  },
+  {
+   "stem": "Both the science museum and the art gallery downtown ___ free admission on the first Sunday of every month.",
+   "options": [
+    "offers",
+    "is offering",
+    "offer",
+    "has offered"
+   ],
+   "answer": 2,
+   "explanation": "both A and B 一律配複數動詞,主詞為兩個地點 -> offer。",
+   "trap": "⚠ 被緊鄰的單數 the art gallery 誤導選 offers;both...and... 不適用就近原則,固定複數。"
+  },
+  {
+   "stem": "A lot of patience ___ required for this job, and plenty of opportunities ___ available for those who stay calm.",
+   "options": [
+    "are / is",
+    "is / are",
+    "is / is",
+    "are / are"
+   ],
+   "answer": 1,
+   "explanation": "a lot of / plenty of 由後面名詞決定:patience 不可數 -> is;opportunities 複數 -> are。正解 is / are。",
+   "trap": "⚠ a lot of、plenty of 看似一律複數;它們隨後面名詞變化,patience 不可數用 is。"
+  },
+  {
+   "stem": "Everybody who attended the seminar ___ given a certificate, and each of them ___ asked to fill out a feedback form.",
+   "options": [
+    "were / were",
+    "was / was",
+    "was / were",
+    "were / was"
+   ],
+   "answer": 1,
+   "explanation": "everybody 為不定代名詞單數 -> was given;each of them 中 each 配單數 -> was asked。正解 was / was。",
+   "trap": "⚠ everybody、each of them 含複數概念誤選 were;不定代名詞 everybody 與 each 都配單數動詞。"
+  }
+ ]
+}

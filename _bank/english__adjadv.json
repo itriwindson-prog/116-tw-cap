@@ -1,0 +1,258 @@
+{
+  "topicId": "adjadv",
+  "isNew": false,
+  "newQuiz": [
+    {
+      "stem": "Although the soup smelled ___, the guests were too polite to say a single word about it.",
+      "options": [
+        "terribly",
+        "terrible",
+        "more terribly",
+        "the most terrible"
+      ],
+      "answer": 1,
+      "explanation": "smell 為連綴動詞(linking verb),後接形容詞補語修飾主詞 soup,故用 terrible。",
+      "trap": "⚠ smell/taste/look/sound/feel 等感官連綴動詞後接形容詞(terrible)而非副詞(terribly);副詞只修飾一般動作動詞;此句無比較對象,不用比較級或最高級。"
+    },
+    {
+      "stem": "The negotiations went so badly that, by midnight, both sides looked ___ exhausted to continue.",
+      "options": [
+        "very",
+        "too",
+        "enough",
+        "so"
+      ],
+      "answer": 1,
+      "explanation": "由 to continue 的不定詞可知為 too + 形容詞 + to V 句型『太…以致於不能…』:too exhausted to continue。",
+      "trap": "⚠ very 只是『非常』不含『以致於不能』的否定結果;enough 須放形容詞之後(exhausted enough);so 須配 that 子句而非 to V;故選 too。"
+    },
+    {
+      "stem": "She bought a ___ at the antique market and proudly hung it above the fireplace.",
+      "options": [
+        "round small wooden mirror",
+        "wooden small round mirror",
+        "small round wooden mirror",
+        "small wooden round mirror"
+      ],
+      "answer": 2,
+      "explanation": "形容詞排序遵循『大小→形狀→材質』:small(大小)→ round(形狀)→ wooden(材質)+ 名詞 mirror。",
+      "trap": "⚠ 多個形容詞排序為 opinion-size-shape-age-colour-origin-material;此題 size(small)在 shape(round)前、material(wooden)最靠名詞,只有 small round wooden 正確。"
+    },
+    {
+      "stem": "The lecture was so ___ that almost half of the audience felt ___ within twenty minutes.",
+      "options": [
+        "bored / boring",
+        "boring / bored",
+        "boring / boring",
+        "bored / bored"
+      ],
+      "answer": 1,
+      "explanation": "事物本身令人厭煩用 -ing(boring lecture);人感到厭煩用 -ed(audience felt bored)。",
+      "trap": "⚠ -ing 形容詞描述引發感受的來源(演講 boring),-ed 形容詞描述感受者的狀態(聽眾 bored);兩格主詞不同,不可相同填法。"
+    },
+    {
+      "stem": "I have ___ patience for excuses, so please just tell me the truth right away.",
+      "options": [
+        "few",
+        "little",
+        "a few",
+        "fewer"
+      ],
+      "answer": 1,
+      "explanation": "patience 為不可數名詞,表『幾乎沒有』用 little(無冠詞,帶否定意味)。",
+      "trap": "⚠ few/a few 修飾可數複數,little/a little 修飾不可數;patience 不可數須用 little;無 a 的 little 表『幾乎沒有』,語境(別找藉口)正符此否定語氣。"
+    },
+    {
+      "stem": "Of the two routes to the summit, the eastern one is by far ___, though it offers fewer rest stops.",
+      "options": [
+        "the safest",
+        "safer",
+        "the safer",
+        "more safe"
+      ],
+      "answer": 2,
+      "explanation": "兩者之間且有 of the two 限定範圍,用 the + 比較級 the safer;by far 加強比較級。",
+      "trap": "⚠ 兩者比較不可用最高級 the safest;但因 of the two 特指其中『較…的那個』須加 the;safe 短形容詞作 safer 非 more safe;故選 the safer。"
+    },
+    {
+      "stem": "___ had the referee blown the whistle ___ the crowd burst into cheers.",
+      "options": [
+        "No sooner / when",
+        "Hardly / than",
+        "No sooner / than",
+        "Scarcely / then"
+      ],
+      "answer": 2,
+      "explanation": "No sooner... than... 表『一…就…』,且 No sooner 置句首須倒裝(had the referee);搭配 than。",
+      "trap": "⚠ No sooner 固定配 than(不配 when);Hardly/Scarcely 才配 when(非 than 或 then);故 A、B、D 的連接詞搭配皆錯,選 No sooner...than。"
+    },
+    {
+      "stem": "The witness described the suspect as a man in his ___ wearing a torn jacket.",
+      "options": [
+        "thirty",
+        "thirties",
+        "thirty's",
+        "thirtieth"
+      ],
+      "answer": 1,
+      "explanation": "in one's thirties 表『三十幾歲』,固定用複數 thirties。",
+      "trap": "⚠ 表『某人幾十歲』用 in one's + 整十數的複數(thirties/forties);thirty 單數、thirtieth 序數、thirty's 所有格皆不合此固定用法。"
+    },
+    {
+      "stem": "The more advanced the technology becomes, ___ it seems to be for ordinary users to keep up.",
+      "options": [
+        "the harder",
+        "harder",
+        "the hardest",
+        "the more hard"
+      ],
+      "answer": 0,
+      "explanation": "The + 比較級..., the + 比較級... 句型;hard 短形容詞比較級為 harder,前加 the。",
+      "trap": "⚠ 此句型後半也必須是 the + 比較級;hard→harder(非 more hard);非三者比較不用最高級 the hardest;故選 the harder。"
+    },
+    {
+      "stem": "Despite years of training, he could ___ finish the marathon, collapsing just past the finish line.",
+      "options": [
+        "hard",
+        "hardly",
+        "nearly hard",
+        "almost hardly"
+      ],
+      "answer": 1,
+      "explanation": "語境表『勉強才能完成』含否定意味,用副詞 hardly(幾乎不/勉強)修飾動詞 finish。",
+      "trap": "⚠ hard(努力地)與 hardly(幾乎不)意義完全不同;此處需『差點不能/勉強』之否定副詞 hardly;hard 作副詞意為『努力』與『癱倒在終點』語境矛盾。"
+    },
+    {
+      "stem": "The new policy affected ___ every department, leaving managers scrambling to adjust their budgets.",
+      "options": [
+        "near",
+        "nearly",
+        "close",
+        "hardly"
+      ],
+      "answer": 1,
+      "explanation": "修飾 every(幾乎每一個)用副詞 nearly(=almost);nearly every department。",
+      "trap": "⚠ near 多作介系詞/形容詞表『靠近』,修飾 every 表『幾乎』須用副詞 nearly;hardly 為否定『幾乎不』語意相反;close 不能這樣修飾 every。"
+    },
+    {
+      "stem": "Her explanation was ___ clear; not a single student raised a hand to ask a question afterward.",
+      "options": [
+        "absolutely",
+        "very perfectly",
+        "perfectly",
+        "more perfect"
+      ],
+      "answer": 2,
+      "explanation": "perfectly clear 為固定搭配,perfectly 作副詞加強 clear(完全清楚);語境支持『毫無疑問』。",
+      "trap": "⚠ clear 為可分級形容詞,常用 perfectly clear 表『十分清楚』;absolutely 多修飾不可分級形容詞(如 absolutely perfect);very perfectly 副詞疊用、more perfect 與語境(無人提問=很清楚)不符。"
+    },
+    {
+      "stem": "This museum holds ___ artifacts than any other in the country, drawing scholars from around the world.",
+      "options": [
+        "far more valuable",
+        "much more valuable",
+        "many more valuable",
+        "the most valuable"
+      ],
+      "answer": 0,
+      "explanation": "artifacts 為可數複數,『更多有價值的文物』用 more valuable artifacts,前加 far 加強比較級;有 than 故非最高級。",
+      "trap": "⚠ 此處比較的是『數量更多的文物』,more 修飾可數複數,加強詞須用 far/many more 形式;much 修飾不可數量,與可數 artifacts 不符;有 than any other 仍是比較級結構,故選 far more valuable。"
+    },
+    {
+      "stem": "The harder the climbers pushed upward, ___ the air became, forcing them to rest more often.",
+      "options": [
+        "thinner",
+        "the thinner",
+        "the thinnest",
+        "the more thin"
+      ],
+      "answer": 1,
+      "explanation": "The + 比較級..., the + 比較級...;thin 短形容詞比較級為 thinner(雙寫 n),前加 the。",
+      "trap": "⚠ 後半子句也須 the + 比較級;thin→thinner(子音字母雙寫加 er),非 more thin;兩量同步變化非三者比較,不用最高級 thinnest。"
+    },
+    {
+      "stem": "He is ___ a careful driver that he has never received even a single parking ticket in twenty years.",
+      "options": [
+        "so",
+        "such",
+        "very",
+        "too"
+      ],
+      "answer": 1,
+      "explanation": "such + a/an + (形容詞) + 單數名詞 + that...;此處有名詞 driver,故用 such a careful driver。",
+      "trap": "⚠ so + 形容詞/副詞 + that,但 such + (a) + 形容詞 + 名詞 + that;本句核心是名詞 driver,須用 such;若改 so 須寫 so careful a driver 才合文法。"
+    },
+    {
+      "stem": "Among all the proposals submitted, hers was ___ practical, which is why the committee adopted it at once.",
+      "options": [
+        "more",
+        "the more",
+        "by far the most",
+        "as"
+      ],
+      "answer": 2,
+      "explanation": "Among all 表多者範圍用最高級;practical 長形容詞用 the most practical,by far 加強最高級。",
+      "trap": "⚠ Among all the proposals 是最高級訊號;by far 雖也修飾比較級,但此處範圍為『所有提案』須用最高級;more/the more 為兩者比較、as 為同級,皆不合。"
+    },
+    {
+      "stem": "The two brothers are equally talented, but the younger one works ___ than the elder.",
+      "options": [
+        "more diligent",
+        "the most diligently",
+        "more diligently",
+        "as diligently"
+      ],
+      "answer": 2,
+      "explanation": "修飾動詞 works 用副詞;diligently 為長副詞,比較級用 more diligently;有 than 為比較級。",
+      "trap": "⚠ 修飾動作 works 須用副詞 diligently 非形容詞 diligent;long 副詞比較級加 more;有 than 不用最高級 the most diligently,也非同級 as diligently。"
+    },
+    {
+      "stem": "There were ___ chairs in the hall than expected, so dozens of guests had to stand throughout the ceremony.",
+      "options": [
+        "less",
+        "fewer",
+        "the fewest",
+        "little"
+      ],
+      "answer": 1,
+      "explanation": "chairs 為可數複數,『較少』用 fewer;有 than 為比較級。",
+      "trap": "⚠ 可數名詞(chairs)用 fewer,不可數才用 less;有 than 為兩相比較不用最高級 the fewest;little 修飾不可數且非比較級,皆不合。"
+    },
+    {
+      "stem": "The candidate spoke ___ confidently during the debate that even her rivals nodded in agreement.",
+      "options": [
+        "such",
+        "so",
+        "very",
+        "too"
+      ],
+      "answer": 1,
+      "explanation": "so + 副詞 + that 句型;confidently 為副詞修飾 spoke,故用 so confidently that...。",
+      "trap": "⚠ 此處 confidently 為修飾動詞的副詞,須用 so(so + 副詞 + that);such 須接名詞;very 不引導 that 結果子句;too 表否定結果與語境(對手點頭認同)不符。"
+    },
+    {
+      "stem": "No matter how ___ the instructions were written, several customers still assembled the shelf upside down.",
+      "options": [
+        "clear",
+        "clearly",
+        "more clearly",
+        "the most clearly"
+      ],
+      "answer": 1,
+      "explanation": "No matter how + 副詞/形容詞...;此處修飾被動動詞 were written,須用副詞 clearly。",
+      "trap": "⚠ 形容詞與副詞之別:修飾『how + 動詞(were written)』須用副詞 clearly 不用形容詞 clear;No matter how 後接原級,不用比較級或最高級。"
+    },
+    {
+      "stem": "The deeper the divers descended, ___ they could see, until total darkness surrounded them.",
+      "options": [
+        "the less",
+        "the fewer",
+        "less",
+        "the least"
+      ],
+      "answer": 0,
+      "explanation": "see 此處指可見的『程度/範圍』為不可數概念,『愈少』用 less;the + 比較級句型須加 the。",
+      "trap": "⚠ the more..., the less... 句型後半須 the + 比較級;『能見度』為不可數用 less 不用可數的 fewer;兩量同步變化非三者比較,不用最高級 the least。"
+    }
+  ]
+}

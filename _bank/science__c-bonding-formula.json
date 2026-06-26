@@ -1,0 +1,196 @@
+{
+  "id": "c-bonding-formula",
+  "name": "化學鍵與化學式",
+  "sub": "physchem",
+  "week": "上學期 11月",
+  "notes": [
+    {
+      "h": "離子鍵與共價鍵",
+      "points": [
+        "原子傾向得失或共用電子,使最外層達到惰性氣體的穩定組態(八隅體;氫、氦為二隅體)。金屬原子最外層電子少、容易失去電子變陽離子;非金屬原子則傾向得到電子變陰離子。",
+        "離子鍵由金屬與非金屬結合而成:金屬把電子轉移給非金屬,形成帶正電與帶負電的離子,再靠正負電荷的靜電引力結合(如 NaCl、MgO)。",
+        "共價鍵由非金屬與非金屬結合而成:雙方各提供電子「共用」一對或多對電子對,以同時滿足八隅體(如 H₂O、CO₂、NH₃)。",
+        "性質差異:離子化合物為陰陽離子緊密堆積,熔點沸點高,固態不導電,但熔融或溶於水後離子可自由移動而能導電;共價分子化合物熔點低,多數不導電。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><text x=\"90\" y=\"22\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">離子鍵 NaCl</text><circle cx=\"52\" cy=\"95\" r=\"26\" fill=\"#eef4f2\" stroke=\"#5aa874\" stroke-width=\"2\"/><text x=\"52\" y=\"100\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">Na⁺</text><circle cx=\"130\" cy=\"95\" r=\"30\" fill=\"#f3e7df\" stroke=\"#c9755c\" stroke-width=\"2\"/><text x=\"130\" y=\"100\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">Cl⁻</text><line x1=\"80\" y1=\"95\" x2=\"100\" y2=\"95\" stroke=\"#f0a52e\" stroke-width=\"2\"/><polygon points=\"100,95 92,91 92,99\" fill=\"#f0a52e\"/><text x=\"90\" y=\"148\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">電子轉移</text><line x1=\"185\" y1=\"30\" x2=\"185\" y2=\"165\" stroke=\"#3a342e\" stroke-width=\"1\"/><text x=\"278\" y=\"22\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">共價鍵 H₂O</text><circle cx=\"278\" cy=\"90\" r=\"24\" fill=\"#eef4f2\" stroke=\"#c9755c\" stroke-width=\"2\"/><text x=\"278\" y=\"95\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">O</text><circle cx=\"238\" cy=\"135\" r=\"16\" fill=\"#f3e7df\" stroke=\"#5aa874\" stroke-width=\"2\"/><text x=\"238\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">H</text><circle cx=\"318\" cy=\"135\" r=\"16\" fill=\"#f3e7df\" stroke=\"#5aa874\" stroke-width=\"2\"/><text x=\"318\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">H</text><line x1=\"262\" y1=\"104\" x2=\"248\" y2=\"122\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"294\" y1=\"104\" x2=\"308\" y2=\"122\" stroke=\"#3a342e\" stroke-width=\"2\"/><text x=\"278\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">共用電子對</text></svg>",
+      "caption": "左為鈉把電子給氯形成離子鍵,右為氫氧共用電子對形成水分子的共價鍵。",
+      "trap": "⚠ 別把「金屬+非金屬」誤判成共價鍵。電子被「整個搶走(轉移)」才是離子鍵;只有非金屬彼此「共用」電子才是共價鍵。"
+    },
+    {
+      "h": "化學式與命名",
+      "points": [
+        "化學式用元素符號加右下標數字表示組成元素與原子數的最簡比例,如 H₂O 代表 2 個氫原子配 1 個氧原子;CaCO₃ 代表鈣、碳各 1 與氧 3。",
+        "交叉法寫離子化合物化學式:把陽離子電荷數寫成陰離子的下標、陰離子電荷數寫成陽離子的下標,使正負電荷總量相等(整體電中性),寫好後可約成最簡整數比。",
+        "常見多原子根(原子團)須整組看待:氫氧根 OH⁻、碳酸根 CO₃²⁻、硫酸根 SO₄²⁻、硝酸根 NO₃⁻、磷酸根 PO₄³⁻、銨根 NH₄⁺;原子團不只一個時用括號括起再加下標。",
+        "分子式表示一個分子中實際的原子數(如葡萄糖 C₆H₁₂O₆);實驗式(簡式)只表示原子數的最簡整數比(葡萄糖的實驗式為 CH₂O),兩者可能不同。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><text x=\"110\" y=\"24\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">交叉法寫化學式</text><text x=\"55\" y=\"70\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">Ca²⁺</text><text x=\"160\" y=\"70\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">Cl¹⁻</text><line x1=\"72\" y1=\"62\" x2=\"143\" y2=\"92\" stroke=\"#c9755c\" stroke-width=\"2\"/><line x1=\"143\" y1=\"62\" x2=\"72\" y2=\"92\" stroke=\"#5aa874\" stroke-width=\"2\"/><text x=\"55\" y=\"112\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\" text-anchor=\"middle\">下標 1</text><text x=\"160\" y=\"112\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">下標 2</text><text x=\"108\" y=\"150\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">得 CaCl₂</text><line x1=\"205\" y1=\"30\" x2=\"205\" y2=\"165\" stroke=\"#3a342e\" stroke-width=\"1\"/><text x=\"283\" y=\"24\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">常見原子團</text><text x=\"216\" y=\"56\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">OH⁻</text><text x=\"216\" y=\"82\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">CO₃²⁻</text><text x=\"216\" y=\"108\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">SO₄²⁻</text><text x=\"216\" y=\"134\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">NO₃⁻</text><text x=\"216\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">NH₄⁺</text></svg>",
+      "caption": "交叉法:把離子電荷數互換成對方下標,Ca²⁺ 與 Cl⁻ 交叉得 CaCl₂;右側為常見原子團。",
+      "trap": "⚠ 交叉後若下標有公因數要約分(如 Mg²⁺ 與 O²⁻ 交叉得 Mg₂O₂,須約成 MgO);且原子團多於一個時務必加括號(NH₄)₂SO₄。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "X 原子最外層有 1 個電子,Y 原子最外層有 7 個電子。下列關於 X、Y 形成化合物的敘述,何者最正確?",
+      "options": [
+        "X 與 Y 共用一對電子形成共價鍵",
+        "X 失去 1 個電子、Y 得到 1 個電子,以離子鍵結合",
+        "Y 失去 7 個電子達到八隅體",
+        "X、Y 皆得電子,故形成陰離子互斥不結合"
+      ],
+      "answer": 1,
+      "explanation": "X 最外層 1 個電子(似鈉,金屬性),傾向失去 1 個電子成 X⁺;Y 最外層 7 個電子(似氯,非金屬),傾向得 1 個電子成 Y⁻。金屬與非金屬間電子轉移形成離子鍵,化學式為 XY。",
+      "trap": "⚠ Y 達到八隅體是「得 1 個電子」(7→8)而非失去 7 個;失去 7 個反而離穩定更遠,且金屬+非金屬是離子鍵不是共價鍵。"
+    },
+    {
+      "stem": "下列四組物質,何者全部都只含共價鍵(不含離子鍵)?",
+      "options": [
+        "H₂O、CO₂、NH₃",
+        "NaCl、CO₂、H₂O",
+        "MgO、NH₃、KBr",
+        "CaCl₂、H₂O、NaF"
+      ],
+      "answer": 0,
+      "explanation": "共價鍵由非金屬彼此結合。H₂O(H、O)、CO₂(C、O)、NH₃(N、H)皆為非金屬組合,屬共價分子。其餘選項中的 NaCl、MgO、KBr、CaCl₂、NaF 皆含金屬,屬離子化合物。",
+      "trap": "⚠ 只要組合中出現金屬元素(Na、Mg、K、Ca)就是離子化合物。逐一檢查每個物質,有一個含金屬該選項即不符。"
+    },
+    {
+      "stem": "鋁離子為 Al³⁺、氧離子為 O²⁻。用交叉法寫出氧化鋁的化學式,下列何者正確?",
+      "options": ["AlO", "Al₂O₃", "Al₃O₂", "AlO₂"],
+      "answer": 1,
+      "explanation": "交叉法:Al 的電荷 3 成為 O 的下標、O 的電荷 2 成為 Al 的下標,得 Al₂O₃。驗證電荷:2×(+3)=+6,3×(−2)=−6,總和為 0,電中性成立。",
+      "trap": "⚠ 易把下標寫反成 Al₃O₂。要把「對方的電荷數」放到自己的下標;且 Al₂O₃ 已是最簡比無法再約分。"
+    },
+    {
+      "stem": "鈣離子 Ca²⁺ 與磷酸根 PO₄³⁻ 結合成磷酸鈣。其化學式中,一個化學式單位裡氧原子總數為何?",
+      "options": ["4", "6", "8", "12"],
+      "answer": 2,
+      "explanation": "交叉法:Ca²⁺ 與 PO₄³⁻,電荷 2 與 3 互換為下標得 Ca₃(PO₄)₂。一個 (PO₄)₂ 含 2 個磷酸根,每個含 4 個氧,故氧原子總數=4×2=8 個。",
+      "trap": "⚠ 括號外的下標 2 要乘進括號內每一種原子。氧不是 4 個,而是 4×2=8;磷則是 1×2=2。"
+    },
+    {
+      "stem": "下列關於離子化合物導電性的敘述,何者正確?",
+      "options": [
+        "固態氯化鈉可以導電,因為含有自由電子",
+        "氯化鈉固態不導電,熔融或溶於水後可導電",
+        "離子化合物在任何狀態下都不能導電",
+        "氯化鈉溶於水不導電,因為水是絕緣體"
+      ],
+      "answer": 1,
+      "explanation": "離子化合物固態時離子被固定在晶格中無法移動,故不導電;加熱熔融或溶於水後,離子能自由移動而成為電荷載子,因此能導電。",
+      "trap": "⚠ 離子化合物導電靠的是「可自由移動的離子」而非自由電子(那是金屬導電的機制)。固態不導電、熔融/水溶液才導電是關鍵區別。"
+    },
+    {
+      "stem": "銨根為 NH₄⁺、硫酸根為 SO₄²⁻。硫酸銨的化學式中,氫(H)原子的總數為何?",
+      "options": ["4", "6", "8", "2"],
+      "answer": 2,
+      "explanation": "交叉法:NH₄⁺(電荷 1)與 SO₄²⁻(電荷 2),互換下標得 (NH₄)₂SO₄。括號內 NH₄ 有 4 個氫,乘以括號外下標 2,氫總數=4×2=8 個。",
+      "trap": "⚠ 銨根帶正電(+1),是少數的陽離子原子團;且 (NH₄)₂ 的下標 2 要分配到括號內每個原子,氫為 8 不是 4。"
+    },
+    {
+      "stem": "某碳氫氧化合物的分子式為 C₆H₁₂O₆。其實驗式(最簡式)為何?",
+      "options": ["C₆H₁₂O₆", "C₂H₄O₂", "CH₂O", "CHO"],
+      "answer": 2,
+      "explanation": "實驗式是原子數的最簡整數比。C : H : O = 6 : 12 : 6,同除以 6 得 1 : 2 : 1,故實驗式為 CH₂O。",
+      "trap": "⚠ 實驗式是各原子數「同除最大公因數」。6、12、6 的最大公因數是 6,不是 2 或 3;CHO 則少了氫的比例(應為 2),不正確。"
+    },
+    {
+      "stem": "下列四組物質,哪一組的兩個分子「實驗式相同」?",
+      "options": [
+        "乙烯 C₂H₄ 與 丁烯 C₄H₈",
+        "乙烷 C₂H₆ 與 甲烷 CH₄",
+        "葡萄糖 C₆H₁₂O₆ 與 水 H₂O",
+        "丙烷 C₃H₈ 與 丁烷 C₄H₁₀"
+      ],
+      "answer": 0,
+      "explanation": "乙烯 C₂H₄→2:4 約為 1:2,即 CH₂;丁烯 C₄H₈→4:8 約為 1:2,也是 CH₂,兩者實驗式相同。其餘:乙烷 C₂H₆→CH₃ 與甲烷 CH₄ 不同;葡萄糖 C₆H₁₂O₆→CH₂O 與水 H₂O 不同;丙烷 C₃H₈→C₃H₈(互質)與丁烷 C₄H₁₀→C₂H₅ 不同。",
+      "trap": "⚠ 實驗式相同要求各自約分後最簡整數比「完全一致」。分子式不同的物質仍可能有相同實驗式(乙烯與丁烯皆為 CH₂)。"
+    },
+    {
+      "stem": "下列化學式與名稱的配對,何者「錯誤」?",
+      "options": [
+        "CaCO₃ — 碳酸鈣",
+        "NaOH — 氫氧化鈉",
+        "H₂SO₄ — 硝酸",
+        "CO₂ — 二氧化碳"
+      ],
+      "answer": 2,
+      "explanation": "H₂SO₄ 含硫酸根 SO₄²⁻,應為「硫酸」;硝酸是 HNO₃(含硝酸根 NO₃⁻)。其餘配對皆正確:CaCO₃ 碳酸鈣、NaOH 氫氧化鈉、CO₂ 二氧化碳。",
+      "trap": "⚠ 別把硫酸(SO₄)與硝酸(NO₃)搞混。看原子團:含 S 是硫酸根、含 N 是硝酸根。"
+    },
+    {
+      "stem": "甲、乙兩種固體:甲熔點約 800°C、熔融後可導電;乙熔點約 −20°C、液態時不導電。關於甲、乙的鍵結與分類,何者最合理?",
+      "options": [
+        "甲為共價分子、乙為離子化合物",
+        "甲為離子化合物、乙為共價分子化合物",
+        "甲、乙皆為離子化合物",
+        "甲、乙皆為共價分子化合物"
+      ],
+      "answer": 1,
+      "explanation": "甲熔點高且熔融可導電,符合離子化合物特性(離子在熔融態可自由移動);乙熔點極低且液態不導電,符合共價分子化合物特性。故甲為離子化合物、乙為共價分子。",
+      "trap": "⚠ 判斷依據是「熔點高低」與「熔融態能否導電」。高熔點+熔融導電→離子;低熔點+不導電→共價分子,兩個線索要一起看。"
+    },
+    {
+      "stem": "鐵離子有 Fe²⁺ 與 Fe³⁺ 兩種。氯離子為 Cl⁻。若某氯化鐵化學式為 FeCl₃,則其中鐵離子的電荷為何?",
+      "options": ["+1", "+2", "+3", "+6"],
+      "answer": 2,
+      "explanation": "FeCl₃ 整體電中性:3 個 Cl⁻ 共帶 −3 電荷,故 1 個鐵離子須帶 +3 才能抵銷,即 Fe³⁺。",
+      "trap": "⚠ 用電中性反推:陰離子總電荷=陽離子總電荷。3 個 Cl⁻ 是 −3,鐵只有 1 個,所以鐵帶 +3,而非把 3 當成 +1×3 之類的誤算。"
+    },
+    {
+      "stem": "下列關於八隅體規則的敘述,何者「不正確」?",
+      "options": [
+        "鈉原子失去 1 個電子後達到與氖相同的穩定電子組態",
+        "氯原子得到 1 個電子後最外層有 8 個電子",
+        "氧原子需得到 2 個電子或共用 2 對電子達到八隅體",
+        "氫原子須最外層有 8 個電子才穩定"
+      ],
+      "answer": 3,
+      "explanation": "氫(及氦)的最外層(第一層)最多只能容納 2 個電子,因此氫達到穩定是「二隅體」(2 個電子),不是八隅體。其餘敘述皆正確。",
+      "trap": "⚠ 八隅體有例外:第一週期的氫、氦只追求 2 個電子(二隅體)。別把所有原子都套用「8 個電子」。"
+    },
+    {
+      "stem": "鎂離子 Mg²⁺ 與氧離子 O²⁻ 結合。用交叉法初步得 Mg₂O₂,正確的最終化學式應為何?",
+      "options": ["Mg₂O₂", "MgO", "Mg₂O", "MgO₂"],
+      "answer": 1,
+      "explanation": "交叉法得 Mg₂O₂ 後,下標 2 與 2 有公因數 2,須約成最簡整數比 1 : 1,故化學式為 MgO。驗證:(+2)+(−2)=0,電中性成立。",
+      "trap": "⚠ 交叉後若兩個下標有公因數一定要約分。Mg₂O₂ 不是最終答案,化合物化學式採最簡整數比,寫成 MgO。"
+    },
+    {
+      "stem": "硫酸鋁的化學式為 Al₂(SO₄)₃。下列關於此化學式所含原子數的計算,何者正確?",
+      "options": [
+        "含 Al 2 個、S 3 個、O 12 個",
+        "含 Al 2 個、S 3 個、O 4 個",
+        "含 Al 3 個、S 2 個、O 8 個",
+        "含 Al 2 個、S 1 個、O 12 個"
+      ],
+      "answer": 0,
+      "explanation": "Al₂(SO₄)₃:Al 為 2 個;括號外下標 3 乘進括號內,S=1×3=3 個,O=4×3=12 個。故 Al 2、S 3、O 12。",
+      "trap": "⚠ 括號外的 3 要同時乘到括號內的 S 與 O。O 不是 4 個,而是 4×3=12;只乘到其中一種是常見錯誤。"
+    },
+    {
+      "stem": "下列敘述,何者正確說明「分子式」與「實驗式」的關係?",
+      "options": [
+        "所有化合物的分子式都等於實驗式",
+        "實驗式表示分子中實際原子數,分子式表示最簡整數比",
+        "分子式可能是實驗式的整數倍,如 C₆H₁₂O₆ 的實驗式為 CH₂O",
+        "離子化合物有分子式但沒有實驗式"
+      ],
+      "answer": 2,
+      "explanation": "分子式表示一個分子中實際的原子數,實驗式表示原子數的最簡整數比,分子式通常是實驗式的整數倍(如葡萄糖 C₆H₁₂O₆ 是 CH₂O 的 6 倍)。有些物質兩者相同(如 H₂O),但不是全部都相同。",
+      "trap": "⚠ 選項 B 把分子式與實驗式的定義對調了。實驗式才是最簡比、分子式才是實際原子數;且離子化合物通常以實驗式(最簡比)表示。"
+    },
+    {
+      "stem": "對同一物質,下列四種化學式的書寫,何者完全正確且符合電中性?",
+      "options": [
+        "氫氧化鈣:CaOH",
+        "碳酸鈉:Na₂CO₃",
+        "硝酸鎂:MgNO₃",
+        "氫氧化鋁:AlOH₃"
+      ],
+      "answer": 1,
+      "explanation": "Na₂CO₃:2 個 Na⁺(+2)配 1 個 CO₃²⁻(−2),電中性,正確。氫氧化鈣應為 Ca(OH)₂;硝酸鎂應為 Mg(NO₃)₂;氫氧化鋁應為 Al(OH)₃,三者原子團多於一個須加括號且下標正確。",
+      "trap": "⚠ 原子團不只一個時必須加括號:Ca(OH)₂、Mg(NO₃)₂、Al(OH)₃。寫成 CaOH、MgNO₃、AlOH₃ 都漏了括號與正確下標,且不符電中性。"
+    }
+  ]
+}

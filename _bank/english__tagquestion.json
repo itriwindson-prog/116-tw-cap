@@ -1,0 +1,208 @@
+{
+  "id": "tagquestion",
+  "name": "附加問句與倒裝 (Tag Questions & Inversion)",
+  "week": "開學 第2週",
+  "notes": [
+    {
+      "h": "附加問句的構成",
+      "points": [
+        "附加問句採「前肯定後否定、前否定後肯定」原則:主句肯定則問句用否定 (He is tall, isn't he?),主句否定則問句用肯定 (She can't swim, can she?)。",
+        "問句的助動詞與時態須跟著主句:主句有 be/助動詞/情態動詞就照用,沒有的一般動詞則依時態補 do/does/did;主詞一律改成對應的代名詞。",
+        "特殊形:I am... 的附加問句用 aren't I;祈使句(Close the door)用 will you;Let's... 用 shall we。",
+        "句中含 never / hardly / seldom / no / few / little 等否定字,整句視為「否定句」,附加問句須用「肯定」 (He hardly speaks, does he?)。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><rect x=\"16\" y=\"40\" width=\"150\" height=\"50\" rx=\"8\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"30\" y=\"62\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">He can swim,</text><text x=\"30\" y=\"82\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\">主句:肯定</text><rect x=\"194\" y=\"40\" width=\"150\" height=\"50\" rx=\"8\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"210\" y=\"62\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">can't he?</text><text x=\"210\" y=\"82\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">問句:否定</text><text x=\"172\" y=\"68\" font-family=\"sans-serif\" font-size=\"16\" fill=\"#f0a52e\">⇄</text><text x=\"18\" y=\"120\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">I am right, aren't I?</text><text x=\"18\" y=\"142\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">Open it, will you?</text><text x=\"18\" y=\"164\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">Let's go, shall we?</text></svg>",
+      "caption": "主句與附加問句肯否相反,助動詞與時態跟著主句。",
+      "trap": "⚠ 最常見錯誤:只看主句字面而忽略 never/hardly/seldom 等否定副詞,把「He seldom comes, does he?」誤寫成 doesn't he?;這類詞已使句子帶否定,附加問句須用肯定。"
+    },
+    {
+      "h": "否定副詞開頭的倒裝",
+      "points": [
+        "Never / Hardly / Seldom / Rarely / Not only / No sooner 等否定(或半否定)副詞置於句首時,主句須「部分倒裝」:助動詞/be/情態動詞提前到主詞之前 (Never have I seen...)。",
+        "若主句原本沒有助動詞,須補 do/does/did 並把主動詞還原為原形 (Not until then did he realize...)。",
+        "So + 助動詞 + 主詞=「也…(肯定呼應)」;Neither / Nor + 助動詞 + 主詞=「也不…(否定呼應)」 (I can swim. — So can she. / I don't smoke. — Neither does he.)。",
+        "Only + 時間/地點/方式片語置句首亦觸發倒裝 (Only then did she understand);固定搭配 No sooner...than、Hardly/Scarcely...when 不可混用。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><text x=\"16\" y=\"40\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\">正常語序</text><rect x=\"16\" y=\"50\" width=\"328\" height=\"34\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/><text x=\"28\" y=\"72\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">I have never seen it.</text><text x=\"16\" y=\"112\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">倒裝</text><rect x=\"16\" y=\"122\" width=\"328\" height=\"34\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"28\" y=\"144\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">Never have I seen it.</text><path d=\"M150 118 q30 -14 60 0\" fill=\"none\" stroke=\"#f0a52e\" stroke-width=\"2\"/><text x=\"176\" y=\"104\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\">have 提前</text></svg>",
+      "caption": "否定副詞置句首,助動詞提前形成倒裝語序。",
+      "trap": "⚠ 倒裝時若主句本無助動詞,務必補 do/does/did 且主動詞回原形 (Not until... did he notice,而非 noticed he);另 No sooner 只配 than、Hardly 只配 when,固定搭配不可張冠李戴。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "You'd rather we didn't tell your parents about the broken window, ___?",
+      "options": ["wouldn't you", "had you", "didn't we", "would you"],
+      "answer": 0,
+      "explanation": "'d rather 此處為 would rather 的縮寫 (You would rather...),主句助動詞為 would,且為肯定句,故附加問句用否定的 wouldn't you;主詞回指 you。",
+      "trap": "⚠ 'd 可能是 had 或 would,須由後接結構判斷:would rather (that) 子句用 would,故問句助動詞為 would→wouldn't you;誤判成 had 而選 had you 即錯。"
+    },
+    {
+      "stem": "There is hardly any milk left in the fridge, ___?",
+      "options": ["isn't there", "is there", "isn't it", "is it"],
+      "answer": 1,
+      "explanation": "there be 句型的附加問句主詞用 there;句中 hardly 為半否定字,整句視為否定,故附加問句用肯定 is there。",
+      "trap": "⚠ 雙重陷阱:there be 句的問句主詞仍用 there(不可用 it);且 hardly 使句子帶否定,附加問句須用肯定 is there,而非 isn't there。"
+    },
+    {
+      "stem": "Let's not argue about such a trivial matter in front of the guests, ___?",
+      "options": ["will you", "shall we", "shall not we", "do we"],
+      "answer": 1,
+      "explanation": "Let's(= Let us)開頭的提議句,不論肯定或否定 (Let's not...),附加問句一律用 shall we。",
+      "trap": "⚠ 別把 Let's not... 當成一般否定句而想用肯定助動詞;Let's 開頭固定配 shall we;will you 是用於祈使句 (Close the door, will you?),兩者不可混。"
+    },
+    {
+      "stem": "Everyone had already submitted the assignment by Friday, ___?",
+      "options": ["hadn't they", "didn't they", "hadn't he", "weren't they"],
+      "answer": 0,
+      "explanation": "主句助動詞為 had(過去完成),肯定句故問句用否定 hadn't;不定代名詞 everyone 在附加問句中以 they 回指。",
+      "trap": "⚠ everyone/somebody/no one 等雖在主句搭單數動詞,附加問句的代名詞慣用 they;此處助動詞須沿用 had(→hadn't),不可改成 didn't。"
+    },
+    {
+      "stem": "I am the one who should apologize first, ___?",
+      "options": ["amn't I", "am not I", "aren't I", "isn't it"],
+      "answer": 2,
+      "explanation": "主詞為 I、be 動詞為 am 的肯定句,其附加問句固定用 aren't I(英語無 amn't 的標準縮寫)。",
+      "trap": "⚠ I am... 的附加問句是特例,固定用 aren't I;amn't 並非標準英語,am not I 語序不自然;主詞為 I 不可改成 it。"
+    },
+    {
+      "stem": "Nobody bothered to read the safety instructions beforehand, ___?",
+      "options": ["did they", "didn't they", "did he", "didn't he"],
+      "answer": 0,
+      "explanation": "主詞 Nobody 含否定,整句為否定句,附加問句用肯定 did;主動詞 bothered 為過去式且無助動詞,故補 did,代名詞用 they 回指 nobody。",
+      "trap": "⚠ Nobody 已使句子否定,問句須用肯定 did(非 didn't);且 nobody 在問句中以 they 回指,不可用 he。"
+    },
+    {
+      "stem": "Never before ___ such a devastating earthquake struck this peaceful coastal town.",
+      "options": ["has", "have", "did", "was"],
+      "answer": 0,
+      "explanation": "Never before 置句首觸發倒裝;搭配 struck 一字看似過去式,但句意強調「前所未有」用現在完成,且主詞 such a... earthquake 為單數,助動詞用 has,後接過去分詞需為 struck(strike 的過去分詞同形)→ has...struck。",
+      "trap": "⚠ Never before 句首須倒裝;strike 的過去式與過去分詞皆為 struck,易誤判;主詞 earthquake 單數用 has,選 have 為主謂不一致,選 did 則與完成式語境不合。"
+    },
+    {
+      "stem": "Not only ___ the meeting, but he also forgot to inform the rest of the team.",
+      "options": ["he missed", "did he miss", "he did miss", "missed he"],
+      "answer": 1,
+      "explanation": "Not only 置句首觸發部分倒裝:助動詞 did 提前 + 主詞 + 原形動詞,故 did he miss。",
+      "trap": "⚠ Not only 在句首使主句倒裝(did he miss),不可寫正常語序 he missed;主動詞須回原形 miss,而非 missed;全動詞倒裝 missed he 不合英語規則。"
+    },
+    {
+      "stem": "\"I have never been to Japan.\" \"___, but I really hope to visit someday.\"",
+      "options": ["So have I", "Neither have I", "Nor I have", "Either have I"],
+      "answer": 1,
+      "explanation": "對方說「從未去過日本」(否定),要表達「我也沒去過」用 Neither + 助動詞 + 主詞:Neither have I。",
+      "trap": "⚠ 呼應否定句用 Neither/Nor(非 So);語序為 Neither + 助動詞 + 主詞(Neither have I),Nor I have 語序錯;Either 不可置句首作此呼應。"
+    },
+    {
+      "stem": "So absorbed ___ in the novel that she completely missed her bus stop.",
+      "options": ["she was", "was she", "did she be", "she has been"],
+      "answer": 1,
+      "explanation": "『So + 形容詞/分詞 + be + 主詞 + that...』倒裝句:被分詞 absorbed 置句首,be 動詞 was 提前至主詞前,故 was she。",
+      "trap": "⚠ So + absorbed 置句首觸發 be 動詞倒裝(was she);未倒裝的 she was 錯,be 動詞不需助動詞 did(did she be 文法錯),時態須與 missed 一致用 was。"
+    },
+    {
+      "stem": "Hardly had the players left the field ___ the storm broke and lightning lit up the sky.",
+      "options": ["than", "then", "when", "while"],
+      "answer": 2,
+      "explanation": "Hardly...when 為固定搭配,表「一…就…」:Hardly had S + p.p. ...when + 過去式。句首 Hardly 已觸發倒裝 (had the players left)。",
+      "trap": "⚠ 固定搭配:Hardly/Scarcely 配 when,No sooner 才配 than;此處用 Hardly 須配 when,選 than 是把兩種句型混用的典型錯誤。"
+    },
+    {
+      "stem": "Seldom ___ a politician admit a mistake so openly and without making excuses.",
+      "options": ["we see", "do we see", "we do see", "sees"],
+      "answer": 1,
+      "explanation": "Seldom 為半否定副詞置句首須倒裝,主句無助動詞故補 do + 主詞 + 原形:do we see。",
+      "trap": "⚠ Seldom 句首觸發倒裝須補助動詞 do(do we see);未倒裝 we see 錯,主動詞須回原形 see;主詞為 we 用 do 而非 sees。"
+    },
+    {
+      "stem": "Only after losing the championship ___ how much teamwork really mattered.",
+      "options": ["they understood", "understood they", "did they understand", "they did understand"],
+      "answer": 2,
+      "explanation": "『Only + 副詞片語』置句首觸發部分倒裝:did + 主詞 + 原形,故 did they understand。",
+      "trap": "⚠ Only after... 在句首使主句倒裝(did they understand),不是 after 子句倒裝;主動詞回原形 understand,寫成正常語序 they understood 或全動詞倒裝皆錯。"
+    },
+    {
+      "stem": "The committee chairperson, along with several senior members, ___ going to review the proposal, ___?",
+      "options": ["are; aren't they", "is; isn't she", "is; isn't he", "are; aren't the members"],
+      "answer": 1,
+      "explanation": "主詞為 The committee chairperson,along with... 為插入語不影響主詞單複數,故動詞用 is;附加問句回指真正主詞 chairperson(單數),肯定句用否定 isn't,代名詞 she(主席性別由 chairperson 推定,選項中以 she 呈現)。",
+      "trap": "⚠ along with / together with / as well as 引導的片語不改變主詞數,動詞仍隨 chairperson(單數)用 is;附加問句回指主詞而非插入語的 members,故不可用 they。"
+    },
+    {
+      "stem": "No sooner had the teacher turned her back ___ the students started whispering again.",
+      "options": ["when", "than", "then", "that"],
+      "answer": 1,
+      "explanation": "No sooner...than 為固定搭配,表「一…就…」:No sooner had S + p.p. ...than + 過去式。句首 No sooner 觸發倒裝 (had the teacher turned)。",
+      "trap": "⚠ No sooner 固定配 than(不是 when 或 then);Hardly/Scarcely 才配 when;這是會考最常考的固定搭配對應陷阱。"
+    },
+    {
+      "stem": "You hardly ever help with the housework, and ___ your younger brother.",
+      "options": ["so does", "neither does", "so doesn't", "nor doesn't"],
+      "answer": 1,
+      "explanation": "前句 hardly ever 含否定意味(幾乎不…),要呼應「你弟弟也不…」用 neither + 助動詞 + 主詞:neither does your brother。",
+      "trap": "⚠ hardly ever 使前句帶否定,呼應用 neither/nor(非 so);neither 本身已含否定,助動詞用肯定 does,寫成 neither doesn't/nor doesn't 是雙重否定錯誤。"
+    },
+    {
+      "stem": "Rarely ___ such dedication in a student so young; her teachers were truly impressed.",
+      "options": ["one sees", "sees one", "does one see", "one does see"],
+      "answer": 2,
+      "explanation": "Rarely 為否定副詞置句首須倒裝,補助動詞 does + 主詞 + 原形:does one see。",
+      "trap": "⚠ Rarely 句首觸發倒裝(does one see);主詞 one 視為單數第三人稱用 does,主動詞回原形 see;未倒裝 one sees 或全動詞倒裝 sees one 皆錯。"
+    },
+    {
+      "stem": "Take an umbrella with you, ___ you'll get soaked in this heavy rain.",
+      "options": ["will you", "and", "or", "won't you"],
+      "answer": 2,
+      "explanation": "祈使句 + or = 「否則…(壞結果)」:Take an umbrella, or you'll get soaked(帶傘,否則會淋濕)。語意為負面結果,故用 or。",
+      "trap": "⚠ 祈使句 + and = 「就會…(好結果)」,+ or = 「否則…(壞結果)」;此處淋濕是壞結果,須用 or;will you/won't you 是附加問句,放在此處語法不通。"
+    },
+    {
+      "stem": "Little ___ that his casual remark would later cost him his entire career.",
+      "options": ["he realized", "did he realize", "he did realize", "realized he"],
+      "answer": 1,
+      "explanation": "Little 作否定副詞置句首(意為「幾乎不/全然不」)觸發倒裝,補 did + 主詞 + 原形:did he realize。",
+      "trap": "⚠ Little 在此非「少量」而是否定副詞,句首須倒裝(did he realize);主動詞回原形 realize;這是會考易忽略的倒裝觸發詞。"
+    },
+    {
+      "stem": "Everything has been arranged exactly as the client requested, ___?",
+      "options": ["hasn't it", "haven't they", "isn't it", "hasn't everything"],
+      "answer": 0,
+      "explanation": "主詞 Everything 視為單數,助動詞為 has(現在完成),肯定句故問句用否定 hasn't;everything 在附加問句以 it 回指。",
+      "trap": "⚠ everything/something/nothing 在附加問句以 it 回指(不可用 they);助動詞沿用 has→hasn't,選 haven't they 在主詞與助動詞兩處都錯。"
+    },
+    {
+      "stem": "Not until the results were published ___ the extent of the scandal become clear to the public.",
+      "options": ["did", "had", "was", "has"],
+      "answer": 0,
+      "explanation": "Not until + 子句置句首,主句須倒裝;主句動詞 become 為一般動詞且時態為過去,補助動詞 did + 主詞 + 原形:did...become。",
+      "trap": "⚠ 倒裝的是主句而非 until 子句;主動詞 become 須配助動詞 did(did the extent become);選 had 會要求過去分詞、was 須配形容詞/分詞,皆與原形 become 不符。"
+    },
+    {
+      "stem": "So heavy was the traffic ___ it took us three hours to reach the airport.",
+      "options": ["that", "as", "than", "which"],
+      "answer": 0,
+      "explanation": "『So + 形容詞 + be + 主詞 + that...』倒裝句型,表「如此…以致於…」,連接結果子句用 that:So heavy was the traffic that...。",
+      "trap": "⚠ So...that 倒裝句的結果子句固定用 that(不可用 as/than/which);本句把 So heavy 提前已倒裝 be 動詞(was the traffic),須記得後面對應 that。"
+    },
+    {
+      "stem": "I suppose the new policy won't affect part-time employees, ___?",
+      "options": ["do I", "don't I", "will it", "won't it"],
+      "answer": 2,
+      "explanation": "I suppose/think/believe + 子句的附加問句,慣例就「子句」作附加(轉移原則);子句 the new policy won't affect... 為否定,故附加問句用肯定 will it,回指 policy。",
+      "trap": "⚠ I think/suppose/believe 引導時,附加問句針對「後面的子句」而非主句的 I;子句否定 (won't) 故問句用肯定 will it,絕非 don't I。"
+    },
+    {
+      "stem": "Such ___ his determination that no amount of failure could ever discourage him.",
+      "options": ["his determination was", "was his determination", "did his determination be", "his determination it was"],
+      "answer": 1,
+      "explanation": "『Such + be + 主詞 + that...』倒裝句:Such was his determination that...(他的決心如此之大,以致於…),be 動詞 was 提前至 Such 之後。",
+      "trap": "⚠ Such 置句首觸發 be 倒裝(was his determination);未倒裝 his determination was 錯,be 動詞不需 did,加 it 多餘;對應結果子句用 that。"
+    },
+    {
+      "stem": "Pass me that report on the corner desk, ___, and double-check the figures before the meeting?",
+      "options": ["don't you", "shall we", "will you", "do you"],
+      "answer": 2,
+      "explanation": "Pass me... 為祈使句,祈使句的附加問句(表客氣請求)用 will you;Let's 開頭才用 shall we。",
+      "trap": "⚠ 祈使句(原形動詞開頭)的附加問句固定用 will you,而非 shall we(那是 Let's 專用);別因句子是肯定請求就誤判成一般肯定句而選 don't you。"
+    }
+  ]
+}

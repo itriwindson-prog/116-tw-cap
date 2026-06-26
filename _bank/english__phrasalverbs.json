@@ -1,0 +1,333 @@
+{
+  "id": "phrasalverbs",
+  "name": "片語動詞 (Phrasal Verbs)",
+  "week": "暑假 第1週",
+  "notes": [
+    {
+      "h": "片語動詞的組成與語意",
+      "points": [
+        "片語動詞 = 動詞 + 介系詞/副詞,合起來產生與字面不同的新語意,例如 look after = 照顧、give up = 放棄、run out of = 用完。",
+        "高頻必背組:turn on/off(打開/關閉)、put on/off(穿上/延期)、take off(脫下/起飛)、look for(尋找)、look after(照顧)、get on/off(上/下車)、find out(查出)。",
+        "片語動詞常可改寫成一個較正式的單一動詞:find out = discover、put off = postpone、give up = quit、look into = investigate,閱讀與克漏字常考此種同義替換。",
+        "同一個片語動詞可能有多重語意,須靠上下文判斷,例如 take off 可指『脫下』『(飛機)起飛』或『(商品)暢銷』。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" rx=\"10\" fill=\"#f3e7df\"/><rect x=\"20\" y=\"30\" width=\"70\" height=\"34\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"55\" y=\"52\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">look</text><text x=\"100\" y=\"52\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\" text-anchor=\"middle\">+</text><rect x=\"115\" y=\"30\" width=\"70\" height=\"34\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"150\" y=\"52\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">after</text><text x=\"200\" y=\"52\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\" text-anchor=\"middle\">→</text><rect x=\"218\" y=\"28\" width=\"120\" height=\"38\" rx=\"18\" fill=\"#f0a52e\" opacity=\"0.25\" stroke=\"#f0a52e\"/><text x=\"278\" y=\"52\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">照顧</text><text x=\"20\" y=\"100\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">give up = 放棄</text><text x=\"20\" y=\"126\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">run out of = 用完</text><text x=\"20\" y=\"152\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">find out = discover</text><text x=\"20\" y=\"178\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">put off = postpone</text></svg>",
+      "caption": "動詞加上介副詞會合成新語意,且常等於一個較正式的單一動詞。",
+      "trap": "⚠ 別把片語動詞拆開逐字直譯:look after 不是『往後看』而是『照顧』;字面義與實際義常完全不同。"
+    },
+    {
+      "h": "可分離與受詞位置",
+      "points": [
+        "可分離片語動詞:受詞為名詞時,可放中間或後面皆可,例如 turn on the light = turn the light on。",
+        "受詞為代名詞(it/them/him…)時『必須』放在動詞與介副詞中間:turn it on(○),turn on it(✗)。",
+        "不可分離片語動詞(動詞+介系詞型,如 look after、look for、get on):受詞一律放在整組後面,look after him(○),look him after(✗)。",
+        "判斷訣竅:含副詞(on/off/up/down)的多半可分離;含介系詞(after/for/at/into)的多半不可分離。"
+      ],
+      "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" rx=\"10\" fill=\"#eef4f2\"/><text x=\"12\" y=\"30\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\">可分離</text><rect x=\"12\" y=\"42\" width=\"230\" height=\"30\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/><text x=\"22\" y=\"62\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">turn it on</text><text x=\"150\" y=\"62\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">✔ 代名詞置中</text><rect x=\"12\" y=\"80\" width=\"230\" height=\"30\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#d98072\"/><text x=\"22\" y=\"100\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">turn on it</text><text x=\"150\" y=\"100\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">✘ 不可置後</text><text x=\"12\" y=\"138\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\">不可分離</text><rect x=\"12\" y=\"150\" width=\"230\" height=\"30\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/><text x=\"22\" y=\"170\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">look after him</text><text x=\"258\" y=\"170\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">✔</text></svg>",
+      "caption": "可分離片語動詞遇代名詞必置中;不可分離片語動詞受詞一律置後。",
+      "trap": "⚠ 最常錯在代名詞位置:可分離片語動詞遇 it/them 必須置中(turn it off),寫成 turn off it 即錯。"
+    }
+  ],
+  "quiz": [
+    {
+      "stem": "After the fire alarm went off by mistake, the staff had to ___ the panicking guests and ___ them that there was no real danger.",
+      "options": [
+        "calm down / assure",
+        "calm / down assure",
+        "down calm / assure",
+        "calm up / assure"
+      ],
+      "answer": 0,
+      "explanation": "calm down = 使…冷靜下來,為可分離片語動詞,受詞 the guests 為名詞可置於 down 之後;assure them 為固定用法。語意上需先安撫驚慌的客人。",
+      "trap": "⚠ calm down 是固定組合,不可拆成 calm...down 中間插別的字,也沒有 calm up;受詞為名詞時整組不必硬拆。"
+    },
+    {
+      "stem": "The new smartphone ___ so fast that the factory ___ stock within a week.",
+      "options": [
+        "took off / ran out",
+        "took off / ran out of",
+        "took on / ran out of",
+        "took off / run out of"
+      ],
+      "answer": 1,
+      "explanation": "take off 在此指『(商品)暢銷、大受歡迎』;run out of + 受詞(stock)= 用完。主詞 factory 為單數第三人稱、句中為過去式 ran 正確。take on 是『承擔/雇用』不合語意。",
+      "trap": "⚠ run out(用盡,不及物)後不接受詞,run out of(用完某物)後才接受詞;此處後有 stock,須用 ran out of。"
+    },
+    {
+      "stem": "I couldn't ___ what she was saying because the loud music ___ her voice.",
+      "options": [
+        "make up / drowned out",
+        "make out / dropped out",
+        "make out / drowned out",
+        "work out / dropped out"
+      ],
+      "answer": 2,
+      "explanation": "make out = 聽清楚/辨識出;drown out = (聲音)蓋過、淹沒。make up 是『編造/化妝/和好』,drop out 是『退出/輟學』,皆不合語意。",
+      "trap": "⚠ make out(聽辨清楚)與 make up(編造)語意截然不同;drown out(蓋過聲音)勿與 drop out(退出)混淆。"
+    },
+    {
+      "stem": "Which sentence is grammatically correct?",
+      "options": [
+        "Please turn off it before you leave the room.",
+        "Please look him after while I'm away.",
+        "Please look after carefully the baby.",
+        "Please turn it off before you leave the room."
+      ],
+      "answer": 3,
+      "explanation": "turn off 為可分離片語動詞,代名詞 it 必須置於中間,故 turn it off 正確。turn off it(✗)。look after 不可分離,受詞須置後 look after him,故 look him after(✗);第四句副詞插在 after 與受詞間也不自然。",
+      "trap": "⚠ 兩條規則同時考:可分離者代名詞置中(turn it off),不可分離者受詞置後(look after him);選項刻意各違反一條。"
+    },
+    {
+      "stem": "The meeting was ___ until next Monday because the manager wanted more time to ___ the proposal.",
+      "options": [
+        "put on / look into",
+        "put off / look into",
+        "put off / look after",
+        "called off / look into"
+      ],
+      "answer": 1,
+      "explanation": "put off = 延期(= postpone),與『until next Monday』相符;look into = 調查/研究(提案)。put on 是『穿上』,called off 是『取消』(取消就不會 until next Monday),look after 是『照顧』,皆不合。",
+      "trap": "⚠ put off(延期)與 called off(取消)都常出現在會議情境,但有 until next Monday 表延後到某日,只能是延期 put off。"
+    },
+    {
+      "stem": "「他答應戒菸,卻一再食言。」Which English sentence best matches this meaning?",
+      "options": [
+        "He promised to give up smoking, but he broke his word again and again.",
+        "He promised to give in smoking, but he broke his word again and again.",
+        "He promised to take up smoking, but he broke his word again and again.",
+        "He promised to give away smoking, but he broke his word again and again."
+      ],
+      "answer": 0,
+      "explanation": "give up = 戒除/放棄(戒菸 give up smoking)。give in 是『屈服』,take up 是『開始從事(某嗜好)』語意相反,give away 是『贈送/洩漏』,皆不符『戒菸』。",
+      "trap": "⚠ take up smoking 是『開始抽菸』,與『戒菸』完全相反;勿因 take up 也接 smoking 就誤選。"
+    },
+    {
+      "stem": "Although the team ___ many difficulties, they never ___ their original goal.",
+      "options": [
+        "came across / gave up",
+        "came up / gave up on",
+        "came across / gave up on",
+        "came across / gave away"
+      ],
+      "answer": 2,
+      "explanation": "come across = 偶然遇到(困難);give up on + 受詞 = 對…放棄/不再抱期望,後接受詞 goal 須用 give up on(give up 後直接接抽象目標較不自然,且與介系詞片語語感不同)。come up 是『出現/被提及』。",
+      "trap": "⚠ give up(放棄做某事)與 give up on sb./sth.(對某人某事不抱希望)用法不同;此處受詞為 goal,慣用 give up on。"
+    },
+    {
+      "stem": "The detective spent weeks trying to ___ who had ___ the valuable painting.",
+      "options": [
+        "find out / made up with",
+        "figure on / made off with",
+        "find out / made out with",
+        "find out / made off with"
+      ],
+      "answer": 3,
+      "explanation": "find out = 查明;make off with = 偷走、捲款潛逃帶走(某物)。make up with 是『與…和好』,figure on 是『指望/預計』,make out with 是口語『與…親熱』,皆不合『偷畫』語意。",
+      "trap": "⚠ make off with(偷走)易與 make up with(和好)、make out(理解/親熱)混淆,字尾介副詞一字之差語意天差地別。"
+    },
+    {
+      "stem": "Read the dialogue. A: \"I'm exhausted from work.\" B: \"Why don't you ___ for a few days and ___ your energy?\"  Which best fills the blanks?",
+      "options": [
+        "take time off / build up",
+        "take off time / build up",
+        "take time off / break up",
+        "take time on / build up"
+      ],
+      "answer": 0,
+      "explanation": "take time off = 請假/休息一段時間,time 為名詞,慣用語序 take time off;build up = 累積/恢復(精力)。break up 是『分手/結束』不合。take off time 語序不自然。",
+      "trap": "⚠ take time off 是固定語序(time 置中);build up energy(累積精力)勿選 break up(分手),情境是恢復不是結束。"
+    },
+    {
+      "stem": "Which underlined phrasal verb can be replaced by \"tolerate\" without changing the meaning?",
+      "options": [
+        "I can't put off the meeting any longer.",
+        "I can't put on weight no matter what I eat.",
+        "I can't put up with his rude behavior any longer.",
+        "I can't put away my old toys."
+      ],
+      "answer": 2,
+      "explanation": "put up with = 忍受 = tolerate。put off = 延期、put on = 增加(體重)/穿上、put away = 收起來,皆與 tolerate 無關。",
+      "trap": "⚠ put up with(忍受)是三字片語,勿與 put off/put on/put away 混淆;只有 put up with ≈ tolerate。"
+    },
+    {
+      "stem": "The plane was about to ___, so the flight attendant asked everyone to ___ their seatbelts.",
+      "options": [
+        "take off / take off",
+        "take off / fasten",
+        "get off / fasten",
+        "take off / put off"
+      ],
+      "answer": 1,
+      "explanation": "take off(飛機)起飛;fasten one's seatbelt = 繫好安全帶。第二空若填 take off 變成『解開安全帶』語意矛盾;get off 是『下(車/機)』與『about to』起飛情境不符。",
+      "trap": "⚠ 同一片語 take off 在不同位置語意不同:飛機 take off 是起飛,但 take off the seatbelt 是『解開』,第二空須用 fasten。"
+    },
+    {
+      "stem": "After running for an hour, she had to ___ because she had completely ___.",
+      "options": [
+        "slow down / worn off",
+        "slow up / worn out",
+        "break down / worn out",
+        "slow down / worn out"
+      ],
+      "answer": 3,
+      "explanation": "slow down = 放慢速度;wear out = 使精疲力竭(此處 had worn out 表她已筋疲力盡)。wear off 是『(效果)逐漸消失』,slow up 較少用且不自然,break down 是『故障/崩潰』語意偏重。",
+      "trap": "⚠ wear out(精疲力竭/磨損)與 wear off(藥效等逐漸消退)意義不同;跑步後人累用 worn out。"
+    },
+    {
+      "stem": "The factory was forced to ___ production and eventually ___ hundreds of workers due to the economic crisis.",
+      "options": [
+        "cut down on / lay off",
+        "cut down on / lay out",
+        "cut off / lay off",
+        "cut down on / take off"
+      ],
+      "answer": 0,
+      "explanation": "cut down on = 減少(產量);lay off = 解雇/裁員。lay out 是『陳列/規劃』,cut off 是『切斷/中斷』語意過重,take off 不能用於『解雇人』。",
+      "trap": "⚠ lay off(裁員)勿與 lay out(規劃/陳列)混淆;cut down on(減少)與 cut off(完全切斷)程度不同,減產用 cut down on。"
+    },
+    {
+      "stem": "Which sentence uses the phrasal verb INCORRECTLY?",
+      "options": [
+        "Could you turn the radio down?",
+        "Could you turn it down?",
+        "Could you turn the radio it down?",
+        "Could you turn down the radio?"
+      ],
+      "answer": 2,
+      "explanation": "turn down 為可分離片語動詞:turn down the radio(○)、turn the radio down(○)、turn it down(○)。但 turn the radio it down(✗)同時放了名詞與代名詞且語序錯誤。",
+      "trap": "⚠ 可分離片語動詞受詞只能出現一次:名詞可置中或置後、代名詞必置中,但不可同時塞名詞與代名詞。"
+    },
+    {
+      "stem": "When you ___ a new word while reading, you should ___ it in a dictionary instead of guessing.",
+      "options": [
+        "come across / look after",
+        "come across / look up",
+        "run into / look up to",
+        "come across / look up to"
+      ],
+      "answer": 1,
+      "explanation": "come across = 偶然遇到(生字);look up = 查閱(字典)。look after 是『照顧』,look up to 是『敬仰』,run into 雖也指『偶遇』但搭配第二空 look up to(敬仰)不合語意。",
+      "trap": "⚠ look up(查閱)與 look up to(敬仰)差一個 to 意義全變;查字典用 look up,不可選 look up to。"
+    },
+    {
+      "stem": "The negotiations finally ___ after months of effort, and both sides ___ a fair agreement.",
+      "options": [
+        "fell through / came up with",
+        "went through / came up with",
+        "fell through / put up with",
+        "fell through / failed to reach"
+      ],
+      "answer": 3,
+      "explanation": "fall through = (計畫/談判)失敗、告吹;既然談判告吹,合邏輯的是『未能達成』failed to reach。若用 came up with(想出)則與『fell through』矛盾。went through 是『通過/經歷』語意相反。",
+      "trap": "⚠ fall through(失敗告吹)與 go through(順利通過)意義相反;談判 fell through 後,後句須是『未達成協議』才合邏輯。"
+    },
+    {
+      "stem": "「這個計畫聽起來不錯,但我們需要進一步研究細節。」 Choose the best translation.",
+      "options": [
+        "The plan sounds good, but we need to look into the details further.",
+        "The plan sounds good, but we need to look after the details further.",
+        "The plan sounds good, but we need to look up the details further.",
+        "The plan sounds good, but we need to look out the details further."
+      ],
+      "answer": 0,
+      "explanation": "look into = 深入研究/調查(細節)= investigate。look after 是『照顧』,look up 是『查閱(字詞)』,look out 是『小心』,皆不符『進一步研究細節』。",
+      "trap": "⚠ look 系列片語動詞極多:into(調查)、after(照顧)、up(查閱)、out(小心),須依語意精準選 look into。"
+    },
+    {
+      "stem": "He was offered a great job abroad, but family reasons made him ___ the offer in the end.",
+      "options": [
+        "turn up",
+        "turn down",
+        "turn over",
+        "turn on"
+      ],
+      "answer": 1,
+      "explanation": "turn down = 拒絕(提議/邀請)。turn up 是『出現/調大聲』,turn over 是『翻轉/移交』,turn on 是『打開』,皆不符『拒絕工作機會』。",
+      "trap": "⚠ turn down 除了『調小聲』也是『拒絕』;勿因前面有 a great job 就誤以為接受,family reasons 暗示是婉拒。"
+    },
+    {
+      "stem": "In which sentence does \"take on\" mean \"to employ / hire\"?",
+      "options": [
+        "Don't take on more work than you can handle.",
+        "Her face took on a worried look.",
+        "The company plans to take on twenty new engineers next year.",
+        "He took on the champion in the final match."
+      ],
+      "answer": 2,
+      "explanation": "take on 在第一句指『雇用』(take on engineers)。第二句是『承擔(工作)』、第三句是『呈現(神情)』、第四句是『與…對抗/較量』,均為 take on 的其他義項。",
+      "trap": "⚠ take on 一字多義:雇用/承擔/呈現/對抗;須看受詞與情境,受詞為『人員+數量』時多指雇用。"
+    },
+    {
+      "stem": "The old car kept ___ on the highway, so they finally decided to ___ a newer model.",
+      "options": [
+        "breaking up / go for",
+        "breaking down / go off",
+        "breaking out / go for",
+        "breaking down / go for"
+      ],
+      "answer": 3,
+      "explanation": "break down = (車/機器)故障;go for = 選擇/決定要。break up 是『分手/破碎』,break out 是『爆發』,go off 是『響起/離開/變質』,皆不合車輛情境。",
+      "trap": "⚠ break down(故障)勿與 break up(分手)、break out(爆發)混淆;機器拋錨用 break down。"
+    },
+    {
+      "stem": "Read the notice: \"Due to bad weather, today's outdoor concert has been ___. Tickets will be refunded.\" Which phrasal verb fits best?",
+      "options": [
+        "called off",
+        "called on",
+        "called up",
+        "called for"
+      ],
+      "answer": 0,
+      "explanation": "call off = 取消(活動)。退票(refunded)說明活動取消,故 called off。call on 是『拜訪/呼籲』,call up 是『打電話/召集』,call for 是『需要/要求』,皆不符告示語意。",
+      "trap": "⚠ call off(取消)是告示常見用語;勿選 call for(需要)或 call up(打電話),由『退票』可確定是取消。"
+    },
+    {
+      "stem": "Choose the sentence where the pronoun object is placed CORRECTLY.",
+      "options": [
+        "I'll pick up you at eight tomorrow morning.",
+        "She ran into him friend at the mall.",
+        "I'll pick you up at eight tomorrow morning.",
+        "Please look it after while I am gone."
+      ],
+      "answer": 2,
+      "explanation": "pick up 為可分離片語動詞,代名詞 you 必須置中:pick you up(○),pick up you(✗)。run into 不可分離,受詞置後但『into him friend』語法錯誤(應為 ran into his friend)。look after 不可分離,look after it(○),look it after(✗)。",
+      "trap": "⚠ pick up 遇代名詞必置中(pick you up);look after 不可分離,代名詞也只能置後(look after it),兩規則相反易錯。"
+    },
+    {
+      "stem": "After years of hard work, his small startup finally ___, and orders started to ___.",
+      "options": [
+        "paid back / pour in",
+        "paid off / pour in",
+        "paid off / pour out",
+        "paid off / pour over"
+      ],
+      "answer": 1,
+      "explanation": "pay off = (努力)得到回報、有所成;pour in = 大量湧入(訂單湧入)。pay back 是『償還/報復』,pour out 是『傾訴/湧出(向外)』,pour over 是『仔細研讀』,皆不合。",
+      "trap": "⚠ pay off(努力有回報)勿與 pay back(償還)混淆;訂單『湧入』用 pour in(向內),非 pour out(向外)。"
+    },
+    {
+      "stem": "The committee will ___ the new safety rules, and all employees are expected to ___ them strictly.",
+      "options": [
+        "draw on / abide by",
+        "draw up / put up with",
+        "draw out / abide by",
+        "draw up / abide by"
+      ],
+      "answer": 3,
+      "explanation": "draw up = 草擬/制定(規則);abide by = 遵守(規則)。draw on 是『利用/動用』,draw out 是『拉長/取出』,put up with 是『忍受』,皆不符『制定並遵守規則』。",
+      "trap": "⚠ draw up(草擬制定)勿與 draw on(動用)、draw out(拉長)混淆;『遵守規則』用 abide by,非 put up with(忍受)。"
+    },
+    {
+      "stem": "Which of the following sentences is the most natural and correct usage?",
+      "options": [
+        "We've run out milk, so I'll get some on my way home.",
+        "We've run out of it milk, so I'll get some on my way home.",
+        "We've run out of milk, so I'll get some on my way home.",
+        "We've run milk out of, so I'll get some on my way home."
+      ],
+      "answer": 2,
+      "explanation": "run out of + 受詞(名詞或代名詞,但不可同時)。run out of milk(○);run out milk(✗,漏 of);run out of it milk(✗,代名詞與名詞並列);run milk out of(✗,語序錯誤)。",
+      "trap": "⚠ run out of 為固定三字片語不可拆;受詞不可同時放代名詞與名詞(it milk),of 也不可省略。"
+    }
+  ]
+}
