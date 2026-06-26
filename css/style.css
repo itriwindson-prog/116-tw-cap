@@ -103,6 +103,7 @@ a:hover { text-decoration: underline; }
   background: #fff; font-size: 16px; font-family: inherit; color: var(--ink); transition: .12s;
 }
 .opt:hover { border-color: var(--primary); }
+.opt.chosen { border-color: var(--primary); background: #f3e7df; }
 .opt.correct { background: #e7f5ec; border-color: var(--good); }
 .opt.wrong { background: #fbe9e6; border-color: var(--bad); }
 .opt:disabled { cursor: default; }

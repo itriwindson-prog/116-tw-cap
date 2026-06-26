@@ -22,7 +22,7 @@
 <div class="wrap">
   <div class="card">
     <h2 id="quizTitle">測驗</h2>
-    <div class="muted">點選答案後立即顯示對錯與詳解。標 ⚠ 的題目送出前會請你再讀一次題目。</div>
+    <div class="muted">作答完成後按「交卷」，會逐題顯示對錯與詳解。作答中可隨時改選。</div>
     <div id="quizArea" style="margin-top:16px"></div>
     <div id="result"></div>
   </div>
@@ -66,9 +66,11 @@
 
   const Q = built.map(b => b.q);
   const refs = built.map(b => ({ topicId: b.topicId, qi: b.qi }));
-  const answers = new Array(Q.length).fill(null);  // 記錄選擇
+  const answers = new Array(Q.length).fill(null);  // 記錄選擇（交卷前可改）
   const area = document.getElementById("quizArea");
   const labels = ["A", "B", "C", "D", "E"];
+  const blocks = [];          // 每題的 { optBtns, explainEl }
+  let submitted = false;
 
   Q.forEach((q, qi) => {
     const block = SS.el("div", { class: "q" });
@@ -80,32 +82,44 @@
     q.options.forEach((opt, oi) => {
       const btn = SS.el("button", { class: "opt", text: labels[oi] + ". " + opt });
       btn.addEventListener("click", () => {
-        if (answers[qi] !== null) return;  // 已作答，不可改
-        // 防粗心：trap 題第一次點擊先確認再讀題
-        if (q.trap && !btn.dataset.confirmed) {
-          if (!confirm("⚠ 這題容易看錯，請再讀一次題目：\n\n" + q.stem + "\n\n確定選『" + labels[oi] + "』嗎？")) return;
-          btn.dataset.confirmed = "1";
-        }
+        if (submitted) return;                                            // 交卷後鎖定
         answers[qi] = oi;
-        const correct = oi === q.answer;
-        btn.classList.add(correct ? "correct" : "wrong");
-        if (!correct) optBtns[q.answer].classList.add("correct");
-        optBtns.forEach(b => b.disabled = true);
-        explainEl.className = "explain" + (correct ? "" : " bad");
-        explainEl.innerHTML = (correct ? "✅ 答對了！" : "❌ 答錯了。正確答案：" + labels[q.answer] + "。") +
-          "<br><b>詳解：</b>" + q.explanation +
-          (q.trap ? "<br><b>⚠ 為何容易看錯：</b>" + q.trap : "");
-        maybeFinish();
+        optBtns.forEach((b, i) => b.classList.toggle("chosen", i === oi)); // 單選、可改選
+        updateProgress();
       });
       optBtns.push(btn);
       block.appendChild(btn);
     });
     block.appendChild(explainEl);
     area.appendChild(block);
+    blocks.push({ optBtns, explainEl });
   });
 
-  function maybeFinish() {
-    if (answers.some(a => a === null)) return;
+  // 交卷列
+  const submitBtn = SS.el("button", { class: "btn", text: "交卷" });
+  const progress = SS.el("span", { class: "muted" });
+  area.appendChild(SS.el("div", { style: "margin-top:16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap" }, [submitBtn, progress]));
+  function updateProgress() { progress.textContent = "已作答 " + answers.filter(a => a !== null).length + " / " + Q.length + " 題"; }
+  updateProgress();
+  submitBtn.addEventListener("click", grade);
+
+  function grade() {
+    if (submitted) return;
+    submitted = true;
+    submitBtn.disabled = true;
+    // 交卷後逐題揭曉對錯 + 詳解
+    Q.forEach((q, qi) => {
+      const cell = blocks[qi], ans = answers[qi];
+      cell.optBtns.forEach(b => { b.disabled = true; b.classList.remove("chosen"); });
+      cell.optBtns[q.answer].classList.add("correct");
+      if (ans !== null && ans !== q.answer) cell.optBtns[ans].classList.add("wrong");
+      const correct = ans === q.answer;
+      cell.explainEl.className = "explain" + (correct ? "" : " bad");
+      cell.explainEl.innerHTML = (ans === null ? "⬜ 未作答。正確答案：" + labels[q.answer] + "。"
+                                 : correct ? "✅ 答對了！" : "❌ 答錯了。正確答案：" + labels[q.answer] + "。") +
+        "<br><b>詳解：</b>" + q.explanation +
+        (q.trap ? "<br><b>⚠ 為何容易看錯：</b>" + q.trap : "");
+    });
     const score = answers.reduce((s, a, i) => s + (a === Q[i].answer ? 1 : 0), 0);
     const wrongN = Q.length - score;
     SS.progress.saveQuiz(subjId, setId, score, Q.length, answers, refs);
