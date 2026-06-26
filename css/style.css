@@ -125,6 +125,7 @@ a:hover { text-decoration: underline; }
 .cal .cell.clickable:hover { box-shadow: 0 0 0 2px var(--primary); }
 .cal .cell.today { outline: 2px solid var(--primary); animation: cal-blink 1.1s ease-in-out infinite; }
 @keyframes cal-blink { 50% { opacity: .4; } }
+@media (prefers-reduced-motion: reduce) { .cal .cell.today { animation: none; } }
 .cal .cell.head, .cal .cell.blank { cursor: default; }
 .cal .cell.head { background: transparent; color: var(--muted); aspect-ratio: auto; }
 .cal .cell.blank { background: transparent; }
