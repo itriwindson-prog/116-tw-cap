@@ -93,3 +93,33 @@ dayOverrides: {
 ## 4. 進度儲存
 
 存在瀏覽器 `localStorage`（key 前綴 `ss.`），清除瀏覽器資料或按「重設進度」會歸零。換電腦不會同步（單機離線設計）。
+
+---
+
+## 5. 主題 id 一覽
+
+> **改題庫鐵律：只新增、不改名。** 改 id 會讓 `schedule.js` 的連結與使用者 `localStorage` 進度失效。下表反映目前各科 topic id，新增主題請延用命名風格、勿與既有重複。
+
+### 國文（chinese，32 主題）
+`word`、`polyphone`、`idiom`、`rhetoric`、`syntax`、`punctuation`、`practical`、`genre`、`poetry`、`classical`、`literature`、`couplet`、`reading`、`inference`、`noncontinuous`、`context`、`six-scripts`、`classifier`、`appellation`、`wenyan-shici`、`wenyan-xuci`、`judou`、`wenyan-yiyi`、`lit-history`、`culture-common`、`yinyong`、`modern-prose`、`modern-fiction`、`modern-poetry`、`bingju`、`sentence-order`、`cross-text`
+
+### 英語（english，34 主題）
+`vocab`、`wordformation`、`tense`、`noun`、`pronoun`、`adjadv`、`preposition`、`modal`、`passive`、`gerundinf`、`relative`、`conjunction`、`subjunctive`、`sentence`、`cloze`、`reading`、`listening`、`dailyenglish`、`phrasalverbs`、`confusingwords`、`collocation`、`quantifiers`、`causative`、`tagquestion`、`imperative`、`reportedspeech`、`agreement`、`vocab2`、`transition`、`paraphrase`、`readinggenre`、`readinginference`、`readingchart`、`writingorder`
+
+### 數學（math，32 主題）
+`number`、`fraction`、`exponent`、`gcdlcm`、`sqrt`、`algebra`、`linear2`、`inequality`、`polynomial`、`factor`、`quadeq`、`ratio`、`linfunc`、`function`、`geometry`、`congruent`、`pythagoras`、`circle`、`statistics`、`probability`、`polygon-angle`、`triangle-centers`、`similar-app`、`circle-angle`、`solid-geometry`、`coordinate-geom`、`sequence-series`、`linfunc-app`、`quadfunc-app`、`ruler-compass`、`counting-tree`、`data-graph`
+
+### 社會（social，43 主題）
+- **歷史 history**：`h-taiwan`、`h-taiwan-japan`、`h-taiwan-postwar`、`h-china-ancient`、`h-china-medieval`、`h-china-ming-qing`、`h-china-modern`、`h-world-ancient`、`h-world-early-modern`、`h-world-modern`、`h-china-tang-prosperity`、`h-world-greece-rome`、`h-world-imperialism`、`h-taiwan-economy-history`
+- **地理 geography**：`g-map`、`taiwan-landform`、`taiwan-climate`、`taiwan-population`、`taiwan-economy`、`china-geography`、`world-regions`、`world-climate`、`world-population-global`、`environment-sustain`、`g-asia-regions`、`g-europe-africa`、`g-americas-oceania`、`g-physical-process`
+- **公民 civics**：`socialization`、`family-groups`、`gender-multiculture`、`norms-media`、`central-government`、`democracy-elections`、`c-rights`、`law-in-life`、`economic-life`、`government-economy`、`global-sustainability`、`c-constitution-rights`、`c-market-price`、`c-elections-parties`、`c-trade-globalization`
+
+### 自然（science，54 主題）
+- **理化 physchem**：`p-force`、`p-work-energy`、`p-waves`、`p-heat`、`p-electricity`、`p-magnetism`、`c-matter-classification`、`c-reaction-mass`、`c-acid-base`、`c-redox-energy`、`p-pressure-buoyancy`、`p-states-kinetic`、`p-optics-imaging`、`p-circular-projectile`、`p-momentum-collision`、`p-static-electricity`、`p-nuclear-radiation`、`c-periodic-table`、`c-bonding-formula`、`c-mole-stoichiometry`、`c-electrolysis-plating`、`c-organic-materials`、`c-gas-properties`
+- **生物 biology**：`b-cell`、`b-organization`、`b-nutrition`、`b-transport-circulation`、`b-respiration-excretion`、`b-homeostasis-coordination`、`b-reproduction`、`b-genetics`、`b-evolution-diversity`、`b-ecosystem`、`b-human-environment`、`b-enzyme-energy`、`b-plant-structure`、`b-classification-hierarchy`、`b-biotechnology`、`b-animal-behavior`、`b-immunity-disease`
+- **地科 earth**：`e-rock`、`e-plate-tectonics`、`e-surface-taiwan`、`e-atmosphere-weather`、`e-water-ocean`、`e-earth-motion`、`e-moon-eclipse`、`e-solar-system`、`e-universe-observation`、`e-climate-change`、`e-weather-map`、`e-rock-cycle-fossil`、`e-tides`、`e-carbon-climate`
+
+### 寫作測驗（writing，8 主題）
+`read-prompt`、`narrative`、`lyric`、`argument`、`guided`、`openclose`、`material`、`rubric`
+
+小計：六科共 203 個主題 id。
