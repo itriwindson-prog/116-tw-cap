@@ -19,6 +19,36 @@ window.STUDYSYNC.data.subjects.english = {
             "字尾常透露詞性：-tion/-ment/-ness 多為名詞，-ful/-ous/-ive 多為形容詞,-ly 多為副詞。"
           ],
           "trap": "success(n.)、successful(adj.)、successfully(adv.) 同源字易混；先看空格『修飾誰』再選詞性，不要憑單字眼熟亂填。"
+        },
+        {
+          "h": "可數與不可數名詞 countable & uncountable",
+          "points": [
+            "名詞分可數與不可數兩類:可數名詞有單複數,前面可加 a/an 或數字,例如 a book、three apples;不可數名詞沒有複數形,不能加 a/an,例如 water、money、information、advice。",
+            "不可數名詞要計量時,借用『單位詞』:a glass of water(一杯水)、a piece of advice(一則建議)、two pieces of bread(兩片麵包)。",
+            "搭配的量詞也不同:可數名詞用 many、a few(many friends);不可數名詞用 much、a little(much time);兩者皆可用 some、a lot of。"
+          ],
+          "formula": "可數: a/an + 單數、數字 + 複數；不可數: a + 單位詞 + of + 名詞",
+          "trap": "advice、information、homework、furniture、bread 在英文都是不可數,沒有複數,不能說 an advice、two informations、homeworks,要說 a piece of advice、some information。"
+        },
+        {
+          "h": "形容詞變副詞的拼字規則 -ly",
+          "points": [
+            "多數形容詞加 -ly 變副詞:quick→quickly、careful→carefully、slow→slowly,用來修飾動詞,例如 She speaks slowly。",
+            "字尾是子音加 y 時,先把 y 改 i 再加 -ly:happy→happily、easy→easily、lucky→luckily。",
+            "有些字本身同時是形容詞和副詞,不另外加 -ly:fast、hard、early、late,例如 a fast car(形容詞)、He runs fast(副詞)。"
+          ],
+          "formula": "形容詞 + ly → 副詞；子音 + y → 去 y 加 ily",
+          "trap": "friendly、lovely、lonely 字尾雖是 -ly,卻是『形容詞』不是副詞;不能說 She smiled friendly,要說 She gave me a friendly smile。另外 hard 是『努力地』,hardly 是『幾乎不』,意思相反別混。"
+        },
+        {
+          "h": "形容詞的順序與位置",
+          "points": [
+            "形容詞放在名詞『前面』直接修飾,例如 a beautiful red flower;放在 be 動詞或連綴動詞後面當補語,例如 The flower is beautiful、It looks nice。",
+            "多個形容詞一起用時有大致順序:『主觀評價 + 大小 + 顏色 + 材質 + 名詞』,例如 a nice big white house。",
+            "連綴動詞(look、smell、taste、sound、feel)後面接形容詞不是副詞,例如 The soup tastes good(不是 tastes well)。"
+          ],
+          "formula": "評價 + 大小 + 顏色 + 材質 + 名詞；連綴動詞 + 形容詞",
+          "trap": "中文說『湯嚐起來很好』容易直翻成 tastes well,但 taste 是連綴動詞要接形容詞 good;well 當副詞時指『把事情做好』,當形容詞時指『健康的』,語意都不同。"
         }
       ],
       "quiz": [
@@ -348,6 +378,36 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "加字尾常需變字根:happy→happiness(y 變 i)、 forget→forgettable(重複 t),別漏掉拼字變化。",
           "svg": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"200\" rx=\"8\" fill=\"#f3e7df\"/><text x=\"200\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#3a342e\">字尾改變詞性 (字根 care 不變)</text><rect x=\"160\" y=\"40\" width=\"80\" height=\"30\" rx=\"4\" fill=\"#eef4f2\" stroke=\"#3a342e\"/><text x=\"200\" y=\"60\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">care</text><line x1=\"200\" y1=\"70\" x2=\"80\" y2=\"95\" stroke=\"#3a342e\" stroke-width=\"1\"/><line x1=\"200\" y1=\"70\" x2=\"200\" y2=\"95\" stroke=\"#3a342e\" stroke-width=\"1\"/><line x1=\"200\" y1=\"70\" x2=\"320\" y2=\"95\" stroke=\"#3a342e\" stroke-width=\"1\"/><rect x=\"30\" y=\"96\" width=\"100\" height=\"40\" rx=\"4\" fill=\"#fff\" stroke=\"#5aa874\"/><text x=\"80\" y=\"113\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">careful</text><text x=\"80\" y=\"129\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5aa874\">-ful 形容詞</text><rect x=\"150\" y=\"96\" width=\"100\" height=\"40\" rx=\"4\" fill=\"#fff\" stroke=\"#c9755c\"/><text x=\"200\" y=\"113\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">carefully</text><text x=\"200\" y=\"129\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#c9755c\">-ly 副詞</text><rect x=\"270\" y=\"96\" width=\"100\" height=\"40\" rx=\"4\" fill=\"#fff\" stroke=\"#f0a52e\"/><text x=\"320\" y=\"113\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">careless</text><text x=\"320\" y=\"129\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f0a52e\">-less 否定形</text><text x=\"200\" y=\"165\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">看空格『修飾誰』選字尾:名詞前用 -ful,</text><text x=\"200\" y=\"184\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">動詞後用 -ly</text></svg>",
           "caption": "同一字根加不同字尾即改變詞性與語意"
+        },
+        {
+          "h": "名詞字尾:表『人』的 -er / -or / -ist",
+          "points": [
+            "在動詞後加 -er 或 -or 常表『做這件事的人』:teach→teacher(老師)、sing→singer(歌手)、act→actor(演員)、visit→visitor(訪客)。",
+            "字尾 -ist 多表『專精某領域的人』:art→artist(藝術家)、science→scientist(科學家)、piano→pianist(鋼琴家)。",
+            "字尾 -ese、-an、-ish 常表『某國人或某語言』:Japan→Japanese、America→American、Britain→British。"
+          ],
+          "formula": "動詞 + er/or → 做某事的人；名詞 + ist → 某領域專家",
+          "trap": "並非所有『人』都用同一字尾,要逐字記:不能把 scientist 寫成 scienter,也不能把 actor 寫成 acter;另外國籍字第一個字母要大寫,Japanese、American 都要大寫 J、A。"
+        },
+        {
+          "h": "同一字根的詞性家族 word family",
+          "points": [
+            "同一個字根常衍生出名詞、動詞、形容詞、副詞一整組:decide(動詞,決定)→decision(名詞);care(名詞/動詞,關心)→careful(形容詞)→carefully(副詞)。",
+            "會考填空常給你字根,要你依空格『需要的詞性』選對形式:beauty(名詞)→beautiful(形容詞)→beautifully(副詞),看修飾誰決定用哪個。",
+            "記單字時連同整個字族一起記最有效,例如 success(名詞)、succeed(動詞)、successful(形容詞)、successfully(副詞)一次背齊。"
+          ],
+          "formula": "字根 + 不同字尾 → 改變詞性(n./v./adj./adv.)",
+          "trap": "別把詞性放錯位置:succeed 是動詞、success 是名詞,不能說 a success person 或 He successed;要說 a successful person、He succeeded。先判斷空格要的詞性再選字尾。"
+        },
+        {
+          "h": "複合字 compound words",
+          "points": [
+            "兩個字合起來組成新字叫複合字,常見的有名詞加名詞:classroom(教室)、homework(功課)、basketball(籃球)、weekend(週末)。",
+            "也有形容詞加名詞構成的複合字,例如 blackboard(黑板);還有像 breakfast(早餐)、haircut(理髮)這類常見複合名詞。",
+            "複合字的意思常可從兩個組成字推出來:rain 加 coat 等於 raincoat(雨衣)、tooth 加 brush 等於 toothbrush(牙刷)。"
+          ],
+          "formula": "字A + 字B → 新的複合字(意義可由兩字推出)",
+          "trap": "複合名詞變複數時,是在整個字的字尾加 s,不是改中間那個字:多個牙刷是 toothbrushes 不是 teethbrush;另外 homework 是不可數名詞,不能加 s 說 homeworks。"
         }
       ],
       "quiz": [
@@ -679,6 +739,36 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "By the time + 過去式,前面更早的事用『過去完成式 had』,不是現在完成式 has;since 後接時間點、for 後接時間長度。",
           "svg": "<svg viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"200\" rx=\"8\" fill=\"#f3e7df\"/><text x=\"200\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#3a342e\">完成式的時間參照</text><line x1=\"30\" y1=\"150\" x2=\"380\" y2=\"150\" stroke=\"#3a342e\" stroke-width=\"2\"/><polygon points=\"380,150 372,146 372,154\" fill=\"#3a342e\"/><line x1=\"120\" y1=\"143\" x2=\"120\" y2=\"157\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><text x=\"120\" y=\"172\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\">過去某點</text><line x1=\"300\" y1=\"143\" x2=\"300\" y2=\"157\" stroke=\"#c9755c\" stroke-width=\"2\"/><text x=\"300\" y=\"172\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#c9755c\">現在 now</text><path d=\"M55 110 L115 110\" stroke=\"#5aa874\" stroke-width=\"6\"/><polygon points=\"117,110 109,106 109,114\" fill=\"#5aa874\"/><text x=\"85\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5aa874\">had + p.p.</text><text x=\"85\" y=\"128\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3a342e\">更早完成</text><path d=\"M150 80 L295 80\" stroke=\"#c9755c\" stroke-width=\"6\"/><polygon points=\"297,80 289,76 289,84\" fill=\"#c9755c\"/><text x=\"222\" y=\"70\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#c9755c\">have/has + p.p.</text><text x=\"222\" y=\"98\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3a342e\">延續到現在 (for/since)</text></svg>",
           "caption": "過去完成是過去的過去,現在完成則延續到此刻"
+        },
+        {
+          "h": "過去式 vs 過去進行式 past simple vs past continuous",
+          "points": [
+            "過去簡單式表過去『已結束』的動作或習慣:I watched TV last night(昨晚看了電視,已結束)。",
+            "過去進行式 was/were + Ving 表過去某時刻『正在進行』的動作:At eight last night, I was watching TV。",
+            "常用『過去進行式 + when + 過去簡單式』表一個長動作進行中、被另一個短動作打斷:I was cooking when the phone rang(我正在煮飯時電話響了)。"
+          ],
+          "formula": "S + was/were + Ving … when + S + 過去式",
+          "trap": "短暫、瞬間的動作(電話響、有人進來)用過去簡單式 rang、came,長時間的背景動作才用過去進行式 was cooking;別顛倒成 The phone was ringing when I cooked。"
+        },
+        {
+          "h": "現在完成式 vs 過去簡單式 present perfect vs past simple",
+          "points": [
+            "現在完成式不可搭配明確的過去時間點:錯 I have seen him yesterday,對 I saw him yesterday。",
+            "句中有 yesterday、last week、in 2020、ago 等『確定的過去時間』時,一律用過去簡單式。",
+            "現在完成式用於『不點明何時、強調對現在的影響或經驗』:I have already finished my homework(已做完,現在輕鬆了)。"
+          ],
+          "formula": "have/has + p.p.(不接過去時間點) / 過去式 + yesterday、ago…",
+          "trap": "最常見的錯誤是 have + 過去時間點,例如 I have lost my key yesterday;有 yesterday 就要改成 I lost my key yesterday。"
+        },
+        {
+          "h": "未來:will vs be going to 的差別",
+          "points": [
+            "will 多用於『說話當下的臨時決定』或單純預測:OK, I will help you(臨時決定幫你)。",
+            "be going to 用於『事先已有的計畫或打算』:I am going to visit Japan next month(早就計畫好)。",
+            "看到明顯徵兆、推測即將發生時,英語慣用 be going to:Look at the dark clouds! It is going to rain。"
+          ],
+          "formula": "S + will + 原形 V / S + be going to + 原形 V",
+          "trap": "已規劃好的事不要用 will:已計畫好要去拜訪阿姨,宜說 I am going to visit my aunt this weekend;另外 will 後直接接原形,別寫成 will to go 或 will going。"
         }
       ],
       "quiz": [
@@ -1008,6 +1098,34 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "a/an 看『發音』非拼字:a university(發 /j/ 用 a)、an honest man(h 不發音用 an)。",
           "svg": "<svg viewBox=\"0 0 400 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"210\" rx=\"8\" fill=\"#f3e7df\"/><text x=\"200\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#3a342e\">冠詞 a / an / the 抉擇</text><rect x=\"20\" y=\"40\" width=\"175\" height=\"70\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#3a342e\"/><text x=\"107\" y=\"60\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">不特定 (首次提及)</text><text x=\"107\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\">a + 子音『音』</text><text x=\"107\" y=\"100\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">an + 母音『音』</text><rect x=\"205\" y=\"40\" width=\"175\" height=\"70\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#3a342e\"/><text x=\"292\" y=\"60\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">特指 / 已提及 / 唯一</text><text x=\"292\" y=\"86\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#f0a52e\">the</text><text x=\"292\" y=\"104\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\">the sun, the one we saw</text><rect x=\"30\" y=\"125\" width=\"160\" height=\"30\" rx=\"4\" fill=\"#fff\" stroke=\"#c9755c\"/><text x=\"110\" y=\"145\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\">an hour (h 不發音)</text><rect x=\"210\" y=\"125\" width=\"160\" height=\"30\" rx=\"4\" fill=\"#fff\" stroke=\"#5aa874\"/><text x=\"290\" y=\"145\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\">a university (發 /j/)</text><text x=\"200\" y=\"180\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">關鍵:看『發音』而非拼字字母,</text><text x=\"200\" y=\"198\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">第二次出現同一名詞改用 the</text></svg>",
           "caption": "a/an 看發音,特指或唯一用 the"
+        },
+        {
+          "h": "名詞的單複數變化規則 (Plural forms)",
+          "points": [
+            "一般名詞字尾直接加 -s,例如 book 變 books、cat 變 cats;字尾是 s, x, ch, sh 的要加 -es,例如 bus 變 buses、box 變 boxes、watch 變 watches。",
+            "字尾子音加 y 的,要去 y 改成 -ies,例如 city 變 cities、baby 變 babies;但母音加 y 直接加 -s,例如 boy 變 boys、day 變 days。",
+            "字尾是 f 或 fe 的常去 f 改 -ves,例如 leaf 變 leaves、knife 變 knives。"
+          ],
+          "formula": "子音 + y → 去 y + ies;f/fe → 去 f + ves",
+          "trap": "母音加 y 不可變 ies:正確是 boys、days,不是 boies、daies;只有子音加 y 才改 ies。"
+        },
+        {
+          "h": "不規則複數與單複數同形 (Irregular plurals)",
+          "points": [
+            "有些名詞複數是不規則變化,要背:man 變 men、woman 變 women、child 變 children、foot 變 feet、tooth 變 teeth、mouse 變 mice。",
+            "少數動物名詞單複數同形,例如 one sheep / two sheep、a fish / many fish、a deer / three deer。",
+            "people 本身就是 person 的複數,表示『人們』,後面要配複數動詞,例如 Many people are waiting outside."
+          ],
+          "trap": "people 已是複數,不可說 two peoples 來指人數,也不可配單數動詞;child 的複數是 children,不是 childs。"
+        },
+        {
+          "h": "零冠詞與固定用法 (Zero article)",
+          "points": [
+            "泛指複數或不可數名詞、講一般概念時,前面不加冠詞,例如 I like music.、Dogs are friendly animals.",
+            "三餐、運動、學科、語言前通常不加冠詞,例如 have breakfast、play basketball、study English。",
+            "go to school / go to bed 這類表示『去做該場所的本來目的』的片語也不加冠詞。"
+          ],
+          "trap": "泛指時別亂加 the:I love the music. 是錯的;只有特指某段音樂才用 the music。play 後面的球類運動不加 the(play soccer 而非 play the soccer)。"
         }
       ],
       "quiz": [
@@ -1328,6 +1446,44 @@ window.STUDYSYNC.data.subjects.english = {
             "反身代名詞 (myself/themselves) 用於主受詞相同時。"
           ],
           "trap": "介系詞 (between/with/for) 後一定用受格:between you and me(非 I);easy 比較句 than 後口語可用受格。"
+        },
+        {
+          "h": "指示代名詞 this/that/these/those",
+          "points": [
+            "this 和 these 指『近的』,that 和 those 指『遠的』;this/that 配單數,these/those 配複數,例如 This is my pen.、These are my books.",
+            "電話中介紹自己用 this:Hello, this is Amy speaking.;問對方是誰用 Who's that?",
+            "為了避免重複名詞,可用 that 或 those 代替前面提過的名詞,例如 The weather here is better than that in Taipei."
+          ],
+          "trap": "this/these 是限定詞也是代名詞,別把單複數配錯:正確是 These are nice. 不是 This are nice.;指城市天氣比較時用 that 代替 the weather,不可用 it。"
+        },
+        {
+          "h": "不定代名詞 one / it 的差別",
+          "points": [
+            "one 代替『同類但不特定』的可數名詞,例如 I lost my pen, so I need to buy a new one.(one = a pen,任何一支)。",
+            "it 代替『前面提到的那個特定東西』,例如 I lost my pen. Have you seen it?(it = 我的那支筆)。",
+            "複數時 one 變 ones,例如 These shoes are old; I want new ones."
+          ],
+          "formula": "新的同類用 one/ones;原來那個用 it/them",
+          "trap": "別混用 one 和 it:買一支新的要說 buy a new one,不可說 buy a new it;特指原物才用 it。"
+        },
+        {
+          "h": "虛主詞 it 與 It takes 句型",
+          "points": [
+            "談天氣、時間、距離時用 it 當主詞,沒有實際意義,例如 It is raining.、It is seven o'clock.、It is far from here.",
+            "把不定詞當主詞時,常用 it 當虛主詞放句首,真正主詞移到後面,例如 It is important to keep promises.",
+            "句型 It takes + 人 + 時間 + to + 原形動詞,表示『某事花某人多少時間』,例如 It takes me two hours to finish the work."
+          ],
+          "formula": "It is + 形容詞 + to + V;It takes + 人 + 時間 + to V",
+          "trap": "天氣時間距離一律用 it 當主詞,不可省略也不可用 there:正確 It is hot today. 不是 Is hot today. 或 There is hot today."
+        },
+        {
+          "h": "反身代名詞的慣用法 (Reflexive idioms)",
+          "points": [
+            "主詞和受詞是同一人時用反身代名詞,例如 She hurt herself.、I taught myself English.",
+            "by oneself 表示『獨自、靠自己』,等於 alone,例如 He lives by himself.",
+            "片語 enjoy oneself 表示『玩得愉快』、help oneself to 表示『自行取用(食物)』,例如 Help yourself to the cake."
+          ],
+          "trap": "受詞和主詞不同人時不可用反身代名詞:幫『別人』要說 help him,主受詞相同才用 help himself;myself 不可單獨當主詞用。"
         }
       ],
       "quiz": [
@@ -1648,6 +1804,45 @@ window.STUDYSYNC.data.subjects.english = {
             "倍數比較:twice as big as;愈來愈…用 比較級 and 比較級 (hotter and hotter)。"
           ],
           "trap": "than=比較級訊號,the+最高級=三者以上;good→better→best、bad→worse→worst 等不規則變化要背熟,別寫 gooder。"
+        },
+        {
+          "h": "形容詞與副詞的形態與位置",
+          "points": [
+            "形容詞修飾名詞,放在名詞前或 be 動詞後,例如 a careful driver、She is careful.;副詞修飾動詞、形容詞,常放動詞後。",
+            "多數副詞由形容詞加 -ly 構成,例如 careful 變 carefully、quick 變 quickly;字尾子音加 y 要去 y 改 -ily,例如 happy 變 happily。",
+            "fast、hard、early、late 等字形容詞副詞同形,例如 a fast car(形容詞)/ run fast(副詞)。"
+          ],
+          "formula": "形容詞 + ly → 副詞;happy → happily",
+          "trap": "hardly 不是 hard 的副詞!hardly 意思是『幾乎不』,例如 I can hardly hear you.;『努力地』要用 hard,如 work hard。"
+        },
+        {
+          "h": "原級比較 as...as 句型",
+          "points": [
+            "兩者程度相同時用 as + 形容詞或副詞原級 + as,例如 Tom is as tall as Jack.",
+            "否定 not as...as 表示『不如、沒有那麼…』,例如 This book is not as interesting as that one.",
+            "句中若是修飾動詞要用副詞原級,例如 She runs as fast as her brother."
+          ],
+          "formula": "as + 原級 + as;not as + 原級 + as",
+          "trap": "as...as 中間放原級,不可放比較級:正確 as tall as,不是 as taller as;否定句『沒有那麼』用 not as...as,別誤用比較級。"
+        },
+        {
+          "h": "比較級的修飾與強調",
+          "points": [
+            "比較級前可用 much、a lot、even、far 來強調差距,例如 This one is much cheaper than that one.",
+            "表示『差一點點』可用 a little 或 a bit,例如 He is a little taller than me.",
+            "very 不能修飾比較級,要強調『更…』用 much 或 even。"
+          ],
+          "trap": "別用 very 修飾比較級:正確 much better、even better,不是 very better;very 只能修飾原級(very good)。"
+        },
+        {
+          "h": "不規則比較與 the + 比較級句型",
+          "points": [
+            "good 和 well 的比較級是 better、最高級 best;bad 和 badly 是 worse、worst;many/much 是 more、most;little 是 less、least。",
+            "句型 The + 比較級..., the + 比較級... 表示『愈…就愈…』,例如 The more you practice, the better you become.",
+            "比較範圍若是『所有當中』用最高級加 the,例如 He is the tallest of the three."
+          ],
+          "formula": "The + 比較級..., the + 比較級... = 愈…愈…",
+          "trap": "good/bad 的比較級是不規則的 better/worse,不可說 gooder、badder;『愈…愈…』兩個子句前都要加 the。"
         }
       ],
       "quiz": [
@@ -1976,6 +2171,34 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "固定搭配要整組記:be afraid of、be famous for、arrive at(小地方)/in(大城市),介系詞錯=整題錯。",
           "svg": "<svg viewBox=\"0 0 400 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"400\" height=\"210\" rx=\"8\" fill=\"#f3e7df\"/><text x=\"200\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#3a342e\">地點介系詞 in / on / at</text><rect x=\"40\" y=\"45\" width=\"90\" height=\"60\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#3a342e\"/><circle cx=\"85\" cy=\"75\" r=\"12\" fill=\"#5aa874\"/><text x=\"85\" y=\"120\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\">in 內部</text><text x=\"85\" y=\"137\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3a342e\">in the box</text><line x1=\"160\" y1=\"95\" x2=\"245\" y2=\"95\" stroke=\"#3a342e\" stroke-width=\"2\"/><rect x=\"180\" y=\"75\" width=\"45\" height=\"20\" fill=\"#c9755c\"/><text x=\"200\" y=\"120\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">on 表面</text><text x=\"200\" y=\"137\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3a342e\">on the desk</text><circle cx=\"320\" cy=\"80\" r=\"6\" fill=\"#f0a52e\"/><text x=\"320\" y=\"120\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\">at 一點</text><text x=\"320\" y=\"137\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3a342e\">at the door</text><line x1=\"30\" y1=\"155\" x2=\"370\" y2=\"155\" stroke=\"#3a342e\" stroke-width=\"1\"/><text x=\"200\" y=\"176\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">固定搭配:arrive at(小地方)/ in(大城市)</text><text x=\"200\" y=\"196\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">be good at, interested in, famous for</text></svg>",
           "caption": "in 內部、on 接觸表面、at 視為一個點"
+        },
+        {
+          "h": "動態方向介系詞 to / into / through",
+          "points": [
+            "to 表示移動的『目的地、終點』,例如 go to school、walk to the station。",
+            "into 表示『進入內部』,out of 表示『從裡面出來』,例如 He walked into the room.、She ran out of the house.",
+            "through 表示『穿過、貫穿』,across 表示『橫越表面』,例如 walk through the forest、swim across the river。"
+          ],
+          "trap": "中式英文常漏掉 to:正確 go to school,但 go home 是例外,home 當副詞時前面不加 to(不可說 go to home)。"
+        },
+        {
+          "h": "表期間的 for / during / since",
+          "points": [
+            "for 後接『一段時間長度』,例如 I have studied for two hours.;during 後接『某個時段或事件名稱』,例如 during the summer、during the meeting。",
+            "since 後接『起始時間點』,常和現在完成式連用,例如 I have lived here since 2020.",
+            "問時間長度用 How long...,例如 How long have you been here?"
+          ],
+          "formula": "for + 一段時間;since + 時間點;during + 時段/事件",
+          "trap": "for 和 during 別搞混:『for two hours(時間長度)』vs『during the movie(某事件期間)』;since 配完成式,不可說 since two hours。"
+        },
+        {
+          "h": "常考介系詞搭配與片語動詞",
+          "points": [
+            "固定搭配要整組背:be afraid of(害怕)、be famous for(以…聞名)、be proud of(以…自豪)、be late for(遲到)。",
+            "片語動詞的介系詞改變意思:look for(尋找)、look after(照顧)、look up(查字典)。",
+            "表方式或工具用 by 或 with,例如 go by bus(搭公車)、write with a pen(用筆寫)。"
+          ],
+          "trap": "搭乘交通工具用 by 且不加冠詞:by bus、by train;但若強調『特定那台』改用 on,如 on the bus;write 用工具是 with a pen 不是 by a pen。"
         }
       ],
       "quiz": [
@@ -2296,6 +2519,46 @@ window.STUDYSYNC.data.subjects.english = {
             "情態動詞後接原形動詞,沒有時態變化(no -s)。"
           ],
           "trap": "must not=禁止(強烈)、don't have to=不必(沒必要),兩者意思完全不同;情態動詞後一律接原形,別加 to 或 -s。"
+        },
+        {
+          "h": "否定的語意差:must not vs don't have to",
+          "points": [
+            "must not(mustn't)表『禁止、絕對不可以』:You must not park here(這裡禁止停車)。",
+            "don't have to / doesn't have to 表『不必、沒有必要』,可做可不做:You don't have to come if you are busy(不必來)。",
+            "兩者中文常都翻成『不用』,語意卻天差地遠:一個是禁止,一個是免除義務。"
+          ],
+          "formula": "must not + 原形 V(禁止) / don't have to + 原形 V(不必)",
+          "trap": "想說『你不必這麼做』卻寫成 You must not do it,意思變成『你不准做』;『不必』要用 don't have to,別混淆。"
+        },
+        {
+          "h": "推測的可能性:must / may / might / can't",
+          "points": [
+            "對現在事實『很有把握的推測』用 must be:She must be tired; she worked all day(她一定很累)。",
+            "不太確定、可能性較低用 may be / might be:He may be at home, but I am not sure(他可能在家)。",
+            "推測『不可能』時用 can't be,不用 mustn't:He can't be the thief; he was with me(他不可能是小偷)。"
+          ],
+          "formula": "S + must / may / might / can't + be + …(對現況的推測)",
+          "trap": "表『一定不是、不可能』要用 can't,不能用 mustn't(那是禁止);另外 must be 是把握高的推測,別誤以為它只能表『必須』。"
+        },
+        {
+          "h": "過去的能力與請求:could / would",
+          "points": [
+            "could 是 can 的過去式,表過去的能力:When I was five, I could swim(五歲時就會游泳)。",
+            "禮貌地請求或詢問時,用 Could you…? / Would you…? 比 Can you…? 更客氣:Could you help me, please?",
+            "would 也可表過去習慣性的動作(=used to):When we were young, we would play by the river every summer。"
+          ],
+          "formula": "could / would + 原形 V(過去能力、禮貌請求、過去習慣)",
+          "trap": "情態動詞後一律接原形:錯 could to swim、would playing,正確是 could swim、would play;請求對方時 Could you 比直白的 Can you 更得體。"
+        },
+        {
+          "h": "建議與義務的強弱:should vs ought to vs had better",
+          "points": [
+            "should 與 ought to 語意接近,都表『應該、建議』:You should see a doctor、You ought to see a doctor(該去看醫生)。",
+            "had better(常縮寫 'd better)語氣更強,帶『否則會有壞後果』的警告:You had better hurry, or you will miss the bus。",
+            "had better 的否定是 had better not,直接放在原形動詞前:You had better not be late。"
+          ],
+          "formula": "should / ought to / had better (+ not) + 原形 V",
+          "trap": "had better 雖含 had,指的卻是『現在或未來』的建議,不是過去;否定是 had better not,別寫成 had not better;ought 後面要有 to(ought to go),這點和其他情態動詞不同。"
         }
       ],
       "quiz": [
@@ -2616,6 +2879,46 @@ window.STUDYSYNC.data.subjects.english = {
             "情態動詞被動:must be done、can be seen。"
           ],
           "trap": "主詞是『被動作』者就用被動;p.p. 不規則動詞要正確(written 非 writed);時態藏在 be 動詞,別只看 p.p.。"
+        },
+        {
+          "h": "何時該用被動:不知或不必說動作者",
+          "points": [
+            "當動作者不重要、不知道或顯而易見時,用被動把重點放在『原受詞』上:English is spoken here(這裡通行英語)。",
+            "強調結果而非誰做的:The window was broken last night(窗戶被打破了,不必說是誰)。",
+            "正式公告、新聞、說明常用被動:Smoking is not allowed in this area(此區禁止吸菸)。"
+          ],
+          "formula": "原受詞 + be + p.p. (+ by 動作者)",
+          "trap": "不是每句都該硬改被動;若動作者才是重點仍用主動。改被動時別忘了 be 動詞:錯 The window broken last night,正確 The window was broken last night。"
+        },
+        {
+          "h": "授與動詞的被動:兩個受詞的處理",
+          "points": [
+            "give、send、show 等有兩個受詞的句子,可把『人』當被動主詞:I was given a present(我被送了一份禮物)。",
+            "主動 They gave me a present 改被動,慣常以人開頭:I was given a present(by them)。",
+            "也可改用『物』當主詞,此時人前要加介系詞 to:A present was given to me。"
+          ],
+          "formula": "人 + be + p.p. + 物 / 物 + be + p.p. + to + 人",
+          "trap": "以『物』當被動主詞時別漏掉介系詞 to:錯 A present was given me,要寫 A present was given to me;兩種被動擇一即可,別把兩個受詞都搬到主詞。"
+        },
+        {
+          "h": "by 之外的介系詞:被動慣用搭配",
+          "points": [
+            "多數被動用 by 帶出動作者,但有些固定片語不用 by:be interested in(對…有興趣)。",
+            "be made of / be made from 表材質:The desk is made of wood(看得出原料用 of)。",
+            "其他常考:be covered with snow(被雪覆蓋)、be filled with water(裝滿水)、be worried about(擔心)。"
+          ],
+          "formula": "be + p.p. + in / of / with / about …(固定搭配,非 by)",
+          "trap": "情緒、興趣、材質類的被動不用 by:錯 I am interested by music、be filled by water;要用 interested in music、filled with water,這些介系詞是固定搭配,需背熟。"
+        },
+        {
+          "h": "進行式被動 present continuous passive",
+          "points": [
+            "要表達『正在被進行』的動作,用 is/are being + p.p.:The bridge is being built now(橋正在被建造)。",
+            "結構是『be 動詞 + being + 過去分詞』,being 不可省略。",
+            "過去進行被動則是 was/were being + p.p.:The room was being cleaned when I arrived(我到時房間正在被打掃)。"
+          ],
+          "formula": "S + is/are/was/were + being + p.p.",
+          "trap": "進行式被動一定要有 being:寫成 The bridge is built now 就變成單純的現在式被動,失去『正在進行』之意;強調此刻正在被做要寫 is being built。"
         }
       ],
       "quiz": [
@@ -2936,6 +3239,46 @@ window.STUDYSYNC.data.subjects.english = {
             "介系詞後接 V-ing:be good at swimming, look forward to seeing。"
           ],
           "trap": "stop to V(停下來去做別事) vs stop V-ing(停止做某事) 語意不同;remember to V(記得要做)vs remember V-ing(記得做過)。"
+        },
+        {
+          "h": "stop / remember / forget:接 to V 或 V-ing 意思不同",
+          "points": [
+            "stop to V 是『停下來去做某事』:He stopped to smoke(停下來抽菸);stop V-ing 是『停止做某事』:He stopped smoking(戒菸)。",
+            "remember to V 是『記得要去做(還沒做)』:Remember to lock the door;remember V-ing 是『記得做過(已做)』:I remember locking the door。",
+            "forget to V 是『忘了要做』:I forgot to call him;forget V-ing 是『忘記做過的事』,較少用。"
+          ],
+          "formula": "stop / remember / forget + to V(未發生) / + V-ing(已發生)",
+          "trap": "stop smoking(戒菸)和 stop to smoke(停下來抽菸)意思相反,選錯就答錯;判斷 remember 後接哪個,先看那件事『做了沒』。"
+        },
+        {
+          "h": "受詞 + to V 的句型:tell / ask / want sb to do",
+          "points": [
+            "want、ask、tell、allow 等動詞後接『人 + to V』:I want you to help me(要你幫我)。",
+            "中文『我希望你來』不可直譯成 I hope you to come,want 才能接受詞 + to V。",
+            "常考句型:My mom told me to clean my room(媽媽叫我整理房間)、The teacher asked us to be quiet(老師要我們安靜)。"
+          ],
+          "formula": "S + want / ask / tell + 受詞 + to V",
+          "trap": "hope 不能接『人 + to V』:錯 I hope you to win,要用 I hope (that) you will win;want、ask、tell 才用受詞 + to V 句型,別搞混。"
+        },
+        {
+          "h": "動名詞當主詞與 enjoy 類動詞",
+          "points": [
+            "動名詞(V-ing)可當句子主詞,且視為單數:Swimming is good for your health(游泳有益健康)。",
+            "enjoy、finish、mind、give up、feel like 等後面只能接 V-ing:Would you mind opening the window?",
+            "feel like V-ing 表『想要做某事』:I feel like eating ice cream(想吃冰)。"
+          ],
+          "formula": "V-ing + 單數動詞(當主詞) / enjoy / mind / feel like + V-ing",
+          "trap": "動名詞當主詞視為單數,動詞用單數:錯 Reading books are fun,正確 Reading books is fun;另外 enjoy 後絕不接 to V(錯 enjoy to play),要用 enjoy playing。"
+        },
+        {
+          "h": "表目的的 to V:in order to / so as to",
+          "points": [
+            "不定詞 to V 可表『目的』,等於『為了…』:I get up early to catch the first bus(早起為了趕首班車)。",
+            "想更清楚地表目的,可用 in order to + V 或 so as to + V:I study hard in order to pass the exam。",
+            "目的的否定用 in order not to / so as not to:He spoke softly so as not to wake the baby(怕吵醒寶寶)。"
+          ],
+          "formula": "S + V …(in order to / so as to)+ 原形 V(表目的)",
+          "trap": "表目的用 to V,別用 for + V-ing:錯 I came here for learning English,正確 I came here to learn English;否定目的是 in order not to,別寫成 in order to not。"
         }
       ],
       "quiz": [
@@ -3256,6 +3599,36 @@ window.STUDYSYNC.data.subjects.english = {
             "where(地點)、when(時間) 為關係副詞。"
           ],
           "trap": "先行詞是『人』用 who、是『物』用 which;關代在子句中的角色(主詞/受詞)決定能否省略,先行詞後緊接動詞時不可省。"
+        },
+        {
+          "h": "限定與非限定關係子句 Defining vs. Non-defining",
+          "points": [
+            "限定子句沒有逗號,用來界定『是哪一個』,缺了它句意就不完整,例 The boy who broke the window ran away.,who 子句指出是哪個男孩。",
+            "非限定子句有逗號,只是補充說明先行詞,拿掉也不影響句子成立,例 My father, who is a doctor, works in Taipei.。",
+            "非限定子句不可用 that,也不可省略關代;限定子句裡關代當受詞時才可以省略。"
+          ],
+          "formula": "先行詞 + (,) + 關代 + 子句 + (,)",
+          "trap": "有逗號的非限定子句絕對不能用 that:錯誤 Taipei, that is the capital...;要用 which 或 who。逗號的有無會改變句意,別隨意加減逗號。"
+        },
+        {
+          "h": "關係子句中的主詞動詞一致 Subject-Verb Agreement",
+          "points": [
+            "關代當主詞時,子句裡的動詞單複數要跟『先行詞』一致,例 the student who studies hard(先行詞單數用 studies)、the students who study hard(複數用 study)。",
+            "關代 which/who 本身沒有單複數,真正決定動詞型態的是它所代替的先行詞。",
+            "所以判斷動詞要回頭找先行詞,而不是看關代本身。"
+          ],
+          "formula": "先行詞(單/複) + who/which + 對應的單/複數動詞",
+          "trap": "別看到關代就一律用單數動詞:正確 I have friends who live abroad.,錯誤 ...who lives abroad.;動詞要回頭看先行詞 friends 是複數。"
+        },
+        {
+          "h": "關係副詞 where / when / why",
+          "points": [
+            "先行詞是地點用 where,例 This is the house where I was born.(我出生的房子)。",
+            "先行詞是時間用 when,例 I remember the day when we met.(我們相遇的那天)。",
+            "先行詞是 the reason(原因)時用 why,例 Tell me the reason why you were late.。"
+          ],
+          "formula": "地點 + where / 時間 + when / the reason + why + 主詞 + 動詞",
+          "trap": "關係副詞後面接『完整句子』,別誤用成關代:正確 the city where I live,錯誤 the city which I live(若要用 which 則要寫成 the city which I live in,句尾需補介系詞)。"
         }
       ],
       "quiz": [
@@ -3576,6 +3949,36 @@ window.STUDYSYNC.data.subjects.english = {
             "中文『雖然…但是』英文只能擇一:用 Although 就不用 but。"
           ],
           "trap": "Although 和 but 不能同句並用;because 和 so 也不能同句並用(中文兩個都說,英文只留一個)。"
+        },
+        {
+          "h": "副詞子句與時間連接詞 Time Clauses",
+          "points": [
+            "由 when, while, before, after, as soon as, until 引導時間副詞子句,描述動作發生的時間或先後,例 I will call you when I arrive.。",
+            "時間或條件副詞子句中,即使指未來也用『現在式』代替未來式,例 When she comes, we will start.(不用 will come)。",
+            "while 多搭配進行式表『正當…的時候』,例 While I was cooking, the phone rang.。"
+          ],
+          "formula": "主要子句 + when/while/after... + 主詞 + 現在式(代替未來式)",
+          "trap": "時間或條件副詞子句裡不用 will:正確 When it stops raining, we will go.,錯誤 When it will stop raining...;未來的意思由主要子句的 will 表達即可。"
+        },
+        {
+          "h": "表原因與結果的連接 because / so / so that",
+          "points": [
+            "because 引導原因子句,放結果之前或之後皆可,例 He stayed home because he was sick.;so 連接結果,例 He was sick, so he stayed home.。",
+            "because 後面接『主詞加動詞』的句子;because of 後面只接名詞或動名詞,例 because of the rain。",
+            "so... that... 表『如此…以致於』,例 He was so tired that he fell asleep.;so 後面接形容詞或副詞。"
+          ],
+          "formula": "so + 形容詞/副詞 + that + 主詞 + 動詞(如此…以致於)",
+          "trap": "because 與 so 不可在同一句並用:中文『因為…所以…』英文只能擇一,錯誤 Because he was sick, so he stayed home.;另外 because 後接句子、because of 後接名詞,別混用。"
+        },
+        {
+          "h": "成對連接詞與主詞動詞一致 Correlative Conjunctions",
+          "points": [
+            "both A and B 視為複數,動詞用複數,例 Both Tom and Mary are here.。",
+            "either A or B、neither A nor B、not only A but also B,動詞跟『最靠近的 B』一致,例 Neither you nor he is wrong. 或 Not only the students but also the teacher likes it.。",
+            "成對連接詞前後要連接『對等』的詞類或結構,例 not only by bus but also by train(介系詞片語對介系詞片語)。"
+          ],
+          "formula": "either/neither/not only ... 動詞跟最靠近的主詞一致",
+          "trap": "neither...nor 與 either...or 的動詞看最靠近的那個主詞,不是一律用複數:正確 Either the cats or the dog is noisy.,錯誤 ...are noisy.;且 neither...nor 本身已含否定,句中不可再加 not。"
         }
       ],
       "quiz": [
@@ -3896,6 +4299,36 @@ window.STUDYSYNC.data.subjects.english = {
             "be 動詞在假設語氣一律用 were。"
           ],
           "trap": "與現在相反用『過去式』、與過去相反用『過去完成』,時態往前推一格;if 子句 be 動詞用 were(I/he 也用 were)。"
+        },
+        {
+          "h": "與未來事實相反 vs. 可能成真的條件句",
+          "points": [
+            "真實條件句(可能成真)用 If 加現在式,主要子句用 will 加原形動詞,例 If it rains tomorrow, I will stay home.,表示未來真有可能下雨。",
+            "與現在事實相反的假設句用 If 加過去式,主要子句用 would 加原形動詞,動作其實不真實,例 If I had wings, I would fly to you.。",
+            "判斷關鍵:看說話者是『預期會發生』還是『純屬空想』,前者用現在式加 will,後者用過去式加 would。"
+          ],
+          "formula": "真實:If + 現在式, S + will + 原形 / 假設:If + 過去式, S + would + 原形",
+          "trap": "別把真實條件句也用過去式:明天可能下雨要說 If it rains tomorrow, I will...,不是 If it rained;另外 If 條件子句裡不放 will,will 要放在主要子句。"
+        },
+        {
+          "h": "I wish 表達與現在事實相反的願望",
+          "points": [
+            "wish 後面接與『現在』事實相反的願望,子句用過去式,例 I wish I were taller.(我希望我更高,其實不高)。",
+            "be 動詞在 wish 子句中一律用 were,不分人稱,例 I wish I were rich.。",
+            "wish 也常用來客氣表達遺憾,例 I wish I had more time.(可惜時間不夠)。"
+          ],
+          "formula": "S + wish + (that) + 主詞 + were/過去式(與現在相反)",
+          "trap": "wish 後面的 be 動詞一律用 were,不分人稱:會考標準答案是 I wish I were rich.,而非 I wish I was rich.;另外 wish 不可直接接現在式來表達這種與事實相反的願望。"
+        },
+        {
+          "h": "用 if 引導的勸告與假設 If I were you",
+          "points": [
+            "要給對方建議時,常用 If I were you, I would...,例 If I were you, I would say sorry.(如果我是你,我會道歉)。",
+            "這是與現在事實相反的假設,所以 be 動詞用 were、主要子句用 would 加原形動詞。",
+            "語氣比直接命令委婉,適合用來提建議或表達看法。"
+          ],
+          "formula": "If I were you, I would + 原形動詞 ...",
+          "trap": "這種與事實相反的假設,be 動詞要用 were 不用 was:正確 If I were you...,錯誤 If I was you...;主要子句也別忘了用 would,例 ..., I would tell her.。"
         }
       ],
       "quiz": [
@@ -4216,6 +4649,37 @@ window.STUDYSYNC.data.subjects.english = {
             "祈使句附加問句用 will you?;Let's… 用 shall we?。"
           ],
           "trap": "間接問句要改成『主詞+動詞』的直述語序;附加問句前後一正一反,且主詞用代名詞、助動詞要對應前句時態。"
+        },
+        {
+          "h": "五大基本句型 Five Sentence Patterns",
+          "points": [
+            "第一型主詞加完全不及物動詞:例 Birds fly.（鳥兒飛）;這類動詞後面不需要受詞,句意就完整。",
+            "第二型主詞加be動詞或連綴動詞再加補語:例 She is a nurse. 或 The soup smells good.,補語用來補充說明主詞。",
+            "第三型主詞加及物動詞加受詞:例 I like apples.;第四型再多一個受詞,例 He gave me a gift.（gave 後面 me 是間接受詞、a gift 是直接受詞）。",
+            "第五型主詞加動詞加受詞再加受詞補語:例 We call him Tom. 或 The news made me happy.,受詞補語用來描述受詞。"
+          ],
+          "formula": "S+Vi / S+Vi+補語 / S+Vt+O / S+Vt+間接受詞+直接受詞 / S+Vt+O+受詞補語",
+          "trap": "連綴動詞 look, smell, taste, sound, feel 後面接形容詞當補語,不可用副詞:正確 It tastes good.,錯誤 It tastes well.(well 只有在指身體健康時才當形容詞,如 I feel well.)。"
+        },
+        {
+          "h": "There be 句型與主詞動詞一致",
+          "points": [
+            "表達『有』『存在』用 There is / There are,真正的主詞在 be 動詞後面,be 動詞單複數要跟它後面那個名詞一致。",
+            "後面接單數或不可數名詞用 is,例 There is a book on the desk. 或 There is some water.;接複數名詞用 are,例 There are five students.。",
+            "若有兩個以上名詞並列,be 動詞通常跟『最靠近』的那個名詞一致,例 There is a pen and two books on the table.。"
+          ],
+          "formula": "There + is/are + 主詞(名詞) + 地點/時間",
+          "trap": "中文『桌上有一本書』別逐字翻成 The desk has a book.,英文要用 There is a book on the desk.;另外 be 動詞要跟『後面的名詞』一致,不是跟 there 一致。"
+        },
+        {
+          "h": "Yes/No 問句與 Wh- 問句",
+          "points": [
+            "Yes/No 問句把 be 動詞或助動詞移到主詞前面,例 Are you ready? 或 Do you like tea?,一般動詞要借助 do/does/did。",
+            "Wh- 問句以疑問詞開頭再倒裝,例 Where do you live? 或 What did she say?,疑問詞當受詞時後面仍要倒裝。",
+            "當疑問詞本身就是主詞時不倒裝、也不用 do,例 Who broke the window? 直接用 Who 加動詞。"
+          ],
+          "formula": "(Wh-) + be/do/does/did + S + 原形動詞 ...?",
+          "trap": "一般動詞的問句要靠 do/does/did,主要動詞回原形:正確 Does he play basketball?,錯誤 Does he plays...;疑問詞當主詞時不可再加 do,例 Who lives here? 不是 Who does live here?。"
         }
       ],
       "quiz": [
@@ -4536,6 +5000,46 @@ window.STUDYSYNC.data.subjects.english = {
             "代名詞、冠詞題回前文找指涉對象。"
           ],
           "trap": "克漏字不能只看一格,要看前後句邏輯;連接詞/轉折詞題務必判斷『前後是順承還是相反』再選。"
+        },
+        {
+          "h": "詞性與構詞判讀 part of speech",
+          "points": [
+            "空格先判斷該填的詞性:介系詞或冠詞後多接名詞,be 動詞後常接形容詞,助動詞後接原形動詞。例如 with regular ___ 要填名詞 practice(規律的練習),不是動詞。",
+            "從字尾(suffix)辨識選項詞性:-tion、-ment、-ness 多為名詞,如 decision、movement;-ful、-ive、-ous 多為形容詞,如 careful、active;-ly 多為副詞,如 quickly。",
+            "同一字根常一次給名詞、動詞、形容詞、副詞當四個選項,要看『空格在句中扮演什麼角色』,而非挑哪個字眼熟。"
+          ],
+          "formula": "介系詞/冠詞 + N;be + adj.;助動詞 + 原形V",
+          "trap": "最常見錯誤是只看字熟不看詞性,例如把 He is very ___ 填成名詞 success,正解是形容詞 successful;記住形容詞修飾名詞、副詞修飾動詞,別把 quick 與 quickly 用反。"
+        },
+        {
+          "h": "時態一致與動詞形式 tense agreement",
+          "points": [
+            "克漏字常考整段時態一致:看到 yesterday、last year、ago 等過去時間詞,空格動詞要用過去式,如 went、bought,不可填現在式。",
+            "同段其他動詞會給線索,例如前句已用過去式 visited,後句承接同一時間的空格通常也用過去式,別中途換時態。",
+            "注意動詞後接哪種形式:enjoy、finish 後接動名詞 V-ing,如 enjoy reading;want、decide 後接不定詞 to V,如 decide to go。"
+          ],
+          "formula": "過去時間詞 → 過去式V;enjoy/finish + Ving;want/decide + to V",
+          "trap": "中式英文常把『昨天我去公園』寫成 I go to the park yesterday,go 須改過去式 went;另外 enjoy 後面不可接不定詞,enjoy to read 是錯的,應為 enjoy reading。"
+        },
+        {
+          "h": "連接詞與句子邏輯 connectives",
+          "points": [
+            "克漏字常在句中考連接詞,要分清功能:because 表原因、so 表結果、but 表轉折、and 表並列。例如 He was tired, ___ he kept working,空格要用表轉折的 but。",
+            "從屬連接詞 although、because、when 引導子句,須有主要子句搭配;中文『雖然…但是』在英文 although 與 but 只能擇一,不能兩個一起用。",
+            "依語意關係挑對連接詞:表『條件假設』用 if,表『目的』用 so that,看清空格前後的邏輯再選。"
+          ],
+          "formula": "原因 because;結果 so;轉折 but/although;條件 if",
+          "trap": "最典型中式英文是 Although it rained, but we went out,英文 although 與 but 不可並用,只能留一個:Although it rained, we went out,或 It rained, but we went out。"
+        },
+        {
+          "h": "固定搭配與片語動詞 collocation",
+          "points": [
+            "克漏字偏好考固定搭配,整組記才不會選錯:make a decision(做決定)、take care of(照顧)、look forward to(期待)、be interested in(對…有興趣)。",
+            "片語動詞(phrasal verb)的介副詞是關鍵考點:turn on/off(開關)、give up(放棄)、put on(穿上),空格常就在介副詞那一格。",
+            "be 動詞 + 形容詞 + 介系詞 的搭配要背對介系詞:be good at、be afraid of、be famous for,選錯介系詞就失分。"
+          ],
+          "formula": "be interested in + N/Ving;look forward to + N/Ving;be good at + N/Ving",
+          "trap": "look forward to 的 to 是介系詞,後面接名詞或動名詞,如 look forward to seeing you,不可寫成 look forward to see;另外 be good at 不可誤用成 be good in。"
         }
       ],
       "quiz": [
@@ -4856,6 +5360,46 @@ window.STUDYSYNC.data.subjects.english = {
             "先看題目再讀文章可提高定位效率。"
           ],
           "trap": "細節題答案常被『換句話說(paraphrase)』,別只找一模一樣的字;推論題切忌憑常識想像,要回文章找根據。"
+        },
+        {
+          "h": "略讀與尋讀 skimming and scanning",
+          "points": [
+            "略讀(skimming)是快速看過全文抓大意與文章結構,適合做主旨題;不必看懂每個字,重點放在首段、各段第一句與結尾。",
+            "尋讀(scanning)是帶著題目的關鍵字(數字、人名、地點)快速掃描定位,適合做細節題,找到對應句就停,不必從頭讀到尾。",
+            "兩者搭配:先 skimming 掌握全貌,再針對各題 scanning 回原文找答案,可大幅省時又準確。"
+          ],
+          "formula": "",
+          "trap": "細節題常見錯誤是憑印象作答而不回原文定位;會考的干擾選項常用原文出現過的字眼包裝錯誤訊息,務必回到對應句逐字核對再選。"
+        },
+        {
+          "h": "代換與同義改寫 paraphrase",
+          "points": [
+            "閱讀測驗的正解很少照抄原文,常用同義改寫:原文 The store closes at nine,選項可能寫成 You cannot buy anything there after nine,意思相同但換字。",
+            "看到選項與原文用字完全一樣(原文重現)反而要小心,常是把原句移花接木、張冠李戴的陷阱選項。",
+            "平時練習把原文句子用自己的話改寫,熟悉 big 等於 large、begin 等於 start 等同義替換,作答時就能對得上。"
+          ],
+          "formula": "",
+          "trap": "把『與原文字面相同』當成正解是常見失分點;要比對的是『意思』是否一致,而非字面是否雷同,過度延伸或無中生有的選項一律刪去。"
+        },
+        {
+          "h": "文章結構與信號詞 text structure",
+          "points": [
+            "掌握文章結構有助定位:故事體依時間先後 first、then、finally 鋪陳,說明文常用 for example、in addition 列舉支持。",
+            "信號詞透露語意走向:however、on the other hand 表轉折(前後相反),therefore、as a result 表結果,for example 表舉例支持前句。",
+            "首段常點出主旨(topic sentence),末段常做總結或呼應主旨,主旨題優先看這兩處。"
+          ],
+          "formula": "轉折 however;結果 therefore;舉例 for example",
+          "trap": "看到 however、but 卻忽略它代表『語意轉向』,常導致主旨判斷錯誤;轉折詞後面那句通常才是作者真正想強調的重點,別只記前半句。"
+        },
+        {
+          "h": "主旨題與標題選擇 main idea and title",
+          "points": [
+            "主旨(main idea)是整篇都在談的核心,要『涵蓋全文』;若某選項只說到其中一段的細節,範圍太窄,不能當主旨。",
+            "標題題選最能概括全文又不過大的:太籠統(如 Animals)或太細(只講一個例子)都不對,要不大不小剛好涵蓋。",
+            "判斷主旨可問自己:作者寫這篇『最想告訴我什麼』,把各段共同指向的訊息合起來就是答案。"
+          ],
+          "formula": "",
+          "trap": "把『文中提到的某個細節』誤當主旨是高頻錯誤;主旨必須概括全文,範圍過窄(只對應一段)或過寬(超出文章內容)的選項都要排除。"
         }
       ],
       "quiz": [
@@ -5177,6 +5721,46 @@ window.STUDYSYNC.data.subjects.english = {
             "注意語氣、否定詞與時間詞,常是答題關鍵。"
           ],
           "trap": "選項常出現『聽到的字』陷阱,聽到的單字未必是答案,要聽整句語意;尤其注意 not/never 等否定詞會反轉答案。"
+        },
+        {
+          "h": "數字與時間訊息 numbers & time",
+          "points": [
+            "聽價格、電話、時刻時,要分清易混的尾音:fifteen 重音在後(唸成 fif-TEEN),fifty 重音在前(唸成 FIF-ty),thirteen 與 thirty 也是同樣道理。",
+            "時間常用 a quarter past seven(七點十五分)、half past eight(八點半);價格 It's twelve fifty 指 12 元 50 分,別聽成 1250。",
+            "聽到 the day after tomorrow(後天)、in two weeks(兩週後)這類詞要換算,不能只抓一個數字就作答。"
+          ],
+          "formula": "",
+          "trap": "最常把 thirteen/thirty、fifteen/fifty 聽錯:-teen 結尾重音在後、母音拉長,-ty 結尾重音在前;要聽完整個字、靠重音判別,不要憑前半段就搶答。"
+        },
+        {
+          "h": "推測說話地點與身分 inference",
+          "points": [
+            "題目常問 Where are the speakers? 或 Who is the man?,答案要靠線索字推測,通常不會直接講出來。",
+            "聽到 Check, please. 與 Are you ready to order? 可推測在餐廳(restaurant);聽到 Open your mouth. 與 Does it hurt here? 可推測在看牙醫(at the dentist's)。",
+            "聽到 boarding 與 gate 多半在機場(airport);聽到 fitting room 與 try it on 多半在服飾店。"
+          ],
+          "formula": "",
+          "trap": "別被單一字面意思騙:聽到 book 不一定是書,可能是 book a table(訂位);要綜合整段情境詞,不要抓到一個名詞就對號入座。"
+        },
+        {
+          "h": "聽出語氣與言外之意 tone & intention",
+          "points": [
+            "婉拒常常不直接說 no:I'd love to, but I have to study. 其實是拒絕;聽到 but 之後才是重點。",
+            "反問語氣如 Do I have to? 常表示不情願;You did a great job! 配合稱讚的語調是讚美。",
+            "聽到 Could you do me a favor? 是要拜託對方;Would you mind opening the window? 是客氣地請求,回答 Not at all. 反而表示願意。"
+          ],
+          "formula": "",
+          "trap": "別把帶 but 的句子當成答應:I'd love to, but… 是婉拒。又如 Would you mind…? 答 No / Not at all. 其實是答應幫忙,別被否定字誤導。"
+        },
+        {
+          "h": "看圖與看表選答 picture & schedule",
+          "points": [
+            "圖表題先快速比對各選項圖的差異:人數、動作、物品位置、天氣,聽到對應描述再勾選。",
+            "位置介系詞是關鍵:The cat is under the table.(在桌子下)、next to the door(在門旁)、between A and B(在兩者之間)。",
+            "看課表或時刻表時,先鎖定問句問的是哪一天、哪一節、幾點,再對照欄位作答。"
+          ],
+          "formula": "",
+          "trap": "位置介系詞最易混:in(在裡面)、on(在表面)、under(在下方)、in front of(在前面)、behind(在後面);聽到 behind 別誤選 in front of,先確認方位再對圖。"
         }
       ],
       "quiz": [
@@ -5497,6 +6081,46 @@ window.STUDYSYNC.data.subjects.english = {
             "建議:How about…? / Why don't we…?;道歉與回應:That's all right。"
           ],
           "trap": "Do you mind…? 問句答應要說 No(不介意),拒絕才說 Yes;這與中文直覺相反,最容易答反。"
+        },
+        {
+          "h": "招呼與寒暄 greetings",
+          "points": [
+            "問候用 How are you? / How's it going?,回答可說 Pretty good. 或 Not bad.,再禮貌反問 And you?。",
+            "初次見面說 Nice to meet you.,只有第一次見面才用 meet;再次見面要改說 Nice to see you again.。",
+            "道別不只 Goodbye,還有 See you later. / Take care. / Have a nice day.。"
+          ],
+          "formula": "",
+          "trap": "meet 與 see 易誤用:第一次見面才用 Nice to meet you.,已認識的人要用 Nice to see you.;對熟人說 meet you 會顯得生硬。"
+        },
+        {
+          "h": "電話用語 on the phone",
+          "points": [
+            "接電話自報身分或詢問對方用 Hello, this is Amy. / Who's calling, please?;指認自己用 this is,不用 I am。",
+            "找人說 May I speak to Mr. Lin?;請對方稍候用 Hold on, please. 或 Just a moment, please.。",
+            "對方不在可幫忙留言:Can I take a message? / Would you like to leave a message?。"
+          ],
+          "formula": "",
+          "trap": "電話中表明身分用 This is Amy (speaking).,不是 I am Amy;問對方是誰用 Who's calling? 而非中式直譯的 Who are you?,後者很不禮貌。"
+        },
+        {
+          "h": "問路與指引方向 asking the way",
+          "points": [
+            "禮貌問路用 Excuse me, how can I get to the station? 或 Where is the post office?。",
+            "指路常用祈使句:Go straight. / Turn left at the corner. / It's on your right.。",
+            "估距離與位置用 It's about a five-minute walk. 與 across from the bank(在銀行對面)。"
+          ],
+          "formula": "祈使句:(Please) + 原形動詞 …(Turn right / Go straight)",
+          "trap": "指路祈使句要用原形動詞開頭:說 Turn left.,不要說 You turn left 或 Turning left;另外 across from(對面)別和 next to(隔壁)搞混。"
+        },
+        {
+          "h": "餐廳與購物用語 restaurant & shopping",
+          "points": [
+            "點餐時服務生問 May I take your order? / Anything to drink?,客人答 I'd like a hamburger.。",
+            "內用外帶要分清:For here or to go?;結帳用 Check, please. 與 How much is it?。",
+            "購物試穿與詢問用 Can I try it on? / Do you have a bigger size? / It's on sale.。"
+          ],
+          "formula": "I'd like + 名詞 / to + 原形動詞",
+          "trap": "點餐表達意願用 I'd like(= I would like),別用 I want,後者語氣較沒禮貌;且 I'd like 後接名詞或 to + 原形動詞,不能直接接動詞原形。"
         }
       ],
       "quiz": [
@@ -5830,6 +6454,36 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" rx=\"10\" fill=\"#eef4f2\"/><text x=\"12\" y=\"30\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\">可分離</text><rect x=\"12\" y=\"42\" width=\"230\" height=\"30\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/><text x=\"22\" y=\"62\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">turn it on</text><text x=\"150\" y=\"62\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">✔ 代名詞置中</text><rect x=\"12\" y=\"80\" width=\"230\" height=\"30\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#d98072\"/><text x=\"22\" y=\"100\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">turn on it</text><text x=\"150\" y=\"100\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">✘ 不可置後</text><text x=\"12\" y=\"138\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\">不可分離</text><rect x=\"12\" y=\"150\" width=\"230\" height=\"30\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/><text x=\"22\" y=\"170\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">look after him</text><text x=\"258\" y=\"170\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">✔</text></svg>",
           "caption": "可分離片語動詞遇代名詞必置中;不可分離片語動詞受詞一律置後。",
           "trap": "⚠ 最常錯在代名詞位置:可分離片語動詞遇 it/them 必須置中(turn it off),寫成 turn off it 即錯。"
+        },
+        {
+          "h": "日常高頻片語動詞情境記憶",
+          "points": [
+            "把片語動詞放進生活情境記更牢:起床盥洗有 get up(起床)、wake up(醒來)、put on(穿上)、take off(脫下)。",
+            "上下學交通有 get on/off(上/下公車、火車)、get in/out of(上/下小汽車)、pick up(接某人)、drop off(放某人下車)。",
+            "做事處理有 fill in/out(填寫表格)、throw away(丟掉)、clean up(清理)、turn down(調小聲或拒絕)。"
+          ],
+          "formula": "動詞 + 介副詞 → 情境化片語(get on the bus / get in the car)",
+          "trap": "搭公車和搭小汽車用的字不同:上下公車、火車用 get on/off the bus,但上下小汽車、計程車要用 get in/out of the car,別一律用 get on。"
+        },
+        {
+          "h": "意思相近的片語動詞辨析",
+          "points": [
+            "look 系列易混:look for 是『尋找』的過程、find 是『找到』的結果、find out 是『查明、得知資訊』,例如 I looked for my keys and finally found them。",
+            "turn 系列:turn on/off(開、關電器)、turn up/down(調大、調小聲音),其中 turn down 也指『拒絕邀請或提議』。",
+            "give 與 take 系列:give up(放棄)、give back(歸還)、take up(開始從事一項嗜好)、take back(收回說過的話)。"
+          ],
+          "formula": "同動詞 + 不同介副詞 → 不同語意(turn on / turn up / turn down)",
+          "trap": "look for 是『找的動作』,find 是『找到的結果』,不能混用:不能說 I found for my keys,要說 I looked for my keys 然後 found them;find out 是查明資訊,不能拿來說『找到實物』。"
+        },
+        {
+          "h": "三字片語動詞 verb + adverb + preposition",
+          "points": [
+            "有些片語動詞由三個字組成(動詞加副詞加介系詞),受詞一律放在最後:run out of(用完,例如 We ran out of milk)、look forward to(期待)、get along with(和某人相處融洽)。",
+            "look forward to 的 to 是介系詞,後面要接名詞或動名詞 V-ing:I look forward to seeing you,不是 to see you。",
+            "其他常考:catch up with(趕上)、keep up with(跟上)、come up with(想出主意)、put up with(忍受)。"
+          ],
+          "formula": "動詞 + 副詞 + 介系詞 + 受詞(三字片語,受詞放最後)",
+          "trap": "look forward to、be used to 裡的 to 是『介系詞』不是不定詞,後面要接 V-ing:『期待見到你』是 look forward to seeing you 不是 to see you;這是會考超高頻陷阱。"
         }
       ],
       "quiz": [
@@ -6163,6 +6817,36 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><circle cx=\"180\" cy=\"60\" r=\"24\" fill=\"#f3e7df\" stroke=\"#3a342e\"/><text x=\"180\" y=\"64\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">我</text><path d=\"M150 60 L70 60\" stroke=\"#5aa874\" stroke-width=\"2\" marker-end=\"url(#a)\"/><defs><marker id=\"a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0 0 L6 3 L0 6\" fill=\"#5aa874\"/></marker><marker id=\"b\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0 0 L6 3 L0 6\" fill=\"#c9755c\"/></marker></defs><text x=\"68\" y=\"50\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">borrow 借進</text><path d=\"M210 60 L290 60\" stroke=\"#c9755c\" stroke-width=\"2\" marker-end=\"url(#b)\"/><text x=\"230\" y=\"50\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">lend 借出</text><text x=\"180\" y=\"112\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">bring 朝我 / take 離我</text><rect x=\"30\" y=\"130\" width=\"140\" height=\"44\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/><text x=\"40\" y=\"150\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">rise 自升 無受詞</text><text x=\"40\" y=\"166\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">lie 躺 不及物</text><rect x=\"190\" y=\"130\" width=\"140\" height=\"44\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"200\" y=\"150\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">raise 舉 接受詞</text><text x=\"200\" y=\"166\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">lay 放 及物</text></svg>",
           "caption": "以說話者為中心:borrow/bring 朝向自己、lend/take 朝向外;rise/lie 無受詞,raise/lay 必接受詞。",
           "trap": "⚠ rise/raise、lie/lay 判斷關鍵是「後面有無受詞」;tell 才直接接人,say 接內容,別把 say me 寫成一句。"
+        },
+        {
+          "h": "程度與數量易混字 too / very、another / other",
+          "points": [
+            "very 與 too 都表程度但語氣不同:very 是『很』(中性),例如 The coffee is very hot 表示很燙但還能喝;too 是『太…以致於不行』,例如 The coffee is too hot to drink 表示燙到不能喝。",
+            "another 與 other 易混:another 接單數可數名詞(another cup),other 接複數或不可數名詞(other books、other water),the other 指『兩者中的另一個』。",
+            "few/little 帶否定語氣(幾乎沒有),a few/a little 帶肯定語氣(有一些):I have few friends(幾乎沒朋友)相對於 I have a few friends(有幾個朋友)。"
+          ],
+          "formula": "too + 形容詞 + to V(太…而不能…)；another + 單數、other + 複數",
+          "trap": "中文的『太』常被誤用:『這咖啡很好喝』別說成 too good(too 帶負面語氣『太…以致於不行』),要用 very good;『再給我一個』是 another one 不是 other one(other 後面要接複數)。"
+        },
+        {
+          "h": "撇號陷阱:its/it's、their/there/they're",
+          "points": [
+            "its 是所有格『它的』(The dog wagged its tail),it's 是 it is 或 it has 的縮寫(It's raining);有沒有撇號意思完全不同。",
+            "their(他們的)、there(那裡、There is)、they're(they are)三個發音相同但用法不同,要看句意分辨。",
+            "your(你的)與 you're(you are)、whose(誰的)與 who's(who is)也是同類陷阱,寫作時最常拼錯。"
+          ],
+          "formula": "有撇號 = 縮寫(it's = it is)；無撇號 = 所有格(its = 它的)",
+          "trap": "所有格 its、your、their、whose『絕對沒有撇號』;一加撇號就變成 be 動詞或助動詞的縮寫。會考克漏字常考 It's time to go(It is)與 The cat licked its paws 的區別,看句子缺不缺動詞來判斷。"
+        },
+        {
+          "h": "中文同字、英文要分的字 cost / spend / take / pay",
+          "points": [
+            "這幾個字中文都和『花費』有關,但主詞與句型不同:spend 主詞是人,例如 I spent two hours on it 或 I spent 100 dollars on the book;cost 主詞是物,例如 The book cost me 100 dollars。",
+            "take 常用 It takes 加人加時間加 to V 表『花時間』:It takes me ten minutes to walk to school。",
+            "pay 是『付錢給人或付帳單』:I paid the driver、pay for the meal(為某事物付錢)。"
+          ],
+          "formula": "人 spend 金錢/時間 on 物；物 cost 人 金錢；It takes 人 時間 to V",
+          "trap": "主詞用錯最常見:不能說 I cost 100 dollars(cost 主詞要是物),要說 I spent 100 dollars 或 The book cost me 100 dollars;spend 後面接時間時用 on 加名詞或 in V-ing,不能直接接原形動詞。"
         }
       ],
       "quiz": [
@@ -6496,6 +7180,36 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><rect x=\"12\" y=\"16\" width=\"160\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"30\" y=\"36\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">heavy rain</text><text x=\"150\" y=\"36\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">✓</text><rect x=\"188\" y=\"16\" width=\"160\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#d98072\"/><text x=\"206\" y=\"36\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">big rain</text><text x=\"340\" y=\"36\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">✗</text><rect x=\"12\" y=\"58\" width=\"336\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#f0a52e\"/><text x=\"20\" y=\"78\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">a piece of cake = 輕而易舉</text><rect x=\"12\" y=\"96\" width=\"336\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#f0a52e\"/><text x=\"20\" y=\"116\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">break the ice = 打破僵局</text><rect x=\"12\" y=\"134\" width=\"336\" height=\"30\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#c9755c\"/><text x=\"20\" y=\"154\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">慣用語看整體比喻,別逐字翻</text></svg>",
           "caption": "形容詞搭配與慣用語都有固定形式,慣用語須取比喻義。",
           "trap": "⚠ 受中文影響易把「大雨」直譯成 big rain;英文用 heavy rain。慣用語更不能拆字直譯,a piece of cake 不是談蛋糕,而是「小事一樁」。"
+        },
+        {
+          "h": "動詞或形容詞 + 介系詞的固定搭配",
+          "points": [
+            "很多動詞後面固定接某個介系詞,要整組記:listen to(聽)、look at(看)、wait for(等)、look for(找)、depend on(依賴)、agree with(同意某人)。",
+            "有些動詞後接的介系詞會改變語意:look at(看)、look for(找)、look after(照顧)、look up(查),介系詞一換意思就不同。",
+            "形容詞也有固定介系詞搭配:be good at(擅長)、be afraid of(害怕)、be interested in(對…有興趣)、be proud of(以…為傲)。"
+          ],
+          "formula": "listen to / wait for / be good at + 名詞(介系詞固定不可換)",
+          "trap": "中式英文最常漏掉或用錯介系詞:『聽音樂』是 listen to music 不是 listen music;『等公車』是 wait for the bus 不是 wait the bus;『擅長英文』是 good at English 不是 good in English。"
+        },
+        {
+          "h": "比喻性慣用語的整體理解",
+          "points": [
+            "慣用語(idioms)不能逐字翻譯,要記整句的比喻義:rain cats and dogs 是『下傾盆大雨』、let the cat out of the bag 是『不小心洩漏祕密』、be all ears 是『洗耳恭聽』。",
+            "和身體部位有關的慣用語很常見:keep an eye on(看顧)、give someone a hand(幫忙)、pull someone's leg(開玩笑、捉弄某人)。",
+            "遇到看似簡單卻語意怪的句子,先想是不是慣用語,從『整體比喻』而非單字字面去理解。"
+          ],
+          "formula": "慣用語 = 固定詞組 → 取整體比喻義,不可逐字直譯",
+          "trap": "逐字翻譯一定出錯:pull my leg 不是『拉我的腿』而是『開我玩笑』;give me a hand 不是『給我一隻手』而是『幫我忙』;會考閱讀看到這類片語別照字面理解。"
+        },
+        {
+          "h": "數量與頻率的常見搭配",
+          "points": [
+            "表頻率的副詞放在一般動詞前、be 動詞後:always、usually、often、sometimes、seldom、never,例如 He is always late、I usually get up early。",
+            "問頻率用 How often,回答常用 once a week、twice a month、three times a year;注意 every day(兩個字)是『每天』,everyday(一個字)是形容詞『日常的』。",
+            "表數量的固定搭配:a lot of(許多,可數不可數皆可)、plenty of(充足的)、a number of(若干,接複數名詞)。"
+          ],
+          "formula": "頻率副詞:be 動詞後、一般動詞前；once/twice/X times + a + 時間單位",
+          "trap": "『兩次』口語慣用 twice 而不說 two times;『每天』是 every day(兩個字),everyday(一個字)是形容詞只能修飾名詞(my everyday life),所以不能說 I exercise everyday,要寫 I exercise every day。"
         }
       ],
       "quiz": [
@@ -6829,6 +7543,35 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><text x=\"180\" y=\"26\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">主詞與動詞一致</text><text x=\"14\" y=\"60\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">each student</text><text x=\"352\" y=\"60\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"end\">is (單)</text><line x1=\"120\" y1=\"55\" x2=\"300\" y2=\"55\" stroke=\"#c9755c\" stroke-width=\"1.5\" marker-end=\"url(#a)\"/><defs><marker id=\"a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6\" fill=\"#c9755c\"/></marker></defs><text x=\"14\" y=\"96\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">all students</text><text x=\"352\" y=\"96\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"end\">are (複)</text><line x1=\"120\" y1=\"91\" x2=\"300\" y2=\"91\" stroke=\"#c9755c\" stroke-width=\"1.5\" marker-end=\"url(#a)\"/><circle cx=\"60\" cy=\"140\" r=\"30\" fill=\"#f3e7df\" stroke=\"#f0a52e\" stroke-width=\"2\"/><text x=\"60\" y=\"137\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">everybody</text><text x=\"60\" y=\"153\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\">單數</text><text x=\"110\" y=\"137\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">→ is happy</text><text x=\"110\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#d98072\">neither + 單數動詞</text></svg>",
           "caption": "each/every/複合不定代名詞接單數動詞;all/both 接複數動詞。",
           "trap": "⚠ Every / Each 後縱使指眾多人,動詞仍用單數;誤用 are 是會考常見陷阱(Everyone is,非 are)。"
+        },
+        {
+          "h": "too many / too much / enough 的用法",
+          "points": [
+            "too many 修飾可數複數、too much 修飾不可數,都表示『太多(含負面)』,例如 too many cars、too much sugar。",
+            "enough 當形容詞時放名詞前,表示『足夠的』,例如 enough money、enough chairs。",
+            "enough 當副詞時放形容詞或副詞後,例如 old enough、fast enough,句型 old enough to + 原形動詞。"
+          ],
+          "formula": "形容詞/副詞 + enough + to V",
+          "trap": "enough 修飾名詞放前面(enough time),修飾形容詞放後面(good enough);順序顛倒是常見錯誤,不可說 enough good。"
+        },
+        {
+          "h": "another / other / the other(s) 的區別",
+          "points": [
+            "another 後接單數可數名詞,表示『另一個(不特定)』,例如 I want another cup of tea.",
+            "the other 表示『兩者中的另一個(特定)』,例如 One is red, the other is blue.;the others 表示『其餘全部』。",
+            "other 後接複數名詞或不可數,表示『其他的(不特定)』,例如 some students... other students...;others 單獨用代替 other + 複數名詞。"
+          ],
+          "formula": "another + 單數;the other(特定一個);others = other + 複數",
+          "trap": "another 後只能接單數,不可說 another books;『兩個中的另一個』要用 the other,加 the 表特指,不可用 another。"
+        },
+        {
+          "h": "all / both / none 的否定與部分否定",
+          "points": [
+            "both 指『兩者都』配複數動詞,例如 Both of them are right.;否定『兩者都不』要用 neither,例如 Neither of them is right.",
+            "all 指『三者以上全部』,否定『全部都不』用 none,例如 None of the students passed.",
+            "not all 是『部分否定』,表示『並非全部』,例如 Not all birds can fly.(有些會有些不會)。"
+          ],
+          "trap": "兩者都不要用 neither 不是 both not;not all 是『不是全都』(部分否定),別誤解成『全都不是』,後者要用 none。"
         }
       ],
       "quiz": [
@@ -7162,6 +7905,36 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" rx=\"10\" fill=\"#eef4f2\"/><text x=\"12\" y=\"26\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">原形 vs Ving</text><line x1=\"20\" y1=\"70\" x2=\"340\" y2=\"70\" stroke=\"#3a342e\" stroke-width=\"2\"/><circle cx=\"20\" cy=\"70\" r=\"4\" fill=\"#5aa874\"/><circle cx=\"340\" cy=\"70\" r=\"4\" fill=\"#5aa874\"/><text x=\"20\" y=\"56\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">起</text><text x=\"320\" y=\"56\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">終</text><text x=\"100\" y=\"92\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">saw him cross</text><text x=\"110\" y=\"108\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\">全程→原形</text><path d=\"M20 140 q15 -12 30 0 q15 12 30 0 q15 -12 30 0\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2\"/><text x=\"110\" y=\"145\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">saw him crossing</text><text x=\"120\" y=\"161\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">進行中→Ving</text></svg>",
           "caption": "看到整段動作用原形,強調正在進行用 Ving,被動則用 p.p.。",
           "trap": "⚠ 易把感官動詞後的動詞加 to(誤:saw him to cross);感官動詞與使役動詞一樣,主動受詞補語都「不加 to」。"
+        },
+        {
+          "h": "have sth done:請別人做(對比親手做)",
+          "points": [
+            "have + 物 + p.p. 表『請或找人把某事做好』,動作不是自己做:I had my bike repaired(我把腳踏車送修,不是自己修)。",
+            "對比 I repaired my bike(自己修)與 I had my bike repaired(請人修),意思不同。",
+            "get + 物 + p.p. 意思相同,語氣較口語:I got my hair cut yesterday(昨天去剪了頭髮)。"
+          ],
+          "formula": "have / get + 物(受詞) + p.p.(請人做某事)",
+          "trap": "別把『請人做』寫成原形:錯 I had my bike repair,因為車是『被修』,要用過去分詞 repaired;這結構表示動作由別人完成,不是自己動手。"
+        },
+        {
+          "h": "help 的特殊用法:to 可省略",
+          "points": [
+            "help 後接『受詞 + (to) V』,中間的 to 可有可無:She helped me (to) carry the box(幫我搬箱子)。",
+            "help 也可不接受詞,直接接(to)原形動詞:This app helps (to) improve your English。",
+            "日常與會考多半省略 to,寫成 help me move、help cook dinner 最自然。"
+          ],
+          "formula": "help (+ 受詞) + (to) + 原形 V",
+          "trap": "help 後不接 V-ing:錯 help me carrying the box,要用 help me carry 或 help me to carry;to 可省略,但不能改成 -ing。"
+        },
+        {
+          "h": "make 的被動:to 要還原",
+          "points": [
+            "主動時 make 後接原形:The teacher made us clean the room(老師叫我們打掃)。",
+            "但改成被動後,原本省略的 to 必須補回:We were made to clean the room(我們被要求打掃)。",
+            "感官動詞被動也一樣要還原 to:He was seen to enter the building(有人看到他進入大樓)。"
+          ],
+          "formula": "主動 make + 受詞 + 原形 V → 被動 be made to + 原形 V",
+          "trap": "make 主動接原形(make us go),一旦變被動就要加 to:錯 We were made clean,正確 We were made to clean;這是會考易錯的『被動還原 to』考點。"
         }
       ],
       "quiz": [
@@ -7495,6 +8268,26 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><text x=\"16\" y=\"40\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\">正常語序</text><rect x=\"16\" y=\"50\" width=\"328\" height=\"34\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/><text x=\"28\" y=\"72\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">I have never seen it.</text><text x=\"16\" y=\"112\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">倒裝</text><rect x=\"16\" y=\"122\" width=\"328\" height=\"34\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"28\" y=\"144\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">Never have I seen it.</text><path d=\"M150 118 q30 -14 60 0\" fill=\"none\" stroke=\"#f0a52e\" stroke-width=\"2\"/><text x=\"176\" y=\"104\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\">have 提前</text></svg>",
           "caption": "否定副詞置句首,助動詞提前形成倒裝語序。",
           "trap": "⚠ 倒裝時若主句本無助動詞,務必補 do/does/did 且主動詞回原形 (Not until... did he notice,而非 noticed he);另 No sooner 只配 than、Hardly 只配 when,固定搭配不可張冠李戴。"
+        },
+        {
+          "h": "附加問句的語調與答法 intonation & answering",
+          "points": [
+            "附加問句有兩種語調:語調「下降」代表說話者其實有把握、只是想找對方附和;語調「上揚」代表真的不確定、在詢問。例如 You locked the door, didn't you? 用降調是「我猜你鎖了吧」。",
+            "回答附加問句要看「事實」而非主句的肯否:事實成立就用 Yes,不成立就用 No。問 You aren't tired, are you? 若你真的累,要答 Yes, I am.,不能因為問句帶否定就跟著說 No。",
+            "口語回答常配合助動詞讓句子完整,例如 Yes, I do. 或 No, he isn't.,助動詞要與問句一致,聽起來才自然。"
+          ],
+          "formula": "事實為真→Yes + 助動詞;事實為假→No + 助動詞 + not",
+          "trap": "⚠ 中文式答法陷阱:被問 You don't like coffee, do you? 時,若你其實喜歡,英文要答 Yes, I do.(看事實),很多人受中文「對,我不…/不,我…」影響而答反,造成誤會。"
+        },
+        {
+          "h": "易混的助動詞與主詞回指 auxiliary & pronoun",
+          "points": [
+            "完成式與一般過去式要選對助動詞:現在完成式用 He has finished, hasn't he?;一般過去式用 He finished, didn't he?,兩者助動詞不同不可混用。",
+            "主詞是 this 或 that 時,附加問句的主詞要改用 it,例如 This is yours, isn't it?;主詞是 these、those 或複數名詞時改用 they,例如 These are new, aren't they?。",
+            "主詞是 everyone、everybody、nobody、someone 等指人的不定代名詞時,附加問句主詞習慣用 they,例如 Everyone is here, aren't they? 或 Nobody called, did they?。"
+          ],
+          "formula": "this/that → it;these/those/複數名詞 → they;everyone/nobody → they",
+          "trap": "⚠ 常見錯誤:把 This is your bag, isn't it? 寫成 isn't this?;附加問句主詞必須改成代名詞 it,不能照抄 this 或 that。另 nobody 已含否定,問句要用肯定的 did they?。"
         }
       ],
       "quiz": [
@@ -7828,6 +8621,26 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><text x=\"130\" y=\"26\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">感嘆核心是什麼?</text><line x1=\"130\" y1=\"34\" x2=\"60\" y2=\"66\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"34\" x2=\"230\" y2=\"66\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><rect x=\"18\" y=\"68\" width=\"110\" height=\"22\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"73\" y=\"83\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">後接名詞 → What</text><rect x=\"175\" y=\"68\" width=\"150\" height=\"22\" fill=\"#f3e7df\" stroke=\"#5aa874\"/><text x=\"250\" y=\"83\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\" text-anchor=\"middle\">只接形容詞副詞→ How</text><text x=\"12\" y=\"118\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">What a nice day!</text><text x=\"12\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">How beautiful it is!</text><text x=\"12\" y=\"168\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\">單數可數名詞才加 a/an</text></svg>",
           "caption": "後面接名詞用 What,只接形容詞或副詞用 How。",
           "trap": "⚠ What 後面接複數或不可數名詞時不可加 a/an;感嘆句用正常語序「主詞+動詞」,不要寫成疑問句倒裝。"
+        },
+        {
+          "h": "禮貌祈使句與 please 的位置",
+          "points": [
+            "祈使句加上 please 會更客氣,please 可放句首或句尾,例 Please sit down. 或 Sit down, please.,放句尾時前面常加逗號。",
+            "用 Could you / Would you 開頭把命令改成請求會更有禮貌,例 Could you open the window?,語氣比直接的 Open the window. 委婉。",
+            "在指路或說明步驟時祈使句很實用,例 Turn left at the corner and go straight.。"
+          ],
+          "formula": "(Please) + 原形動詞 + 受詞 (, please)",
+          "trap": "祈使句本身已是命令或請求,別再多加主詞 you 或助動詞 do:錯誤 You please sit down.;另外 please 後面直接接原形動詞,不接 to,錯誤 Please to sit down.。"
+        },
+        {
+          "h": "So 與 Such 的強調(與感嘆句比較)",
+          "points": [
+            "so 後面接形容詞或副詞,例 The movie was so boring.;such 後面接名詞片語,例 It was such a boring movie.。",
+            "可數單數名詞前 such 要加 a/an,例 such a nice gift;複數或不可數名詞前則不加,例 such cute dogs、such delicious food。",
+            "判斷邏輯與 What/How 感嘆句相同——看後面接的是不是名詞,有名詞用 such,只有形容詞或副詞用 so。"
+          ],
+          "formula": "so + 形容詞/副詞 / such + (a/an) + 形容詞 + 名詞",
+          "trap": "so 與 such 後面接的詞類不同,別搞混:正確 so beautiful 或 such a beautiful day,錯誤 so a beautiful day 或 such beautiful(後面缺名詞)。"
         }
       ],
       "quiz": [
@@ -8161,6 +8974,36 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><text x=\"180\" y=\"24\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">問句轉間接:語序還原</text><rect x=\"20\" y=\"38\" width=\"320\" height=\"32\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"30\" y=\"58\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">\"Are you OK?\" (倒裝)</text><line x1=\"180\" y1=\"72\" x2=\"180\" y2=\"96\" stroke=\"#5aa874\" stroke-width=\"2\"/><polygon points=\"180,102 175,92 185,92\" fill=\"#5aa874\"/><rect x=\"20\" y=\"106\" width=\"320\" height=\"32\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"30\" y=\"126\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">asked if I was OK.</text><text x=\"30\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\">用 if/whether,還原直述語序</text><text x=\"30\" y=\"178\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">句尾用句點不用問號</text></svg>",
           "caption": "問句要還原成直述語序、是非題用 if/whether、祈使句用 tell/ask sb (not) to V。",
           "trap": "⚠ 間接問句最常錯在「沒還原語序」或「多留了 do/does/did」;且引述問句要用 ask、句尾用句點,別保留問號或倒裝。"
+        },
+        {
+          "h": "say 與 tell 的用法區別 say vs. tell",
+          "points": [
+            "say 後面「不直接」接聽話的人,要提到人時須加 to,例如 He said to me that...;tell 後面則「一定」直接接受詞,也就是聽話的人,例如 He told me that...。",
+            "因此間接引述常見兩種結構:said (that)... 與 told + 人 + (that)...,例如 She said that she was busy. 與 She told us that she was busy.,意思相近但結構不同。",
+            "命令或請求的轉述固定用 tell 或 ask + 人 + to V,不用 say,例如 The teacher told us to be quiet.,這裡若改用 said 就是錯的。"
+          ],
+          "formula": "say (to 人) + that 子句;tell + 人 + that 子句 / tell + 人 + to V",
+          "trap": "⚠ 高頻錯誤:He told that he was tired.(tell 後漏接人)與 He said me that...(say 後直接接人)都是錯的;正確要寫成 He said (that)... 或 He told me (that)...。"
+        },
+        {
+          "h": "情態助動詞的後移與不變 modals shift",
+          "points": [
+            "會後移的情態助動詞有 will→would、can→could、may→might、must(表義務)→had to,例如 \"I will help.\" 轉述成 He said he would help.。",
+            "本身已是過去形或語氣助動詞的通常不變,例如 would、could、might、should、ought to、used to 維持原樣,如 \"I could swim.\" 轉述成 She said she could swim.。",
+            "表「推測、一定是」的 must 在間接引述中常保留不變,例如 \"He must be rich.\" 轉述成 She said he must be rich.,因為它不是表義務。"
+          ],
+          "formula": "will→would, can→could, may→might, must(義務)→had to",
+          "trap": "⚠ 易錯點:把 must 一律改成 had to;但只有表「義務、必須做」的 must 才變 had to,表「推測、一定是」的 must 不變,而 would、could、might、should 本身也不再後移。"
+        },
+        {
+          "h": "間接引述語序還原 word order",
+          "points": [
+            "轉述疑問句最容易錯的是語序:直接問句的倒裝(助動詞在主詞前)必須還原成「主詞+動詞」的直述語序,例如 \"Where is she?\" 轉述成 He asked where she was.,不是 where was she。",
+            "wh- 間接問句不可再加 do、does、did,例如 \"What do you want?\" 轉述成 She asked what I wanted.,助動詞 do 消失、動詞依時態後移為 wanted。",
+            "間接問句整句其實是直述句,句尾要用句點不用問號,例如 He asked me where I lived. 以句點結尾。"
+          ],
+          "formula": "ask + (人) + 疑問詞/if/whether + 主詞 + 動詞(直述語序)",
+          "trap": "⚠ 兩大語序與標點陷阱:間接問句誤保留倒裝(誤寫 He asked where was she.)、句尾誤用問號;正確要還原成 where she was 並以句點結尾。"
         }
       ],
       "quiz": [
@@ -8494,6 +9337,34 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/>\n<text x=\"14\" y=\"30\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">Either A or B ___ right.</text>\n<rect x=\"24\" y=\"48\" width=\"40\" height=\"26\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\"/>\n<text x=\"44\" y=\"66\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">A</text>\n<text x=\"74\" y=\"66\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">or</text>\n<rect x=\"104\" y=\"48\" width=\"40\" height=\"26\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/>\n<text x=\"124\" y=\"66\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">B</text>\n<path d=\"M44 76 C70 100 110 100 124 80\" stroke=\"#f0a52e\" stroke-width=\"2\" fill=\"none\" marker-end=\"url(#a2)\"/>\n<defs><marker id=\"a2\" markerWidth=\"8\" markerHeight=\"8\" refX=\"4\" refY=\"6\" orient=\"auto\"><path d=\"M1 1 L4 6 L7 1\" fill=\"none\" stroke=\"#f0a52e\" stroke-width=\"1.5\"/></marker></defs>\n<text x=\"150\" y=\"66\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">就近原則</text>\n<text x=\"14\" y=\"120\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">動詞配最靠近的 B</text>\n<rect x=\"14\" y=\"134\" width=\"120\" height=\"26\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#5aa874\"/>\n<text x=\"74\" y=\"152\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"middle\">B 單數 -&gt; is</text>\n<text x=\"150\" y=\"152\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">B 複數 -&gt; are</text>\n</svg>",
           "caption": "either A or B 的動詞看最靠近的 B 決定單複數(就近原則)。",
           "trap": "⚠ 把 either A or B / neither nor 一律當複數,或用「前面那個」決定動詞;會考慣把單數放後面、複數放前面誘導,務必只看緊鄰動詞的 B。"
+        },
+        {
+          "h": "and 連接的並列主詞與一致",
+          "points": [
+            "兩個名詞用 and 連接當主詞,視為複數,動詞用複數,例如 Tom and Jerry are good friends.",
+            "但若 and 連接的是『同一個人事物或視為一體』的概念,動詞用單數,例如 Bread and butter is my breakfast.(視為一道餐點)。",
+            "動名詞片語當主詞時,視為單數,例如 Reading books is fun."
+          ],
+          "trap": "A and B 通常配複數動詞(are/were);但動名詞當主詞(Swimming is...)視為單數,別因為句子看起來長就配錯動詞。"
+        },
+        {
+          "h": "時間、金錢、距離當主詞的一致",
+          "points": [
+            "表示一段時間、一筆金錢、一段距離的數量,雖然形式是複數,但視為『一個整體』,動詞用單數,例如 Ten years is a long time.",
+            "金額作整體時用單數,例如 Five hundred dollars is enough.",
+            "距離作整體時用單數,例如 Ten kilometers is too far to walk."
+          ],
+          "trap": "Two hours 雖有複數 s,當『一段時間整體』時動詞用單數:Two hours is enough,不是 are enough;此為會考高頻陷阱。"
+        },
+        {
+          "h": "a number of / the number of 的一致",
+          "points": [
+            "a number of 意思是『許多』,後接複數名詞、配複數動詞,例如 A number of students are absent today.",
+            "the number of 意思是『…的數目』,真正主詞是 number,配單數動詞,例如 The number of students is increasing.",
+            "判斷重點:看真正主詞是『學生們』還是『數目這個概念』。"
+          ],
+          "formula": "a number of + 複數 + 複數動詞;the number of + 複數 + 單數動詞",
+          "trap": "a number of(許多)配複數動詞,the number of(數目)配單數動詞;只差一個冠詞,動詞單複數卻相反,務必看清。"
         }
       ],
       "quiz": [
@@ -8827,6 +9698,36 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><rect x=\"140\" y=\"78\" width=\"80\" height=\"34\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\" stroke-width=\"2\"/><text x=\"180\" y=\"100\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">light</text><line x1=\"140\" y1=\"95\" x2=\"70\" y2=\"45\" stroke=\"#5aa874\" stroke-width=\"2\"/><line x1=\"180\" y1=\"78\" x2=\"180\" y2=\"30\" stroke=\"#f0a52e\" stroke-width=\"2\"/><line x1=\"220\" y1=\"95\" x2=\"290\" y2=\"45\" stroke=\"#d98072\" stroke-width=\"2\"/><rect x=\"18\" y=\"28\" width=\"104\" height=\"30\" rx=\"6\" fill=\"#fff\" stroke=\"#5aa874\"/><text x=\"70\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\" text-anchor=\"middle\">光 (n.)</text><rect x=\"132\" y=\"12\" width=\"96\" height=\"30\" rx=\"6\" fill=\"#fff\" stroke=\"#f0a52e\"/><text x=\"180\" y=\"32\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\">輕的 (adj.)</text><rect x=\"238\" y=\"28\" width=\"104\" height=\"30\" rx=\"6\" fill=\"#fff\" stroke=\"#d98072\"/><text x=\"290\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#d98072\" text-anchor=\"middle\">點燃 (v.)</text><text x=\"180\" y=\"150\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">看詞性與語境定字義</text><text x=\"180\" y=\"172\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">big &lt; large &lt; huge &lt; enormous</text></svg>",
           "caption": "同一字 light 依詞性分光、輕、點燃三義,須看整句判斷。",
           "trap": "⚠ 多義字最忌只看單字就選最熟悉的意思;務必確認該字在句中是名詞、動詞還是形容詞,再對應字義。"
+        },
+        {
+          "h": "反義字與字首否定 antonyms",
+          "points": [
+            "很多反義字靠『否定字首』形成:happy↔unhappy、possible↔impossible、polite↔impolite、honest↔dishonest、agree↔disagree。",
+            "也有用完全不同字根的成對反義字,要整組記:increase↔decrease(增加/減少)、accept↔refuse(接受/拒絕)、success↔failure(成功/失敗)。",
+            "閱讀遇到 but、however 等轉折詞時,前後常是反義,可用這個線索推測生字語意,例如 He looked calm, but inside he was nervous。"
+          ],
+          "formula": "un-/in-/im-/dis- + 形容詞或動詞 → 反義",
+          "trap": "否定字首不能亂套:impossible 對,但不能說 unpossible;dishonest 對,但不能說 unhonest。哪個字配哪個字首是約定俗成,要逐字記不能自創。"
+        },
+        {
+          "h": "同義字的細微差別 synonyms",
+          "points": [
+            "意思相近的字,語氣或用法常不同:look(看,普通)、watch(看會動的,看電視或比賽)、see(看見,自然映入眼簾);三者不可隨意互換,要說 watch TV、see a movie。",
+            "表『說』的字搭配不同:say 接說話內容、tell 接人、speak 接語言、talk 強調對話這個動作。",
+            "正式與口語也有別:big 較口語、large 較正式,huge 則指『非常大』;buy 較口語、purchase 較正式,會考閱讀偏正式用字。"
+          ],
+          "formula": "同義字 = 核心意思相近,但搭配、語氣或正式度不同",
+          "trap": "see、look、watch 不能互換:看電視是 watch TV 不是 see TV;看電影習慣說 see/watch a movie 不說 look a movie;look 是不及物動詞,後面要加 at 才能接受詞(look at the picture)。"
+        },
+        {
+          "h": "用字根線索猜長字的意思",
+          "points": [
+            "遇到沒看過的長字,先拆字首、字根、字尾來猜:un-(否定)加 believe(相信)加 -able(可…的)等於 unbelievable(難以置信的)。",
+            "認得常見字根能舉一反三:port 有『搬運』之意,所以 import(進口)、export(出口)、transport(運輸)都相關。",
+            "再配合上下文(context clues)確認:看句中的定義、舉例、對比或因果,反推這個字大概是好是壞、是名詞還是動詞。"
+          ],
+          "formula": "字首 + 字根 + 字尾 → 拆解推測字義,再用上下文驗證",
+          "trap": "拆字只是『推測』不一定百分百準,有些字會誤導,例如 invaluable 不是『沒價值』而是『非常珍貴』;最後一定要用整句語境檢查,別只拆字首就下定論。"
         }
       ],
       "quiz": [
@@ -9160,6 +10061,26 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"6\" width=\"348\" height=\"178\" rx=\"10\" fill=\"#eef4f2\"/><text x=\"180\" y=\"30\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">兩種接法對照</text><rect x=\"16\" y=\"46\" width=\"328\" height=\"50\" rx=\"8\" fill=\"#f3e7df\"/><text x=\"24\" y=\"68\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">It rained</text><text x=\"120\" y=\"68\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\">; however ,</text><text x=\"222\" y=\"68\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">we left.</text><text x=\"24\" y=\"88\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">分號↑</text><text x=\"150\" y=\"88\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">逗號↑</text><rect x=\"16\" y=\"112\" width=\"328\" height=\"50\" rx=\"8\" fill=\"#f3e7df\"/><text x=\"24\" y=\"134\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">We left</text><text x=\"110\" y=\"134\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">because</text><text x=\"196\" y=\"134\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">it rained.</text><text x=\"24\" y=\"154\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">從屬連接詞引導子句</text></svg>",
           "caption": "; however, 用分號;because 直接引導子句。",
           "trap": "⚠ 最易錯:用逗號把 however 接兩句(逗號拼接 comma splice);或誤以為 although 後可加逗號獨立成句。"
+        },
+        {
+          "h": "although 與 but 不能同句並用 although ≠ but",
+          "points": [
+            "中文「雖然…但是…」會讓人想兩個都寫,但英文 although 與 but 只能擇一,例如 Although he is poor, he is happy. 或 He is poor, but he is happy.,兩者不可同時出現。",
+            "同理,because 與 so 也不能同句並用,例如 Because it rained, we stayed home. 或 It rained, so we stayed home.,中文「因為…所以…」在英文只留一個。",
+            "although 與 though 引導的是附屬子句,後面那句才是主句;but 與 so 則是對等連接詞,連接兩個對等的句子。"
+          ],
+          "formula": "Although + 子句, 主句。/ 主句, but + 句。(二選一)",
+          "trap": "⚠ 最典型中式英文:Although he is poor, but he is happy.(although 與 but 並用)以及 Because it rained, so we stayed.;英文一句只能保留一個連接詞,另一個必須刪掉。"
+        },
+        {
+          "h": "順序與總結的銜接語 sequence & conclusion",
+          "points": [
+            "敘述步驟或時間順序常用 first、then、after that、finally,例如 First, mix the flour. Then, add the eggs. Finally, bake it.,讓文章脈絡清楚。",
+            "做總結或下結論用 in short、in conclusion、to sum up,例如 In conclusion, reading helps us grow.,通常放在段落最後。",
+            "表「事實上、其實」用 in fact 或 actually,用來補充或更正前一句,例如 He looks young; in fact, he is fifty.。"
+          ],
+          "formula": "順序:First... Then... Finally... / 總結:In conclusion, + 句",
+          "trap": "⚠ 易錯:把表「最後一步」的 finally 與表「終於、等了很久」的 at last 混用;敘述步驟收尾用 finally,而 at last 帶有期盼已久終於發生的情緒,例如 At last, the bus came.。"
         }
       ],
       "quiz": [
@@ -9493,6 +10414,26 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" rx=\"10\" fill=\"#eef4f2\"/><rect x=\"90\" y=\"12\" width=\"180\" height=\"30\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#3a342e\"/><text x=\"180\" y=\"32\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">原句:意義基準</text><rect x=\"14\" y=\"58\" width=\"150\" height=\"28\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#d98072\"/><text x=\"24\" y=\"77\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">✗ 改了否定</text><rect x=\"196\" y=\"58\" width=\"150\" height=\"28\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#d98072\"/><text x=\"206\" y=\"77\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">✗ 改了範圍</text><rect x=\"14\" y=\"98\" width=\"150\" height=\"28\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#d98072\"/><text x=\"24\" y=\"117\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#d98072\">✗ 改了時態</text><rect x=\"196\" y=\"98\" width=\"150\" height=\"28\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"206\" y=\"117\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">✓ 意義相同</text><text x=\"180\" y=\"160\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">檢查:否定 範圍 時態</text></svg>",
           "caption": "四個改寫選項只有一個保留原意,其餘各動了否定、範圍或時態。",
           "trap": "⚠ 同義改寫題不是找『句型最像』的,而是找『意義完全相同』的;最常見陷阱是選項偷改否定詞、把 some 改成 all/no、或把過去改成現在,句型看似對但語意已變。"
+        },
+        {
+          "h": "關係子句與分詞的合句改寫 combining sentences",
+          "points": [
+            "兩句共用同一人或物時,可用關係代名詞合併,例如 The boy is my brother. He is singing. 合併成 The boy who is singing is my brother.,用 who 代替重複的 He。",
+            "關係子句可進一步簡化為分詞片語:主動用現在分詞 V-ing(the man who is waiting → the man waiting),被動用過去分詞 V-pp(the book which was written → the book written)。",
+            "指物用 which,指人用 who,兩者都可改用 that;合併時要刪掉重複的主詞或受詞,避免一句裡出現兩個相同代名詞。"
+          ],
+          "formula": "先行詞 + who/which/that + 子句 = 先行詞 + V-ing / V-pp(分詞化)",
+          "trap": "⚠ 常見錯誤:合併後忘記刪掉重複的代名詞,寫成 The boy who he is singing...(多了 he);關係代名詞 who 已經當主詞,後面不可再放 he。"
+        },
+        {
+          "h": "條件句與 if 的同義改寫 conditional paraphrase",
+          "points": [
+            "祈使句 + and 或 or 可改寫成 if 條件句,例如 Study hard, and you will pass. 等於 If you study hard, you will pass.;Hurry up, or you'll miss it. 等於 If you don't hurry, you'll miss it.(用 or 改寫要加 not)。",
+            "Without + 名詞 可換成 If...not,例如 Without water, we can't live. 等於 If we don't have water, we can't live.,意思都是「沒有…就不能…」。",
+            "Unless 等於 If...not,例如 Unless you leave now, you'll be late. 等於 If you don't leave now, you'll be late.,unless 本身已含否定,後面不再加 not。"
+          ],
+          "formula": "祈使句, and/or... = If (not)...;Without N = If...not;Unless = If...not",
+          "trap": "⚠ 兩個易錯點:用 or 改 if 時要把條件改成否定(Hurry, or... 等於 If you don't hurry...);unless 已含否定,若再寫成 unless you don't... 就變雙重否定而錯。"
         }
       ],
       "quiz": [
@@ -9826,6 +10767,36 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"8\" y=\"8\" width=\"344\" height=\"174\" rx=\"8\" fill=\"#eef4f2\"/><rect x=\"24\" y=\"20\" width=\"312\" height=\"26\" rx=\"4\" fill=\"#f3e7df\"/><text x=\"34\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">Subject: Day off</text><text x=\"230\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">主旨</text><text x=\"34\" y=\"66\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">Dear Mr. Lin,</text><text x=\"230\" y=\"66\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">稱呼:正式</text><text x=\"34\" y=\"94\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">I'm writing to ask...</text><text x=\"230\" y=\"94\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\">目的句</text><text x=\"34\" y=\"122\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">...next Monday.</text><text x=\"230\" y=\"122\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\">細節</text><text x=\"34\" y=\"152\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">Sincerely, Amy</text><text x=\"230\" y=\"152\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">結尾:正式</text></svg>",
           "caption": "email 的主旨、稱呼、目的句、細節、結尾敬語,各自對應不同考點。",
           "trap": "⚠ 把中段細節當成寫信目的。目的幾乎都在第一段的 I'm writing to...;另外 Dear 不代表親密、Sincerely 才判定正式,要靠整體語氣而非單一字。"
+        },
+        {
+          "h": "菜單與點餐單閱讀 menu reading",
+          "points": [
+            "菜單常分區塊:前菜 appetizers、主餐 main dishes、飲料 drinks、甜點 desserts,題目問哪一類就到對應區塊找,不必整張看。",
+            "看清價錢與搭配規則:套餐 set 或 combo 常含飲料,單點要另外加錢;Soup of the day、Today's special 是當日特餐。",
+            "算總額要注意服務費或稅:常見 service charge included(已含服務費)或 plus tax(另加稅),別漏算這些附加費用。"
+          ],
+          "formula": "",
+          "trap": "計算餐費時忽略套餐已含飲料而重複加價,或漏看 service charge、tax 的加成,是應用文常見陷阱;另外 free refill(免費續杯)指飲料不另外收費,別誤算成加購。"
+        },
+        {
+          "h": "時刻表與行程表閱讀 schedule reading",
+          "points": [
+            "時刻表用『行列交叉』定位:先找路線或日期那一欄,再找時間那一列,交叉處就是班次,別被相鄰欄位干擾。",
+            "注意 a.m. 與 p.m. 及 24 小時制:14:30 就是下午 2:30;departure 是出發、arrival 是抵達,問抵達就看 arrival 那一欄。",
+            "留意附註與例外:daily(每天)、weekdays only(僅平日)、except Sundays(週日除外),班次常有限定日期。"
+          ],
+          "formula": "",
+          "trap": "把出發 departure 與抵達 arrival 看反,或忽略 weekdays only、except Sundays 等限定條件,是時刻表題最常見失分;算時間差遇跨整點要正確進位(9:50 到 10:20 是 30 分鐘)。"
+        },
+        {
+          "h": "邀請卡與通知單閱讀 invitation and notice",
+          "points": [
+            "邀請卡先抓 5W:活動是什麼 what(生日派對、婚禮)、時間 when、地點 where、邀請對象 who,以及是否需要回覆。",
+            "RSVP 是『請回覆』,常附截止日,如 by June 5,題目常考要在何時前回覆或聯絡誰。",
+            "通知單(notice)多為規定或提醒:看 must、should、do not、No + Ving(如 No parking 禁止停車)等指令字,快速抓出要求與禁止事項。"
+          ],
+          "formula": "",
+          "trap": "RSVP 容易被誤解,它是『請回覆出席與否』而非活動名稱;通知單的 No smoking、Keep off the grass 等否定指令是考點,別把禁止事項看成允許事項。"
         }
       ],
       "quiz": [
@@ -10159,6 +11130,36 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#f3e7df\"/><rect x=\"12\" y=\"20\" width=\"96\" height=\"28\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"60\" y=\"39\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">menu</text><rect x=\"12\" y=\"58\" width=\"96\" height=\"28\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"60\" y=\"77\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">order</text><rect x=\"12\" y=\"96\" width=\"96\" height=\"28\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"60\" y=\"115\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">tip</text><path d=\"M112 34 L 210 80\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2\"/><path d=\"M112 72 L 210 84\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2\"/><path d=\"M112 110 L 210 92\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2\"/><circle cx=\"262\" cy=\"86\" r=\"40\" fill=\"#eef4f2\" stroke=\"#f0a52e\" stroke-width=\"2\"/><text x=\"262\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\">推論</text><text x=\"262\" y=\"98\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">在餐廳</text><rect x=\"12\" y=\"150\" width=\"336\" height=\"28\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#c9755c\"/><text x=\"180\" y=\"169\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">線索集合須有文本依據</text></svg>",
           "caption": "把零散的線索字集合起來,匯聚指向同一個可由文本支持的推論。",
           "trap": "⚠ 推論題最常見的錯誤有二:一是選「文中直接寫出」的句子(那是細節題不是推論),二是選「合理但文章沒提到」的延伸選項。正解必須「文中沒明說卻有證據支持」,過與不及都錯。"
+        },
+        {
+          "h": "言外之意與弦外之音 implication",
+          "points": [
+            "推論題常考『說話者的言外之意』:有人問 Is it cold in here? 並非單純問天氣,可能暗示『請關窗或開暖氣』,要從情境推出真正用意。",
+            "對話中的婉轉拒絕要讀懂:Maybe next time、I'll think about it 常是客氣的『不要、拒絕』,不是真的答應。",
+            "從人物的反應與語氣推測情緒:皺眉、嘆氣、沉默常暗示不滿或為難,文字雖沒明說 angry,仍可合理推得其心情。"
+          ],
+          "formula": "",
+          "trap": "推論要『有文本依據』但不可『過度延伸』:從 Maybe next time 推出『他答應了』是過度解讀;只能推到文字證據支持的程度,別把個人想像當作答案。"
+        },
+        {
+          "h": "由細節推時間地點與職業 inferring setting",
+          "points": [
+            "集合多個線索字指向同一情境:出現 boarding pass、gate、flight 推測在機場;出現 blackboard、homework、quiz 推測在學校或教室。",
+            "由活動與用品推測職業或身分:看到 take your temperature、medicine 推測對方是醫生或護理師;看到 menu、order、bill 推測是服務生與顧客。",
+            "由季節、天氣與穿著推測時間:wear a coat、snow 推測冬天;leaves turn red、cooler days 推測秋天,文章未明說也能推得。"
+          ],
+          "formula": "",
+          "trap": "單一線索字不足以下定論,要『多個線索交叉』才可靠;例如只看到 water 就推在游泳池太武斷,須結合 swimsuit、lifeguard 等才成立,避免以偏概全。"
+        },
+        {
+          "h": "代名詞與指示詞的指代 pronoun reference",
+          "points": [
+            "this、that、it 有時不指單一名詞,而是『指前面整句或整件事』:看到 This means... 或 That's why...,先行詞往往是前一句敘述的事實,不是某個單字。",
+            "one、ones 用來代替前面提過的『同類但不同個』名詞:I lost my pen, so I bought a new one,one 代替 pen,但指的是另一支。",
+            "指代要把代名詞代回原句通讀,確認意思通順;單複數也要對應,things 用 they、a book 用 it。"
+          ],
+          "formula": "",
+          "trap": "this、that 指『整件事』時,別硬找一個單字當先行詞,要把整個概念代回去通讀才正確;另外代名詞與先行詞的單複數須一致,單數名詞別用 they 回指。"
         }
       ],
       "quiz": [
@@ -10492,6 +11493,36 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><text x=\"180\" y=\"18\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">時刻表的時間差計算</text><line x1=\"30\" y1=\"40\" x2=\"330\" y2=\"40\" stroke=\"#3a342e\"/><line x1=\"30\" y1=\"70\" x2=\"330\" y2=\"70\" stroke=\"#3a342e\"/><line x1=\"30\" y1=\"100\" x2=\"330\" y2=\"100\" stroke=\"#3a342e\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"100\" stroke=\"#3a342e\"/><line x1=\"225\" y1=\"40\" x2=\"225\" y2=\"100\" stroke=\"#3a342e\"/><text x=\"75\" y=\"60\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">車次</text><text x=\"172\" y=\"60\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">出發</text><text x=\"277\" y=\"60\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">抵達</text><text x=\"75\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">A 車</text><text x=\"172\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">9:00</text><text x=\"277\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">9:45</text><path d=\"M172,108 q53,28 105,0\" fill=\"none\" stroke=\"#f0a52e\" stroke-width=\"2\"/><polygon points=\"277,108 270,110 274,116\" fill=\"#f0a52e\"/><text x=\"225\" y=\"150\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">9:45 − 9:00 = 45 分</text></svg>",
           "caption": "表格用行列交叉定位，時刻表用抵達減出發算時間差。",
           "trap": "⚠ 時間差跨整點易算錯：9:50 到 10:20 應一段一段算 (9:50→10:00 是 10 分，再 +20) 共 30 分鐘，別直接 20−50。整合題只看圖不看文字補充條件 (折扣/限制) 也常中陷阱。"
+        },
+        {
+          "h": "比例與比較用語 proportion and comparison",
+          "points": [
+            "圖表常考比例與倍數語:half(一半)、a quarter(四分之一)、a third(三分之一);twice as many as 是『兩倍』、three times as many as 是『三倍』。",
+            "比較級與最高級對應大小:more than 比…多、fewer/less than 比…少;the most 最多、the least 最少,選項常用這些字描述名次。",
+            "圓餅圖各部分總和等於整體(100%),若題目問剩下占多少,可用 100% 減去已知各塊。"
+          ],
+          "formula": "twice as many as = 兩倍;100% − 已知 = 剩餘",
+          "trap": "twice as many as A 是 A 的兩倍,別誤算成多兩個;more、fewer 用於可數名詞,less 用於不可數,如 fewer students、less water,別把可數與不可數搞混。"
+        },
+        {
+          "h": "趨勢動詞與名詞轉換 trend verbs",
+          "points": [
+            "描述上升下降可用動詞或名詞兩種說法:動詞 Sales increased,名詞 There was an increase in sales,意思相同但句構不同。",
+            "趨勢程度看修飾語:sharply、rapidly(急遽)表變化大,slightly、gradually(略微、逐漸)表變化小,選項常靠這些副詞區分。",
+            "持平與起伏也要會讀:stay the same(維持不變)、reach a peak(達到高峰)、fall to the bottom(跌到谷底)。"
+          ],
+          "formula": "Sales increased(V);There was an increase in sales(N)",
+          "trap": "rise 是不及物動詞(The price rose,後面不接受詞),raise 是及物動詞(raise the price,後面要受詞),兩字最常混用;另外 an increase 後面接 in,如 an increase in sales,別漏掉介系詞。"
+        },
+        {
+          "h": "圖表整合與推論題 chart inference",
+          "points": [
+            "整合題要把『圖表數據』與『文字敘述』合起來判讀:文字常補充圖表沒寫的條件,如折扣、人數上限、額外運費,只看圖會選錯。",
+            "圖表也能推論:折線連續上升可推 will keep rising(將持續成長),圓餅最大塊可推 most people prefer...(多數人偏好),但推論須有數據支撐不可亂猜。",
+            "True、False、Not Mentioned 三分法:文中沒提到的不能當 true 也不算 false,常被設為干擾選項,要逐句回圖表核對。"
+          ],
+          "formula": "",
+          "trap": "Not Mentioned(未提及)與 False(錯誤)不同:圖表沒出現的資訊不能推斷為『錯』,也不能當『對』;憑常識補充圖表外的資訊作答,是整合題最常見的失分原因。"
         }
       ],
       "quiz": [
@@ -10825,6 +11856,36 @@ window.STUDYSYNC.data.subjects.english = {
           "svg": "<svg viewBox=\"0 0 360 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"190\" fill=\"#eef4f2\"/><rect x=\"12\" y=\"16\" width=\"110\" height=\"34\" rx=\"5\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"20\" y=\"37\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">First …(主題)</text><rect x=\"12\" y=\"62\" width=\"110\" height=\"34\" rx=\"5\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"20\" y=\"83\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">Then …(說明)</text><rect x=\"12\" y=\"108\" width=\"110\" height=\"34\" rx=\"5\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"20\" y=\"129\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">It …(回指)</text><rect x=\"12\" y=\"152\" width=\"110\" height=\"30\" rx=\"5\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"20\" y=\"172\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">Finally …(結論)</text><path d=\"M 130 33 L 200 33\" stroke=\"#5aa874\" stroke-width=\"2\" marker-end=\"url(#a)\"/><defs><marker id=\"a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0,0 L6,3 L0,6 Z\" fill=\"#5aa874\"/></marker></defs><text x=\"210\" y=\"60\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">順序詞</text><text x=\"210\" y=\"100\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\">代名詞</text><text x=\"210\" y=\"140\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">收尾結論</text></svg>",
           "caption": "用順序詞、轉折詞與回指代名詞把句子串成 1→2→3→4 的邏輯鏈。",
           "trap": "⚠ 易把含 it/they/this 的句子誤當首句;首句應是最概括、不依賴前文的主題句,否則整段指代落空。"
+        },
+        {
+          "h": "連接詞與子句的排序線索 conjunctions",
+          "points": [
+            "對等連接詞 and / but / or / so 連接地位相等的兩部分,重組時放在兩個句子之間,例如 He was tired, so he went to bed early.。",
+            "從屬連接詞 because / when / if / although 帶出副詞子句,可放句首或句中:放句首時兩句之間要加逗號,例如 When it rains, we stay home.。",
+            "關係代名詞 who / which / that 緊跟在它所修飾的名詞之後,例如 The boy who is singing is my brother.。"
+          ],
+          "formula": "從屬子句在前:Conj. + S + V, + 主要子句(When I got home, she left.)",
+          "trap": "中文「因為…所以…」不可在英文同一句裡各放一個連接詞:because 與 so 只能擇一,寫 Because it rained, so we stayed home. 是典型錯誤,要刪掉其中一個。"
+        },
+        {
+          "h": "重組句的標點與大小寫線索 punctuation cues",
+          "points": [
+            "句首字首字母要大寫,重組時開頭詞要選原本大寫的那個字塊;帶句尾標點(. ? !)的字塊放最後。",
+            "問號結尾代表疑問句,要把助動詞或疑問詞往前排,例如 Where are you going?。",
+            "逗號常標出插入語或子句邊界,可幫忙判斷哪兩段該相鄰,例如 After school, we play basketball.。"
+          ],
+          "formula": "",
+          "trap": "別忽略標點線索:含問號的字塊一定組成問句、語序要把助動詞或疑問詞提前;若排成直述語序(You are going where?)就錯了,標點與語序必須一致。"
+        },
+        {
+          "h": "時間與邏輯順序定首尾 time & logic order",
+          "points": [
+            "敘述事件依時間先後排:先 First / In the morning,再 Then / Next,最後 Finally / In the end。",
+            "含結果或總結的句子放後面,常以 So / As a result / In short 開頭。",
+            "舉例的句子 For example… 不會當第一句,因為它必須先有一個概括的主題句在前面。"
+          ],
+          "formula": "",
+          "trap": "含 For example / For instance 的句子不能放開頭:它要承接前一句的概括說法;同理 also / too / either 也表示前面已提過某事,通常不是第一句。"
         }
       ],
       "quiz": [
