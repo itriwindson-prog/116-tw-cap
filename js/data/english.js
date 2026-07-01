@@ -1843,6 +1843,17 @@ window.STUDYSYNC.data.subjects.english = {
           ],
           "formula": "The + 比較級..., the + 比較級... = 愈…愈…",
           "trap": "good/bad 的比較級是不規則的 better/worse,不可說 gooder、badder;『愈…愈…』兩個子句前都要加 the。"
+        },
+        {
+          "h": "分詞當形容詞:V-ing 主動令人 vs p.p. 被動感到",
+          "points": [
+            "會考最愛考『情緒動詞』的分詞怎麼選。口訣:形容『事物本身令人怎樣』用現在分詞 V-ing 表主動,例如 The movie is boring,電影本身很無聊、令人厭煩;形容『人被弄得感到怎樣』用過去分詞 p.p. 表被動,例如 I am bored,我感到無聊。同組還有 interesting 有趣的事物對 interested 感興趣的人、exciting 對 excited、surprising 對 surprised、tiring 對 tired。",
+            "解題兩步驟:第一步看被形容的是『人』還是『事物』;第二步問『這東西令別人有情緒』還是『這人自己感到情緒』。令別人就用 V-ing,自己感到就用 p.p.。要注意 people、students 這種『人』通常是感到情緒,多半配 p.p.,例如 The students were excited。",
+            "分詞片語放在名詞後面『後位修飾』,等於把關係子句化簡。主動用 V-ing,例如 the man standing there 就是 the man who is standing there,站在那裡的男人;被動用 p.p.,例如 the book written by him 就是 the book which was written by him,他寫的書。看到名詞後面接分詞,先判斷這名詞是自己做動作用 V-ing、還是被動作用 p.p.,就能選對。"
+          ],
+          "trap": "最常錯把『人』一律配 V-ing。I am boring 是『我這個人很無聊、讓別人覺得無趣』,不是『我覺得無聊』;要說『我覺得無聊』得用 I am bored。同理 She is interested in art,她對藝術有興趣,不可寫成 interesting。",
+          "svg": "<svg viewBox=\"0 0 340 150\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"12\" y=\"20\" width=\"150\" height=\"110\" rx=\"8\" fill=\"#f3e7df\"/><rect x=\"178\" y=\"20\" width=\"150\" height=\"110\" rx=\"8\" fill=\"#eef4f2\"/><text x=\"87\" y=\"44\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c9755c\" font-weight=\"bold\">V-ing 主動</text><text x=\"87\" y=\"70\" font-size=\"12\" text-anchor=\"middle\" fill=\"#3a342e\">事物令人…</text><text x=\"87\" y=\"92\" font-size=\"12\" text-anchor=\"middle\" fill=\"#3a342e\">boring 令人厭</text><text x=\"87\" y=\"113\" font-size=\"12\" text-anchor=\"middle\" fill=\"#3a342e\">The book is</text><text x=\"253\" y=\"44\" font-size=\"15\" text-anchor=\"middle\" fill=\"#5aa874\" font-weight=\"bold\">p.p. 被動</text><text x=\"253\" y=\"70\" font-size=\"12\" text-anchor=\"middle\" fill=\"#3a342e\">人感到…</text><text x=\"253\" y=\"92\" font-size=\"12\" text-anchor=\"middle\" fill=\"#3a342e\">bored 感到厭</text><text x=\"253\" y=\"113\" font-size=\"12\" text-anchor=\"middle\" fill=\"#3a342e\">I am</text></svg>",
+          "caption": "事物令人→V-ing;人自己感到→p.p.,是會考選分詞的判斷關鍵。"
         }
       ],
       "quiz": [

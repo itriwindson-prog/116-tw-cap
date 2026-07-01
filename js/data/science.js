@@ -69,6 +69,31 @@ window.STUDYSYNC.data.subjects.science = {
           ],
           "formula": "同向：F合 = F₁ + F₂；反向：F合 = F₁ − F₂；平衡：F合 = 0",
           "trap": "合力為零不代表一定靜止！等速直線前進的物體合力也是零；『合力為零』對應的是『不加速』，速度可以是零、也可以是固定不變的定值。"
+        },
+        {
+          "h": "v-t圖與x-t圖的判讀",
+          "points": [
+            "v-t圖(速度對時間)是會考最愛:水平線代表等速度、斜直線代表等加速度、貼在時間軸上代表速度為零也就是靜止。記住口訣「斜率是加速度、圖下面積是位移」,考斜率就看線斜不斜、考位移就算圖形圍出來的面積。",
+            "x-t圖(位置對時間)判讀方式不同:這裡的斜率代表速度、不是加速度。水平線代表物體停在原地位置不變,斜線往上代表往前走,線先上升再下降代表折返往回走。",
+            "解題步驟:先看清楚縱軸是速度還是位置,再判斷線是水平、斜直線還是曲線,對應到等速、等加速或靜止;遇到反推題就相反,由文字情境例如先加速再等速再煞車,畫出對應的線段。"
+          ],
+          "formula": "v-t圖:斜率 = a、圖下面積 = 位移 s;x-t圖:斜率 = v",
+          "trap": "別把兩種圖搞混!x-t圖的斜率是速度、不是加速度;而且「水平線」在兩張圖意義相反:v-t圖的水平線是等速度(物體仍在移動),x-t圖的水平線卻是靜止(位置不變)。",
+          "svg": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"24\" y=\"20\" width=\"150\" height=\"150\" fill=\"#eef4f2\"/><line x1=\"24\" y1=\"170\" x2=\"174\" y2=\"170\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"24\" y1=\"170\" x2=\"24\" y2=\"20\" stroke=\"#3a342e\" stroke-width=\"2\"/><text x=\"18\" y=\"30\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"end\">v</text><text x=\"178\" y=\"184\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">t</text><line x1=\"24\" y1=\"130\" x2=\"150\" y2=\"130\" stroke=\"#5aa874\" stroke-width=\"3\"/><text x=\"90\" y=\"122\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5aa874\" text-anchor=\"middle\">等速(水平)</text><line x1=\"24\" y1=\"160\" x2=\"150\" y2=\"60\" stroke=\"#c9755c\" stroke-width=\"3\"/><text x=\"118\" y=\"52\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#c9755c\" text-anchor=\"middle\">等加速</text><line x1=\"24\" y1=\"170\" x2=\"150\" y2=\"170\" stroke=\"#f0a52e\" stroke-width=\"4\"/><text x=\"90\" y=\"166\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f0a52e\" text-anchor=\"middle\">v=0 靜止</text><text x=\"99\" y=\"14\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">v-t 圖</text><rect x=\"200\" y=\"20\" width=\"150\" height=\"150\" fill=\"#f3e7df\"/><line x1=\"200\" y1=\"170\" x2=\"350\" y2=\"170\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"200\" y1=\"170\" x2=\"200\" y2=\"20\" stroke=\"#3a342e\" stroke-width=\"2\"/><text x=\"194\" y=\"30\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"end\">x</text><text x=\"348\" y=\"184\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"end\">t</text><line x1=\"200\" y1=\"60\" x2=\"350\" y2=\"60\" stroke=\"#f0a52e\" stroke-width=\"3\"/><text x=\"275\" y=\"54\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#f0a52e\" text-anchor=\"middle\">水平線=靜止</text><line x1=\"200\" y1=\"160\" x2=\"300\" y2=\"70\" stroke=\"#c9755c\" stroke-width=\"3\"/><line x1=\"300\" y1=\"70\" x2=\"350\" y2=\"160\" stroke=\"#c9755c\" stroke-width=\"3\"/><text x=\"298\" y=\"66\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#c9755c\" text-anchor=\"middle\">折返往回</text><text x=\"275\" y=\"14\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">x-t 圖</text></svg>",
+          "caption": "左為v-t圖(斜率=加速度、面積=位移),右為x-t圖(斜率=速度);同是水平線意義卻相反"
+        },
+        {
+          "h": "物理量單位、科學記號與圖表數據判讀",
+          "points": [
+            "會考探究題常先給你一張數據表或圖，要你找『變因關係』:先認出操縱變因(自己改的那一項)與應變變因(隨之改變、被量測的那一項),其餘條件都要固定當控制變因;判讀時看某量增加時另一量是變大、變小還是不變。",
+            "儀器讀數口訣:眼睛要平視刻度、視線垂直,量筒與溫度計讀『彎液面最低處』的那一格;讀數要估到最小刻度的下一位(有效數字),例如最小刻度是一毫升就要估讀到零點一毫升。",
+            "單位換算與科學記號:先把單位統一再計算,像公里每小時要除以三點六換成公尺每秒;很大或很小的數用科學記號寫成一個介於一到十的數乘以十的次方,比較大小時先看十的次方。",
+            "解跨主題實驗題的步驟:一是看清楚表頭與單位,二是圈出操縱與應變變因,三是逐列比較找規律(是否成正比、反比或有轉折),再對照選項。"
+          ],
+          "formula": "1 km/hr = 1/3.6 m/s；科學記號 a × 10ⁿ (1 ≤ a < 10)；讀數 = 準確值 + 一位估計值",
+          "trap": "最常錯在兩點:一是俯視或仰視量筒導致讀數偏大或偏小(必須平視彎液面最低處);二是換算前就直接把不同單位的數字相加減。另外，控制變因沒固定就無法判斷是哪個變因造成結果,實驗會失去公平性。",
+          "svg": "<svg viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"120\" y=\"30\" width=\"70\" height=\"140\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"120\" y1=\"60\" x2=\"140\" y2=\"60\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"85\" x2=\"140\" y2=\"85\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"126\" x2=\"145\" y2=\"126\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"120\" y1=\"150\" x2=\"140\" y2=\"150\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><path d=\"M120 116 Q155 130 190 116 L190 170 L120 170 Z\" fill=\"#5aa874\" opacity=\"0.55\"/><path d=\"M120 116 Q155 130 190 116\" fill=\"none\" stroke=\"#5aa874\" stroke-width=\"2.5\"/><line x1=\"200\" y1=\"126\" x2=\"289\" y2=\"126\" stroke=\"#c9755c\" stroke-width=\"2.5\" stroke-dasharray=\"5 3\"/><polygon points=\"200,126 212,121 212,131\" fill=\"#c9755c\"/><circle cx=\"290\" cy=\"126\" r=\"9\" fill=\"none\" stroke=\"#3a342e\" stroke-width=\"2\"/><text x=\"288\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">眼睛平視</text><text x=\"196\" y=\"112\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"end\">讀最低處</text><text x=\"155\" y=\"22\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">量筒</text></svg>",
+          "caption": "讀量筒要眼睛平視、以彎液面最低處(中央凹陷)對齊刻度"
         }
       ],
       "quiz": [
@@ -839,6 +864,19 @@ window.STUDYSYNC.data.subjects.science = {
           ],
           "formula": "溫度:強度性質(不可相加);內能:外延性質(可相加);熱量正比 m × c × ΔT",
           "trap": "『溫度高』不等於『內能多』。一杯九十度的熱水所含的總內能,可能比一大鍋五十度的溫水還少,因為內能還要看質量與比熱;只把兩杯同溫度的水溫度相加成一百二十度更是大錯。"
+        },
+        {
+          "h": "加熱曲線判讀:平台段就是潛熱",
+          "points": [
+            "會考給一張溫度對時間的加熱曲線,判讀口訣是「斜線在升溫、水平就在變狀態」。整條曲線分五段:先固態升溫、第一個水平段是熔化、接著液態升溫、第二個水平段是沸騰、最後氣態升溫。斜線段溫度一直上升,水平段溫度停住不變。",
+            "要讀熔點和沸點,就看兩段水平線各對應的溫度:第一段水平線對到的溫度就是熔點,第二段水平線對到的溫度就是沸點,直接從縱軸讀值,不要去看時間。",
+            "比較哪一段吸熱多,就看那一段的時間拉得多長。在同樣火力持續加熱的前提下,水平段拖得越久代表吸收的潛熱越多;以水來說,沸騰的水平段通常比熔化長很多,因為汽化潛熱遠大於熔化潛熱。",
+            "判斷純物質或混合物,看水平段夠不夠平:純物質有固定熔沸點,兩個水平段是完全水平的;混合物沒有固定熔沸點,同一段會緩緩斜著往上爬,看不到清楚的水平線。"
+          ],
+          "formula": "斜線段:Q = m c ΔT(溫度改變);水平段:Q = m L(潛熱,溫度不變);同質量同火力下,熔化潛熱 < 汽化潛熱",
+          "trap": "兩段水平線讀出的是熔點與沸點,不是「加熱到那個時間才開始升溫」;而且水平段溫度不變並非停止吸熱,是持續吸熱但熱都拿去改變狀態。另外別把縱軸的溫度和橫軸的時間看混:熔沸點看溫度高度,吸熱多少看時間長短。",
+          "svg": "<svg viewBox=\"0 0 360 220\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"25\" x2=\"45\" y2=\"180\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"45\" y1=\"180\" x2=\"340\" y2=\"180\" stroke=\"#3a342e\" stroke-width=\"2\"/><text x=\"20\" y=\"30\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">溫度</text><text x=\"305\" y=\"197\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">時間</text><line x1=\"45\" y1=\"130\" x2=\"115\" y2=\"130\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"6\" y=\"134\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#c9755c\">熔點</text><line x1=\"45\" y1=\"70\" x2=\"235\" y2=\"70\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"6\" y=\"74\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#c9755c\">沸點</text><polyline points=\"45,165 80,130 115,130 165,70 235,70 300,40\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"3\"/><rect x=\"80\" y=\"124\" width=\"35\" height=\"12\" fill=\"#f0a52e\"/><text x=\"97\" y=\"133\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3a342e\" text-anchor=\"middle\">熔化</text><rect x=\"165\" y=\"64\" width=\"70\" height=\"12\" fill=\"#f0a52e\"/><text x=\"200\" y=\"73\" font-family=\"sans-serif\" font-size=\"9\" fill=\"#3a342e\" text-anchor=\"middle\">沸騰</text><text x=\"200\" y=\"212\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5aa874\" text-anchor=\"middle\">水平段越長 吸的潛熱越多</text></svg>",
+          "caption": "兩段水平線對到的溫度就是熔點與沸點,水平段溫度不變但持續吸潛熱。"
         }
       ],
       "quiz": [
@@ -3153,6 +3191,19 @@ window.STUDYSYNC.data.subjects.science = {
           ],
           "formula": "澱粉 + 碘液 → 藍黑色；還原糖 + 本氏液 →(加熱) 磚紅色；蛋白質 + 縮二脲試劑 → 紫色",
           "trap": "本氏液檢驗還原糖『必須加熱』才會變色，沒加熱仍是藍色不代表沒有糖；且碘液變『藍黑』代表還有澱粉、不變色才代表澱粉已被分解，顏色判讀方向勿弄反。"
+        },
+        {
+          "h": "科學探究：三變因與對照組的辨識",
+          "points": [
+            "先認出三種變因:操縱變因是『你故意去改變』的那一項(如溫度高低、有無照光);應變變因是『隨之改變、被你量測』的結果(如澱粉有沒有被分解、產生的氣泡多少);控制變因是『必須保持相同』的其他所有條件(如份量、時間、酸鹼值)。",
+            "解變因題的口訣是『只變一個、其餘全同』:一次只讓操縱變因不同,其他條件都當控制變因固定住,才能確定結果是這個變因造成的,這叫公平測試。題目問『必須控制相同的變因』,答案就是操縱變因以外的全部條件。",
+            "對照組是『不做處理、或維持在正常標準』的那一組,當作比較的基準;實驗組則接受你要研究的處理,兩組之間只能有操縱變因這一項不同。若沒有對照組可比,或同時改了兩個變因,就無法判斷是哪個原因造成差異,結論就不可靠。",
+            "遇到新實驗題的步驟:一問這實驗想證明什麼、二找出唯一不同的操縱變因、三確認其他條件都相同、四比較兩組應變變因的結果差異,再下結論。"
+          ],
+          "formula": "公平測試:操縱變因『不同』；控制變因『全部相同』；應變變因『被量測』。實驗組 vs 對照組:只差操縱變因一項",
+          "trap": "最常錯的是把該變動的操縱變因也當成『要控制相同』而選錯;題目問『必須相同』時,正是操縱變因『以外』的所有條件,別把操縱變因本身選進去。另一個陷阱是一次改了兩個以上的變因,這樣就分不清是哪個造成結果,實驗失去公平性。",
+          "svg": "<svg viewBox=\"0 0 320 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"12\" y=\"12\" width=\"140\" height=\"186\" rx=\"8\" fill=\"#eef4f2\" stroke=\"#5aa874\" stroke-width=\"1.5\"/><rect x=\"168\" y=\"12\" width=\"140\" height=\"186\" rx=\"8\" fill=\"#f3e7df\" stroke=\"#c9755c\" stroke-width=\"1.5\"/><rect x=\"12\" y=\"12\" width=\"140\" height=\"26\" rx=\"8\" fill=\"#5aa874\"/><rect x=\"168\" y=\"12\" width=\"140\" height=\"26\" rx=\"8\" fill=\"#c9755c\"/><text x=\"82\" y=\"30\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#ffffff\" text-anchor=\"middle\">對照組</text><text x=\"238\" y=\"30\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#ffffff\" text-anchor=\"middle\">實驗組</text><text x=\"82\" y=\"62\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">溫度 37℃</text><text x=\"238\" y=\"62\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">溫度 80℃</text><rect x=\"186\" y=\"50\" width=\"104\" height=\"18\" rx=\"4\" fill=\"none\" stroke=\"#f0a52e\" stroke-width=\"2\"/><text x=\"238\" y=\"88\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f0a52e\" text-anchor=\"middle\">↑ 操縱變因(唯一不同)</text><text x=\"82\" y=\"116\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">澱粉量 相同</text><text x=\"238\" y=\"116\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">澱粉量 相同</text><text x=\"82\" y=\"138\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">唾液量 相同</text><text x=\"238\" y=\"138\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">唾液量 相同</text><text x=\"82\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">時間 相同</text><text x=\"238\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">時間 相同</text><text x=\"160\" y=\"186\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5aa874\" text-anchor=\"middle\">其餘皆為控制變因(全相同)</text></svg>",
+          "caption": "兩組只差操縱變因一項(溫度),其餘全為控制變因,才是公平測試。"
         }
       ],
       "quiz": [
@@ -4938,6 +4989,18 @@ window.STUDYSYNC.data.subjects.science = {
           ],
           "formula": "體內毒物濃度：生產者 < 初級消費者 < 次級消費者 < … < 頂級消費者",
           "trap": "生物放大放大的是『難分解毒物的濃度』，不是能量；能量沿食物鏈是逐級遞減的。別把『毒物越高階越濃』和『能量越高階越多』搞混——能量恰好相反。"
+        },
+        {
+          "h": "生態系的組成:層次與生物、非生物因子",
+          "points": [
+            "組織層次由小到大排：個體→族群→群集→生態系→生物圈。族群是同一區域內的『同種』生物全部個體;群集是同一區域內『所有不同種』的族群合起來;生態系再把群集加上陽光、溫度、水、土壤等非生物環境;生物圈則是地球上所有生態系的總和。會考常給定義要你選對層次,或給情境(如某湖中所有的魚算不算一個族群)判斷對錯——記得同種才叫族群。",
+            "影響生物的因子分兩類:生物因子是生物之間的關係,像競爭、捕食、寄生、互利共生與片利共生;非生物因子是環境條件,像光、溫度、水分、空氣與土壤。解題時先問『這個影響來自另一個生物,還是來自環境』,就能分類。",
+            "種內競爭是同種爭同樣資源;種間競爭是不同種爭相同資源。互利共生是雙方都得利(如豆科植物與根瘤菌);片利共生是一方得利、另一方沒有明顯影響(既不得利也不受害)。看『誰得利、誰受影響』就能判別交互作用類型。"
+          ],
+          "formula": "個體 → 族群(同種) → 群集(多種族群) → 生態系(群集+非生物環境) → 生物圈",
+          "trap": "最常錯把『族群』和『群集』混用:一片森林裡所有的『梅花鹿』是一個族群(同種),整片森林所有生物合起來才是群集(多種)。另一個常見錯誤是把片利共生說成『另一方受害』——片利共生的另一方是『無明顯影響』,若另一方受害那是寄生。也別把光、溫、水當成生物因子,那些是非生物因子。",
+          "svg": "<svg viewBox=\"0 0 340 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"14\" y=\"60\" width=\"46\" height=\"40\" rx=\"4\" fill=\"#f3e7df\" stroke=\"#3a342e\"/><text x=\"37\" y=\"84\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">個體</text><rect x=\"74\" y=\"55\" width=\"50\" height=\"50\" rx=\"4\" fill=\"#5aa874\" fill-opacity=\"0.5\" stroke=\"#3a342e\"/><text x=\"99\" y=\"84\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">族群</text><rect x=\"138\" y=\"50\" width=\"56\" height=\"60\" rx=\"4\" fill=\"#f0a52e\" fill-opacity=\"0.5\" stroke=\"#3a342e\"/><text x=\"166\" y=\"84\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">群集</text><rect x=\"208\" y=\"44\" width=\"62\" height=\"72\" rx=\"4\" fill=\"#c9755c\" fill-opacity=\"0.5\" stroke=\"#3a342e\"/><text x=\"239\" y=\"84\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">生態系</text><rect x=\"284\" y=\"38\" width=\"44\" height=\"84\" rx=\"4\" fill=\"#3a342e\"/><text x=\"306\" y=\"84\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">生物圈</text><line x1=\"60\" y1=\"80\" x2=\"73\" y2=\"80\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><polygon points=\"73,80 65,76 65,84\" fill=\"#3a342e\"/><line x1=\"124\" y1=\"80\" x2=\"137\" y2=\"80\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><polygon points=\"137,80 129,76 129,84\" fill=\"#3a342e\"/><line x1=\"194\" y1=\"80\" x2=\"207\" y2=\"80\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><polygon points=\"207,80 199,76 199,84\" fill=\"#3a342e\"/><line x1=\"270\" y1=\"80\" x2=\"283\" y2=\"80\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><polygon points=\"283,80 275,76 275,84\" fill=\"#3a342e\"/><text x=\"170\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">層次由小到大逐層包含</text></svg>",
+          "caption": "組織層次:個體→族群→群集→生態系→生物圈,後者包含前者。"
         }
       ],
       "quiz": [
@@ -6234,6 +6297,19 @@ window.STUDYSYNC.data.subjects.science = {
           "formula": "等壓線密集 → 氣壓梯度大 → 風強；等壓線稀疏 → 風弱",
           "trap": "判斷風力強弱要看等壓線的疏密，不是看氣壓的絕對數值大小。等壓線愈密風愈強，這正是颱風中心風雨最強的圖上特徵。",
           "caption": ""
+        },
+        {
+          "h": "空氣過山:迎風面地形雨與背風面焚風",
+          "points": [
+            "會考常給氣流爬過一座山的情境圖:空氣被地形抬升,上升時因高空氣壓變小而膨脹、溫度下降,這叫絕熱冷卻。",
+            "迎風面解題三步:空氣沿山坡上升、冷卻,溫度降到露點時水氣凝結成雲,再往上繼續致雨,形成地形雨,所以迎風面多雲多雨。",
+            "背風面解題三步:空氣越過山頂後大部分水氣已在迎風面下光了,沿背風坡下沉、受壓縮而增溫,又乾又熱,這股風就是焚風。",
+            "估算成雲高度的常見算法:未飽和空氣每上升一百公尺約降溫一度,用氣溫和露點的差,推算約要上升幾百公尺才降到露點、開始成雲。"
+          ],
+          "formula": "未飽和空氣上升冷卻約 1°C/100m;成雲高度 ≈ (地面氣溫 − 露點) × 100 m/°C（例：氣溫26°C、露點16°C → 差10°C → 約上升1000 m成雲）",
+          "trap": "焚風是『下沉增溫、變乾又變熱』,不是冷風;別把背風面想成也在下雨。迎風面是上升冷卻致雨(多雨),背風面是下沉增溫變乾(乾熱),兩面剛好相反,最常被記反。",
+          "svg": "<svg viewBox=\"0 0 400 210\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,180 200,50 360,180\" fill=\"#f3e7df\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><ellipse cx=\"120\" cy=\"70\" rx=\"34\" ry=\"16\" fill=\"#eef4f2\" stroke=\"#5aa874\" stroke-width=\"1.5\"/><ellipse cx=\"150\" cy=\"62\" rx=\"22\" ry=\"12\" fill=\"#eef4f2\" stroke=\"#5aa874\" stroke-width=\"1.5\"/><line x1=\"108\" y1=\"92\" x2=\"104\" y2=\"110\" stroke=\"#5aa874\" stroke-width=\"2\"/><line x1=\"128\" y1=\"92\" x2=\"124\" y2=\"112\" stroke=\"#5aa874\" stroke-width=\"2\"/><line x1=\"148\" y1=\"88\" x2=\"144\" y2=\"106\" stroke=\"#5aa874\" stroke-width=\"2\"/><path d=\"M55 172 L110 118\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2.5\"/><polygon points=\"110,118 100,120 108,130\" fill=\"#c9755c\"/><text x=\"92\" y=\"172\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">迎風面</text><text x=\"92\" y=\"188\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\" text-anchor=\"middle\">上升冷卻·成雲致雨</text><path d=\"M250 90 L320 165\" fill=\"none\" stroke=\"#f0a52e\" stroke-width=\"2.5\"/><polygon points=\"320,165 312,152 308,164\" fill=\"#f0a52e\"/><text x=\"305\" y=\"172\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">背風面</text><text x=\"308\" y=\"188\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">下沉增溫·乾熱焚風</text><text x=\"200\" y=\"40\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">山頂</text></svg>",
+          "caption": "空氣過山:迎風面上升冷卻成雲致雨,越頂後下沉增溫,背風面吹出乾熱的焚風。"
         }
       ],
       "quiz": [
@@ -6490,6 +6566,19 @@ window.STUDYSYNC.data.subjects.science = {
             "這顯示海洋是調節地球氣候的重要角色，海溫的小變化也可能帶來大範圍的天氣異常。"
           ],
           "trap": "聖嬰現象是赤道『東』太平洋（南美外海）海溫『偏高』，不是降低，也不是發生在台灣外海。它是自然的海氣變化、屬週期性現象，別與『溫室效應造成的全球暖化』混為一談。"
+        },
+        {
+          "h": "深層洋流與溫鹽環流(全球輸送帶)",
+          "points": [
+            "表層洋流(如黑潮、暖流寒流)主要由『風』推動,只影響海面附近;深層洋流則由海水『密度差』驅動,兩者成因不同,常被拿來對比考。",
+            "在高緯度(如北大西洋、南極附近)海水又冷、蒸發或結冰使鹽度又高,密度變大而『下沉』到深海,再緩慢流向低緯度,形成貫穿全球的深層環流,俗稱『輸送帶』。",
+            "解題判斷:題目提到『冷、鹹、密度大、下沉、深層、循環很慢』就選溫鹽環流;提到『風吹、海面、暖流寒流』就選表層洋流。",
+            "這條輸送帶把熱量與二氧化碳等從表層帶往深海並在全球輸送,對長期氣候有調節作用;若高緯海水變暖或變淡,下沉減弱,環流可能減慢。"
+          ],
+          "formula": "密度大小取決於溫度與鹽度:溫度↓、鹽度↑ → 密度↑ → 海水下沉",
+          "trap": "溫鹽環流是靠『溫度與鹽度造成的密度差』下沉驅動,不是靠風;別把深層洋流誤當成風生的表層暖流寒流。記住是『冷又鹹→密度大→下沉』,不是變暖或變淡才下沉。",
+          "svg": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"20\" width=\"340\" height=\"55\" fill=\"#eef4f2\" stroke=\"#3a342e\" stroke-width=\"1\"/><rect x=\"10\" y=\"75\" width=\"340\" height=\"95\" fill=\"#f3e7df\" stroke=\"#3a342e\" stroke-width=\"1\"/><text x=\"18\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">表層(暖·風驅)</text><text x=\"18\" y=\"165\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">深層(冷·密度驅)</text><text x=\"300\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">低緯</text><text x=\"55\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">高緯</text><line x1=\"70\" y1=\"48\" x2=\"290\" y2=\"48\" stroke=\"#c9755c\" stroke-width=\"2\"/><polygon points=\"70,48 82,42 82,54\" fill=\"#c9755c\"/><text x=\"180\" y=\"44\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#c9755c\" text-anchor=\"middle\">暖·輕→流向高緯</text><rect x=\"46\" y=\"52\" width=\"34\" height=\"66\" fill=\"#5aa874\" stroke=\"#3a342e\" stroke-width=\"1\"/><text x=\"63\" y=\"88\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ffffff\" text-anchor=\"middle\">冷鹹</text><text x=\"63\" y=\"102\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ffffff\" text-anchor=\"middle\">下沉</text><polygon points=\"63,122 55,110 71,110\" fill=\"#5aa874\"/><line x1=\"70\" y1=\"140\" x2=\"290\" y2=\"140\" stroke=\"#3a342e\" stroke-width=\"2\"/><polygon points=\"290,140 278,134 278,146\" fill=\"#3a342e\"/><text x=\"190\" y=\"136\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">冷·重→深層流回低緯</text></svg>",
+          "caption": "高緯冷鹹海水下沉、低緯回升,構成全球輸送帶般的溫鹽環流。"
         }
       ],
       "quiz": [
@@ -7521,6 +7610,19 @@ window.STUDYSYNC.data.subjects.science = {
           "formula": "週日運動（每晚東升西落）← 地球自轉（由西向東，約24小時一圈）｜ 週年運動（四季星座不同）← 地球公轉（約一年一圈）",
           "svg": "<svg viewBox=\"0 0 360 220\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"180\" cy=\"110\" r=\"95\" fill=\"none\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><circle cx=\"180\" cy=\"110\" r=\"65\" fill=\"none\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><circle cx=\"180\" cy=\"110\" r=\"35\" fill=\"none\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><polygon points=\"180,110 184,103 188,108\" fill=\"#f0a52e\"/><circle cx=\"180\" cy=\"110\" r=\"3\" fill=\"#f0a52e\"/><text x=\"180\" y=\"128\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#f0a52e\" text-anchor=\"middle\">北極星</text><circle cx=\"275\" cy=\"110\" r=\"3\" fill=\"#c9755c\"/><circle cx=\"245\" cy=\"110\" r=\"3\" fill=\"#c9755c\"/><circle cx=\"215\" cy=\"110\" r=\"3\" fill=\"#c9755c\"/><path d=\"M 245 110 A 65 65 0 0 0 226 64\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2\"/><polygon points=\"226,64 232,70 220,72\" fill=\"#c9755c\"/><text x=\"180\" y=\"24\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">眾星看似繞北極星逆時針旋轉</text><text x=\"180\" y=\"212\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\" text-anchor=\"middle\">這是地球自轉造成的視運動</text></svg>",
           "caption": "面向北方時，眾星看似繞北極星逆時針旋轉，這是地球自轉造成的星空週日運動。"
+        },
+        {
+          "h": "北極星定位與星跡方向判讀",
+          "points": [
+            "會考常給一張長時間曝光的『星跡照片』要你判斷方向:面向北方看,北天的星星會以北極星為圓心逆時針畫出一段段圓弧,圓心那顆幾乎不動的就是北極星,它所指的地平方向就是正北方。",
+            "找北極星的解題步驟:先認出北斗七星,再把斗杓前緣那兩顆『指極星』的連線往斗口開口方向延長大約五倍,就會找到北極星;若北斗七星被地平擋住,也可改用仙后座的 W 形來對照定位。",
+            "會考也很愛考『用北極星定緯度』:北極星的仰角,也就是它在地平面上的高度角,大約等於觀測者所在地的緯度,例如在北緯二十五度左右的台灣,看到的北極星仰角就約為二十五度。",
+            "要注意星跡是隨地球自轉造成的『週日運動』,不是行星自己在飛;因為地球約二十四小時自轉一圈,所以星星每小時大約繞北極星轉十五度,曝光時間越長,拍到的圓弧就越長,這也是判讀照片曝光多久的依據。"
+          ],
+          "formula": "北極星仰角 ≈ 當地緯度(如北緯25° → 仰角約25°) ｜ 北天星跡繞北極星逆時針,約每小時轉 15°(24 小時一圈)",
+          "trap": "北天星星繞北極星是『逆時針』,別記成順時針;另外北極星並不是全天最亮的星(約二等星),要靠它『幾乎不動、位在正北方』來認,不能用亮度去找它。",
+          "svg": "<svg viewBox=\"0 0 360 210\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"140\" cy=\"105\" r=\"78\" fill=\"none\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><circle cx=\"140\" cy=\"105\" r=\"48\" fill=\"none\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><circle cx=\"140\" cy=\"105\" r=\"4\" fill=\"#f0a52e\"/><text x=\"140\" y=\"124\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\">北極星(幾乎不動)</text><path d=\"M 218 105 A 78 78 0 0 0 195 50\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2.5\"/><polygon points=\"195,50 203,54 191,60\" fill=\"#c9755c\"/><path d=\"M 188 105 A 48 48 0 0 0 173 62\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2.5\"/><polygon points=\"173,62 181,66 169,71\" fill=\"#c9755c\"/><text x=\"140\" y=\"22\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\" text-anchor=\"middle\">星跡:繞北極星逆時針</text><line x1=\"290\" y1=\"180\" x2=\"290\" y2=\"70\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><line x1=\"260\" y1=\"180\" x2=\"340\" y2=\"180\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><line x1=\"290\" y1=\"180\" x2=\"330\" y2=\"120\" stroke=\"#5aa874\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"120\" r=\"3.5\" fill=\"#f0a52e\"/><path d=\"M 312 180 A 22 22 0 0 0 305 165\" fill=\"none\" stroke=\"#5aa874\" stroke-width=\"1.5\"/><text x=\"300\" y=\"200\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5aa874\" text-anchor=\"middle\">仰角≈緯度</text><text x=\"290\" y=\"60\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">北方地平</text></svg>",
+          "caption": "面向北方,眾星繞北極星逆時針轉;北極星仰角約等於當地緯度,可用來定北方與緯度。"
         }
       ],
       "quiz": [
@@ -8296,6 +8398,19 @@ window.STUDYSYNC.data.subjects.science = {
           ],
           "formula": "T < 熔點 ⇒ 固態；熔點 < T < 沸點 ⇒ 液態；T > 沸點 ⇒ 氣態",
           "trap": "⚠ 不能只看沸點就判斷三態,要同時比較熔點與沸點;熔點本身就高於室溫的物質(例如多數金屬)在室溫是固態,別誤以為一定是液態或氣態。"
+        },
+        {
+          "h": "密度的定義、測量與物質判別",
+          "points": [
+            "密度是每單位體積所含的質量,公式為密度等於質量除以體積。它是物質的特性,和取多少量無關:同一種物質不論切大塊小塊,密度都一樣,所以會考常拿密度來辨認是哪一種物質。最常見的考法就是給你質量和體積,直接代公式算出密度再去對照表判斷。",
+            "形狀不規則的物體(例如小石頭)沒辦法用公式算體積,要用排水法:先讀量筒水面刻度,把物體完全沉入水中後再讀一次刻度,兩次刻度相減就是物體體積,再配合天平量到的質量就能算密度。",
+            "密度也用來判斷浮沉:物體密度比液體大就下沉、比液體小就上浮、相等就懸浮在液體中。水的密度是每立方公分一公克,所以密度大於一的物質會沉入水中,小於一的會浮起來。",
+            "單位換算要熟:每立方公分一公克等於每立方公尺一千公斤,換算時乘或除以一千。比較密度大小前務必先把單位統一,不要拿不同單位的數字直接比。"
+          ],
+          "formula": "ρ = m / V ；排水法 V = V(後) − V(前) ；1 g/cm³ = 1000 kg/m³ ；水的密度 = 1 g/cm³ = 1000 kg/m³",
+          "trap": "⚠ 排水法量的是「排開的水的體積」,等於物體體積,別把量筒總體積或水本身的體積當成答案;物體必須完全沉沒才準,浮著或露出水面會少算。另外密度是物質特性,不會因為切成大小不同的塊而改變,別以為體積越大密度越大;比較密度前一定要先把 g/cm³ 與 kg/m³ 換成同一單位(差一千倍)。",
+          "svg": "<svg viewBox=\"0 0 340 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"40\" width=\"70\" height=\"120\" fill=\"#eef4f2\" stroke=\"#3a342e\"/><rect x=\"30\" y=\"95\" width=\"70\" height=\"65\" fill=\"#5aa874\" opacity=\"0.45\"/><line x1=\"30\" y1=\"95\" x2=\"100\" y2=\"95\" stroke=\"#3a342e\" stroke-width=\"2\"/><text x=\"65\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">前 40 mL</text><rect x=\"180\" y=\"40\" width=\"70\" height=\"120\" fill=\"#eef4f2\" stroke=\"#3a342e\"/><rect x=\"180\" y=\"70\" width=\"70\" height=\"90\" fill=\"#5aa874\" opacity=\"0.45\"/><line x1=\"180\" y1=\"70\" x2=\"250\" y2=\"70\" stroke=\"#3a342e\" stroke-width=\"2\"/><rect x=\"198\" y=\"118\" width=\"34\" height=\"30\" fill=\"#c9755c\"/><text x=\"215\" y=\"137\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ffffff\" text-anchor=\"middle\">物體</text><text x=\"215\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">後 55 mL</text><text x=\"140\" y=\"55\" font-family=\"sans-serif\" font-size=\"20\" fill=\"#c9755c\" text-anchor=\"middle\">→</text><text x=\"300\" y=\"95\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">V=55−40</text><text x=\"300\" y=\"115\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">=15 mL</text></svg>",
+          "caption": "排水法:物體沉入後水面升高,後刻度減前刻度就是物體的體積。"
         }
       ],
       "quiz": [
@@ -12946,6 +13061,16 @@ window.STUDYSYNC.data.subjects.science = {
           ],
           "formula": "相對濕度 = （實際水氣量 ÷ 該溫度飽和水氣量）× 100%；飽和時相對濕度 = 100%，此時氣溫 = 露點",
           "trap": "⚠ 相對濕度高『不等於』空氣中水氣絕對量多。寒流時氣溫低、飽和水氣量小，即使水氣很少相對濕度也可能很高；別把相對濕度直接當成水氣多寡。"
+        },
+        {
+          "h": "讀飽和水氣量表算相對濕度與判露點",
+          "points": [
+            "題目常給一張『氣溫對飽和水氣量』的表或曲線，先在表上查出『目前氣溫』對應的飽和水氣量，再把題目給的實際水氣量除以它、乘以百分之百，就是相對濕度；查表這一步不要漏。",
+            "判斷會不會起霧成雲：把空氣慢慢降溫，找出飽和水氣量剛好等於實際水氣量的那個溫度，那就是露點；只要實際降到的溫度低於或等於露點，水氣就會凝結，起霧或成雲。",
+            "比較兩個空氣塊誰含水多：要比的是『實際水氣量』這個絕對量，而不是相對濕度；相對濕度只告訴你離飽和有多近。若兩塊實際水氣量相同，氣溫較低的那一塊相對濕度較高、也離露點較近。"
+          ],
+          "formula": "相對濕度(%) = 實際水氣量 ÷ 該氣溫飽和水氣量 × 100%；達露點時：實際水氣量 = 露點溫度的飽和水氣量，相對濕度 = 100%",
+          "trap": "⚠ 算相對濕度時，分母要用『目前氣溫』對應的飽和水氣量，不是用露點或最高溫查表；另外相對濕度高不代表含水量多——低溫時飽和水氣量小，水氣很少也可能接近百分之百。"
         }
       ],
       "quiz": [
