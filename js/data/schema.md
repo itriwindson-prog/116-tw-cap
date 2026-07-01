@@ -39,7 +39,7 @@ window.STUDYSYNC.data.subjects.<科目id> = {
 }
 ```
 
-> **圖解（svg）注意**：圖會放進淺色圖框（淺/深色模式皆淺底），所以線條與文字請用**深色固定 hex**（如墨 `#3a342e`、珊瑚 `#c9755c`、綠 `#5aa874`、警示 `#f0a52e`），**不要用 `currentColor` 或白色**，否則深色模式會看不見。根元素只寫 `viewBox`、不要 `width/height`（由 CSS 縮放）；禁止 `<image>`／`<script>`／外部 URL（維持離線可用）。`subject.html` 已支援 `svg`/`img`/`caption` 渲染（`.figure`/`.figbox`）。
+> **圖解（svg）注意**：圖會放進淺色圖框（淺/深色模式皆淺底），所以線條與文字請用**深色固定 hex**（如墨 `#3a342e`、珊瑚 `#c9755c`、綠 `#5aa874`、警示 `#f0a52e`），**不要用 `currentColor` 或白色**，否則深色模式會看不見。**白字 `#fff` 只能寫在實心彩色塊上（不可裸在圖框底上）；區塊淡底可用 `#f3e7df`/`#eef4f2`；不要畫全畫布背景矩形（靠 figbox 底即可）。** 少數資訊密度高、需第 5 色的圖（如天氣鋒面冷/暖、海洋深層、透鏡光路）可用深藍 `#4a7fb5`（夠深、淺底上可讀）表冷/水/深語意——僅此一色、非必要不用。根元素只寫 `viewBox`、不要 `width/height`（由 CSS 縮放）；禁止 `<image>`／`<script>`／外部 URL（維持離線可用）。`subject.html` 已支援 `svg`/`img`/`caption` 渲染（`.figure`/`.figbox`）。
 
 ### 測驗題 quiz item
 ```js
