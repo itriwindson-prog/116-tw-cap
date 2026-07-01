@@ -608,6 +608,18 @@ window.STUDYSYNC.data.subjects.science = {
           ],
           "formula": "折射偏折程度:紅光最小 < … < 紫光最大",
           "trap": "色散是『折射』造成的，不是反射!各色光在真空中速度相同(都等於光速)，進入玻璃或水後速度不同才分開——別說成『不同色光在真空中速度不同』。"
+        },
+        {
+          "h": "波速公式與兩種波形圖判讀",
+          "points": [
+            "會考最愛考波速公式:波速等於頻率乘以波長。給你其中兩個量就能算第三個。單位要一致:波速用公尺每秒、頻率用赫茲、波長用公尺。頻率和週期互為倒數,頻率等於一除以週期。",
+            "橫波有兩種圖,橫軸不同要看清楚。橫軸是位置的位移對位置圖:一個完整波形的水平長度就是波長,波峰到中線的高度是振幅。橫軸是時間的位移對時間圖:完成一次完整振動的時間是週期,讀出週期再取倒數就得到頻率。",
+            "解題步驟:先看橫軸標的是位置還是時間,再決定讀到的是波長還是週期。若圖給的是波長就配上頻率算波速;若圖給的是週期,先由週期求頻率,再用波速等於頻率乘波長。兩種圖的縱軸都是位移,所以振幅兩種圖都讀得到。"
+          ],
+          "formula": "v = fλ;f = 1/T;波速 v(m/s)、頻率 f(Hz)、波長 λ(m)、週期 T(s)",
+          "trap": "位移對位置圖讀到的水平量是『波長』,位移對時間圖讀到的水平量是『週期』,兩者千萬別搞混!很多人把時間圖的一個週期當成波長直接代入 v=fλ 而算錯。看到橫軸先確認單位:標公尺(位置)讀波長、標秒(時間)讀週期。振幅則兩種圖都是縱軸位移的最大值,不受影響。",
+          "svg": "<svg viewBox=\"0 0 340 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"14\" width=\"150\" height=\"180\" rx=\"6\" fill=\"#eef4f2\"/><rect x=\"180\" y=\"14\" width=\"150\" height=\"180\" rx=\"6\" fill=\"#f3e7df\"/><line x1=\"22\" y1=\"100\" x2=\"150\" y2=\"100\" stroke=\"#3a342e\" stroke-width=\"1\"/><line x1=\"30\" y1=\"32\" x2=\"30\" y2=\"178\" stroke=\"#3a342e\" stroke-width=\"1\"/><path d=\"M30 100 Q52 50 74 100 Q96 150 118 100 Q140 50 150 68\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2.5\"/><line x1=\"30\" y1=\"40\" x2=\"118\" y2=\"40\" stroke=\"#5aa874\" stroke-width=\"2\"/><text x=\"74\" y=\"34\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">波長 λ</text><text x=\"150\" y=\"190\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"end\">位置 x(m)</text><text x=\"85\" y=\"26\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#c9755c\" text-anchor=\"middle\">位移-位置圖</text><line x1=\"192\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#3a342e\" stroke-width=\"1\"/><line x1=\"200\" y1=\"32\" x2=\"200\" y2=\"178\" stroke=\"#3a342e\" stroke-width=\"1\"/><path d=\"M200 100 Q222 50 244 100 Q266 150 288 100 Q310 50 320 68\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2.5\"/><line x1=\"200\" y1=\"40\" x2=\"288\" y2=\"40\" stroke=\"#5aa874\" stroke-width=\"2\"/><text x=\"244\" y=\"34\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">週期 T</text><text x=\"320\" y=\"190\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"end\">時間 t(s)</text><text x=\"255\" y=\"26\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#c9755c\" text-anchor=\"middle\">位移-時間圖</text></svg>",
+          "caption": "橫軸是位置讀波長、橫軸是時間讀週期,兩種波形圖別混"
         }
       ],
       "quiz": [
@@ -1136,6 +1148,19 @@ window.STUDYSYNC.data.subjects.science = {
           ],
           "formula": "電流計：串聯、內阻 ≈ 0；電壓計：並聯、內阻 ≈ ∞",
           "trap": "電流計『串聯』、電壓計『並聯』千萬別接反!若把電流計並聯跨接在元件兩端,它內阻極小幾乎等於短路,會造成大電流而燒毀電表。"
+        },
+        {
+          "h": "電功率的三式選用與用電度數、電費計算",
+          "points": [
+            "先認清三個功率公式怎麼選:題目給電流和電阻用 P 等於 I 平方乘 R;給電壓和電阻用 P 等於 V 平方除以 R;給電壓和電流就直接用 P 等於 IV。挑到最省步驟的那一式,不必每次都硬求電流。",
+            "算電費要先把瓦特換成千瓦,也就是除以一千。用電度數等於千瓦數乘上使用小時數,一度就是一千瓦小時;電費等於度數乘上每度電價。",
+            "電線發熱由 P 等於 I 平方乘 R 主導,電流越大、電阻越大就越熱。保險絲要用低熔點、串聯在幹線上,電流過大時先熔斷以切斷電路、避免電線走火。",
+            "比較哪個電器較耗電或較亮,關鍵看它實際消耗的功率:並聯時各電器都吃到相同電壓,電阻小的反而功率大、較亮;串聯時電流相同,電阻大的功率大、較亮。"
+          ],
+          "formula": "P = IV = I²R = V²/R（W）；度數(kWh) = 功率(kW) × 時間(hr)；電費 = 度數 × 每度電價",
+          "trap": "算電費最常見的錯是忘了把瓦特換成千瓦(除以一千),1500 W 要先變 1.5 kW 再乘小時,否則度數會差一千倍。另外比亮度時,並聯下『電阻小的較亮』、串聯下『電阻大的較亮』剛好相反,別套錯:所以比較前要先看清電器是串聯還是並聯。",
+          "svg": "<svg viewBox=\"0 0 320 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"110\" y=\"8\" width=\"100\" height=\"26\" rx=\"5\" fill=\"#3a342e\"/><text x=\"160\" y=\"25\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">題目給了什麼?</text><line x1=\"160\" y1=\"34\" x2=\"160\" y2=\"52\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"55\" y1=\"52\" x2=\"265\" y2=\"52\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"55\" y1=\"52\" x2=\"55\" y2=\"66\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"160\" y1=\"52\" x2=\"160\" y2=\"66\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"265\" y1=\"52\" x2=\"265\" y2=\"66\" stroke=\"#3a342e\" stroke-width=\"2\"/><rect x=\"18\" y=\"66\" width=\"74\" height=\"24\" rx=\"4\" fill=\"#f3e7df\" stroke=\"#3a342e\"/><text x=\"55\" y=\"82\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">I 與 R</text><rect x=\"123\" y=\"66\" width=\"74\" height=\"24\" rx=\"4\" fill=\"#f3e7df\" stroke=\"#3a342e\"/><text x=\"160\" y=\"82\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">V 與 R</text><rect x=\"228\" y=\"66\" width=\"74\" height=\"24\" rx=\"4\" fill=\"#f3e7df\" stroke=\"#3a342e\"/><text x=\"265\" y=\"82\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">V 與 I</text><line x1=\"55\" y1=\"90\" x2=\"55\" y2=\"104\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"160\" y1=\"90\" x2=\"160\" y2=\"104\" stroke=\"#3a342e\" stroke-width=\"2\"/><line x1=\"265\" y1=\"90\" x2=\"265\" y2=\"104\" stroke=\"#3a342e\" stroke-width=\"2\"/><rect x=\"20\" y=\"104\" width=\"70\" height=\"26\" rx=\"5\" fill=\"#c9755c\"/><text x=\"55\" y=\"121\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">P = I²R</text><rect x=\"125\" y=\"104\" width=\"70\" height=\"26\" rx=\"5\" fill=\"#5aa874\"/><text x=\"160\" y=\"121\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">P = V²/R</text><rect x=\"230\" y=\"104\" width=\"70\" height=\"26\" rx=\"5\" fill=\"#3a342e\"/><text x=\"265\" y=\"121\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">P = IV</text><rect x=\"30\" y=\"150\" width=\"260\" height=\"48\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"160\" y=\"170\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">度數 = 功率(kW) × 時間(hr)</text><text x=\"160\" y=\"188\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">電費 = 度數 × 每度電價</text></svg>",
+          "caption": "先看題目給的量選對功率公式,再換千瓦算度數與電費。"
         }
       ],
       "quiz": [
@@ -2167,6 +2192,19 @@ window.STUDYSYNC.data.subjects.science = {
           ],
           "formula": "HCl + NaOH → NaCl + H₂O（強酸強鹼鹽，中性）",
           "trap": "別以為『鹽一定中性』!只有強酸+強鹼生成的鹽(食鹽)才中性;小蘇打(碳酸氫鈉)屬強鹼弱酸鹽,水溶液偏鹼性。鹽是中和的產物之一,但鹽本身可酸可鹼可中性,要看生成它的酸鹼強弱。"
+        },
+        {
+          "h": "溶解度曲線判讀與降溫析出結晶量計算",
+          "points": [
+            "溶解度曲線的橫軸是溫度、縱軸是每一百克水最多能溶多少克溶質。線上的每一點都是該溫度的飽和溶液,線下方代表未飽和、線上方代表過飽和。判飽和就看某溫度下實際溶的量有沒有到曲線的高度:剛好到就是飽和,還沒到就是未飽和,超過就會析出。",
+            "降溫析出結晶量的解題三步:先查高溫時每一百克水的溶解度、算出原本溶了多少;再查降到低溫時每一百克水的溶解度;兩個溶解度相減,就是每一百克水會析出的結晶克數,再依實際水量按比例換算。",
+            "舉例:某鹽在攝氏六十度時每一百克水溶一百一十克、二十度時只溶三十二克。把六十度的飽和溶液降到二十度,每一百克水就析出一百一十減三十二等於七十八克結晶。若原本用兩百克水,析出量再乘以二倍,也就是一百五十六克。",
+            "做題前先確定溫度變化中水量有沒有改變:單純降溫、水量不變時才能直接用兩溫度的溶解度相減;若題目有蒸發掉水,析出量會更多,要另外把蒸發掉那些水原本能溶的溶質也算進去。"
+          ],
+          "formula": "析出結晶質量 = (高溫溶解度 − 低溫溶解度) × (水質量 ÷ 100)",
+          "trap": "溶解度是以『每 100 克水』為基準,不是以溶液為基準!算析出量時若題目給的水不是 100 克,務必按實際水量比例換算,別直接把溶解度差當成答案。另外多數固體『降溫才析出』,而氣體相反、是『升溫才逸出』,兩者方向別搞混。",
+          "svg": "<svg viewBox=\"0 0 320 210\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"170\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><line x1=\"45\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><text x=\"20\" y=\"24\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\">溶解度</text><text x=\"250\" y=\"188\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\">溫度</text><path d=\"M55 158 Q150 150 210 70 Q250 40 290 28\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2.5\"/><line x1=\"260\" y1=\"48\" x2=\"260\" y2=\"170\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"120\" y1=\"152\" x2=\"120\" y2=\"170\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"45\" y1=\"48\" x2=\"260\" y2=\"48\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"45\" y1=\"152\" x2=\"120\" y2=\"152\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"260\" cy=\"48\" r=\"3.5\" fill=\"#3a342e\"/><circle cx=\"120\" cy=\"152\" r=\"3.5\" fill=\"#3a342e\"/><rect x=\"296\" y=\"48\" width=\"6\" height=\"104\" fill=\"#5aa874\" fill-opacity=\"0.55\"/><text x=\"268\" y=\"44\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\">高溫飽和</text><text x=\"128\" y=\"150\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\">低溫飽和</text><text x=\"246\" y=\"104\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5aa874\">析出量</text><text x=\"150\" y=\"162\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\">未飽和</text></svg>",
+          "caption": "降溫時,兩溫度溶解度的差(右側綠段)就是每 100 克水析出的結晶量。"
         }
       ],
       "quiz": [
@@ -7623,6 +7661,19 @@ window.STUDYSYNC.data.subjects.science = {
           "trap": "北天星星繞北極星是『逆時針』,別記成順時針;另外北極星並不是全天最亮的星(約二等星),要靠它『幾乎不動、位在正北方』來認,不能用亮度去找它。",
           "svg": "<svg viewBox=\"0 0 360 210\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"140\" cy=\"105\" r=\"78\" fill=\"none\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><circle cx=\"140\" cy=\"105\" r=\"48\" fill=\"none\" stroke=\"#3a342e\" stroke-width=\"1\" stroke-dasharray=\"3 4\"/><circle cx=\"140\" cy=\"105\" r=\"4\" fill=\"#f0a52e\"/><text x=\"140\" y=\"124\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\">北極星(幾乎不動)</text><path d=\"M 218 105 A 78 78 0 0 0 195 50\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2.5\"/><polygon points=\"195,50 203,54 191,60\" fill=\"#c9755c\"/><path d=\"M 188 105 A 48 48 0 0 0 173 62\" fill=\"none\" stroke=\"#c9755c\" stroke-width=\"2.5\"/><polygon points=\"173,62 181,66 169,71\" fill=\"#c9755c\"/><text x=\"140\" y=\"22\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#c9755c\" text-anchor=\"middle\">星跡:繞北極星逆時針</text><line x1=\"290\" y1=\"180\" x2=\"290\" y2=\"70\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><line x1=\"260\" y1=\"180\" x2=\"340\" y2=\"180\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><line x1=\"290\" y1=\"180\" x2=\"330\" y2=\"120\" stroke=\"#5aa874\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"120\" r=\"3.5\" fill=\"#f0a52e\"/><path d=\"M 312 180 A 22 22 0 0 0 305 165\" fill=\"none\" stroke=\"#5aa874\" stroke-width=\"1.5\"/><text x=\"300\" y=\"200\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5aa874\" text-anchor=\"middle\">仰角≈緯度</text><text x=\"290\" y=\"60\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">北方地平</text></svg>",
           "caption": "面向北方,眾星繞北極星逆時針轉;北極星仰角約等於當地緯度,可用來定北方與緯度。"
+        },
+        {
+          "h": "視星等數值越小越亮的判讀",
+          "points": [
+            "會考常給幾顆恆星的『視星等』數值,要你比較誰看起來最亮:規則是視星等『數值越小,看起來越亮』——這是反向關係,數字大反而暗。",
+            "肉眼能看到的星大致分成一等星到六等星,一等星最亮、六等星最暗;比一等更亮的天體會用零或負數表示,像太陽、天狼星的視星等都是負值,代表非常亮。",
+            "解題步驟:把題目給的數值由小到大排,最小(甚至為負)的那顆看起來最亮,最大的那顆最暗;若數值相同就代表看起來一樣亮。",
+            "要注意『視星等』講的是『在地球上看起來的亮度』,同時受恆星本身發光強弱和距離遠近影響,不是恆星真正發光強度的排名。"
+          ],
+          "formula": "視星等 m 越小 → 看起來越亮(反向關係)｜肉眼:1等(最亮)～6等(最暗)｜太陽、天狼星 m 為負值(極亮)",
+          "trap": "最常錯把『數值大＝亮』,方向記反!視星等是數字越小越亮、越大越暗,還可以是負數(越負越亮);另外視星等是『看起來的亮度』,不等於恆星本身發光最強。",
+          "svg": "<svg viewBox=\"0 0 360 150\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"70\" x2=\"330\" y2=\"70\" stroke=\"#3a342e\" stroke-width=\"2\"/><polygon points=\"330,70 320,65 320,75\" fill=\"#3a342e\"/><text x=\"30\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">數值小</text><text x=\"278\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">數值大</text><text x=\"180\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">視星等 m</text><circle cx=\"55\" cy=\"70\" r=\"11\" fill=\"#f0a52e\"/><circle cx=\"120\" cy=\"70\" r=\"8\" fill=\"#f0a52e\"/><circle cx=\"195\" cy=\"70\" r=\"5\" fill=\"#c9755c\"/><circle cx=\"270\" cy=\"70\" r=\"3\" fill=\"#3a342e\"/><text x=\"55\" y=\"45\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">負值/1等</text><text x=\"270\" y=\"45\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">6等</text><rect x=\"30\" y=\"120\" width=\"140\" height=\"22\" fill=\"#f3e7df\"/><text x=\"100\" y=\"135\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">越左越亮</text><rect x=\"190\" y=\"120\" width=\"140\" height=\"22\" fill=\"#eef4f2\"/><text x=\"260\" y=\"135\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">越右越暗</text></svg>",
+          "caption": "視星等數值越小(甚至為負)看起來越亮,越大越暗。"
         }
       ],
       "quiz": [

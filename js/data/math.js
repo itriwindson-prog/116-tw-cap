@@ -1990,6 +1990,19 @@ window.STUDYSYNC.data.subjects.math = {
           ],
           "formula": "當 x = −3 時,2x + 7 = 2 × (−3) + 7 = −6 + 7 = 1",
           "trap": "代入負數忘了加括號,把 2 × (−3) 算成 2 − 3 = −1;負號連同乘法一起處理才不會錯。"
+        },
+        {
+          "h": "百分比應用:折扣、利潤、利息的列式模型",
+          "points": [
+            "折扣要「連乘」不能「相減」:先打八折再打九折,是原價乘以零點八再乘以零點九,等於原價的零點七二倍,也就是相當於打七二折,不是把折扣相加相減。",
+            "利潤題背三個量:進價是成本,定價是標價,售價是實收;定價等於進價乘以一加利潤率,售價常常是定價再打折,利潤等於售價減進價。",
+            "翻譯步驟:設原價或進價為未知數,把「打幾折」換成乘以零點幾,把「加幾成」換成乘以一點幾,再依題目列出等式來解。",
+            "單利利息很單純:利息等於本金乘以年利率再乘以年數;題目問「本利和」時,記得利息還要加回本金。"
+          ],
+          "formula": "定價 = 進價 × (1 + 利潤率);售價 = 定價 × 折數;利潤 = 售價 − 進價;利息 = 本金 × 年利率 × 年數。例:進價 100 加四成後定價 140,再打九折售價 = 140 × 0.9 = 126,利潤 = 126 − 100 = 26。",
+          "trap": "⚠ 最常錯是把連續折扣「相減」:先打八折再打九折不是打七折(0.8+0.9−1),而是連乘 0.8×0.9 = 0.72;另外「打七折」是付原價的 0.7 倍、省下 0.3 倍,別把 0.7 和 0.3 弄反。",
+          "svg": "<svg viewBox=\"0 0 300 150\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"150\" y=\"22\" text-anchor=\"middle\" font-size=\"15\" fill=\"#3a342e\">連續打折:要連乘</text><rect x=\"20\" y=\"45\" width=\"70\" height=\"36\" rx=\"5\" fill=\"#f3e7df\" stroke=\"#3a342e\"/><text x=\"55\" y=\"68\" text-anchor=\"middle\" font-size=\"13\" fill=\"#3a342e\">原價 1</text><text x=\"110\" y=\"68\" text-anchor=\"middle\" font-size=\"18\" fill=\"#c9755c\">×</text><rect x=\"125\" y=\"45\" width=\"55\" height=\"36\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"152\" y=\"68\" text-anchor=\"middle\" font-size=\"13\" fill=\"#3a342e\">0.8</text><text x=\"195\" y=\"68\" text-anchor=\"middle\" font-size=\"18\" fill=\"#c9755c\">×</text><rect x=\"210\" y=\"45\" width=\"55\" height=\"36\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"237\" y=\"68\" text-anchor=\"middle\" font-size=\"13\" fill=\"#3a342e\">0.9</text><rect x=\"90\" y=\"100\" width=\"120\" height=\"34\" rx=\"6\" fill=\"#5aa874\"/><text x=\"150\" y=\"122\" text-anchor=\"middle\" font-size=\"14\" fill=\"#ffffff\">= 0.72 (不是 0.7)</text></svg>",
+          "caption": "先打八折再打九折要連乘得 0.72,不能相減成 0.7。"
         }
       ],
       "quiz": [
@@ -3529,6 +3542,18 @@ window.STUDYSYNC.data.subjects.math = {
           ],
           "formula": "a²−b²=(a+b)(a−b)；p²−q²=48 → (p+q)(p−q)=48",
           "trap": "⚠ p、q 為正整數時，p+q 與 p−q 必須「同為偶數」（同奇同偶且乘積為偶），故 48 要拆成 24×2、12×4、8×6 這類偶×偶；拆成 48×1 或 16×3 會解不出整數而失分。"
+        },
+        {
+          "h": "十字交乘分解 ax²+bx+c:湊 ac 與 b",
+          "points": [
+            "首項係數不是一的三項式,不能只想「兩數相乘得常數項」。要先算首項係數乘常數項這個乘積,再找兩個數相乘等於這個乘積、相加等於中間項係數。",
+            "找到這兩個數後,把中間項拆成兩項,再用分組分解法兩兩提公因數,就能湊出相同括號完成分解。",
+            "畫十字時左邊兩格相乘要等於首項、右邊兩格相乘要等於常數項,交叉相乘再相加要剛好等於中間項係數,湊對了才算成功。"
+          ],
+          "formula": "ax²+bx+c:找 m·n=a·c 且 m+n=b → ax²+mx+nx+c → 分組;例 6x²−7x−3,ac=−18,取 −9 與 2 → 6x²−9x+2x−3=3x(2x−3)+(2x−3)=(2x−3)(3x+1)",
+          "trap": "⚠ 首項係數不是一時,別只湊「相乘得常數項」——要湊的是「相乘得 a×c」;例如 6x²−7x−3 要找乘積 −18(不是 −3)的兩數,直接套 x²+bx+c 的做法會分解錯。另外正負號要跟著常數項與中項一起判斷,交叉相乘後務必回頭驗算中間項係數是否吻合。",
+          "svg": "<svg viewBox=\"0 0 340 190\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"170\" y=\"22\" fill=\"#3a342e\" font-size=\"14\" text-anchor=\"middle\">6x² − 7x − 3　(ac = 6×(−3) = −18)</text><text x=\"60\" y=\"70\" fill=\"#c9755c\" font-size=\"16\" text-anchor=\"middle\">2x</text><text x=\"60\" y=\"130\" fill=\"#c9755c\" font-size=\"16\" text-anchor=\"middle\">3x</text><text x=\"250\" y=\"70\" fill=\"#5aa874\" font-size=\"16\" text-anchor=\"middle\">−3</text><text x=\"250\" y=\"130\" fill=\"#5aa874\" font-size=\"16\" text-anchor=\"middle\">+1</text><line x1=\"90\" y1=\"58\" x2=\"225\" y2=\"122\" stroke=\"#3a342e\" stroke-width=\"1.4\"/><line x1=\"90\" y1=\"122\" x2=\"225\" y2=\"58\" stroke=\"#3a342e\" stroke-width=\"1.4\"/><text x=\"170\" y=\"88\" fill=\"#f0a52e\" font-size=\"12\" text-anchor=\"middle\">2x×1=+2x</text><text x=\"170\" y=\"112\" fill=\"#f0a52e\" font-size=\"12\" text-anchor=\"middle\">3x×(−3)=−9x</text><text x=\"170\" y=\"165\" fill=\"#3a342e\" font-size=\"13\" text-anchor=\"middle\">交叉和 +2x−9x = −7x ✓</text><text x=\"170\" y=\"184\" fill=\"#3a342e\" font-size=\"13\" text-anchor=\"middle\">= (2x−3)(3x+1)</text></svg>",
+          "caption": "十字交乘:左格相乘得首項、右格相乘得常數,交叉相乘和要等於中項係數"
         }
       ],
       "quiz": [
@@ -10147,6 +10172,19 @@ window.STUDYSYNC.data.subjects.math = {
           ],
           "formula": "若 p+q = r+s,則 aₚ+a_q = a_r+a_s。Sₙ = (a₁+aₙ)·n / 2。",
           "trap": "⚠ 用對稱性質前要確認「項次相加」真的相等;有人看到第三項加第十三項就隨手配第四項加第十項(三加十三是十六,四加十是十四,不相等),項次和對不上就不能配,會算錯。"
+        },
+        {
+          "h": "圖形數列規律:數前幾項、抓每次增量寫通項",
+          "points": [
+            "會考很愛用圖形包裝等差:給你第一圖、第二圖、第三圖的火柴棒數、方塊數或圓點數,問「第 n 圖」有幾個。解法固定三步:先老實數出前三、四項的個數,再看每一圖比前一圖多幾個,這個「固定增量」就是公差。",
+            "抓到首項和固定增量後,直接套等差通項:第 n 圖個數等於首項,加上「增量乘以 (n 減 1)」。因為第一圖時還沒增加,只有走 (n 減 1) 步,係數一定是 n 減 1,不是 n。",
+            "如果每次增加的量不固定,就再往下數一層:看「增量的增量」是不是固定。是固定的話屬於二階變化,常對應到平方或 n 乘 (n 加 1) 形式,要用逐項累加或找出平方通項,不能硬套一次的等差公式。",
+            "看清楚題目問的是「第 n 圖有幾個」還是「排到第 n 圖總共用幾個」:前者是求通項(第 n 項),後者是求前 n 項的總和,兩者差很多,答錯常是因為把通項當成求和。"
+          ],
+          "formula": "第 n 圖個數 aₙ = 首項 + 增量 ×(n − 1);排到第 n 圖累計 = Sₙ = n(a₁ + aₙ)/2。",
+          "trap": "⚠ 最常錯在通項係數:第 n 圖是乘 (n−1) 不是乘 n(第 1 圖代入才會剛好等於首項)。另一大陷阱是把「第 n 圖的個數」和「前 n 圖的總數」搞混——問單一圖形就求通項,問累計才求和。",
+          "svg": "<svg viewBox=\"0 0 380 210\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"sans-serif\"><rect x=\"20\" y=\"120\" width=\"20\" height=\"20\" fill=\"#c9755c\"/><text x=\"40\" y=\"162\" text-anchor=\"middle\" font-size=\"13\" fill=\"#3a342e\">第1圖</text><text x=\"40\" y=\"182\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5aa874\">1 塊</text><rect x=\"110\" y=\"120\" width=\"20\" height=\"20\" fill=\"#c9755c\"/><rect x=\"130\" y=\"120\" width=\"20\" height=\"20\" fill=\"#c9755c\"/><rect x=\"110\" y=\"100\" width=\"20\" height=\"20\" fill=\"#c9755c\"/><text x=\"130\" y=\"162\" text-anchor=\"middle\" font-size=\"13\" fill=\"#3a342e\">第2圖</text><text x=\"130\" y=\"182\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5aa874\">3 塊</text><rect x=\"210\" y=\"120\" width=\"20\" height=\"20\" fill=\"#c9755c\"/><rect x=\"230\" y=\"120\" width=\"20\" height=\"20\" fill=\"#c9755c\"/><rect x=\"250\" y=\"120\" width=\"20\" height=\"20\" fill=\"#c9755c\"/><rect x=\"210\" y=\"100\" width=\"20\" height=\"20\" fill=\"#c9755c\"/><rect x=\"230\" y=\"100\" width=\"20\" height=\"20\" fill=\"#c9755c\"/><text x=\"240\" y=\"162\" text-anchor=\"middle\" font-size=\"13\" fill=\"#3a342e\">第3圖</text><text x=\"240\" y=\"182\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5aa874\">5 塊</text></g><g font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\"><text x=\"85\" y=\"96\" text-anchor=\"middle\">+2</text><text x=\"185\" y=\"96\" text-anchor=\"middle\">+2</text></g><text x=\"190\" y=\"40\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">每圖多 2 塊 → 公差 2</text><text x=\"190\" y=\"64\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#5aa874\">aₙ = 1 + (n−1)×2 = 2n−1</text></svg>",
+          "caption": "方塊數 1、3、5 每圖多 2 塊,公差為 2,第 n 圖個數 aₙ=1+(n−1)×2=2n−1。"
         }
       ],
       "quiz": [

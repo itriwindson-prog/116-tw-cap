@@ -2444,6 +2444,19 @@ window.STUDYSYNC.data.subjects.social = {
           ],
           "trap": "最常錯在文件與革命對不上:獨立宣言(一七七六)屬美國、人權宣言(一七八九)屬法國,且美國較早。另外要分清「獨立宣言」不等於美國憲法(西元一七八七年才確立三權分立的政府架構),「人權宣言」也不是法國憲法,兩者都是宣示原則的文件,不要與憲法混為一談。",
           "caption": ""
+        },
+        {
+          "h": "文藝復興與宗教改革:人文精神鬆動教會",
+          "points": [
+            "先抓判別法:給你人物或作品要判斷所屬運動時,看核心關鍵字。文藝復興重人文主義,把目光從神轉回人與現世,代表如達文西的蒙娜麗莎、最後的晚餐,還有米開朗基羅,起於十四世紀的義大利。宗教改革重信仰,西元一五一七年馬丁路德貼出九十五條論綱,批評教會販賣贖罪券,主張因信稱義、聖經才是最高權威,最後分裂出新教。",
+            "因果題最愛問印刷術的作用:古騰堡改良活字印刷後,書籍與傳單能大量、快速又便宜地複製。人文主義藉此讓古典著作普及;馬丁路德的主張和德文聖經也靠印刷術迅速傳遍各地,讓一般人能自己讀經,不必全聽教會解釋,教會的權威因此被鬆動。看到思想快速傳播,就往印刷術連。",
+            "三大轉變要串成一條因果線:人文精神鼓勵人獨立思考、質疑舊權威,這股氛圍替宗教改革鋪路;同一時期航海技術進步加上求財與傳教的動機,推動地理大發現。哥倫布在一四九二年抵達美洲,達伽馬繞過好望角、在一四九八年抵達印度。三者共同把歐洲從教會主導的中古,推向以人、理性與世界連結為特色的近代。",
+            "解題步驟:先讀關鍵字定運動,再把人物與時間對回去。人文主義配文藝復興與達文西,因信稱義配宗教改革與馬丁路德,新航路配哥倫布、達伽馬。時序記牢:文藝復興十四世紀在前;地理大發現的哥倫布一四九二、達伽馬一四九八居中;宗教改革一五一七在後,這樣才不會排錯。"
+          ],
+          "formula": "文藝復興(14C,義大利)→ 哥倫布抵美洲 1492 → 達伽馬抵印度 1498 → 馬丁路德《九十五條論綱》1517",
+          "trap": "最常錯把人物與運動對調:達文西、米開朗基羅屬文藝復興,馬丁路德屬宗教改革,別混。因信稱義是宗教改革的主張,不是文藝復興。時序上文藝復興早於宗教改革,而哥倫布抵美洲一四九二、達伽馬抵印度一四九八,其實都早於馬丁路德的九十五條論綱一五一七,別以為宗教改革在大航海之前。另外印刷術是加速思想傳播的推手,不是文藝復興或宗教改革的起因,別把工具說成動機。",
+          "svg": "<svg viewBox=\"0 0 360 170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"16\" y=\"20\" width=\"96\" height=\"40\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\" stroke-width=\"1.5\"/><text x=\"64\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">文藝復興</text><text x=\"64\" y=\"53\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">人文主義</text><rect x=\"132\" y=\"75\" width=\"96\" height=\"42\" rx=\"6\" fill=\"#5aa874\"/><text x=\"180\" y=\"93\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">印刷術</text><text x=\"180\" y=\"108\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#ffffff\" text-anchor=\"middle\">思想快傳</text><rect x=\"248\" y=\"20\" width=\"96\" height=\"40\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\" stroke-width=\"1.5\"/><text x=\"296\" y=\"38\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">宗教改革</text><text x=\"296\" y=\"53\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">馬丁路德</text><line x1=\"112\" y1=\"48\" x2=\"150\" y2=\"75\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><polygon points=\"150,75 141,74 147,68\" fill=\"#3a342e\"/><line x1=\"210\" y1=\"75\" x2=\"248\" y2=\"48\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><polygon points=\"248,48 241,54 239,46\" fill=\"#3a342e\"/><rect x=\"132\" y=\"132\" width=\"96\" height=\"30\" rx=\"6\" fill=\"#f0a52e\"/><text x=\"180\" y=\"151\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">教會權威鬆動</text><line x1=\"180\" y1=\"117\" x2=\"180\" y2=\"132\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><polygon points=\"180,132 176,124 184,124\" fill=\"#3a342e\"/></svg>",
+          "caption": "人文精神與印刷術推動宗教改革,鬆動教會權威"
         }
       ],
       "quiz": [
@@ -2741,6 +2754,18 @@ window.STUDYSYNC.data.subjects.social = {
             "全球化帶來經濟成長與文化交流,但也引發爭議:貧富與南北差距擴大、主權部分讓渡、移民與在地產業衝擊等問題,是當代社會持續討論的議題。"
           ],
           "trap": "『聯合國』是二戰後(1945)、『國際聯盟』是一戰後,兩者勿混;聯合國有安理會與實際制裁力,正是補國聯之不足。全球化加深連結但非全然正面,須同時看見其爭議面。"
+        },
+        {
+          "h": "史料圖表判讀:從線索反推時代與立場",
+          "points": [
+            "會考素養題常給一段史料、地圖或圖表,不直接寫年代,要你自己判斷『屬於哪個時代、哪一方立場、因果為何』。解題重點不是背年份,而是抓『關鍵線索』回推:先圈出人名、地名、制度名與關鍵詞,再對照時間軸定位。",
+            "反推時代的線索:出現『凡爾賽和約、國際聯盟』多指一戰後(1919到1920);出現『聯合國、馬歇爾計畫、北約、華沙公約、柏林圍牆』多指二戰後到冷戰;出現『歐盟、資訊網路、跨國企業』多指冷戰結束後的全球化。人物也是線索:威爾遜配一戰後、希特勒與墨索里尼配大恐慌後到二戰。",
+            "判斷立場與觀點:看敘述者站在哪一方、用詞褒貶。稱對方為『侵略、極權、鐵幕』多半是資本主義陣營觀點;強調『帝國主義壓迫、剝削』常是共產或被殖民一方觀點。圖表題則要看清標題、單位與座標,先問這張圖『在比什麼、哪一年、趨勢往哪走』,再連到背景事件,例如失業率在1929後陡升就對應經濟大恐慌。",
+            "解題步驟固定三步:一圈線索(人名地名制度關鍵詞),二定時代(對照一戰後、二戰到冷戰、全球化三段),三判立場與因果(誰在說、褒貶為何、前因後果)。三步做完再回頭刪掉與線索矛盾的選項。"
+          ],
+          "trap": "最常見錯誤是『只憑一個熟悉字就選』:看到『德國賠款』就直覺選凡爾賽,卻沒讀完整段而錯過其實在講慕尼黑協定或二戰。也常忽略立場——史料是有觀點的,同一事件『侵略』與『解放』說法反映不同陣營,別把某一方的用詞當成客觀事實。圖表題則常看錯座標單位或年份,把上升當下降。",
+          "svg": "<svg viewBox=\"0 0 640 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"16\" y=\"20\" width=\"180\" height=\"70\" rx=\"8\" fill=\"#c9755c\"/><text x=\"106\" y=\"48\" font-size=\"16\" fill=\"#ffffff\" text-anchor=\"middle\" font-weight=\"bold\">1 圈線索</text><text x=\"106\" y=\"72\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">人名·地名·制度·關鍵詞</text><rect x=\"16\" y=\"115\" width=\"180\" height=\"70\" rx=\"8\" fill=\"#5aa874\"/><text x=\"106\" y=\"143\" font-size=\"16\" fill=\"#ffffff\" text-anchor=\"middle\" font-weight=\"bold\">2 定時代</text><text x=\"106\" y=\"167\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">對照三段時間軸</text><rect x=\"16\" y=\"210\" width=\"180\" height=\"70\" rx=\"8\" fill=\"#f0a52e\"/><text x=\"106\" y=\"238\" font-size=\"16\" fill=\"#3a342e\" text-anchor=\"middle\" font-weight=\"bold\">3 判立場因果</text><text x=\"106\" y=\"262\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">誰在說·褒貶·前因後果</text><path d=\"M106 90 L106 115\" stroke=\"#3a342e\" stroke-width=\"2\"/><path d=\"M106 185 L106 210\" stroke=\"#3a342e\" stroke-width=\"2\"/><path d=\"M102 108 l4 7 l4 -7 z\" fill=\"#3a342e\"/><path d=\"M102 203 l4 7 l4 -7 z\" fill=\"#3a342e\"/><rect x=\"236\" y=\"30\" width=\"388\" height=\"240\" rx=\"8\" fill=\"#f3e7df\"/><text x=\"256\" y=\"58\" font-size=\"13\" fill=\"#3a342e\" font-weight=\"bold\">關鍵詞 → 時代對照</text><text x=\"256\" y=\"90\" font-size=\"12\" fill=\"#c9755c\" font-weight=\"bold\">凡爾賽·國際聯盟·威爾遜</text><text x=\"256\" y=\"110\" font-size=\"12\" fill=\"#3a342e\">→ 一戰後(1919-1920)</text><text x=\"256\" y=\"142\" font-size=\"12\" fill=\"#5aa874\" font-weight=\"bold\">聯合國·馬歇爾·北約·柏林圍牆</text><text x=\"256\" y=\"162\" font-size=\"12\" fill=\"#3a342e\">→ 二戰後到冷戰</text><text x=\"256\" y=\"194\" font-size=\"12\" fill=\"#f0a52e\" font-weight=\"bold\">歐盟·資訊網路·跨國企業</text><text x=\"256\" y=\"214\" font-size=\"12\" fill=\"#3a342e\">→ 冷戰結束後全球化</text><text x=\"256\" y=\"248\" font-size=\"11\" fill=\"#3a342e\">立場看用詞:侵略/鐵幕→資本陣營;帝國壓迫→被殖民方</text></svg>",
+          "caption": "史料判讀三步驟:圈線索、定時代、判立場,右欄為常見關鍵詞對照。"
         }
       ],
       "quiz": [
@@ -4850,6 +4875,18 @@ window.STUDYSYNC.data.subjects.social = {
           "trap": "⚠ 最常錯把『熱帶=稻作』:赤道多雨的馬來群島其實是橡膠、油棕『熱帶栽培業』,不是水田稻作;稻作屬季風亞洲的集約農業。另兩組易混:游牧是乾燥區逐水草『移動』、放牧是草原上圍欄『定居』粗放,別對調;地中海式農業出現在『大陸西岸夏乾冬雨區』,不是氣候溫和就都算,看到橄欖葡萄柑橘才是它的招牌。",
           "svg": "<svg viewBox=\"0 0 360 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"14\" y=\"14\" width=\"150\" height=\"40\" rx=\"5\" fill=\"#f0a52e\"/><text x=\"24\" y=\"32\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\">乾燥草原</text><text x=\"24\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\">游牧/放牧</text><rect x=\"196\" y=\"14\" width=\"150\" height=\"40\" rx=\"5\" fill=\"#c9755c\"/><text x=\"206\" y=\"32\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\">夏乾冬雨(西岸副熱帶)</text><text x=\"206\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\">地中海式:橄欖葡萄</text><rect x=\"14\" y=\"84\" width=\"150\" height=\"40\" rx=\"5\" fill=\"#5aa874\"/><text x=\"24\" y=\"102\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\">赤道多雨</text><text x=\"24\" y=\"118\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\">熱帶栽培業:橡膠油棕</text><rect x=\"196\" y=\"84\" width=\"150\" height=\"40\" rx=\"5\" fill=\"#3a342e\"/><text x=\"206\" y=\"102\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\">溫帶濕潤</text><text x=\"206\" y=\"118\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\">混合農業(糧+畜循環)</text><rect x=\"14\" y=\"154\" width=\"332\" height=\"40\" rx=\"5\" fill=\"#eef4f2\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><text x=\"24\" y=\"172\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">地廣人稀大平原→企業化農牧</text><text x=\"24\" y=\"188\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">大機具、大農場、外銷小麥牛肉(美加、阿根廷、澳洲)</text></svg>",
           "caption": "由氣候乾濕冷熱先定農業大類,再看集約或商業化程度細分"
+        },
+        {
+          "h": "重要海峽與運河:洲界與海運咽喉的辨識",
+          "points": [
+            "會考最愛在世界地圖上標出一個海峽或運河,問它是哪兩洲的分界,或連接哪兩片海(洋)。先記三組『洲界型』:蘇伊士運河是亞洲與非洲的分界,連接地中海與紅海;直布羅陀海峽是歐洲與非洲的分界,連接地中海與大西洋;白令海峽是亞洲與北美洲的分界,也是俄羅斯與美國的界線。",
+            "第四個要角麻六甲海峽屬於『海運咽喉型』:它位於馬來半島與蘇門答臘島之間,連接太平洋與印度洋,由新加坡扼守,東亞進口的石油多經此運送,本身並不是任何兩洲的分界。解題時先分清題目問的是洲界還是海運捷徑,兩者答法不同。",
+            "解題三步驟:先看它位在哪兩塊陸地或哪兩片海之間,再判斷它分隔的是兩洲還是連接兩洋,最後對照四大要角逐一刪去選項。看到『縮短歐亞航程、不必繞行非洲南端好望角』就選蘇伊士運河;看到『分隔亞洲與北美洲』就選白令海峽。"
+          ],
+          "formula": "蘇伊士=亞|非(地中海—紅海);直布羅陀=歐|非(地中海—大西洋);白令=亞|北美;麻六甲=太平洋—印度洋(新加坡扼守)",
+          "trap": "⚠ 最常錯把『洲界』和『海運咽喉』混談:麻六甲海峽連接太平洋與印度洋,並不是任何兩洲的分界;真正分隔南、北美洲的是巴拿馬運河。另外蘇伊士運河近乎海平面、無船閘直通,巴拿馬運河則靠船閘調節水位,兩者構造別搞混。",
+          "svg": "<svg viewBox=\"0 0 360 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"14\" y=\"16\" width=\"332\" height=\"52\" rx=\"4\" fill=\"#f3e7df\"/><text x=\"24\" y=\"36\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">蘇伊士運河</text><text x=\"24\" y=\"56\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">亞洲｜非洲　連 地中海—紅海</text><rect x=\"14\" y=\"78\" width=\"332\" height=\"52\" rx=\"4\" fill=\"#eef4f2\"/><text x=\"24\" y=\"98\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">麻六甲海峽</text><text x=\"24\" y=\"118\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">扼守者 新加坡　連 太平洋—印度洋</text><rect x=\"14\" y=\"140\" width=\"332\" height=\"52\" rx=\"4\" fill=\"#f3e7df\"/><text x=\"24\" y=\"160\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">直布羅陀海峽</text><text x=\"24\" y=\"180\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">歐洲｜非洲　連 地中海—大西洋</text></svg>",
+          "caption": "三大咽喉速記:蘇伊士與直布羅陀是洲界,麻六甲是連接兩洋的航道"
         }
       ],
       "quiz": [
@@ -5439,6 +5476,18 @@ window.STUDYSYNC.data.subjects.social = {
             "文化上會出現全球在地化的現象:外來文化進入各地時,會與在地特色結合,例如國際速食連鎖店推出符合當地口味的餐點,顯示全球化並沒有讓各地文化完全變得一模一樣。"
           ],
           "trap": "常見誤解是認為全球化會讓各地文化完全同質、傳統消失。實際上在地文化仍會與外來文化融合,形成全球在地化,並不是單純被取代;作答時別把全球化推論成文化全面一致。"
+        },
+        {
+          "h": "世界三大宗教與主要語系的空間分布",
+          "points": [
+            "會考最愛給一張世界分布圖或一段敘述,要你判斷屬於哪個宗教。記住三大宗教的核心範圍:基督教分布最廣,遍及歐洲、美洲、大洋洲與非洲中南部;伊斯蘭教集中在西亞、中亞與北非,並向南亞、東南亞延伸,人口最多的伊斯蘭國家是東南亞的印尼;佛教主要分布在東亞的中國、日本、韓國,以及東南亞的中南半島。解題步驟是先抓題目給的地名或緯度位置,再對應到宗教的核心區。",
+            "語系判讀常和殖民、移民歷史一起考。印歐語系分布最廣,涵蓋歐洲與南亞,並隨歐洲殖民擴散到美洲、大洋洲;漢藏語系以中國為核心,集中在東亞;西亞、北非則以阿拉伯語為主,阿拉伯語屬於閃含語系。看到中南美洲講西班牙語、葡萄牙語,就要連結到歐洲殖民的歷史脈絡。",
+            "宗教與語言常和區域文化、衝突綁在一起考。同一地區的信仰與語言,會反映在建築、節慶、飲食與生活規範上;當不同宗教或族群在同一地帶相鄰,例如西亞,就容易因文化與資源差異而產生衝突。作答時把宗教、語言當成理解區域人文特色與紛爭的線索。"
+          ],
+          "trap": "最常錯的是把伊斯蘭教誤認為只分布在中東阿拉伯地區,忘了南亞、東南亞也有大量穆斯林,而且人口最多的伊斯蘭國家是東南亞的印尼,不是中東國家;另一個陷阱是把阿拉伯語歸到印歐語系,它其實屬於閃含語系（又稱亞非語系）,別和分布最廣的印歐語系搞混。",
+          "svg": "<svg viewBox=\"0 0 300 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><title>三大宗教主要分布區</title><desc>基督教分布最廣,伊斯蘭教在西亞北非,佛教在東亞與中南半島</desc><rect x=\"8\" y=\"10\" width=\"284\" height=\"46\" rx=\"6\" fill=\"#eef4f2\"/><rect x=\"8\" y=\"10\" width=\"70\" height=\"46\" rx=\"6\" fill=\"#5aa874\"/><text x=\"43\" y=\"31\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">基督教</text><text x=\"43\" y=\"47\" font-size=\"8\" fill=\"#ffffff\" text-anchor=\"middle\">分布最廣</text><text x=\"86\" y=\"30\" font-size=\"9\" fill=\"#3a342e\">歐洲、美洲、大洋洲</text><text x=\"86\" y=\"46\" font-size=\"9\" fill=\"#3a342e\">與非洲中南部</text><rect x=\"8\" y=\"64\" width=\"284\" height=\"46\" rx=\"6\" fill=\"#f3e7df\"/><rect x=\"8\" y=\"64\" width=\"70\" height=\"46\" rx=\"6\" fill=\"#c9755c\"/><text x=\"43\" y=\"85\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">伊斯蘭教</text><text x=\"43\" y=\"101\" font-size=\"8\" fill=\"#ffffff\" text-anchor=\"middle\">最多在印尼</text><text x=\"86\" y=\"84\" font-size=\"9\" fill=\"#3a342e\">西亞、中亞、北非</text><text x=\"86\" y=\"100\" font-size=\"9\" fill=\"#3a342e\">延伸南亞、東南亞</text><rect x=\"8\" y=\"118\" width=\"284\" height=\"46\" rx=\"6\" fill=\"#eef4f2\"/><rect x=\"8\" y=\"118\" width=\"70\" height=\"46\" rx=\"6\" fill=\"#f0a52e\"/><text x=\"43\" y=\"139\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">佛教</text><text x=\"43\" y=\"155\" font-size=\"8\" fill=\"#ffffff\" text-anchor=\"middle\">亞洲東側</text><text x=\"86\" y=\"138\" font-size=\"9\" fill=\"#3a342e\">東亞(中日韓)</text><text x=\"86\" y=\"154\" font-size=\"9\" fill=\"#3a342e\">與中南半島</text><text x=\"150\" y=\"180\" font-size=\"8\" fill=\"#3a342e\" text-anchor=\"middle\">判圖先看地名位置,再對應宗教核心區</text></svg>",
+          "caption": "三大宗教主要分布:先由題目地名定位,再對應核心區判斷。",
+          "formula": "分布最廣:宗教→基督教;語系→印歐語系｜阿拉伯語屬閃含語系(非印歐)"
         }
       ],
       "quiz": [
@@ -5746,6 +5795,19 @@ window.STUDYSYNC.data.subjects.social = {
           "formula": "",
           "svg": "",
           "caption": ""
+        },
+        {
+          "h": "災害成因判斷:天災為底、人為放大",
+          "points": [
+            "會考給災害情境要你判斷成因,先分兩層:『自然背景』如板塊交界地震、颱風豪雨、陡坡地質脆弱;『人為觸發或放大』如坡地超限利用砍林、都市不透水面擴大。一場土石流或水患常是兩層疊加,別只選其中一項。",
+            "解題看關鍵字對號入座:出現『板塊、隱沒帶、震央』判地震(自然);『颱風、鋒面、強降雨、暖化極端氣候』判水患或坡地災害的氣候誘因;『砍伐、超限利用、水泥鋪面、都市擴張』則判人為放大。",
+            "都市水患的因果鏈要會講:都市化使柏油與水泥的『不透水面』增加,雨水無法下滲、地表逕流又快又大,加上排水不及,就比開發前更容易積淹水;對策是留設滯洪池、透水鋪面與綠地。",
+            "防災對策依災害配對:地震靠耐震建築與避難演練;坡地災害靠坡地分區管制、造林復育與土石流警戒;都市水患靠滯洪、透水設計與排水系統。"
+          ],
+          "formula": "逕流量 ≈ 降雨量 −（下滲量＋蒸發量）;不透水面↑ → 下滲↓ → 地表逕流↑",
+          "trap": "別把天災與人為當成互斥二選一。地震、颱風本身是自然力,但『災情大小』常被人為放大:同一場豪雨,山坡地超限利用或都市不透水面多的地方災情更重。考題問『加劇』的原因時要選人為的土地利用因素,不是選颱風本身。",
+          "svg": "<svg viewBox=\"0 0 340 210\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"14\" y=\"22\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\">同一場豪雨,土地利用不同→災情不同</text><rect x=\"14\" y=\"36\" width=\"150\" height=\"150\" fill=\"#eef4f2\" stroke=\"#3a342e\" stroke-width=\"1\"/><text x=\"30\" y=\"56\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\">林地/透水</text><path d=\"M40 120 q6 14 12 0\" stroke=\"#5aa874\" stroke-width=\"2\" fill=\"none\"/><path d=\"M70 120 q6 14 12 0\" stroke=\"#5aa874\" stroke-width=\"2\" fill=\"none\"/><path d=\"M100 120 q6 14 12 0\" stroke=\"#5aa874\" stroke-width=\"2\" fill=\"none\"/><text x=\"30\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">下滲多</text><text x=\"30\" y=\"170\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">逕流小</text><rect x=\"176\" y=\"36\" width=\"150\" height=\"150\" fill=\"#f3e7df\" stroke=\"#3a342e\" stroke-width=\"1\"/><text x=\"192\" y=\"56\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">都市/不透水</text><rect x=\"192\" y=\"110\" width=\"118\" height=\"10\" fill=\"#3a342e\"/><path d=\"M198 122 L306 122\" stroke=\"#c9755c\" stroke-width=\"3\" fill=\"none\"/><path d=\"M300 116 l8 6 -8 6\" stroke=\"#c9755c\" stroke-width=\"3\" fill=\"none\"/><text x=\"192\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\">下滲少</text><text x=\"192\" y=\"170\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\">逕流大→易淹</text></svg>",
+          "caption": "不透水面增加使雨水下滲變少、地表逕流變大,是都市水患加劇的關鍵。"
         }
       ],
       "quiz": [
@@ -7252,6 +7314,18 @@ window.STUDYSYNC.data.subjects.social = {
             "公民投票讓人民就重大政策或法案直接表達意見,是「直接民主」的展現,可以補充由民意代表代為決定的「間接民主」之不足。"
           ],
           "trap": "修憲最後一定要經「人民複決」,不是立法院自己通過就算數;而一般法律由立法院通過、總統公布即可,不必公投。把修憲門檻和一般立法門檻混為一談,是常見的錯誤。"
+        },
+        {
+          "h": "考點實戰:自治事項?委辦事項?有沒有逾越權限?",
+          "points": [
+            "會考最愛給一段「某市議會通過某條例」或「某縣府做某措施」的情境,要你判斷三件事:這是自治事項還是委辦事項、有沒有牴觸中央法律、中央可以管到什麼程度。解題先分類:由地方自主決定、經費自籌、為在地需求而辦的(如地方公園、地方環保、地方稅捐),多屬「自治事項」,中央只做合法性監督,也就是只看它有沒有違法;若是中央或上級交辦、地方只是代為執行的(如協助辦理國家考試、代辦戶籍統計),屬「委辦事項」,中央除了看合不合法,還能看辦得妥不妥當。",
+            "第二步看法規有沒有牴觸上位法。地方自治法規分兩種:由地方議會議決通過、再由地方行政機關公布的叫「自治條例」,由地方行政機關自己訂定的叫「自治規則」;不論哪一種,都不能牴觸憲法、中央法律和上級機關的法規,牴觸的部分一律無效。所以只要題目裡地方的規定和中央法律衝突,答案幾乎都是「牴觸部分無效」,而不是地方說了算。",
+            "第三步判斷有沒有逾越權限:地方只能在中央劃定的範圍內處理地方事務,若地方拿命令去限制人民的基本權利(如宗教、集會、言論自由),因為違反法律保留原則,就算掛著地方自治的名義也會被判違憲或無效。記住口訣:自治是有界線的自治,界線就是憲法和中央法律。"
+          ],
+          "formula": "法規位階:憲法 > 法律 > 命令 > 自治條例 > 自治規則(牴觸上位者無效)｜自治事項→合法性監督;委辦事項→合法性+適當性監督",
+          "trap": "最常錯:誤以為只要是「地方自治」,地方就能自訂與中央法律相牴觸的規定、或凌駕中央法律,這是錯的,牴觸就無效。另一個陷阱是把「自治條例」和「自治規則」搞混:自治條例是地方議會議決通過、位階較高,自治規則是地方行政機關自訂、位階較低。還要分清監督強度:自治事項中央只能查「合不合法」,委辦事項才能連「妥不妥當」一起管。",
+          "svg": "<svg viewBox=\"0 0 640 300\" xmlns=\"http://www.w3.org/2000/svg\">\n  <text x=\"320\" y=\"26\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"bold\" fill=\"#3a342e\">地方作為判斷流程</text>\n  <rect x=\"230\" y=\"42\" width=\"180\" height=\"40\" rx=\"6\" fill=\"#3a342e\"/>\n  <text x=\"320\" y=\"67\" text-anchor=\"middle\" font-size=\"15\" fill=\"#ffffff\">是自治還是委辦?</text>\n  <rect x=\"40\" y=\"120\" width=\"250\" height=\"64\" rx=\"6\" fill=\"#eef4f2\" stroke=\"#5aa874\" stroke-width=\"2\"/>\n  <text x=\"165\" y=\"146\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#3a342e\">自治事項</text>\n  <text x=\"165\" y=\"170\" text-anchor=\"middle\" font-size=\"13\" fill=\"#3a342e\">中央只做合法性監督(看違不違法)</text>\n  <rect x=\"350\" y=\"120\" width=\"250\" height=\"64\" rx=\"6\" fill=\"#f3e7df\" stroke=\"#c9755c\" stroke-width=\"2\"/>\n  <text x=\"475\" y=\"146\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#3a342e\">委辦事項</text>\n  <text x=\"475\" y=\"170\" text-anchor=\"middle\" font-size=\"13\" fill=\"#3a342e\">合法性+適當性都能監督</text>\n  <line x1=\"290\" y1=\"82\" x2=\"165\" y2=\"120\" stroke=\"#5aa874\" stroke-width=\"2\"/>\n  <line x1=\"350\" y1=\"82\" x2=\"475\" y2=\"120\" stroke=\"#c9755c\" stroke-width=\"2\"/>\n  <rect x=\"140\" y=\"224\" width=\"360\" height=\"56\" rx=\"6\" fill=\"#f0a52e\"/>\n  <text x=\"320\" y=\"249\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#ffffff\">自治法規牴觸憲法/中央法律</text>\n  <text x=\"320\" y=\"270\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#ffffff\">→ 牴觸部分無效</text>\n  <line x1=\"320\" y1=\"184\" x2=\"320\" y2=\"224\" stroke=\"#3a342e\" stroke-width=\"2\"/>\n</svg>",
+          "caption": "先分自治或委辦定監督強度,再檢查有無牴觸中央法律。"
         }
       ],
       "quiz": [
@@ -8468,6 +8542,29 @@ window.STUDYSYNC.data.subjects.social = {
           ],
           "trap": "GDP看的是「境內」這個地理範圍,而不是看生產者的國籍;外籍勞工在台灣生產也算台灣的GDP。另外GDP是「一段期間內」的流量,別誤當成累積到當下的存量。",
           "formula": "GDP = 民間消費(C) + 投資(I) + 政府支出(G) + 淨出口(出口X − 進口M)"
+        },
+        {
+          "h": "GDP判讀:哪些活動計入、GDP的限制",
+          "points": [
+            "會考最愛給一串活動要你判斷是否計入GDP。掌握三個門檻:要有市場交易、要在本國境內、要是當期新生產的最終商品或服務。三個都符合才計入。",
+            "逐一判斷:媽媽在家做家事、自己種菜自己吃,因為沒有市場交易,不計入;外籍勞工在台灣工作領到的薪資,因為是在境內當期生產,計入台灣GDP;二手商品的買賣,商品在當初生產時就已經算過一次,再轉手時只有仲介或平台收取的服務費才計入,舊貨本身不再重複計入;地下經濟例如攤販未報稅、走私,雖然有交易卻沒被官方統計登記,實務上未計入。",
+            "解題口訣:先問有沒有經過市場買賣,再問是不是這一期新生產的,最後確認是不是給最終使用者的商品。二手貨和自家家務最常被拿來當陷阱。",
+            "GDP的限制也是熱門考點:GDP只看總產值,無法反映所得分配是否平均、環境是否被破壞,也無法呈現休閒與生活品質。所以GDP高不代表人民一定過得幸福。"
+          ],
+          "formula": "計入GDP需同時成立:市場交易 + 境內生產 + 當期最終商品/服務",
+          "trap": "最常錯:把二手商品的成交金額整筆算進GDP(舊貨本身不重複計入,只算仲介服務費);把外勞在台薪資誤當不計入(在境內生產就要計入台灣GDP);以及誤以為GDP越高就代表分配越公平、環境越好、人民越幸福,其實GDP無法反映這些。"
+        },
+        {
+          "h": "消費者保護:定型化契約與通訊交易7日猶豫期判讀",
+          "points": [
+            "會考常給網購、電視購物、郵購、電話行銷等案例,問「有沒有7日猶豫期」。解題先判斷是不是「通訊交易」:凡買賣雙方沒有面對面,而是透過網路、電視、廣播、傳單、郵購或電話等方式成立的交易都算。是通訊交易,消費者就能在「收到商品或接受服務後」7日內,不必說明理由、也不必付任何費用,就能退回商品或解除契約。",
+            "但7日解除權有法定例外,常見的像容易腐敗或保存期限很短的商品、依消費者要求客製化的商品、報紙期刊,以及一經拆封就不能退還的影音商品、電腦軟體或個人衛生用品等,這些依主管機關公告可以合理排除猶豫期。看到「已拆封」加上這幾類商品,答案往往是業者可合法拒絕退貨。",
+            "定型化契約是企業事先擬好的制式條款,消費者只能選擇接受或不接受。法律規定要給消費者合理的審閱期間,主管機關也針對健身房、補習班、線上遊戲等行業公告「應記載及不得記載事項」;凡屬不得記載卻仍寫進契約的條款無效,而且定型化契約條款如果違反誠信、對消費者顯失公平,也一律無效。",
+            "解題三步驟:先問是不是通訊交易,再看是否在收到商品後7日內,最後判斷有沒有落在例外清單。定型化契約則記住「違反公告或顯失公平的條款無效,對消費者不生效力」。"
+          ],
+          "trap": "最常錯三點:一是把7日起算點記成「付款日或下單日」,正確是「收受商品或接受服務之後」;二是誤以為業者廣告或契約寫「售出恕不退換」就有效,法定猶豫期不能靠契約或廣告事先拋棄,這種約定無效;三是誤以為7日猶豫期毫無例外,其實客製化、易腐敗、拆封後不能退還的衛生用品或影音軟體等有法定例外可不退。",
+          "svg": "<svg viewBox=\"0 0 360 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"14\" y=\"20\" width=\"150\" height=\"36\" rx=\"5\" fill=\"#f3e7df\" stroke=\"#3a342e\" stroke-width=\"1.2\"/><text x=\"89\" y=\"43\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">是通訊交易?</text><path d=\"M89 56 L89 76\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><rect x=\"14\" y=\"78\" width=\"150\" height=\"36\" rx=\"5\" fill=\"#5aa874\"/><text x=\"89\" y=\"101\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#ffffff\" text-anchor=\"middle\">收貨起7日內</text><path d=\"M89 114 L89 134\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><rect x=\"14\" y=\"136\" width=\"150\" height=\"40\" rx=\"5\" fill=\"#f3e7df\" stroke=\"#3a342e\" stroke-width=\"1.2\"/><text x=\"89\" y=\"154\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">落在例外清單?</text><text x=\"89\" y=\"170\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#c9755c\" text-anchor=\"middle\">拆封衛生品/客製化</text><rect x=\"200\" y=\"78\" width=\"146\" height=\"36\" rx=\"5\" fill=\"#c9755c\"/><text x=\"273\" y=\"101\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">否→不適用猶豫期</text><path d=\"M164 96 L200 96\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><rect x=\"200\" y=\"142\" width=\"146\" height=\"36\" rx=\"5\" fill=\"#f0a52e\"/><text x=\"273\" y=\"165\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">是→可無條件退貨</text><path d=\"M164 156 L200 160\" stroke=\"#3a342e\" stroke-width=\"1.5\"/></svg>",
+          "caption": "退貨判讀流程:先確認通訊交易,再看7日內,最後對照例外清單。"
         }
       ],
       "quiz": [
@@ -8770,6 +8867,19 @@ window.STUDYSYNC.data.subjects.social = {
             "三者都是政府的收入來源,但性質不同:稅最普遍、金額也最大,規費屬於使用者付費,罰鍰則是因違法而產生。"
           ],
           "trap": "規費有「對價、使用者付費」的性質,稅則「無償、不對應特定服務」,兩者最容易混淆;罰鍰是因違法被罰,不可與依法繳納的稅相提並論。"
+        },
+        {
+          "h": "看情境判斷:公共財還是外部性?該課稅還是補貼",
+          "points": [
+            "會考最愛給一個情境要你歸類。判斷「公共財」看兩個特徵:無排他性,也就是無法阻止別人使用,例如國防、路燈;還有無敵對性,也就是一個人使用不會減少別人可用的量。像國防、路燈、燈塔兩者都符合,就是公共財,通常由政府提供。",
+            "判斷「外部性」則要看:某人的行為有沒有影響到交易以外的第三人。工廠排放污水害到下游居民,是負外部性;施打疫苗或種樹讓大家一起受惠,是正外部性。",
+            "解題要看政策工具:負外部性像污染,成本被市場低估、於是生產過多,政府用課稅或管制,讓廠商把外部成本算進去;正外部性像疫苗、教育,好處被低估、於是生產太少,政府用補貼來鼓勵。",
+            "答題步驟:先問有沒有影響第三人,判斷是不是外部性;再問是正的還是負的,決定該補貼還是課稅。如果題目講的是大家共享、無法排他的東西,就歸為公共財,而不是外部性。"
+          ],
+          "formula": "",
+          "trap": "最常錯把方向弄反:正外部性拿去課稅、負外部性拿去補貼。記住負的要課稅來抑制、正的要補貼來鼓勵,方向不可顛倒。另外別把路燈、國防這種無排他性的公共財,誤判成外部性,兩者是不同概念。",
+          "svg": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><g font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\"><rect x=\"15\" y=\"20\" width=\"155\" height=\"165\" rx=\"8\" fill=\"#f3e7df\" stroke=\"#c9755c\"/><text x=\"92\" y=\"44\" text-anchor=\"middle\" fill=\"#c9755c\" font-size=\"14\">負外部性</text><text x=\"92\" y=\"70\" text-anchor=\"middle\">例:工廠排汙</text><text x=\"92\" y=\"96\" text-anchor=\"middle\">害到第三人</text><text x=\"92\" y=\"122\" text-anchor=\"middle\">市場生產過多</text><rect x=\"32\" y=\"140\" width=\"120\" height=\"30\" rx=\"6\" fill=\"#c9755c\"/><text x=\"92\" y=\"160\" text-anchor=\"middle\" fill=\"#ffffff\">政府課稅/管制</text><rect x=\"190\" y=\"20\" width=\"155\" height=\"165\" rx=\"8\" fill=\"#eef4f2\" stroke=\"#5aa874\"/><text x=\"267\" y=\"44\" text-anchor=\"middle\" fill=\"#5aa874\" font-size=\"14\">正外部性</text><text x=\"267\" y=\"70\" text-anchor=\"middle\">例:施打疫苗</text><text x=\"267\" y=\"96\" text-anchor=\"middle\">惠及第三人</text><text x=\"267\" y=\"122\" text-anchor=\"middle\">市場生產太少</text><rect x=\"207\" y=\"140\" width=\"120\" height=\"30\" rx=\"6\" fill=\"#5aa874\"/><text x=\"267\" y=\"160\" text-anchor=\"middle\" fill=\"#ffffff\">政府補貼/鼓勵</text></g></svg>",
+          "caption": "負外部性課稅抑制、正外部性補貼鼓勵,政策方向剛好相反。"
         }
       ],
       "quiz": [
@@ -9980,6 +10090,18 @@ window.STUDYSYNC.data.subjects.social = {
             "關鍵差異在於:改革是否觸及制度根本、是否能整合內部力量,決定了一國能否抵禦帝國主義的衝擊。"
           ],
           "trap": "⚠ 易混淆兩點:一是年代,甲午戰爭是1894到1895年(甲午年為1894年)、1895年才簽《馬關條約》,別把戰爭年和條約年混為一談;二是『東亞病夫』指中國、『近東病夫』指鄂圖曼,別張冠李戴。"
+        },
+        {
+          "h": "工業革命的另一面:社會問題與思想回應",
+          "points": [
+            "工業革命的技術核心是瓦特改良的蒸汽機,提供穩定動力,使生產從家庭手工業轉為集中在工廠的『工廠制』;紡織業機械化是起點,英國最早發生。這一步要記牢:機器加動力,才有大量生產與工廠。",
+            "技術改變社會結構,會考最愛用『因果』來考:機器生產把人集中到工廠,農村人口湧入城市造成都市化;社會分裂成擁有工廠的資產階級和出賣勞力的無產階級。工廠為壓低成本大量僱用女工、童工,工時長、工資低、環境惡劣,形成嚴重的勞工問題。",
+            "面對資本主義帶來的貧富不均,出現思想上的回應:社會主義主張保障勞工、縮小差距,馬克思在一八四八年發表《共產黨宣言》,號召工人團結。勞工也自發組工會、爭取縮短工時與提高工資,推動後來的勞工立法。",
+            "解題步驟:題目若給你『童工、都市化、貧民窟、社會主義興起、工會出現』這類現象,就要判斷屬於工業革命帶來的『社會衝擊』;若問技術如何改變社會,答題主軸就是『蒸汽機到工廠制,再到都市化與新階級對立』這條因果鏈。"
+          ],
+          "trap": "最常見的錯誤有三:一是把工業革命只當成帝國主義擴張的『動因』,忽略它本身在國內造成勞工與都市化問題,兩個角度都要會;二是張冠李戴,社會主義(強調保障勞工、縮小貧富)是對『資本主義』流弊的回應,別把兩者立場對調;三是《共產黨宣言》是一八四八年、由馬克思(與恩格斯)提出,別和年代混淆,也別誤以為工業革命一開始就改善了勞工生活,初期反而是勞工處境最艱苦的階段。",
+          "svg": "<svg viewBox=\"0 0 360 210\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"180\" y=\"18\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\" font-weight=\"bold\">技術突破 → 社會衝擊 → 思想回應</text><rect x=\"70\" y=\"30\" width=\"100\" height=\"28\" rx=\"4\" fill=\"#5aa874\"/><text x=\"120\" y=\"49\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f3e7df\" text-anchor=\"middle\">蒸汽機</text><rect x=\"190\" y=\"30\" width=\"100\" height=\"28\" rx=\"4\" fill=\"#5aa874\"/><text x=\"240\" y=\"49\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f3e7df\" text-anchor=\"middle\">工廠制</text><text x=\"172\" y=\"49\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">→</text><line x1=\"180\" y1=\"62\" x2=\"180\" y2=\"74\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><polygon points=\"180,80 176,72 184,72\" fill=\"#3a342e\"/><rect x=\"8\" y=\"84\" width=\"108\" height=\"44\" rx=\"4\" fill=\"#f3e7df\"/><text x=\"62\" y=\"102\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">都市化</text><text x=\"62\" y=\"119\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">農村湧入城市</text><rect x=\"126\" y=\"84\" width=\"108\" height=\"44\" rx=\"4\" fill=\"#f3e7df\"/><text x=\"180\" y=\"102\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">新階級對立</text><text x=\"180\" y=\"119\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">資產vs無產</text><rect x=\"244\" y=\"84\" width=\"108\" height=\"44\" rx=\"4\" fill=\"#f3e7df\"/><text x=\"298\" y=\"102\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">勞工問題</text><text x=\"298\" y=\"119\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">童工·長工時</text><line x1=\"180\" y1=\"132\" x2=\"180\" y2=\"144\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><polygon points=\"180,150 176,142 184,142\" fill=\"#3a342e\"/><rect x=\"70\" y=\"154\" width=\"220\" height=\"30\" rx=\"4\" fill=\"#c9755c\"/><text x=\"180\" y=\"174\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f3e7df\" text-anchor=\"middle\">社會主義·工會(1848共產黨宣言)</text><text x=\"180\" y=\"200\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f0a52e\" text-anchor=\"middle\">回應資本主義的貧富不均</text></svg>",
+          "caption": "工業革命從技術突破一路推到社會問題,再引出社會主義與工會的思想回應。"
         }
       ],
       "quiz": [
@@ -10592,6 +10714,18 @@ window.STUDYSYNC.data.subjects.social = {
           "trap": "別把季風氣候和熱帶雨林氣候混為一談：季風有明顯乾季也就是冬乾，雨林則全年多雨、沒有乾季；馬來群島是雨林，中南半島才是季風稻作。",
           "svg": "<svg viewBox=\"0 0 360 200\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"180\" y=\"18\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\" font-weight=\"bold\">亞洲三大氣候帶與降水型態</text><rect x=\"12\" y=\"30\" width=\"108\" height=\"150\" fill=\"#eef4f2\" rx=\"4\" stroke=\"#5aa874\" stroke-width=\"1.2\"/><text x=\"66\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\" text-anchor=\"middle\" font-weight=\"bold\">季風</text><rect x=\"30\" y=\"120\" width=\"12\" height=\"45\" fill=\"#5aa874\"/><rect x=\"50\" y=\"75\" width=\"12\" height=\"90\" fill=\"#5aa874\"/><rect x=\"70\" y=\"135\" width=\"12\" height=\"30\" fill=\"#5aa874\"/><rect x=\"90\" y=\"150\" width=\"12\" height=\"15\" fill=\"#5aa874\"/><text x=\"66\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3a342e\" text-anchor=\"middle\">夏多冬少</text><rect x=\"126\" y=\"30\" width=\"108\" height=\"150\" fill=\"#fdf3e6\" rx=\"4\" stroke=\"#f0a52e\" stroke-width=\"1.2\"/><text x=\"180\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\" font-weight=\"bold\">乾燥</text><rect x=\"144\" y=\"158\" width=\"12\" height=\"7\" fill=\"#f0a52e\"/><rect x=\"164\" y=\"160\" width=\"12\" height=\"5\" fill=\"#f0a52e\"/><rect x=\"184\" y=\"157\" width=\"12\" height=\"8\" fill=\"#f0a52e\"/><rect x=\"204\" y=\"161\" width=\"12\" height=\"4\" fill=\"#f0a52e\"/><text x=\"180\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3a342e\" text-anchor=\"middle\">各月皆少</text><rect x=\"240\" y=\"30\" width=\"108\" height=\"150\" fill=\"#f6ece6\" rx=\"4\" stroke=\"#c9755c\" stroke-width=\"1.2\"/><text x=\"294\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\" font-weight=\"bold\">熱帶雨林</text><rect x=\"258\" y=\"80\" width=\"12\" height=\"85\" fill=\"#c9755c\"/><rect x=\"278\" y=\"78\" width=\"12\" height=\"87\" fill=\"#c9755c\"/><rect x=\"298\" y=\"82\" width=\"12\" height=\"83\" fill=\"#c9755c\"/><rect x=\"318\" y=\"79\" width=\"12\" height=\"86\" fill=\"#c9755c\"/><text x=\"294\" y=\"177\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3a342e\" text-anchor=\"middle\">全年皆多</text></svg>",
           "caption": "看各月降水柱狀圖：夏多冬少是季風、各月皆少是乾燥、全年皆多是熱帶雨林。"
+        },
+        {
+          "h": "西亞石油與資源詛咒:資源豐富≠發展均衡",
+          "points": [
+            "會考常把『石油分布』與『產油國經濟』綁在一起考:要記得全球石油最集中在西亞波斯灣沿岸,約佔世界儲量一半以上,沙烏地阿拉伯、伊朗、伊拉克、科威特、阿聯等多是石油輸出國組織(OPEC)成員,能靠協調產量來影響國際油價,這就是能源地緣的核心。",
+            "『資源詛咒』是高頻考點:指有些天然資源很豐富的發展中國家,收益多集中在少數人或政府手中、又過度依賴單一資源出口,反而沒有轉化成全民福利,造成貧富不均、產業單一、發展受限,遇到油價下跌就容易經濟動盪。解題時看到『資源豐富卻發展不均』就往這個方向想。",
+            "產油國經濟結構常被描述為『單一化、脆弱』:高度依賴石油出口收入,工業與農業基礎薄弱,一旦國際油價大跌或資源枯竭,國家財政就會受重創,所以近年不少產油國推動經濟多元化,發展觀光、金融、再生能源來分散風險。",
+            "把石油放進國際貿易脈絡:西亞石油多經荷莫茲海峽以海運輸往東亞等地,是全球最重要的石油運輸咽喉;產油國屬原料出口方,工業產品則多仰賴進口,這種『賣資源、買工業品』的分工也是資源依賴的表現之一。"
+          ],
+          "trap": "最常見錯誤是把『資源豐富』直接等於『經濟發達』,或把『資源詛咒』誤解成資源太少;資源詛咒指的是資源多、但利益分配不均與依賴單一資源導致發展受阻。另外別把石油輸出國組織(OPEC)和東協(ASEAN,東南亞區域經貿組織)搞混。",
+          "svg": "<svg viewBox=\"0 0 360 210\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"180\" y=\"18\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\" font-weight=\"bold\">資源詛咒:為何資源多卻發展難</text><rect x=\"20\" y=\"32\" width=\"110\" height=\"40\" fill=\"#f0a52e\" rx=\"5\"/><text x=\"75\" y=\"50\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\" font-weight=\"bold\">石油資源豐富</text><text x=\"75\" y=\"65\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">(西亞波斯灣)</text><rect x=\"20\" y=\"92\" width=\"110\" height=\"38\" fill=\"#f3e7df\" rx=\"5\" stroke=\"#c9755c\" stroke-width=\"1.2\"/><text x=\"75\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">依賴單一資源出口</text><text x=\"75\" y=\"124\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">利益分配不均</text><rect x=\"20\" y=\"150\" width=\"110\" height=\"40\" fill=\"#c9755c\" rx=\"5\"/><text x=\"75\" y=\"168\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f3e7df\" text-anchor=\"middle\">產業單一、貧富差距</text><text x=\"75\" y=\"182\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#f3e7df\" text-anchor=\"middle\">油價一跌就動盪</text><line x1=\"75\" y1=\"72\" x2=\"75\" y2=\"90\" stroke=\"#3a342e\" stroke-width=\"1.8\" marker-end=\"url(#a2)\"/><line x1=\"75\" y1=\"130\" x2=\"75\" y2=\"148\" stroke=\"#3a342e\" stroke-width=\"1.8\" marker-end=\"url(#a2)\"/><rect x=\"165\" y=\"46\" width=\"175\" height=\"144\" fill=\"#eef4f2\" rx=\"5\" stroke=\"#5aa874\" stroke-width=\"1.2\"/><text x=\"252\" y=\"66\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\" text-anchor=\"middle\" font-weight=\"bold\">解方:經濟多元化</text><text x=\"252\" y=\"90\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">發展觀光、金融</text><text x=\"252\" y=\"110\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">投資再生能源</text><text x=\"252\" y=\"130\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">分散對石油依賴</text><text x=\"252\" y=\"158\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5aa874\" text-anchor=\"middle\" font-weight=\"bold\">降低油價風險</text><text x=\"252\" y=\"176\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5aa874\" text-anchor=\"middle\">邁向穩定發展</text><defs><marker id=\"a2\" markerWidth=\"7\" markerHeight=\"7\" refX=\"3.5\" refY=\"3.5\" orient=\"auto\"><path d=\"M0,0 L7,3.5 L0,7 Z\" fill=\"#3a342e\"/></marker></defs></svg>",
+          "caption": "資源豐富若過度依賴單一出口且分配不均,反而發展受阻;經濟多元化是產油國的解方。"
         }
       ],
       "quiz": [
@@ -12108,6 +12242,19 @@ window.STUDYSYNC.data.subjects.social = {
             "判別技巧：先問這兩樣東西是取代關係還是搭配關係。取代關係是替代品，特徵是一方漲價、另一方需求增加；搭配關係是互補品，特徵是一方漲價、另一方需求減少。"
           ],
           "trap": "⚠ 替代品與互補品的需求變動方向恰好相反，最容易張冠李戴；記住替代品是「甲漲、乙的需求增」，互補品是「甲漲、乙的需求減」，方向千萬別搞反。"
+        },
+        {
+          "h": "價格上限造成短缺、下限造成過剩的判讀",
+          "points": [
+            "會考常給一個管制價格，要你判斷市場會短缺還是過剩。解題三步驟：第一步把管制價和均衡價比高低，第二步定名稱，第三步找出缺口方向。管制價低於均衡的叫價格上限（例如房租管制、油電凍漲），管制價高於均衡的叫價格下限（例如基本工資、農產保價收購）。",
+            "價格上限把價格壓在均衡之下，消費者想買的變多、廠商願意供給的變少，於是需求量大於供給量，形成短缺，常伴隨排隊、限購與黑市。價格下限把價格撐在均衡之上，供給量大於需求量，形成過剩，例如基本工資高於均衡就造成勞動過剩，也就是失業。",
+            "缺口大小一律用同一個管制價格下的數量差來算，不是用價格差。短缺量等於該價格下的需求量減供給量，過剩量等於供給量減需求量；問失業人數就是那個價格下勞動供給量減勞動需求量。",
+            "還要會判斷管制有沒有實質效果：上限要低於均衡、下限要高於均衡才會產生短缺或過剩。若上限訂得比均衡還高、或下限訂得比均衡還低，管制線碰不到均衡點，對市場沒有拘束力，市場照樣停在原本的均衡。"
+          ],
+          "formula": "價格上限＜P*（均衡價）→短缺量＝Qd－Qs；價格下限＞P*→過剩量＝Qs－Qd；失業＝勞動供給量－勞動需求量（皆在同一管制價下計算）",
+          "trap": "⚠ 最常錯在把「價格差」當成「數量缺口」。例如均衡價50、下限訂60，缺口不是60−50＝10，而要看60這個價位下的供給量與需求量之差。另一個易錯點是名稱與結果張冠李戴：上限（壓低價）造成短缺、下限（抬高價）造成過剩，別記反了；基本工資是價格下限，會造成勞動過剩（失業），不是短缺。",
+          "svg": "<svg viewBox=\"0 0 360 210\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"180\" y=\"18\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\" font-weight=\"bold\">管制價比均衡價高低 → 定短缺或過剩</text><rect x=\"20\" y=\"34\" width=\"150\" height=\"150\" rx=\"8\" fill=\"#f3e7df\"/><text x=\"95\" y=\"54\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\" font-weight=\"bold\">價格上限（低於均衡）</text><line x1=\"40\" y1=\"160\" x2=\"160\" y2=\"160\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"160\" x2=\"40\" y2=\"66\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><circle cx=\"98\" cy=\"110\" r=\"3\" fill=\"#3a342e\"/><text x=\"36\" y=\"113\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3a342e\" text-anchor=\"end\">P*</text><line x1=\"40\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#c9755c\" stroke-width=\"1.5\" stroke-dasharray=\"5,3\"/><text x=\"95\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\" font-weight=\"bold\">短缺 Qd＞Qs</text><rect x=\"190\" y=\"34\" width=\"150\" height=\"150\" rx=\"8\" fill=\"#eef4f2\"/><text x=\"265\" y=\"54\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\" font-weight=\"bold\">價格下限（高於均衡）</text><line x1=\"210\" y1=\"160\" x2=\"330\" y2=\"160\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"160\" x2=\"210\" y2=\"66\" stroke=\"#3a342e\" stroke-width=\"1.5\"/><circle cx=\"268\" cy=\"110\" r=\"3\" fill=\"#3a342e\"/><text x=\"206\" y=\"113\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#3a342e\" text-anchor=\"end\">P*</text><line x1=\"210\" y1=\"82\" x2=\"330\" y2=\"82\" stroke=\"#f0a52e\" stroke-width=\"1.5\" stroke-dasharray=\"5,3\"/><text x=\"265\" y=\"175\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#f0a52e\" text-anchor=\"middle\" font-weight=\"bold\">過剩 Qs＞Qd</text><text x=\"180\" y=\"202\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">房租管制→短缺；基本工資→勞動過剩（失業）</text></svg>",
+          "caption": "先比管制價與均衡價高低：低於均衡的上限造成短缺，高於均衡的下限造成過剩；缺口一律用同一價位的數量差計算。"
         }
       ],
       "quiz": [
@@ -12718,6 +12865,19 @@ window.STUDYSYNC.data.subjects.social = {
             "【台灣的挑戰】台灣以出口為導向，若被排除在主要區域協定之外，商品在這些市場可能面臨較高關稅、競爭力下降。台灣於2021年申請加入CPTPP，但能否加入受成員國態度與政治因素影響，加入區域整合是台灣經貿的重要課題。"
           ],
           "trap": "易混淆：自由貿易區、關稅同盟、共同市場是不同深度的整合，差別在於對外是否採共同關稅、生產要素能否自由流動，不可混為一談。另外RCEP在2022年生效、成員不包含台灣；台灣2021年提出申請的是CPTPP，截至目前並非正式成員，切勿誤記台灣已加入。"
+        },
+        {
+          "h": "比較利益的算例判讀與關稅配額得失",
+          "points": [
+            "【解題三步驟】遇到「給兩國生產資料判斷分工方向」的題目，先把每一種商品的機會成本算出來:機會成本就是為了多生產一單位這個商品,必須放棄的另一種商品數量。第二步比較同一商品在兩國的機會成本,誰的機會成本較低,誰就在該商品具有比較利益。第三步讓各國專門生產自己機會成本較低的商品,再互相貿易,雙方都能得到比自給自足更多的商品。",
+            "【一定要換算成同一種商品的機會成本】題目常給「生產一單位稻米要放棄幾單位布」,也可能改給「生產一單位布要放棄幾單位稻米」,兩者互為倒數。比較前務必把所有國家換算成「同一個商品」的機會成本再比,不能直接拿不同基準的數字硬比。記住:比的是相對成本,不是誰生產得多,就算一國樣樣產量都比較高,仍應依比較利益分工。",
+            "【關稅與配額屬於保護貿易】關稅是對進口品課稅,配額是限制進口的數量上限,補貼是政府補助本國廠商,這三者都是保護貿易的手段,方向和自由貿易相反。課關稅或設配額後,進口品變貴或變少,受保護的本國同類產業與其勞工受益,但本國消費者要付更高價格、選擇也變少,是最典型的得失分析考法。",
+            "【誰得利、誰受害要分清立場】同一個貿易政策,對不同對象影響相反。自由貿易讓消費者買到更便宜多元的商品,卻可能衝擊本國競爭力較弱的產業;保護政策護住本國產業與就業,卻讓消費者付出較高代價,也可能招致貿易對手報復。答題時先看題目問的是消費者、本國產業還是出口廠商的角度,再判斷利或弊。"
+          ],
+          "formula": "某商品機會成本 = 放棄的他商品數量 ÷ 增產的該商品數量;機會成本較低者 → 具比較利益 → 專業化生產;稻米機會成本與布機會成本互為倒數。",
+          "trap": "最常錯的是把「比較利益」誤當成「絕對產量最多」:即使一國每種商品產量都較高,仍要用機會成本(相對成本)判斷分工,而非看誰產量大。第二個陷阱是機會成本沒換算成同一商品就直接比大小。第三個陷阱是誤以為課關稅能讓消費者買得更便宜——課關稅後進口品反而變貴,受益的是本國被保護的產業,不是消費者。",
+          "svg": "<svg viewBox=\"0 0 360 210\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"8\" y=\"8\" width=\"344\" height=\"92\" fill=\"#eef4f2\" rx=\"8\"/><text x=\"180\" y=\"26\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3a342e\" text-anchor=\"middle\">生產1單位稻米要放棄的布(機會成本)</text><rect x=\"28\" y=\"38\" width=\"140\" height=\"50\" fill=\"#f3e7df\" rx=\"6\" stroke=\"#5aa874\" stroke-width=\"1.5\"/><text x=\"98\" y=\"58\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">甲國:放棄2布</text><text x=\"98\" y=\"78\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\" text-anchor=\"middle\">成本較低→產稻米</text><rect x=\"192\" y=\"38\" width=\"140\" height=\"50\" fill=\"#f3e7df\" rx=\"6\" stroke=\"#c9755c\" stroke-width=\"1.5\"/><text x=\"262\" y=\"58\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">乙國:放棄3布</text><text x=\"262\" y=\"78\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">稻米貴→改產布</text><text x=\"180\" y=\"120\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#3a342e\" text-anchor=\"middle\">關稅/配額 = 保護貿易,得失相反</text><rect x=\"20\" y=\"132\" width=\"150\" height=\"58\" fill=\"#eef4f2\" rx=\"6\" stroke=\"#5aa874\" stroke-width=\"1\"/><text x=\"95\" y=\"152\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5aa874\" text-anchor=\"middle\">受益</text><text x=\"95\" y=\"171\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">本國同類產業</text><text x=\"95\" y=\"186\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">與其勞工</text><rect x=\"190\" y=\"132\" width=\"150\" height=\"58\" fill=\"#f3e7df\" rx=\"6\" stroke=\"#c9755c\" stroke-width=\"1\"/><text x=\"265\" y=\"152\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#c9755c\" text-anchor=\"middle\">受害</text><text x=\"265\" y=\"171\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">消費者付較高價</text><text x=\"265\" y=\"186\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#3a342e\" text-anchor=\"middle\">選擇也變少</text></svg>",
+          "caption": "先算機會成本再比大小,機會成本低者專業化生產;關稅與配額保護本國產業,卻讓消費者付出較高代價。"
         }
       ],
       "quiz": [
