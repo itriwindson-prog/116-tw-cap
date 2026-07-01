@@ -1346,7 +1346,7 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "⚠ each of the 後須接複數名詞(athletes),但動詞與所給單位仍依 each 為單數;故 a chance 對應 each 的單數,two chances 與 each 不合。"
         },
         {
-          "stem": "The ___ of the orchestra ___ tuning their instruments when the conductor walked in.",
+          "stem": "The ___ of the band ___ tuning their instruments when the leader walked in.",
           "options": [
             "musician / was",
             "musicians / were",
@@ -1355,7 +1355,7 @@ window.STUDYSYNC.data.subjects.english = {
           ],
           "answer": 1,
           "explanation": "整個樂團有多位樂手故用複數 musicians;主詞 musicians 為複數,過去進行式用 were tuning。",
-          "trap": "⚠ of the orchestra 是修飾語,真正主詞是前面的 musicians(複數)用 were;別被單數的 orchestra 干擾而誤選 was。"
+          "trap": "⚠ of the band 是修飾語,真正主詞是前面的 musicians(複數)用 were;別被單數的 band 干擾而誤選 was。"
         },
         {
           "stem": "The waiter brought us two ___ of tea and a ___ of bread to share before the main course.",
@@ -1394,7 +1394,7 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "⚠ damage 不可數不可用 many 修飾;a few 須接複數 injuries,且 there be 看後面複數用 were 而非 was。"
         },
         {
-          "stem": "The ___ at this resort include a spa, two pools, and a gym, which is why ___ visit it every summer.",
+          "stem": "The ___ at this hotel include a garden, two pools, and a gym, which is why ___ visit it every summer.",
           "options": [
             "facility / familys",
             "facilities / families",
@@ -1656,7 +1656,7 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "⚠ one 為單數核心,Not a single one 視為單數,正式語法用 his or her;雖有複數 volunteers,但 one of 鎖定單數;its 用於非人,your 人稱錯誤。"
         },
         {
-          "stem": "The two countries signed the treaty, promising never to attack ___ again.",
+          "stem": "The two countries signed the agreement, promising never to attack ___ again.",
           "options": [
             "themselves",
             "each other",
@@ -1776,7 +1776,7 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "⚠ 對象是兩個人(the two of them),反身代名詞用複數 yourselves,不是單數 yourself;此處配合主詞 you 作強調,your 為所有格不可作主詞補語。"
         },
         {
-          "stem": "Neither the evidence nor the witnesses convinced the jury; in the end, ___ found the defendant not guilty.",
+          "stem": "Neither the evidence nor the witnesses convinced the jury; in the end, ___ found the man not guilty.",
           "options": [
             "it",
             "they",
@@ -3114,16 +3114,16 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "⚠ 男孩是被責罵者須用被動;動名詞的被動形是 being + p.p.(being scolded);scolding 是主動(男孩罵人),scolded 缺 being 無法當動名詞主體。"
         },
         {
-          "stem": "It is said ___ thousands of stars in that part of the night sky, though we can barely see them.",
+          "stem": "It is said that ___ thousands of stars in that part of the night sky, though we can barely see them.",
           "options": [
             "there are",
             "there to be",
             "to have",
             "having"
           ],
-          "answer": 1,
-          "explanation": "It is said that there are... 改不定詞時 there are 變 there to be,故 It is said there to be。",
-          "trap": "⚠ It is said that + 子句可轉為不定詞:there are → there to be;此題考被動句型 It is said... 後 there 結構的不定詞轉換,易誤填 there are(那需 that 引導子句)。"
+          "answer": 0,
+          "explanation": "虛主詞句型 It is said that + 子句;子句用 there are 表『有…』,故『It is said that there are thousands of stars』最完整正確。B『there to be』只用於『There are said to be…』的不定詞轉換,不能接在 that 之後;C『to have』、D『having』皆不合句構。",
+          "trap": "⚠ 有 that 引導子句時,子句要用完整的 there are;『there to be』只出現在沒有 that 的不定詞句『There are said to be…』,兩種句型不可混用。"
         },
         {
           "stem": "The famous scientist ___ to have discovered a new way to store solar energy.",
@@ -3812,7 +3812,7 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "⚠ 關代指『前面整句/整件事』時固定用 which,不可用 that 或 what;此處先行詞不是 everyone(否則語意變成『每個人讓氣氛緩和』),而是整個道歉的行為。"
         },
         {
-          "stem": "The old bridge, the railings of ___ had rusted badly, was finally closed for repairs.",
+          "stem": "The old bridge, the surface of ___ had cracked badly, was finally closed for repairs.",
           "options": [
             "it",
             "which",
@@ -3820,8 +3820,8 @@ window.STUDYSYNC.data.subjects.english = {
             "whose"
           ],
           "answer": 1,
-          "explanation": "the railings of which = whose railings,指物的所有格用『of which』結構;先行詞 the bridge 是物,of 後接關代用 which。",
-          "trap": "⚠ the railings of it 會造成逗號黏接兩個獨立句的錯誤;of 後不可接 that,且須用關代 which 連接子句;此結構等同 whose railings，但本題空格在 of 之後故選 which。"
+          "explanation": "the surface of which = whose surface,指物的所有格。空格前有介系詞 of,只能填 which(of which);whose 不與 of 連用,it/that 也不能當 of 的關代受詞。先行詞 the bridge 是物,故選 which。",
+          "trap": "⚠ the surface of it 會造成逗號黏接兩個獨立句的錯誤;of 後不可接 that,且須用關代 which 連接子句;此結構等同 whose surface，但本題空格在 of 之後故選 which。"
         },
         {
           "stem": "She is one of those people ___ never give up no matter how difficult the situation becomes.",
@@ -4210,7 +4210,7 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "⚠ 前後語意對立（理論完美 vs 現實做不到）須用轉折詞 nevertheless；as a result（因此）順承、in addition（此外）補充、for instance（舉例）皆不符對比邏輯。"
         },
         {
-          "stem": "___ both of them apologized ___ the manager forgave them, for the damage was simply too great.",
+          "stem": "___ the students ___ the teacher was satisfied with the result, for the whole project had clearly failed.",
           "options": [
             "Although ... but",
             "Even though ... yet",
@@ -4218,8 +4218,8 @@ window.STUDYSYNC.data.subjects.english = {
             "Whether ... or"
           ],
           "answer": 2,
-          "explanation": "句意「兩人都道歉了，但經理也沒原諒他們」其實是『兩者皆未發生原諒』的全否；空格為「Neither A nor B」結構，表「既沒…也沒…」，配合後句「損失太大」最合理。",
-          "trap": "⚠ Although/Even though 是連接詞不可與 but/yet 並用（英文擇一），故排除前兩項；Whether...or 表「無論」語意不合。Neither A nor B（兩者皆否）才能呼應「道歉也沒原諒（皆未成立）」的全盤否定。"
+          "explanation": "句意「學生和老師都不滿意結果」是全盤否定;『Neither A nor B』表「既不…也不…」,配合後句「整個專案顯然失敗」最合理。動詞依就近原則與最近主詞 the teacher(單數)一致,故用 was(已在題幹)。",
+          "trap": "⚠ Although/Even though 是連接詞,英文不可再與 but/yet 並用(擇一即可),故排除前兩項;Whether...or 表「無論…或」語意不合。只有 Neither A nor B(兩者皆否)能呼應「都不滿意」的全盤否定。"
         },
         {
           "stem": "Read the dialogue: A: \"Will the picnic be cancelled?\" B: \"___ it rains, we'll move it indoors, so don't worry.\" Choose the best word for the blank.",
@@ -4743,16 +4743,16 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "⚠ 附加問句『前否定後肯定』;主句已含 haven't(否定),問句須用肯定 have you,且助動詞沿用 have 不可換成 do/did。"
         },
         {
-          "stem": "Neither the teacher nor her students ___ aware that the fire drill ___ scheduled for that very morning.",
+          "stem": "Neither the teacher nor her students ___ aware that the school trip ___ scheduled for that very morning.",
           "options": [
             "was; had been",
             "were; had been",
             "was; have been",
             "were; was"
           ],
-          "answer": 0,
-          "explanation": "neither A nor B 的動詞與『最靠近的主詞』一致(就近原則),students 雖為複數,但 B=her students... 等等,實際就近主詞是 students(複數)? 須細看:『neither the teacher nor her students』最近主詞為 students(複數),故主句動詞應為 were。但兩個動詞需整體判斷:演習在過去某時間點之前已被安排,用過去完成 had been。故主句若依就近原則為 were;然而本題正解設計為 was/were 之爭——標準就近原則取最近名詞 students(複數)→ were。再檢查:第二空 the fire drill(單數)被安排,過去完成被動 had been scheduled。綜合最符合就近原則者為 were; had been。",
-          "trap": "⚠ 此處易被『neither...nor 一律單數』的迷思誤導;就近原則看最近的 students(複數)用 were,且演習在過去敘述點前已排定,用過去完成被動 had been scheduled。"
+          "answer": 1,
+          "explanation": "neither A nor B 的動詞依『就近原則』與最靠近的主詞一致;最近主詞為 her students(複數),故第一空用 were。第二空 the school trip 在敘述的那個早上之前即已排定,用過去完成被動 had been scheduled。故選 were; had been。",
+          "trap": "⚠ 別被『neither...nor 一律用單數』的迷思誤導;就近原則要看最靠近動詞的主詞 students(複數)→ were。第二空表『更早之前就已排定』,用過去完成被動 had been scheduled,不是 have been(現在完成)或 was(單純過去)。"
         },
         {
           "stem": "___ had the manager finished his speech ___ the audience began to applaud loudly.",
@@ -6052,7 +6052,7 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "⚠ needn't have + 過去分詞 表『做了卻沒必要』;事實是他們有帶,只是不必要,別誤聽成沒帶或被要求帶。"
         },
         {
-          "stem": "Library announcement: 'The library closes at 9, but the study rooms must be vacated by 8:30.' By when must you leave the study rooms?",
+          "stem": "Library announcement: 'The library closes at 9, but the study rooms must be empty by 8:30.' By when must you leave the study rooms?",
           "options": [
             "9:00.",
             "8:30.",
@@ -6060,7 +6060,7 @@ window.STUDYSYNC.data.subjects.english = {
             "Anytime before closing."
           ],
           "answer": 1,
-          "explanation": "study rooms must be vacated by 8:30 = 自習室須在八點半前清空,與整館九點關門不同。",
+          "explanation": "study rooms must be empty by 8:30 = 自習室須在八點半前淨空,與整館九點才關門不同。",
           "trap": "⚠ 同段含兩個時間,closes at 9 是全館,study rooms 的截止是 8:30;別把整館關門時間套到自習室。"
         },
         {
@@ -8375,7 +8375,7 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "⚠ Nobody 已使句子否定,問句須用肯定 did(非 didn't);且 nobody 在問句中以 they 回指,不可用 he。"
         },
         {
-          "stem": "Never before ___ such a devastating earthquake struck this peaceful coastal town.",
+          "stem": "Never before ___ such a terrible earthquake struck this peaceful coastal town.",
           "options": [
             "has",
             "have",
@@ -8383,7 +8383,7 @@ window.STUDYSYNC.data.subjects.english = {
             "was"
           ],
           "answer": 0,
-          "explanation": "Never before 置句首觸發倒裝;搭配 struck 一字看似過去式,但句意強調「前所未有」用現在完成,且主詞 such a... earthquake 為單數,助動詞用 has,後接過去分詞需為 struck(strike 的過去分詞同形)→ has...struck。",
+          "explanation": "Never before 置句首觸發倒裝;句意強調「前所未有」用現在完成式,主詞 such a terrible earthquake 為單數,故助動詞用 has,後接過去分詞 struck(strike 的過去分詞,與過去式同形)→ has ... struck。B have 主詞單數不合;C did、D was 非完成式,皆誤。",
           "trap": "⚠ Never before 句首須倒裝;strike 的過去式與過去分詞皆為 struck,易誤判;主詞 earthquake 單數用 has,選 have 為主謂不一致,選 did 則與完成式語境不合。"
         },
         {
@@ -11622,7 +11622,7 @@ window.STUDYSYNC.data.subjects.english = {
           "trap": "⚠ 須先算百分比變化(Other 20%−10%=10%)再乘總額；直接用原20%×4000=800會錯選。"
         },
         {
-          "stem": "Bus timetable: buses leave every 25 minutes starting at 7:10 a.m. Tom reaches the stop at 8:00 a.m. How long must he wait for the next bus?",
+          "stem": "Bus timetable: buses leave every 25 minutes starting at 7:15 a.m. Tom reaches the stop at 8:00 a.m. How long must he wait for the next bus?",
           "options": [
             "5 minutes",
             "10 minutes",
@@ -11630,8 +11630,8 @@ window.STUDYSYNC.data.subjects.english = {
             "25 minutes"
           ],
           "answer": 0,
-          "explanation": "發車:7:10, 7:35, 8:00, 8:25...。8:00剛好有一班，但Tom『reaches at 8:00』，最保險的下一班為8:00(若視為趕上則0分)。實際排班8:00有車，下一班為8:25;但因恰好8:00抵達，等待至8:00即0~5分內。逐班推算:7:10+25=7:35,+25=8:00,+25=8:25。8:00抵達等下一班8:00同刻可上，題意取緊接班次8:00→剛好;若已開走則等到8:25。標準解以『最近未過班次』為8:00，等候5分鐘為命題設定(抵達8:00、車8:05微差)。",
-          "trap": "⚠ 等間隔發車要從起始時間逐次加間隔推到抵達時刻之後的第一班；不可直接用25分鐘當答案。"
+          "explanation": "發車:7:15, 7:40, 8:05, 8:30…(每 25 分一班)。Tom 於 8:00 抵達,尚未發車的最近一班是 8:05,故需等 8:05 − 8:00 = 5 分鐘。",
+          "trap": "⚠ 等間隔發車要從起始時間(7:15)逐次加 25 分,推到抵達時刻(8:00)之後的第一班(8:05);不可直接把間隔 25 分當答案。"
         },
         {
           "stem": "A bar chart shows daily steps for a week. Mon 6,000; Tue 9,000; Wed 12,000; Thu 7,000; Fri 11,000; Sat 15,000; Sun 4,000. The text says the goal is 10,000 steps. On how many days did the person MEET OR EXCEED the goal?",
