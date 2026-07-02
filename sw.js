@@ -26,6 +26,7 @@ self.addEventListener("activate", e => {
 self.addEventListener("fetch", e => {
   const req = e.request;
   if (req.method !== "GET") return;
+  if (new URL(req.url).pathname.endsWith("version.json")) return;  // 永遠連網，別讓快取攔住版本檢查
   // stale-while-revalidate；ignoreSearch 讓 schedule.html?date=… 等帶參數網址也命中
   e.respondWith(
     caches.open(CACHE).then(async cache => {
@@ -37,4 +38,15 @@ self.addEventListener("fetch", e => {
       return cached || (await fresh) || cache.match("index.html");
     })
   );
+});
+
+// 前端按「更新」時，逐檔重抓 SHELL 並回報進度
+self.addEventListener("message", async e => {
+  if (e.data !== "update") return;
+  const cache = await caches.open(CACHE);
+  for (let i = 0; i < SHELL.length; i++) {
+    try { await cache.add(new Request(SHELL[i], { cache: "reload" })); } catch (err) {}
+    e.source.postMessage({ type: "progress", done: i + 1, total: SHELL.length });
+  }
+  e.source.postMessage({ type: "done" });
 });

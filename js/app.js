@@ -309,7 +309,38 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
 
   // ---------- PWA：註冊 service worker（僅 http/https；file:// 不支援，照常離線運作）----------
   if ("serviceWorker" in navigator && location.protocol.indexOf("http") === 0) {
-    window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("sw.js").catch(() => {});
+      checkUpdate();
+    });
+  }
+
+  // 比對 version.json 是否有新版；有就顯示底部橫幅，按下去逐檔重抓並顯示進度後 reload
+  async function checkUpdate() {
+    const setVer = v => { const el = document.getElementById("appVersion"); if (el && v) el.textContent = "版本 " + v; };
+    let latest;
+    try { latest = (await (await fetch("version.json", { cache: "no-store" })).json()).v; }
+    catch (e) { setVer(localStorage.getItem("appVersion")); return; }   // 離線:顯示上次已知版本
+    setVer(latest);
+    const seen = localStorage.getItem("appVersion");
+    if (!seen) { localStorage.setItem("appVersion", latest); return; }  // 首次:記住即可
+    if (seen !== latest) showUpdateBar(latest);                         // 有新版 → 顯示橫幅
+  }
+
+  function showUpdateBar(latest) {
+    const bar = document.createElement("div");
+    bar.style.cssText = "position:fixed;left:0;right:0;bottom:0;z-index:9999;background:#1565c0;color:#fff;padding:12px;text-align:center;cursor:pointer";
+    bar.textContent = "🔄 有新內容，點此更新";
+    bar.onclick = () => {
+      const sw = navigator.serviceWorker.controller;
+      if (!sw) { location.reload(); return; }
+      navigator.serviceWorker.addEventListener("message", ev => {
+        if (ev.data.type === "progress") bar.textContent = "更新中… " + ev.data.done + "/" + ev.data.total;
+        if (ev.data.type === "done") { localStorage.setItem("appVersion", latest); location.reload(); }
+      });
+      sw.postMessage("update");
+    };
+    document.body.appendChild(bar);
   }
 
   // ---------- 自我檢查：開 ?selftest=1 看 console ----------
