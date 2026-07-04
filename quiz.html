@@ -124,6 +124,9 @@
                                  : correct ? "✅ 答對了！" : "❌ 答錯了。正確答案：" + labels[q.answer] + "。") +
         "<br><b>詳解：</b>" + q.explanation +
         (q.trap ? "<br><b>⚠ 為何容易看錯：</b>" + q.trap : "");
+      const rptBtn = SS.el("button", { class: "btn ghost small", style: "margin-top:10px", text: "🚩 回報這題" });
+      rptBtn.addEventListener("click", () => { reportQuestion(qi); rptBtn.textContent = "✅ 已回報"; });
+      cell.explainEl.appendChild(SS.el("div", { style: "margin-top:8px" }, [rptBtn]));
     });
     const score = answers.reduce((s, a, i) => s + (a === Q[i].answer ? 1 : 0), 0);
     const wrongN = Q.length - score;
@@ -148,6 +151,25 @@
     ]);
     res.appendChild(card);
     res.scrollIntoView({ behavior: "smooth" });
+  }
+
+  // 回報題目：開預填 Google 表單（帶精確題庫位置，供後續修正），學生只需按「提交」
+  function reportQuestion(qi) {
+    const q = Q[qi], ref = refs[qi];
+    const topicName = (data.topics.find(t => t.id === ref.topicId) || {}).name || ref.topicId;
+    const why = prompt("這題哪裡有問題？（例如：答案有爭議、題目敘述不清、選項重複）\n按「確定」後會開啟回報表單，直接按「提交」即可。");
+    if (why === null) return;                       // 取消
+    const body =
+      "科目：" + data.name + " (" + subjId + ")\n" +
+      "主題：" + topicName + " (" + ref.topicId + ")\n" +
+      "題庫位置：js/data/" + subjId + ".js → " + ref.topicId + " 第 " + (ref.qi + 1) + " 題\n" +
+      "測驗題號：第 " + (qi + 1) + " 題\n" +
+      "題目：" + q.stem + "\n" +
+      "系統正解：" + labels[q.answer] + ". " + q.options[q.answer] + "\n" +
+      "回報原因：" + (why || "（未填）");
+    const C = SS.data.config;
+    const url = C.reportFormUrl + "&" + C.reportFormEntry + "=" + encodeURIComponent(body);
+    location.href = url;                             // 同分頁導向預填表單（彈窗封鎖管不到）
   }
 })();
 </script>

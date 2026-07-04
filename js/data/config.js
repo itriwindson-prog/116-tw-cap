@@ -6,6 +6,9 @@ window.STUDYSYNC.data.config = {
   startDate: "2026-07-01",
   sprintDays: 60,             // 考前衝刺天數
   resetPassword: "0000",      // 重置進度/測驗的密碼（家長可自行修改）
+  // 學生回報「題目有問題／答案有爭議」→ 開預填 Google 表單，按「提交」即可；回報進表單試算表
+  reportFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfThYIIgv5SOmqZr4CqMDFzEljtlrxs0DKxkZera31Wm4HiIw/viewform?usp=pp_url",
+  reportFormEntry: "entry.1138754158",  // 「題目回報」欄位 ID（換表單就改這兩行）
   versions: ["康軒", "南一", "翰林"],
   // 5 考科為頂層；社會/自然含子科；寫作測驗為獨立區
   subjects: [
