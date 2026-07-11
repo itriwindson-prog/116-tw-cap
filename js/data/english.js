@@ -351,6 +351,64 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 2,
           "explanation": "後句『放不下手直到讀完最後一頁』表小說極引人入勝,gripping(扣人心弦的)最合;boring/tiring 是負面,bored 形容人感到無聊,皆不符。",
           "trap": "⚠ couldn't put it down 是『欲罷不能』的線索,須選正面 gripping;boring(令人厭煩)與 bored(感到無聊)方向相反,且 bored 修飾人不修飾 novel。"
+        },
+        {
+          "stem": "The scientists made an important ________ when they found a new kind of insect deep in the forest.",
+          "options": [
+            "discovery",
+            "discover",
+            "discovered",
+            "discovering"
+          ],
+          "answer": 0,
+          "explanation": "空格前有形容詞 important 修飾,且前面是冠詞 an,所以需要一個「名詞」當受詞。表示「發現(這件事/成果)」的名詞是 discovery。原形動詞、過去式與現在分詞都不能直接接在冠詞與形容詞之後當名詞用。"
+        },
+        {
+          "stem": "My grandmother is very ________; she always shares her food with the neighbors and helps anyone in need.",
+          "options": [
+            "generous",
+            "generously",
+            "generosity",
+            "generate"
+          ],
+          "answer": 0,
+          "explanation": "be 動詞 is 後面接主詞補語,用來描述主詞的性質,應使用「形容詞」。generous(慷慨的)為形容詞;副詞用來修飾動詞、名詞是抽象概念、而 generate 是動詞,都不能填在 be 動詞後當補語描述人。"
+        },
+        {
+          "stem": "Although the movie got bad reviews, the ending was so ________ that the whole audience cried.",
+          "options": [
+            "move",
+            "movement",
+            "touching",
+            "touch"
+          ],
+          "answer": 2,
+          "explanation": "be 動詞 was 之後需要形容詞當補語來形容 ending(結局)。touching 意為「感人的」,是形容詞,語意上也符合觀眾落淚的情境。其餘選項分別是動詞「移動」、名詞「運動/動作」、以及動詞或名詞「觸碰」,都無法在此當形容詞描述結局。",
+          "trap": "touching 是由動詞加 -ing 變來的形容詞,容易被誤認為只是進行式動詞;此處需要的是「感人的」這個形容詞意思。"
+        },
+        {
+          "stem": "The new student speaks English so ________ that our teacher thought she grew up in Canada.",
+          "options": [
+            "fluently",
+            "fluent",
+            "fluency",
+            "fluid"
+          ],
+          "answer": 0,
+          "explanation": "空格要修飾動詞 speaks(說),說明「說得多流利」,應使用「副詞」。fluently(流利地)是副詞。fluent 是形容詞、fluency 是名詞、fluid 意為流體或流暢的,詞性與語意都不符合修飾動詞的需求。",
+          "trap": "so...that 句型中,so 後面接的是修飾動詞的副詞,不是形容詞;看到 speaks 是動詞就要選副詞,而非形容詞 fluent。"
+        },
+        {
+          "stem": "Read the notice: \"Visitors must keep their bags with them at all times. The museum takes no ________ for lost items.\" Which word best completes the notice?",
+          "options": [
+            "direction",
+            "responsibility",
+            "attention",
+            "difference"
+          ],
+          "answer": 1,
+          "explanation": "由語境判斷:告示要求訪客隨身保管包包,並說博物館「不承擔」遺失物品的什麼。take responsibility for 是固定用法,意為「為……負責」,填入後語意完整——博物館對遺失物品不負責任。其餘選項與 take...for 搭配不成立,語意上也無法表達「負責」的概念。",
+          "trap": "本題須同時考慮 take + 名詞 的搭配詞與整段告示語境;take direction/attention/difference 都不是表達「負責」的正確搭配,只有 responsibility 能與 take...for 構成「負責」。"
         }
       ]
     },
@@ -710,6 +768,65 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 0,
           "explanation": "所有格 scientist's 後需名詞當主詞;形容詞 wise 的名詞形不規則變化為 wisdom(智慧),『令資深教授驚嘆』。",
           "trap": "⚠ 所有格之後必接名詞;wise 是形容詞、wisely 是副詞皆不可當主詞;wise 的名詞並非加 -ness(無 wiseness 一字),而是不規則的 wisdom,易拼錯選錯。"
+        },
+        {
+          "stem": "Someone who paints pictures for a living is called a ___.",
+          "options": [
+            "paint",
+            "painting",
+            "painted",
+            "painter"
+          ],
+          "answer": 3,
+          "explanation": "字尾 -er 加在動詞後面表示『做某動作的人』,paint(畫)+ er = painter(畫家/油漆工)。paint 是動詞『畫』;painting 是名詞『畫作、繪畫』;painted 是過去式,都無法表示『畫畫的人』。"
+        },
+        {
+          "stem": "The instructions were not clear at all. In fact, they were quite ___.",
+          "options": [
+            "unclear",
+            "disclear",
+            "inclear",
+            "nonclear"
+          ],
+          "answer": 0,
+          "explanation": "字首 un- 表示否定『不』,clear(清楚的)加 un- 變成 unclear(不清楚的),符合『說明一點都不清楚』的語意。dis-、in-、non- 雖然也是否定字首,但 clear 慣用搭配的是 un-,英文裡並沒有 disclear、inclear、nonclear 這些字。",
+          "trap": "看到『否定』就隨便挑一個否定字首;clear 只跟 un- 搭配,別誤選 in-/dis-/non-。"
+        },
+        {
+          "stem": "There are many cars on this road. Be ___ when you cross it.",
+          "options": [
+            "care",
+            "careful",
+            "careless",
+            "caring"
+          ],
+          "answer": 1,
+          "explanation": "字尾 -ful 表示『充滿…的』,care(小心)加 -ful 變成 careful(小心的),過馬路當然要小心。-less 表示『沒有…的』,careless 是『粗心的』,意思正好相反;care 是名詞或動詞,不能直接接在 be 後面當形容詞;caring 是『有愛心的』,語意不合。",
+          "trap": "careful 和 careless 只差字尾,意思卻完全相反(小心 vs 粗心),不要看到 care 就選。"
+        },
+        {
+          "stem": "Thanks to the ___ of the new bridge, people can now travel between the two towns easily.",
+          "options": [
+            "construction",
+            "constructive",
+            "constructor",
+            "constructing"
+          ],
+          "answer": 0,
+          "explanation": "空格前有 the、後有 of,中間要填名詞。construct(建造)加字尾 -ion 變成名詞 construction(建造、工程),the construction of the new bridge 指『這座新橋的興建』。constructive 是形容詞『有建設性的』;constructor 指『建造者(人)』,語意不合;constructing 是動名詞,不與『the … of』這個結構慣用搭配。",
+          "trap": "constructive 也由 construct 變來,但意思是『有建設性的』,不是『興建這件事』,別被同字根騙了。"
+        },
+        {
+          "stem": "The city spent a lot of money to ___ the old railway system last year.",
+          "options": [
+            "modernize",
+            "modernization",
+            "modern",
+            "modernized"
+          ],
+          "answer": 0,
+          "explanation": "不定詞 to 後面要接原形動詞。字尾 -ize 表示『使…化』,modern(現代的)加 -ize 變成動詞 modernize(使現代化),to modernize the system 指『把系統現代化』。modernization 是名詞『現代化』;modern 是形容詞;modernized 是過去式/過去分詞,三者都不能直接接在 to 後面當原形動詞。",
+          "trap": "modernization 看起來很正式像答案,但 to 後面必須用原形動詞 modernize,不是名詞。"
         }
       ]
     },
@@ -1071,6 +1188,65 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "by 2050 為未來時點,搭配 predict 對未來的單純預測結果,用未來式 will reach。",
           "trap": "⚠ 此處強調『達到某數值』的單一未來預測,用 will reach;雖有 by 2050,但句意是『將達到』而非『在那之前已完成』,故非未來完成 will have reached;reaches(簡單式)不表此單一未來預測。"
+        },
+        {
+          "stem": "My grandmother ___ a cup of tea every morning before she leaves for work.",
+          "options": [
+            "is drinking",
+            "drank",
+            "drinks",
+            "has drunk"
+          ],
+          "answer": 2,
+          "explanation": "every morning 表『習慣性、反覆發生』的動作,用現在簡單式,主詞為第三人稱單數故動詞加 -s,寫成 drinks。"
+        },
+        {
+          "stem": "I ___ this novel yet, so please don't spoil the ending for me.",
+          "options": [
+            "didn't finish",
+            "don't finish",
+            "haven't finished",
+            "hadn't finished"
+          ],
+          "answer": 2,
+          "explanation": "yet(還沒)強調『到目前為止尚未完成、且與現在有關』,用現在完成式的否定 have/has + 過去分詞,故為 haven't finished。",
+          "trap": "⚠ yet 是現在完成式的訊號,不可用過去簡單式的 didn't finish;過去完成式的 hadn't finished 需要另一個明確的過去基準點,本句沒有,故不適用。"
+        },
+        {
+          "stem": "By this time next summer, Sophia ___ from college and found her first full-time job.",
+          "options": [
+            "will have graduated",
+            "will graduate",
+            "graduates",
+            "has graduated"
+          ],
+          "answer": 0,
+          "explanation": "By this time next summer 指向未來的某個時間點,表『到那個未來時間之前就已完成』的動作,用未來完成式 will have + 過去分詞,故為 will have graduated。",
+          "trap": "⚠『by + 未來時間點』要用未來完成式 will have graduated,不是單純未來式 will graduate(那只表未來會發生、未強調在該點前已完成);現在完成式 has graduated 與未來時間點互相矛盾。"
+        },
+        {
+          "stem": "While Grandpa ___ the plants in the garden, a sudden rain started to fall.",
+          "options": [
+            "watered",
+            "was watering",
+            "waters",
+            "has watered"
+          ],
+          "answer": 1,
+          "explanation": "While 引導的是『過去正在進行的長動作』,被後面突然發生的短動作(rain started)打斷,持續進行的背景動作用過去進行式 was watering。",
+          "trap": "⚠ 背景中持續進行的長動作用過去進行式 was watering,突發的短動作(started)才用過去簡單式;整句時間定調為過去,故不可用現在進行式 waters 或現在完成式。"
+        },
+        {
+          "stem": "Not only ___ the first prize, but she also broke the school record that day.",
+          "options": [
+            "she won",
+            "did she won",
+            "did she win",
+            "she has won"
+          ],
+          "answer": 2,
+          "explanation": "否定詞組 Not only 置於句首時,主句必須倒裝為『助動詞 + 主詞 + 原形動詞』;事情發生在 that day(過去),借助 did 後主要動詞回原形,故為 did she win。",
+          "trap": "⚠ Not only 置句首要倒裝並借助 did,主要動詞須回原形 win,不可寫成 did she won(重複過去)或未倒裝的 she won;that day 定調過去,故排除現在完成式。"
         }
       ]
     },
@@ -1428,6 +1604,65 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 0,
           "explanation": "兩人『共同擁有』一間辦公室,所有格只在最後一個名詞加 's→James and Tom's;the books 的所有格代名詞用 theirs(後不接名詞)。",
           "trap": "⚠ 共同擁有只在最後一名詞加 's(James and Tom's);若各自擁有才兩者都加 's。theirs 為所有格代名詞獨立使用,their 後須接名詞故不可。"
+        },
+        {
+          "stem": "My mother bought some fresh ______ at the market this morning.",
+          "options": [
+            "breads",
+            "a bread",
+            "breaded",
+            "bread"
+          ],
+          "answer": 3,
+          "explanation": "「bread」是不可數名詞,不能加 s 變複數,也不能加不定冠詞 a。搭配 some 時直接用原形不可數名詞,故正確答案為不可數的原形寫法「bread」。"
+        },
+        {
+          "stem": "There is ______ old temple near my grandmother's house in the countryside.",
+          "options": [
+            "a",
+            "an",
+            "the",
+            "some"
+          ],
+          "answer": 1,
+          "explanation": "空格後的形容詞「old」以母音發音開頭,不定冠詞須用「an」而非「a」。此處第一次提及,泛指一座舊廟,用不定冠詞而非定冠詞;單數可數名詞前也不用 some。",
+          "trap": "判斷 a/an 要看緊接其後單字的「發音」是否為母音,是 old 而不是後面的 temple。"
+        },
+        {
+          "stem": "The teacher gave us ______ homework, so we had to stay up late last night.",
+          "options": [
+            "many",
+            "a lot",
+            "a lot of",
+            "a few"
+          ],
+          "answer": 2,
+          "explanation": "「homework」是不可數名詞。修飾不可數名詞表「大量」要用 a lot of;many 與 a few 只能修飾可數複數名詞;a lot 為副詞用法,不能直接接名詞,後面須加 of。故正確為 a lot of。",
+          "trap": "homework 看似可以計數,實為不可數名詞,不能用 many 或 a few。"
+        },
+        {
+          "stem": "I need to buy two ______ of milk and three ______ of paper for the project.",
+          "options": [
+            "bottle / piece",
+            "bottles / pieces of",
+            "bottles / pieces",
+            "bottle of / pieces"
+          ],
+          "answer": 2,
+          "explanation": "milk 與 paper 都是不可數名詞,計量時用「數字 + 量詞複數 + of + 不可數名詞」。two 後量詞用複數 bottles,three 後量詞用複數 pieces,兩處 of 都已在題幹中提供,故量詞應填 bottles 與 pieces。",
+          "trap": "題幹中兩個 of 都已寫出,選項只需填量詞;量詞本身要隨數字變複數(bottles/pieces),不要重複多寫 of。"
+        },
+        {
+          "stem": "Read the passage: \"Jenny keeps three cats, two dogs, and a rabbit at home. She spends over an hour feeding them every evening. Taking care of so many ______ is tiring, but she loves every one of them.\" Which word best fits the blank?",
+          "options": [
+            "animal",
+            "animals",
+            "an animal",
+            "animal's"
+          ],
+          "answer": 1,
+          "explanation": "由前文 three cats、two dogs、a rabbit 可知寵物不只一隻,搭配 so many 需接可數名詞的複數形。animal 為可數名詞,複數為 animals;單數 animal 或加冠詞的 an animal 與 many 不合,animal's 是所有格也不對。故填複數 animals。",
+          "trap": "so many 之後必須接可數名詞複數,別被單數原形或所有格形式誤導。"
         }
       ]
     },
@@ -1786,6 +2021,65 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 2,
           "explanation": "後句主詞指涉前面的 the jury(陪審團成員),強調集合中多位成員共同裁決時用複數 they,配合動詞 found。",
           "trap": "⚠ the jury 作『一群成員共同行動』時用複數 they;雖 jury 可作單數,但此處強調陪審員集體做出裁決,they 最自然;it 指物、he 指特定單一男性、one 泛指皆不合。"
+        },
+        {
+          "stem": "My sister loves baking. Look! She made this whole birthday cake all by ___.",
+          "options": [
+            "himself",
+            "yourself",
+            "myself",
+            "herself"
+          ],
+          "answer": 3,
+          "explanation": "主詞是「My sister」為女性單數,片語「by ___」需用反身代名詞表示「獨自、親自」,因此要用對應女性單數的反身代名詞 herself。指男性單數的、指第二人稱的、以及指第一人稱「我」的反身形式都與 my sister 不一致。"
+        },
+        {
+          "stem": "Emma and I are going to the night market tonight. Would you like to come with ___?",
+          "options": [
+            "we",
+            "them",
+            "us",
+            "our"
+          ],
+          "answer": 2,
+          "explanation": "介系詞 with 後面要接受格。「Emma and I」包含說話者,合起來當受詞時要用第一人稱複數受格 us。主格的 we 不能放在介系詞後;第三人稱複數的 them 會把說話者排除在外,指涉錯誤;所有格 our 後面則需再接名詞,語意不通。",
+          "trap": "介系詞 with 後要用受格,且句中含說話者,應選包含自己的第一人稱複數,不要誤用主格或第三人稱。"
+        },
+        {
+          "stem": "David and his little brother get along really well. They always help ___ with the housework.",
+          "options": [
+            "themselves",
+            "them",
+            "each other",
+            "yourselves"
+          ],
+          "answer": 2,
+          "explanation": "句意是兄弟倆「互相」幫忙,強調彼此之間的動作,兩者互助應用相互代名詞 each other。反身代名詞 themselves 意為「幫他們自己」,語意不符;them 會指向別人而非彼此;第二人稱複數的反身形式與第三人稱主詞 They 也不一致。",
+          "trap": "『互相幫忙』要用相互代名詞,別誤用意為『幫自己』的反身代名詞。"
+        },
+        {
+          "stem": "Neither of the two girls remembered to bring ___ umbrella, so they both got soaked in the rain.",
+          "options": [
+            "their",
+            "hers",
+            "its",
+            "her"
+          ],
+          "answer": 3,
+          "explanation": "主詞 Neither of the two girls 在文法上視為單數,且指的是女生,因此所有格要用女性單數;空格後接名詞 umbrella,需要形容詞性所有格 her。複數的 their 與單數主詞不一致;hers 是所有代名詞,後面不可再接名詞;its 用於非人或動物,不適合指女生。",
+          "trap": "Neither 當單數看待,且空格後有名詞要用形容詞性所有格 her,別被『two girls』誘導成複數,也別和所有代名詞 hers 混用。"
+        },
+        {
+          "stem": "___ notebook is this on the floor? I found it near the door, and there is a phone number written inside.",
+          "options": [
+            "Who's",
+            "Who",
+            "Whose",
+            "Which"
+          ],
+          "answer": 2,
+          "explanation": "空格後接名詞 notebook,是在問「這本筆記本是誰的」,要用表示所有的疑問詞 Whose。Who's 是 who is 的縮寫,語意變成『誰是筆記本』不通;Who 為主格疑問詞,後面不直接接名詞表所有;Which 用於在特定選項中挑選,句中並未提供選項。",
+          "trap": "問『誰的+名詞』要用所有格疑問詞 Whose,別和發音相同、意為 who is 的縮寫混淆。"
         }
       ]
     },
@@ -2156,6 +2450,64 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 2,
           "explanation": "see 此處指可見的『程度/範圍』為不可數概念,『愈少』用 less;the + 比較級句型須加 the。",
           "trap": "⚠ the more..., the less... 句型後半須 the + 比較級;『能見度』為不可數用 less 不用可數的 fewer;兩量同步變化非三者比較,不用最高級 the least。"
+        },
+        {
+          "stem": "My new phone is ___ than my old one, so it's easy to carry around all day.",
+          "options": [
+            "light",
+            "lighter",
+            "more light",
+            "lightest"
+          ],
+          "answer": 1,
+          "explanation": "句中有 than 表兩者相比,須用比較級;light 為短形容詞,比較級直接加 -er 成 lighter。"
+        },
+        {
+          "stem": "Of all the dishes on the menu, this seafood pasta is ___.",
+          "options": [
+            "expensive",
+            "more expensive",
+            "most expensive",
+            "the most expensive"
+          ],
+          "answer": 3,
+          "explanation": "Of all the dishes 表三者以上的範圍,用最高級;expensive 為長形容詞,最高級為 the most expensive,且最高級前須加 the。"
+        },
+        {
+          "stem": "After months of training, Nina can now run ___ her older brother in the school relay.",
+          "options": [
+            "as faster as",
+            "as fast as",
+            "so fast as",
+            "as fastly as"
+          ],
+          "answer": 1,
+          "explanation": "兩者程度相同用 as + 原級 + as;此處修飾動詞 run 需副詞,而 fast 形容詞與副詞同形,故用 as fast as。",
+          "trap": "as...as 中間只能放原級,不可放比較級 faster;fast 的副詞就是 fast,沒有 fastly;肯定句用 as...as,不用 so...as。"
+        },
+        {
+          "stem": "The second interview turned out to be ___ stressful than the first, which is why she felt calm enough to smile the whole time.",
+          "options": [
+            "much more",
+            "less",
+            "the least",
+            "as"
+          ],
+          "answer": 1,
+          "explanation": "由『冷靜到能全程微笑』可推知第二次比較不緊張;表『比較不…』用 less + 形容詞 + than,故為 less stressful than。",
+          "trap": "更緊張(more stressful)與『冷靜微笑』語意矛盾;最高級 the least 後不接 than;as 須配 as 而非 than;唯有 less...than 合乎文意與文法。"
+        },
+        {
+          "stem": "The new stadium can hold ___ people as the old one, which is exactly why the city decided to build it.",
+          "options": [
+            "as twice many",
+            "twice as much",
+            "as many twice",
+            "twice as many"
+          ],
+          "answer": 3,
+          "explanation": "倍數比較的語序為『倍數詞 + as + 原級 + as』;people 為可數複數,原級用 many,故為 twice as many people as。",
+          "trap": "倍數詞 twice 要放在 as...as 之前,不能插進中間;people 可數要用 many 而非不可數的 much,故只有 twice as many 正確。"
         }
       ]
     },
@@ -2512,6 +2864,64 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 2,
           "explanation": "devote...to(致力於、奉獻給)用 to;thanks to(多虧)用 to;benefit from(從…受益)用 from。",
           "trap": "⚠ devote...to + V-ing/名詞(奉獻於)用 to,易誤填 for;『多虧她的奉獻』用 thanks to(後接名詞);benefit FROM(受益於某來源)用 from,不用 of。"
+        },
+        {
+          "stem": "Our new English teacher is very good ___ telling funny stories, so nobody ever falls asleep in her class.",
+          "options": [
+            "for",
+            "of",
+            "with",
+            "at"
+          ],
+          "answer": 3,
+          "explanation": "固定搭配 be good at(擅長)後接名詞或動名詞,telling stories 用 at。"
+        },
+        {
+          "stem": "The old town of Lukang is famous ___ its traditional snacks and beautiful temples.",
+          "options": [
+            "for",
+            "of",
+            "at",
+            "with"
+          ],
+          "answer": 0,
+          "explanation": "固定搭配 be famous for(以…聞名)後接使其出名的事物,介系詞為 for。"
+        },
+        {
+          "stem": "The manager was proud ___ his team; ___ the end, their hard work paid off, and they finished the big project ___ time despite the very tight schedule.",
+          "options": [
+            "of / at / in",
+            "for / in / on",
+            "with / in / on",
+            "of / in / on"
+          ],
+          "answer": 3,
+          "explanation": "be proud of(以…自豪)用 of;in the end(最終、結果)是固定片語;on time 表『按表定時間、準時完成』,配合『儘管時程很趕仍如期完成』的語意。",
+          "trap": "⚠ in the end(最終)≠ at the end of(在…末端,需加 of);on time(準時、按進度)≠ in time(及時、趕得上);proud 後固定接 of,不可換成 for。"
+        },
+        {
+          "stem": "A thief broke ___ the museum late at night and escaped ___ a small window at the back before the guards arrived.",
+          "options": [
+            "into / into",
+            "in / through",
+            "into / through",
+            "through / into"
+          ],
+          "answer": 2,
+          "explanation": "break into + 地點表『闖入(建築內部)』用 into;從窗戶這個開口逃走是『穿過』,用 through。",
+          "trap": "⚠ break in 不接受詞,一旦後面接地點(the museum)就要用 break into;逃出時是穿越窗戶開口用 through,不是 into(進入)。"
+        },
+        {
+          "stem": "We went to the beach ___ bus, and we swam in the sea almost every day ___ the summer vacation.",
+          "options": [
+            "on / for",
+            "with / during",
+            "by / during",
+            "by / for"
+          ],
+          "answer": 2,
+          "explanation": "表交通工具用 by 且不加冠詞,by bus;during 後接某個時段或事件(the summer vacation),表『在這段期間內』。",
+          "trap": "⚠ 交通工具 by bus 不加冠詞(≠ on the bus 指特定那台);during 接時段/事件(the summer vacation),for 則接純時間長度(如 for two weeks),此處接的是特定假期故用 during。"
         }
       ]
     },
@@ -2872,6 +3282,65 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "前空『必須確實遵守』為強制義務用 must(被動 must be followed);後空『機器可能損壞』表可能性用 may(may be damaged)。",
           "trap": "⚠ 此題考情態動詞被動 must be done / may be done;前空義務用 must,後空表可能後果用 may,別把可能性的 may 與義務的 must 對調。"
+        },
+        {
+          "stem": "You ______ ride your bike here. Look at the sign—it says \"No Bikes.\"",
+          "options": [
+            "can",
+            "mustn't",
+            "would",
+            "don't have to"
+          ],
+          "answer": 1,
+          "explanation": "標誌寫著「禁止騎腳踏車」,表示「不可以、禁止」,情態動詞要用表示禁止的用法;表能力或許可的「可以/會」、表假設的「將會」、以及表沒有義務的「不必」都不符合禁止的語意。"
+        },
+        {
+          "stem": "A: Whose jacket is this on the chair? B: It ______ be Kevin's. He's the only boy wearing a red one today, and this jacket is red.",
+          "options": [
+            "can't",
+            "must",
+            "needn't",
+            "shouldn't"
+          ],
+          "answer": 1,
+          "explanation": "說話者根據「他是今天唯一穿紅色外套的男生,而這件正好是紅色」做出很有把握的推論,要用表示「一定是」的肯定推測;語意相反的「不可能」、以及「不必」和「不應該」都不符合這裡的推論。",
+          "trap": "線索指向高度確定,別因為看到否定情境就誤選語意相反的「不可能」。"
+        },
+        {
+          "stem": "I feel awful. I ______ so many unkind words to my sister yesterday; now she won't even look at me.",
+          "options": [
+            "shouldn't say",
+            "don't have to say",
+            "shouldn't have said",
+            "couldn't say"
+          ],
+          "answer": 2,
+          "explanation": "事情發生在昨天,是對「過去已經做的事」表示後悔,結構為「should + have + 過去分詞」的否定,意思是「當初不該說」;只用原形的「不該說」指現在或未來,時態不符;其餘兩個選項語意不通。",
+          "trap": "句中有 yesterday 表過去,後悔要用「should have + 過去分詞」,不能只用原形動詞。"
+        },
+        {
+          "stem": "The street is covered with fallen leaves and broken branches this morning. A strong wind ______ during the night.",
+          "options": [
+            "must blow",
+            "should have blown",
+            "can't have blown",
+            "must have blown"
+          ],
+          "answer": 3,
+          "explanation": "滿地落葉與斷枝是現在看到的證據,而推論的動作發生在昨晚(過去),要用「must + have + 過去分詞」表示對過去的肯定推測,意為「昨晚一定颳過強風」;只用原形的「一定颳風」時態錯誤;「不可能颳過」語意相反;「當初應該颳」表示過去該做而未做,也不合理。",
+          "trap": "證據在眼前(現在),但事件在過去,要用「must have + 過去分詞」,別用現在式的原形動詞。"
+        },
+        {
+          "stem": "Tomorrow is a national holiday, so students ______ wear their uniforms; they can dress casually.",
+          "options": [
+            "mustn't",
+            "don't have to",
+            "can't",
+            "had better not"
+          ],
+          "answer": 1,
+          "explanation": "明天放假、又說可以穿便服,表示「不需要、非強制」穿制服,要用表示沒有義務的用法;「不可以穿(禁止)」語意過強且相反,「不能」與「最好不要」也都帶禁止或勸阻的意味,與「非強制」不同。",
+          "trap": "「不必」是沒有義務,別和「禁止(不可以)」的用法混淆。"
         }
       ]
     },
@@ -3232,6 +3701,64 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 0,
           "explanation": "小偷是被看見的對象,知覺動詞被動 be seen V-ing 表看見正在進行的動作,故 was seen running。",
           "trap": "⚠ thief 是被目擊者用被動 was seen;知覺動詞 see sb V-ing 改被動後保留 V-ing(was seen running);saw 是主動(小偷看見東西)語意相反,was seeing 亦為主動。"
+        },
+        {
+          "stem": "The classroom ___ every day by the students on duty.",
+          "options": [
+            "cleans",
+            "is cleaning",
+            "clean",
+            "is cleaned"
+          ],
+          "answer": 3,
+          "explanation": "主詞 The classroom 是「被打掃」的對象,屬被動語態。頻率副詞 every day 為現在簡單式,被動結構是 be + 過去分詞,單數主詞用 is,故正解為「is cleaned」。其餘為主動語態(cleans)、主動進行式(is cleaning)或原形(clean),皆不符被動語意。"
+        },
+        {
+          "stem": "These delicious cookies ___ by my grandmother last night.",
+          "options": [
+            "made",
+            "was made",
+            "are made",
+            "were made"
+          ],
+          "answer": 3,
+          "explanation": "cookies 是動作的接受者(由祖母製作),需用被動語態;時間 last night 為過去,且主詞為複數,故用「were made」。單數的 was made 與複數主詞不符;are made 為現在式,時態錯誤;僅 made 缺少 be 動詞,無法構成被動。",
+          "trap": "主詞 cookies 為複數,be 動詞要用 were 而非 was;又因 last night 是過去,別誤選現在式 are made。"
+        },
+        {
+          "stem": "「Someone will deliver the package tomorrow.」下列哪一句意思相同?",
+          "options": [
+            "The package will be delivered tomorrow.",
+            "The package will deliver tomorrow.",
+            "The package is delivered tomorrow.",
+            "The package will be delivering tomorrow."
+          ],
+          "answer": 0,
+          "explanation": "原句為未來式主動,受詞 the package 轉為主詞後,未來被動的結構是 will be + 過去分詞,故「The package will be delivered tomorrow.」正確。缺少 be 的 will deliver 仍是主動;is delivered 時態變成現在;will be delivering 為進行式,語意不合。",
+          "trap": "未來被動的助動詞 will 後面必須接 be + 過去分詞;別漏掉 be,也別誤用進行式 delivering。"
+        },
+        {
+          "stem": "This traditional bridge ___ of wood and stone hundreds of years ago.",
+          "options": [
+            "made",
+            "is made",
+            "was made",
+            "was making"
+          ],
+          "answer": 2,
+          "explanation": "主詞 this traditional bridge 是被建造的對象,需用被動語態;時間 hundreds of years ago 表過去,故用過去被動「was made」。is made 為現在式,時態不符;單獨的 made 缺 be 動詞;was making 是主動進行式,不符被動語意。",
+          "trap": "時間點 hundreds of years ago 表示過去,要用過去被動 was made,別被現在式 is made 誤導。"
+        },
+        {
+          "stem": "English ___ in many countries around the world.",
+          "options": [
+            "is spoken",
+            "speaks",
+            "is speaking",
+            "spoke"
+          ],
+          "answer": 0,
+          "explanation": "主詞 English 是「被說」的語言,屬被動語態;in many countries 表達普遍事實,用現在簡單式,單數主詞,故正解為「is spoken」。speaks、spoke 為主動語態,is speaking 為主動進行式,皆不符被動語意。"
         }
       ]
     },
@@ -3592,6 +4119,65 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 2,
           "explanation": "Seeing is believing(眼見為憑,主詞補語平行用 V-ing);by 是介系詞接 V-ing(seeing)。故 believing / seeing。",
           "trap": "⚠ 諺語 Seeing is believing 主補對稱用動名詞;by + V-ing 表方法,兩空都填 V-ing,別被諺語拆解誤導。"
+        },
+        {
+          "stem": "My little brother enjoys ___ comic books after school every day.",
+          "options": [
+            "read",
+            "to read",
+            "reading",
+            "reads"
+          ],
+          "answer": 2,
+          "explanation": "enjoy 後面固定接動名詞（V-ing）表示喜歡做某事，所以要用「reading」；原形、to＋原形、第三人稱單數的形式都不符合 enjoy 的用法。"
+        },
+        {
+          "stem": "We were thirsty on the way home, so we stopped ___ some water at the convenience store.",
+          "options": [
+            "buying",
+            "buy",
+            "bought",
+            "to buy"
+          ],
+          "answer": 3,
+          "explanation": "這裡是「停下來『去』買水」，表示停止原本的動作以達成另一個目的，要用 stop＋to＋原形，故為「to buy」；若用 stop＋V-ing 會變成「停止買水」，與口渴、走進便利商店的情境不合。",
+          "trap": "stop to V（停下來去做某事）和 stop V-ing（停止做某事）意思完全不同，要看情境判斷。"
+        },
+        {
+          "stem": "Amy is really looking forward to ___ her cousins in Taichung during the summer vacation.",
+          "options": [
+            "visit",
+            "to visit",
+            "visited",
+            "visiting"
+          ],
+          "answer": 3,
+          "explanation": "look forward to 這個片語裡的 to 是介系詞，不是不定詞記號，後面要接動名詞（V-ing），所以用「visiting」；接原形或 to＋原形都是常見錯誤。",
+          "trap": "看到 to 就填原形是陷阱；look forward to 的 to 是介系詞，後面必須接 V-ing。"
+        },
+        {
+          "stem": "Ben spends most of his free time ___ the guitar because he dreams of ___ a famous musician someday.",
+          "options": [
+            "to play / to become",
+            "playing / to become",
+            "to play / becoming",
+            "playing / becoming"
+          ],
+          "answer": 3,
+          "explanation": "spend＋時間＋V-ing 表示「花時間做某事」，第一格要用 playing；dream of 中的 of 是介系詞，後面要接動名詞，第二格要用 becoming，因此兩格都用動名詞。",
+          "trap": "兩處都要接動名詞：別把 spend 後面誤填 to＋原形，也別把介系詞 of 後面誤填原形。"
+        },
+        {
+          "stem": "___ English songs every day is a good way to improve your listening skills.",
+          "options": [
+            "Listen to",
+            "Listening to",
+            "Listened to",
+            "Listens to"
+          ],
+          "answer": 1,
+          "explanation": "句首要用動名詞當主詞，表示「每天聽英文歌」這件事，所以用「Listening to」；動詞原形、過去式或第三人稱單數形式都不能直接當主詞。",
+          "trap": "句首缺主詞時要用 V-ing 的動名詞，而且動名詞主詞視為單數，後面搭配 is。"
         }
       ]
     },
@@ -3942,6 +4528,65 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "空格後接名詞 side effects,且是 the medicine 的『副作用』,表所有格用 whose(物亦可用 whose);the medicine's side effects had not been tested。",
           "trap": "⚠ 先行詞是物也可用 whose 表所有格;空格後緊接名詞 side effects,只有 whose 能直接接名詞,which/that 後須接動詞或缺成分的句子,of which 則需放在名詞之後(side effects of which)。"
+        },
+        {
+          "stem": "The bakery ___ sells the mango cake my sister loves is right next to our school.",
+          "options": [
+            "who",
+            "which",
+            "whom",
+            "whose"
+          ],
+          "answer": 1,
+          "explanation": "先行詞 the bakery 是物(店家),關係代名詞在子句中當主詞,後面直接接動詞 sells,指物當主詞用 which。"
+        },
+        {
+          "stem": "I have a classmate ___ father is a famous pilot for China Airlines.",
+          "options": [
+            "whose",
+            "who",
+            "whom",
+            "which"
+          ],
+          "answer": 0,
+          "explanation": "空格後緊接名詞 father,且 father 是 classmate 的父親,表『某人的父親』的所有關係;先行詞是人、表所有格時用 whose。",
+          "trap": "⚠ 先行詞是人易直覺選指人的主格,但空格後緊接名詞 father 表所有關係,只有表所有格的關代後面可直接接名詞;主格關代後面要接動詞、不接名詞。"
+        },
+        {
+          "stem": "The stadium ___ we watched the baseball final last night can hold fifty thousand people.",
+          "options": [
+            "which",
+            "that",
+            "whose",
+            "where"
+          ],
+          "answer": 3,
+          "explanation": "先行詞 the stadium 是地點,且子句 we watched the baseball final 結構完整(主詞 we、動詞 watched、受詞 the baseball final 都在),不缺主詞或受詞,須用關係副詞 where。",
+          "trap": "⚠ 別看到先行詞是物就選指物的關代;此句子句已完整、不缺主受詞,缺的是『地點副詞』,故用 where,而非需要空缺才能用的指物關代。"
+        },
+        {
+          "stem": "The author ___ everyone expected would win the prize surprisingly lost to a newcomer.",
+          "options": [
+            "whom",
+            "who",
+            "which",
+            "whose"
+          ],
+          "answer": 1,
+          "explanation": "把插入語 everyone expected 拿掉,子句為 ___ would win the prize,關係代名詞是 would win 的主詞;先行詞 the author 是人、在子句中當主詞,用主格 who。",
+          "trap": "⚠ everyone expected 是插入語,易誤判關代為 expected 的受詞而選受格;實際上關代是後面 would win 的主詞,指人須用主格 who,插入語不影響格位。"
+        },
+        {
+          "stem": "The company launched five new phones last year, three of ___ became best-sellers within a month.",
+          "options": [
+            "them",
+            "that",
+            "whom",
+            "which"
+          ],
+          "answer": 3,
+          "explanation": "逗號後為非限定子句,補充說明前面的 phones;『數量詞 three of + 關係代名詞』指物用 which(three of the phones became best-sellers),先行詞 phones 是物。",
+          "trap": "⚠ 若填代名詞 them 會變成兩個獨立句用逗號黏接(comma splice)的錯誤,須用關代連接;介系詞 of 後不可接 that,指物也不可用指人的 whom。"
         }
       ]
     },
@@ -4292,6 +4937,65 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "Tom 進步、Mary 退步，同一學期內形成對比，用 while（然而、相對地）表「對比」用法最恰當。",
           "trap": "⚠ while 除「當…時」外亦可表「然而／相對」的對比，正好連接 Tom 升、Mary 降；since（既然/自從）、as（因為/當）、for（因為）都偏「原因/時間」而非「對比」，會誤把對照關係讀成因果。"
+        },
+        {
+          "stem": "Ted waited at the library ______ the heavy rain finally stopped.",
+          "options": [
+            "because",
+            "although",
+            "unless",
+            "until"
+          ],
+          "answer": 3,
+          "explanation": "句意為「泰德在圖書館一直等,『到』大雨終於停了為止」,動作持續到某個時間點才結束,用表時間的從屬連接詞「直到」最合適。表原因、表讓步、表條件的連接詞都無法表達『持續到某時間點』的語意;尤其人是在『等雨停』,雨一停等待就結束,讓步語意並不成立。"
+        },
+        {
+          "stem": "______ Nina practices the violin every day, she still makes many mistakes in the concert.",
+          "options": [
+            "Because",
+            "Since",
+            "Although",
+            "So"
+          ],
+          "answer": 2,
+          "explanation": "前後句意相反:「每天練小提琴」卻「仍犯很多錯」,屬讓步關係,須用表「雖然」的從屬連接詞。表原因的連接詞會使前後邏輯衝突;而表「所以」的對等連接詞不能放在句首引導從屬子句。",
+          "trap": "看到前句像原因就選表「因為」的選項,忽略後句的 still 透露前後語意其實相反。"
+        },
+        {
+          "stem": "We should leave for the station now, ______ we'll miss the last train home.",
+          "options": [
+            "or",
+            "and",
+            "but",
+            "for"
+          ],
+          "answer": 0,
+          "explanation": "句型為「建議 + 否則 + 不良後果」,意為「現在就該出發去車站,否則就會錯過末班車」。用表「否則」的對等連接詞帶出『不這麼做就會發生』的壞結果。後果是確定會發生的(will),因此表順接、表轉折、表原因的連接詞都不合:錯過末班車不是出發造成的、也不是出發的原因、更不是『即使出發仍會發生』的無奈,而是『不出發就會發生』的警告。",
+          "trap": "想成『而且會錯過』而誤選表「而且」的選項;關鍵在句意是『不出發就會有壞結果』,屬「否則」的警告用法。"
+        },
+        {
+          "stem": "Unless you finish both your homework ______ your review of the new words tonight, you won't be ready for tomorrow's quiz.",
+          "options": [
+            "so",
+            "and",
+            "but",
+            "or"
+          ],
+          "answer": 1,
+          "explanation": "句中的 both 必須與表「並且」的對等連接詞搭配,形成 both...and 的相關連接詞結構,把「做完功課」和「複習生字」兩件都必須完成的準備並列起來。both 只能配「並且」,因此表結果、表轉折的連接詞都不能與 both 連用;表「或者」的連接詞既不能與 both 搭配,其『二選一』的語意也與『兩件都要完成』不符。",
+          "trap": "看到 unless 就反射想搭表「否則/或者」的選項;但句中的 both 只能搭配表「並且」的連接詞(both...and),兩件事都要完成,並非二選一。"
+        },
+        {
+          "stem": "The path became muddy ______ it had rained all night, so the hikers walked very slowly.",
+          "options": [
+            "so that",
+            "though",
+            "because",
+            "in case"
+          ],
+          "answer": 2,
+          "explanation": "「小路變得泥濘」的原因是「整晚下雨」,兩者為因果關係,須用表「因為」的從屬連接詞。表目的、表讓步、表「以防萬一」的連接詞皆與『下雨導致泥濘』的因果不符;句尾另有 so 帶出後續結果,顯示前段填空是在陳述原因。",
+          "trap": "句尾已有表結果的 so,容易誤以為空格也要用 so that;其實空格處要說明『泥濘』的原因,應選表「因為」的連接詞。"
         }
       ]
     },
@@ -4642,6 +5346,65 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 0,
           "explanation": "if 子句 had not lost(與過去相反),比賽已結束,主句用 could/would have + p.p.,故 could have won。",
           "trap": "⚠ if 子句 had not lost + 過去情境(expected us to win),主句須 could have won(與過去相反);would win/can win 是現在或可能語氣，與已結束的比賽矛盾。"
+        },
+        {
+          "stem": "I wish I ___ how to swim; then I could go to the beach with you every summer.",
+          "options": [
+            "knew",
+            "know",
+            "have known",
+            "will know"
+          ],
+          "answer": 0,
+          "explanation": "wish 表達與現在事實相反的願望時,that 子句用過去式(假設語氣),knew 表『真希望自己現在會游泳』,但事實上不會。"
+        },
+        {
+          "stem": "If Kevin ___ more carefully, he wouldn't make so many careless mistakes in the monthly exams.",
+          "options": [
+            "works",
+            "will work",
+            "had worked",
+            "worked"
+          ],
+          "answer": 3,
+          "explanation": "主句 wouldn't make 為與現在事實相反的第二類條件句,if 子句須用過去式 worked 表『若他現在做事更用心(但實際上沒有)』。",
+          "trap": "⚠ 主句 would/wouldn't + 原形 表與現在相反,if 子句用過去式 worked;had worked 是與過去相反的第三類條件句,與主句時態不對稱;works、will work 屬真實條件,不合虛擬語氣。"
+        },
+        {
+          "stem": "The safety manager insisted that every new employee ___ a first-aid course before starting work on the factory floor.",
+          "options": [
+            "take",
+            "takes",
+            "took",
+            "will take"
+          ],
+          "answer": 0,
+          "explanation": "insist / suggest / demand / require 等要求類動詞後的 that 子句用『(should)+ 原形動詞』的假設語氣,should 省略後直接用原形 take。",
+          "trap": "⚠ 要求類動詞後 that 子句用原形(should 省略),不隨主詞第三人稱單數加 s,也不隨主句改為過去或未來;takes、took、will take 都違反此虛擬規則。"
+        },
+        {
+          "stem": "___ better last weekend, we would have gone hiking in the mountains just as we had originally planned.",
+          "options": [
+            "If the weather was",
+            "Should the weather be",
+            "Had the weather been",
+            "Were the weather"
+          ],
+          "answer": 2,
+          "explanation": "與過去事實相反的條件句可省略 if 並倒裝成『Had + 主詞 + 過去分詞』,還原即 If the weather had been better,配合主句 would have gone,指上週末其實天氣不好。",
+          "trap": "⚠ 與過去相反用 Had + 主詞 + p.p. 倒裝(Had the weather been);Were the weather 表與現在相反,Should the weather be 表未來可能,未倒裝的 If the weather was 也非虛擬,皆不符 last weekend 已過去的語境。"
+        },
+        {
+          "stem": "I really wish I ___ to my teacher's advice last year; I would be much better prepared for the exam now.",
+          "options": [
+            "had listened",
+            "listened",
+            "have listened",
+            "would listen"
+          ],
+          "answer": 0,
+          "explanation": "wish 表達對『過去』未實現之事的懊悔時,子句用過去完成式 had listened;last year 點明是過去,故非只用過去式。",
+          "trap": "⚠ wish 對過去的遺憾用過去完成 had listened;若只用過去式 listened 是對『現在』的相反假設,與 last year 的過去時間點不符;have listened、would listen 皆非虛擬語氣的正確形式。"
         }
       ]
     },
@@ -4993,6 +5756,65 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 2,
           "explanation": "與過去事實相反的假設:主句 would have caught(過去未發生),條件子句用過去完成 had left,連接詞用 if,故 if she had left。",
           "trap": "⚠ 與過去相反的假設,if 子句用『過去完成 had left』,主句用 would have + p.p.;用過去式 left(if; left)是與現在相反的時態錯配,unless(除非)會使語意相反。"
+        },
+        {
+          "stem": "Which sentence uses the pattern S + V (主詞 + 動詞) without any object or complement?",
+          "options": [
+            "My sister enjoys music.",
+            "The old man walks slowly every morning.",
+            "They elected him captain.",
+            "She feels tired today."
+          ],
+          "answer": 1,
+          "explanation": "第一大句型是「主詞 + 完全不及物動詞」,不需要受詞或補語。「那位老人每天早上慢慢地走路」中的 walks 是不及物動詞,slowly 與 every morning 都是副詞(修飾語),句子本身結構完整。「我姊姊喜歡音樂」有受詞 music,屬第三句型;「他們選他當隊長」有受詞與受詞補語,屬第五句型;「她今天覺得累」有主詞補語 tired,屬第二句型。"
+        },
+        {
+          "stem": "Look at this sentence: \"The volunteers gave the children some warm blankets.\" Which sentence uses the SAME sentence pattern (S + V + IO + DO)?",
+          "options": [
+            "Grandpa told us an interesting story.",
+            "The news made everyone happy.",
+            "The kitten looks very cute.",
+            "Many tourists visit this temple."
+          ],
+          "answer": 0,
+          "explanation": "題幹「志工給孩子們一些溫暖的毯子」是第四句型:主詞 + 授與動詞 + 間接受詞(the children)+ 直接受詞(some warm blankets)。「爺爺告訴我們一個有趣的故事」同樣是 told + 間接受詞 us + 直接受詞 an interesting story,結構相同。「這消息使大家開心」是第五句型(受詞 + 受詞補語);「這隻小貓看起來很可愛」是第二句型(連綴動詞 + 主詞補語);「許多遊客參觀這座廟」只有一個受詞,是第三句型。",
+          "trap": "made everyone happy 也有兩個名詞/形容詞在動詞後面,容易誤判為雙受詞,但 happy 是形容詞補語,說明 everyone 的狀態,屬第五句型而非第四句型。"
+        },
+        {
+          "stem": "Choose the question that correctly asks about the underlined part: \"Kevin bought <u>a new bike</u> last weekend.\"",
+          "options": [
+            "Who bought a new bike last weekend?",
+            "When did Kevin buy a new bike?",
+            "Did Kevin buy a new bike?",
+            "What did Kevin buy last weekend?"
+          ],
+          "answer": 3,
+          "explanation": "畫線部分 a new bike 是句子的受詞(事物),要問「買了什麼」,應用疑問詞 What 開頭,並用助動詞 did + 原形動詞 buy:What did Kevin buy last weekend?。問「誰買的」是針對主詞,問「何時買的」是針對時間 last weekend,兩者都不是問受詞;而 Did Kevin buy...? 是是非問句,只能用 yes/no 回答,無法問出「買了什麼東西」。",
+          "trap": "四個選項都與句子相關,但只有針對畫線的受詞(a new bike)發問才正確;要先確認畫線部分是受詞(事物),而不是主詞、時間或整句真假。"
+        },
+        {
+          "stem": "Read the paragraph and choose the best answer for the blank:\n\"Amy wanted to know why her plants were dying. She asked her teacher, '____' Her teacher smiled and said the pots had no holes for the water to drain out.\"",
+          "options": [
+            "Are my plants beautiful?",
+            "Why do my plants keep dying?",
+            "Do you like gardening?",
+            "When will you water the plants?"
+          ],
+          "answer": 1,
+          "explanation": "由前一句 Amy wanted to know why her plants were dying(想知道植物為何枯死)以及老師回答枯死的原因(花盆沒有排水孔)可知,Amy 問的是「原因」,應用 Why 開頭的問句:Why do my plants keep dying?。詢問植物是否漂亮、是否喜歡園藝、何時澆水,都無法對應到老師「解釋枯死原因」的回答,語意不連貫。",
+          "trap": "要靠前後文推斷:前句的 why...were dying 與後句老師解釋原因,共同鎖定問句必須問『為什麼』,不能只看空格單句就選是非問句或其他 wh- 問句。"
+        },
+        {
+          "stem": "Rewrite \"You should turn off the lights before you leave.\" as a polite request using a question. Which is grammatically correct and natural?",
+          "options": [
+            "Could you please turn off the lights before you leave?",
+            "Could you please turning off the lights before you leave?",
+            "Do you could turn off the lights before you leave?",
+            "Should you please to turn off the lights before you leave?"
+          ],
+          "answer": 0,
+          "explanation": "以 Could you please + 原形動詞 開頭是英文中禮貌的請求句型。情態助動詞 could 後面必須接原形動詞 turn,所以 Could you please turn off the lights...? 文法正確且自然。turning 是動名詞,不能直接接在 could 之後;Do you could 把助動詞 do 與情態助動詞 could 疊用,文法錯誤;Should you please to turn 除了語意生硬外,情態助動詞 should 後面也不可加 to。",
+          "trap": "情態助動詞(could/should)後面一律接原形動詞,不可用 -ing、to + 原形,也不可與 do/does 併用;四個選項只有動詞形式與助動詞用法的差別。"
         }
       ]
     },
@@ -5353,6 +6175,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 0,
           "explanation": "前句『原本預期人很多』，後句因大雨『只來了幾個人』，前後對比落差須用 only(僅僅)強調人數出乎意料地少。",
           "trap": "⚠ but 後與『預期人多』形成落差，須用 only(只)強調少;quite a few 反而是『相當多』，almost/nearly a few 不合英文慣用，要由 but 的轉折判斷此處應為『人少』。"
+        },
+        {
+          "stem": "My little cousin is afraid ___ thunder, so she always covers her ears whenever a storm comes.",
+          "options": [
+            "on",
+            "of",
+            "for",
+            "with"
+          ],
+          "answer": 1,
+          "explanation": "be afraid of 為固定搭配，表『害怕…』，形容詞 afraid 之後的介系詞須用 of，故填 of。"
+        },
+        {
+          "stem": "Our school library keeps only five copies of that popular novel; ___, students often have to wait for weeks before they can borrow it.",
+          "options": [
+            "However",
+            "As a result",
+            "In contrast",
+            "For example"
+          ],
+          "answer": 1,
+          "explanation": "藏書量少是原因，需要等好幾週是合理的結果，前後為因果順承關係，故用表『結果』的連接詞，語意才連貫。",
+          "trap": "前後是因果順承(書少→要久等)，要用表結果的連接詞;表轉折相反的詞在此並無語意對立，勿一看到空格就反射性填轉折詞。"
+        },
+        {
+          "stem": "After months of hard training, the young pianist played the whole concert with great ___ and received a standing ovation.",
+          "options": [
+            "confident",
+            "confidence",
+            "confidently",
+            "confide"
+          ],
+          "answer": 1,
+          "explanation": "介系詞 with 之後、且被形容詞 great 修飾的位置須為名詞，『with great + 名詞』表『帶著極大的…』，故填名詞形式的『信心』。",
+          "trap": "with(介系詞)加 great(形容詞)之後要接名詞;形容詞、副詞與動詞形式詞性都不合，別只挑看起來眼熟的字，先判斷空格需要的詞性。"
+        },
+        {
+          "stem": "By the time the paramedics finally reached the mountain trail, the injured hiker ___ there alone for nearly two hours, cold and exhausted.",
+          "options": [
+            "waited",
+            "had waited",
+            "has waited",
+            "was waiting"
+          ],
+          "answer": 1,
+          "explanation": "By the time 加過去式 reached 點出一個過去時間點;等待的動作發生在『抵達』之前並已持續兩小時，屬於過去某時間點之前的動作，須用過去完成式 had + p.p.。",
+          "trap": "By the time 帶出的是過去參考點，之前就已完成/持續的動作要用過去完成式(had waited);現在完成式與整段過去情境衝突，過去進行式則無法表達『在他們抵達前已等了兩小時』的先後關係。"
         }
       ]
     },
@@ -5713,6 +6582,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 0,
           "explanation": "此券有兩個障礙:①需滿 $500 才可用,而購物車僅 $480(未達門檻);②不可與其他折扣併用,而已套用 10% 會員折扣。兩條件皆不符,故不可用。",
           "trap": "⚠ 雙重限制題:就算金額達標,『不可併用』也會擋下已套會員折扣的訂單;反之就算可併用,$480 也未達 $500。兩個獨立條件任一不符即不可用,別只檢查一項。"
+        },
+        {
+          "stem": "閱讀下列公告,回答問題:\n\"Notice: The school library will be closed this Friday for cleaning. It will open again on Monday. Please return or borrow your books before Thursday.\"\n問題:根據這則公告,圖書館何時會重新開放?",
+          "options": [
+            "這個星期五 (This Friday)",
+            "星期四 (Thursday)",
+            "星期一 (Monday)",
+            "星期六 (Saturday)"
+          ],
+          "answer": 2,
+          "explanation": "這是掃讀(scanning)找特定訊息的題型。公告寫著圖書館週五因清潔而關閉,並說 \"It will open again on Monday\",直接指出重新開放的日子。週五是關閉日、週四是還借書的期限,都不是開放日,故正解為「星期一(Monday)」。"
+        },
+        {
+          "stem": "閱讀短文,回答問題:\n\"Maria loves painting. Last summer, she visited an art museum in Taipei with her cousin. They stayed there for three hours, looking at many beautiful works. Soon after the trip, Maria decided to take painting classes.\"\n問題:根據短文,Maria 最可能為什麼決定去上繪畫課?",
+          "options": [
+            "參觀美術館的經驗讓她對藝術更感興趣",
+            "她的表親強迫她一起去上課",
+            "她想成為美術館的導覽員",
+            "她需要完成學校指定的作業"
+          ],
+          "answer": 0,
+          "explanation": "這是推論(inference)題。短文說 Maria 本來就熱愛繪畫,參觀美術館看了許多作品後「不久便決定去上繪畫課」,可合理推論是這趟參觀讓她對藝術更投入。文中只提到表親「同行」,沒有強迫;也未提及當導覽員或寫作業,故正解為「參觀美術館的經驗讓她對藝術更感興趣」。",
+          "trap": "看到 with her cousin 別誤讀成被表親強迫;表親只是同行者,不是決定的原因。"
+        },
+        {
+          "stem": "閱讀回收中心的說明,回答問題:\n\"The city recycling center accepts paper on Mondays, glass on Wednesdays, and plastic on Fridays. Metal is collected on the same day as glass. If a holiday falls on a collection day, that item is collected the next day instead.\"\n問題:如果這個星期三是國定假日,金屬(metal)會在哪一天被回收?",
+          "options": [
+            "星期一 (Monday)",
+            "星期三 (Wednesday)",
+            "星期五 (Friday)",
+            "星期四 (Thursday)"
+          ],
+          "answer": 3,
+          "explanation": "這題要整合多個訊息。先由 \"Metal is collected on the same day as glass\" 得知金屬與玻璃同一天收,而玻璃是星期三;再套用規則「若收集日遇假日,該項目順延到隔天」。本週星期三為國定假日,所以金屬改到隔天星期四收,故正解為「星期四(Thursday)」。",
+          "trap": "金屬本來跟玻璃同在星期三,但逢假日要順延一天,答案不是星期三;星期五是塑膠日,也不是金屬。"
+        },
+        {
+          "stem": "閱讀短文,回答問題:\n\"The movie was so tedious that half of the audience fell asleep before it ended. Even the actors on the screen seemed bored.\"\n問題:根據上下文,畫底線的 tedious 最可能是什麼意思?",
+          "options": [
+            "刺激的 (exciting)",
+            "昂貴的 (expensive)",
+            "可怕的 (scary)",
+            "無聊的 (boring)"
+          ],
+          "answer": 3,
+          "explanation": "這是由上下文猜測生字字義(guessing meaning from context)的閱讀策略。句中線索「一半觀眾在結束前就睡著」和「連螢幕上的演員都顯得無聊」都指向負面、乏味的感受,因此 tedious 最接近「無聊的(boring)」。刺激、昂貴、可怕都與這些線索矛盾。",
+          "trap": "別因為主題是「電影」就直覺聯想成刺激;要依觀眾睡著、演員顯得無聊等線索推論字義。"
         }
       ]
     },
@@ -6074,6 +6990,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 1,
           "explanation": "would sooner A than B = 寧願 A 也不要 B;偏好 stay home(待在家)勝過出門。",
           "trap": "⚠ would sooner...than... 與 would rather...than 同義,偏好的是 than 前的 stay home;句尾的 go out 是被比下去的選項,別反選。"
+        },
+        {
+          "stem": "聽到 'The next train leaves at a quarter to nine.' 火車幾點開?",
+          "options": [
+            "8:45",
+            "9:15",
+            "9:45",
+            "8:15"
+          ],
+          "answer": 0,
+          "explanation": "a quarter to nine 表示『差十五分就九點』,也就是 8:45;to 是『差…到整點』。"
+        },
+        {
+          "stem": "在派對邀約中。W: 'Can you come to my farewell party this Saturday?' M: 'I wish I could, but I have to catch an early flight.' 這位男士的意思是?",
+          "options": [
+            "他無法出席,婉轉拒絕了",
+            "他很樂意出席派對",
+            "他想改到別的時間見面",
+            "他星期六不用搭飛機"
+          ],
+          "answer": 0,
+          "explanation": "I wish I could 表示『真希望能，但…』的委婉拒絕，but 之後說明他要趕早班飛機，所以其實不能參加。",
+          "trap": "I wish I could 聽起來像答應，其實 but 之後才是重點——這是婉拒；別聽到 could 就以為他會出席。"
+        },
+        {
+          "stem": "校內廣播:'All members must return the library books by Wednesday, but those who joined after May may return them on Friday.' 六月才入會的 Amy,她的還書期限是?",
+          "options": [
+            "星期三",
+            "星期一",
+            "星期五",
+            "不必還書"
+          ],
+          "answer": 2,
+          "explanation": "一般成員週三前還書，但『五月之後入會者』屬例外可延到週五;Amy 六月入會，符合 after May，故期限為週五。",
+          "trap": "別聽到開頭的 Wednesday 就作答;Amy 六月入會屬 after May 的例外，but 引導的例外條件會改變答案，要延到週五。"
+        },
+        {
+          "stem": "聽到 'Had I known you were allergic to peanuts, I would never have ordered this dish.' 關於說話者，何者為真?",
+          "options": [
+            "他早就知道對方對花生過敏",
+            "他其實沒有點這道菜",
+            "對方並不會對花生過敏",
+            "他當時不知道對方會過敏,而且已經點了這道菜"
+          ],
+          "answer": 3,
+          "explanation": "Had I known 等於 If I had known,是與過去事實相反的假設，表示他當時『並不知道』;would never have ordered 同樣與事實相反，代表他『其實已經點了』這道菜。",
+          "trap": "倒裝的 Had I known 就是 If I had known，與過去相反——真實情況是他不知道;would never have ordered 也是假設，真實是他已經點了，別被否定字面反向誤判。"
         }
       ]
     },
@@ -6434,6 +7397,52 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "兩件都好看又在打折，建議『兩件都買』用 both，呼應 after all(反正都特價)。",
           "trap": "⚠ 後句『反正今天都打折』暗示鼓勵全買，故選 both；either 是『兩者任一』未解決猶豫，neither/none 是『都不』與『兩件都好看』矛盾。"
+        },
+        {
+          "stem": "A: You look pale. Are you feeling okay?\nB: Not really. I think I'm coming down with a cold.\nA: Oh no. ______ You should get some rest.\n請選出最適合填入空格的句子。",
+          "options": [
+            "Congratulations!",
+            "That's a great idea.",
+            "No problem at all.",
+            "Take care of yourself."
+          ],
+          "answer": 3,
+          "explanation": "B 說自己好像感冒了,A 回應時應表達關心,「好好照顧自己」最符合語境。其餘選項分別用於祝賀、贊同對方的提議、以及回應對方的請求或道謝,都與「安慰生病的人」不搭。"
+        },
+        {
+          "stem": "在餐廳裡,服務生對顧客說:「Are you ready to order?」\n下列顧客的回應,哪一個最自然、最恰當?",
+          "options": [
+            "You're welcome.",
+            "I'm fine, thanks.",
+            "Here you are.",
+            "Yes, I'll have the beef noodles, please."
+          ],
+          "answer": 3,
+          "explanation": "服務生問「準備好點餐了嗎?」,顧客最自然的回應是說出想點的餐點,「我要牛肉麵,謝謝」直接回應點餐需求。回應道謝、問候近況、以及遞東西給對方的用語都不符合「點餐」情境。"
+        },
+        {
+          "stem": "A: I'm sorry, but I can't make it to your birthday party tomorrow.\nB: ______ Maybe we can hang out another day.\n根據對話,B 想表達「沒關係、能理解」並提議改天,最適合的一句是?",
+          "options": [
+            "That's all right. Don't worry about it.",
+            "You must be kidding me.",
+            "It's none of your business.",
+            "I couldn't agree more."
+          ],
+          "answer": 0,
+          "explanation": "A 為無法出席道歉,B 隨後提議改天見面,語氣應是體諒的。「沒關係,別擔心」既接受道歉又銜接後面改天的提議。其餘選項語帶責怪、拒人於外、或表示完全同意,都與安慰、體諒的語氣不合。",
+          "trap": "'That's all right' 在此不是『那是對的』,而是回應道歉時的『沒關係』;別被字面意思誤導。"
+        },
+        {
+          "stem": "A: Excuse me, how can I get to the train station from here?\nB: Go straight for two blocks and turn left. It's next to the post office.\nA: ______\nB: You're welcome. Have a nice day!\n根據 B 最後的回應,A 空格處最可能說的是?",
+          "options": [
+            "I have no idea.",
+            "What a pity!",
+            "Thanks a lot for your help.",
+            "Could you say that again?"
+          ],
+          "answer": 2,
+          "explanation": "B 最後說「不客氣」(You're welcome),表示 A 先前是向他道謝,因此空格應為感謝用語「非常謝謝你的幫忙」。表示不知道、覺得可惜、或請對方再說一次,都無法引出『不客氣』這個回應。",
+          "trap": "要用 B 的『You're welcome』倒推 A 說了什麼;關鍵在『不客氣』只用來回應『謝謝』,而非回應問路或請求重述。"
         }
       ]
     },
@@ -6797,6 +7806,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 2,
           "explanation": "run out of + 受詞(名詞或代名詞,但不可同時)。run out of milk(○);run out milk(✗,漏 of);run out of it milk(✗,代名詞與名詞並列);run milk out of(✗,語序錯誤)。",
           "trap": "⚠ run out of 為固定三字片語不可拆;受詞不可同時放代名詞與名詞(it milk),of 也不可省略。"
+        },
+        {
+          "stem": "Before entering the temple, visitors are asked to ___ their shoes and leave them at the door.",
+          "options": [
+            "put on",
+            "turn off",
+            "take on",
+            "take off"
+          ],
+          "answer": 3,
+          "explanation": "take off = 脫下(take off one's shoes 脫鞋),符合進廟前『把鞋脫下』的情境。put on 是『穿上』語意相反;turn off 是『關閉(電器)』;take on 是『承擔/雇用』,皆不合。"
+        },
+        {
+          "stem": "The flight attendant reminded passengers to ___ their phones during takeoff and to ___ the landing card before arrival.",
+          "options": [
+            "turn on / fill out",
+            "turn off / fill out",
+            "turn off / find out",
+            "turn down / fill out"
+          ],
+          "answer": 1,
+          "explanation": "turn off = 關閉(起飛時手機須關機);fill out = 填寫(表格、入境卡)。turn on 是『打開』與起飛須關機矛盾;find out 是『查明資訊』不能用於『填表』;turn down 是『調小聲/拒絕』不合語意。",
+          "trap": "⚠ turn off(關閉)勿看成 turn on(打開)或 turn down(調小/拒絕);填寫表格用 fill out/fill in,別誤選 find out(查明)。"
+        },
+        {
+          "stem": "Which sentence uses the phrasal verb correctly?",
+          "options": [
+            "Could you fill in it before the deadline?",
+            "She finally came up with a brilliant idea for the project.",
+            "He simply can't put up his noisy neighbors with.",
+            "The police looked the strange case into very carefully."
+          ],
+          "answer": 1,
+          "explanation": "come up with(想出)為三字片語動詞,受詞須置於整組之後(came up with an idea),故此句正確。fill in 可分離,代名詞 it 必須置中,應為 fill it in;put up with 為三字片語不可拆散,語序應為 put up with his neighbors;look into 不可分離,受詞須置後,應為 looked into the case,不可拆成 looked the case into。",
+          "trap": "⚠ 三字片語(come up with、put up with)整組不可拆、受詞放最後;可分離片語遇代名詞必置中(fill it in);最易一次錯在語序。"
+        },
+        {
+          "stem": "After two weeks in bed with a high fever, Ben was finally able to ___ the flu and return to school.",
+          "options": [
+            "get over",
+            "get off",
+            "get through",
+            "get away"
+          ],
+          "answer": 0,
+          "explanation": "get over = 從(疾病、挫折)中康復、痊癒(get over the flu 從流感康復),符合『臥病兩週後終於病癒』。get off 是『下車/離開』;get through 是『度過難關/接通電話』;get away 是『逃離/走開/度假』,皆不合『病癒』語意。",
+          "trap": "⚠ get over(從病痛或打擊中康復)才接 the flu;勿混 get through(熬過艱難時期)、get away(逃離),字尾介副詞一變語意全不同。"
         }
       ]
     },
@@ -7160,6 +8216,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "第一空 will ______ the game「輸掉比賽」動詞 lose;第二空 ______ your hand「舉手」及物 raise;第三空 ______ me「告訴我」接人用 tell。故 lose; raise; tell。",
           "trap": "⚠ 三點整合:lose(動詞,非 loose)、raise(及物舉手,非 rise)、tell(接人,非 say)。情境題須同時判斷三組易混字。"
+        },
+        {
+          "stem": "Could you ___ me your umbrella? Mine is broken and it's raining outside.",
+          "options": [
+            "lend",
+            "borrow",
+            "rent",
+            "return"
+          ],
+          "answer": 0,
+          "explanation": "「借出」的動詞為 lend,句型是 lend somebody something,把自己的東西借給別人;而 borrow 意為「向他人借入」,須用 borrow something from somebody。此處是把自己的傘借給對方使用,應選「借出」。租借(rent)與歸還(return)則不符句意。"
+        },
+        {
+          "stem": "This math problem is much harder ___ the one we did yesterday, so we spent nearly an hour solving it.",
+          "options": [
+            "then",
+            "that",
+            "than",
+            "as"
+          ],
+          "answer": 2,
+          "explanation": "形容詞比較級 harder 之後要接表示比較對象的連接詞「比…更」,句意是「這題比昨天那題難得多」,故須用比較用的 than。表「然後、那時」的字並非比較用詞,不能放在比較級後面。",
+          "trap": "比較用的 than 與表「然後/那時」的 then 只差一個字母,發音也相近,最容易一眼看錯而誤選。"
+        },
+        {
+          "stem": "Staying up late for many days can seriously ___ your health, so doctors advise students to sleep before eleven.",
+          "options": [
+            "effect",
+            "affect",
+            "effort",
+            "afford"
+          ],
+          "answer": 1,
+          "explanation": "空格前有助動詞 can、後面接受詞 your health,需要一個動詞。「影響」當動詞時要用 affect;而 effect 通常是名詞「影響、效果」,不能放在這裡當動詞。effort(努力)與 afford(負擔得起)雖拼寫相近,但意思完全不同。",
+          "trap": "affect(動詞:影響)與 effect(名詞:效果/影響)只差開頭字母,拼寫相近的 effort、afford 也會干擾判斷;關鍵是先看句子需要動詞還是名詞。"
+        },
+        {
+          "stem": "I was so exhausted after the long trip that I ___ on the bed and fell asleep with my shoes still on.",
+          "options": [
+            "laid",
+            "lied",
+            "layed",
+            "lay"
+          ],
+          "answer": 3,
+          "explanation": "句意是「我躺在床上」。「躺」的動詞是 lie,不及物,不需受詞,其過去式剛好是 lay,所以描述過去躺下的動作要用 lay。laid 是 lay(放置,及物動詞)的過去式,後面必須接受詞;lied 是 lie(說謊)的過去式;layed 則不是正確的英文拼法。",
+          "trap": "lie(躺)的過去式 lay 與原形動詞 lay(放置)長得一模一樣;lay(放置)的過去式其實是 laid,而「說謊」lie 的過去式是 lied,三組動詞極易混淆,需先判斷句意是「躺」還是「放置」。"
         }
       ]
     },
@@ -7523,6 +8626,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "make friends (with) = 交朋友,為固定搭配。do/take/have friends 皆非此搭配。",
           "trap": "⚠ 「交朋友」用 make friends,易誤選 have;make 表「建立、結交」這段關係。"
+        },
+        {
+          "stem": "Don't worry about your mistake. Everyone makes mistakes sometimes, so just try to ______ it and keep going.",
+          "options": [
+            "put on",
+            "take off",
+            "get over",
+            "look after"
+          ],
+          "answer": 2,
+          "explanation": "「get over」是慣用語,意為「克服、走出(困難或不愉快)」,符合語境「別擔心錯誤、走出來繼續前進」。「put on」指穿上、「take off」指脫下或起飛、「look after」指照顧,皆不合句意。"
+        },
+        {
+          "stem": "My grandfather is now eighty years old, but he is still ______ health and takes a walk every morning.",
+          "options": [
+            "in good",
+            "on good",
+            "at good",
+            "with good"
+          ],
+          "answer": 0,
+          "explanation": "固定搭配為「in good health」(身體健康),介系詞須用 in。其餘介系詞 on、at、with 與 health 搭配不合英語慣用法。",
+          "trap": "health 前的介系詞是固定搭配 in,別因為前面有 still 就直覺選其他介系詞。"
+        },
+        {
+          "stem": "When the fire alarm suddenly rang, the students didn't panic. They kept ______ and left the classroom in an orderly line.",
+          "options": [
+            "their words",
+            "calm",
+            "a straight face",
+            "the ball rolling"
+          ],
+          "answer": 1,
+          "explanation": "「keep calm」是慣用語,意為「保持冷靜」,符合火警時學生不驚慌、有秩序離開的語境。「keep one's word」指守信、「keep a straight face」指忍住不笑、「keep the ball rolling」指讓事情持續進行,均不合句意。",
+          "trap": "keep 後面接的慣用語很多,要抓住『不驚慌』的線索選『保持冷靜』,別被同樣以 keep 開頭的片語混淆。"
+        },
+        {
+          "stem": "Reading: \"Lisa was very nervous before the singing contest. Her best friend told her, 'Just do your best and don't think too much.' On the stage, Lisa suddenly forgot the words of the song. She felt her mind go blank. But instead of giving up, she took a deep breath and made up a few lines by herself. The audience thought it was part of the show and cheered loudly.\"\n\nWhat does the phrase \"her mind go blank\" most likely mean in the passage?",
+          "options": [
+            "She couldn't remember or think of anything for a moment.",
+            "She suddenly came up with a brilliant new idea.",
+            "She felt very relaxed and confident on the stage.",
+            "She decided to quit the contest right away."
+          ],
+          "answer": 0,
+          "explanation": "由上下文可知 Lisa 突然忘詞、之後才深呼吸自行編詞,「one's mind go blank」意為「腦筋一片空白、一時什麼都想不起來」。文中她並非想到新點子、並非放鬆自信,也沒有立刻退出,故其餘選項與情節矛盾。",
+          "trap": "要根據『突然忘詞』這個線索推論片語意思,別被後面她自行編詞而誤以為是『想到好點子』。"
         }
       ]
     },
@@ -7885,6 +9035,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "cake 在此不可數(整塊蛋糕)用 most of;children 可數複數指人,「沒有人承認」用 no one(指人,接單數動詞 admitted)。none of 雖也可指人,但 no one 更直接表「無人」;much 修飾不可數但與 'of the cake' 語意不如 most 自然。",
           "trap": "⚠ 兩格分別判斷:不可數 cake 用 most of;指人的「沒有人」用 no one,別誤用接不可數的 much/none 組合。"
+        },
+        {
+          "stem": "There isn't ___ orange juice left in the bottle. Let's buy some at the supermarket.",
+          "options": [
+            "many",
+            "a few",
+            "several",
+            "much"
+          ],
+          "answer": 3,
+          "explanation": "orange juice(柳橙汁)是不可數名詞,在否定句中表示「多」要用 much;many、a few、several 都只能搭配可數名詞的複數形,與不可數名詞連用並不正確。"
+        },
+        {
+          "stem": "A: Is there anything to eat in the kitchen? B: No, there's ___ at all. I'll order a pizza later.",
+          "options": [
+            "nothing",
+            "something",
+            "anything",
+            "everything"
+          ],
+          "answer": 0,
+          "explanation": "回答「什麼都沒有」時,用本身就含否定意味的 nothing(等於 there isn't anything)。anything 必須和否定詞 not 連用,但此處動詞是肯定的 there's,不能單獨接 anything;something、everything 語意與「一點都沒有」相反。",
+          "trap": "疑問句常用 anything,但回答若動詞為肯定(there's)且要表達「毫無」,須用含否定意味的 nothing,而非 anything。"
+        },
+        {
+          "stem": "The new bakery opened last week, but it has ___ regular customers so far, so the owner is thinking about closing it down.",
+          "options": [
+            "a few",
+            "little",
+            "few",
+            "a little"
+          ],
+          "answer": 2,
+          "explanation": "customers 是可數名詞複數,先排除只修飾不可數名詞的 little 與 a little。老闆考慮歇業,表示生意不好、客人「幾乎沒有」,語意偏否定,應用 few;a few 是肯定的「有一些」,與後文語境矛盾。",
+          "trap": "few 與 a few 只差一個 a:a few 是肯定「有一些」,few 是否定「幾乎沒有」;又 customers 可數,不可誤用 little / a little。"
+        },
+        {
+          "stem": "A: Would you like ___ more soup? B: Yes, please. It tastes really good.",
+          "options": [
+            "any",
+            "some",
+            "much",
+            "few"
+          ],
+          "answer": 1,
+          "explanation": "雖是疑問句,但這是「主動提供、邀請」對方,習慣用 some;soup 是不可數名詞,故 few 不適用,而 much more soup 的說法不自然;any 多用於一般詢問或否定句,不符合此邀請語氣。",
+          "trap": "疑問句一般用 any,但表「提供、邀請」並期待肯定回答時要用 some;同時 soup 不可數,可排除 few。"
         }
       ]
     },
@@ -8248,6 +9445,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 0,
           "explanation": "having the brakes fixed(煞車被修,have + 受詞 + p.p. 被動);let me pump(讓我自己打氣,let 接原形)。語意完整且省錢。",
           "trap": "⚠ brakes 是被動須用 p.p.(fixed),me 是主動須用原形(pump);同一段話混合被動使役與主動使役,別把兩者形式弄反。"
+        },
+        {
+          "stem": "The strict coach made all the players ____ five extra laps after the match.",
+          "options": [
+            "to run",
+            "running",
+            "ran",
+            "run"
+          ],
+          "answer": 3,
+          "explanation": "使役動詞 make 的句型為「make + 受詞 + 原形動詞」,所以空格要填原形 run;不加 to,也不用 -ing 或過去式。"
+        },
+        {
+          "stem": "My laptop broke down last week, so I had it ____ at the computer store on Sunday.",
+          "options": [
+            "fixed",
+            "fix",
+            "to fix",
+            "fixing"
+          ],
+          "answer": 0,
+          "explanation": "「have + 受詞 + 過去分詞」表示『請別人做某事』(使役被動),筆電是『被』修理,受詞與動作是被動關係,故用過去分詞 fixed。",
+          "trap": "筆電是被修理,不是自己修,所以用過去分詞而非原形 fix。"
+        },
+        {
+          "stem": "It's already midnight, but Grandma still won't let us ____ up to watch the game.",
+          "options": [
+            "to stay",
+            "stay",
+            "staying",
+            "stayed"
+          ],
+          "answer": 1,
+          "explanation": "使役動詞 let 的句型為「let + 受詞 + 原形動詞」,表示允許,故用原形 stay,不加 to、-ing 或過去式。",
+          "trap": "let 後面接原形動詞,別受一般動詞後常見 to 不定詞影響而選 to stay。"
+        },
+        {
+          "stem": "Walking home in the dark, Amy suddenly felt something ____ her arm and then heard footsteps ____ toward her.",
+          "options": [
+            "to touch ... run",
+            "touched ... to run",
+            "touch ... ran",
+            "touch ... running"
+          ],
+          "answer": 3,
+          "explanation": "感官動詞 feel、hear 皆接「原形動詞」表完整動作,或接「現在分詞」表正在進行。碰到手臂是一瞬間的完整動作,用原形 touch;腳步聲是持續朝她逼近的進行狀態,用現在分詞 running。",
+          "trap": "兩個空格用法不同:第一格是瞬間完整動作用原形,第二格強調進行中用 V-ing,別一律用同一種形式。"
         }
       ]
     },
@@ -8601,6 +9845,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 2,
           "explanation": "Pass me... 為祈使句,祈使句的附加問句(表客氣請求)用 will you;Let's 開頭才用 shall we。",
           "trap": "⚠ 祈使句(原形動詞開頭)的附加問句固定用 will you,而非 shall we(那是 Let's 專用);別因句子是肯定請求就誤判成一般肯定句而選 don't you。"
+        },
+        {
+          "stem": "Complete the sentence: \"Your sister has already finished her homework, ___\"",
+          "options": [
+            "hasn't she?",
+            "doesn't she?",
+            "isn't she?",
+            "didn't she?"
+          ],
+          "answer": 0,
+          "explanation": "主句用現在完成式 has finished，附加問句須用相同助動詞 has，且主句為肯定，附加問句用否定 hasn't；主詞 your sister 用代名詞 she。因此正解為 hasn't she。用 doesn't 或 didn't 是誤判時態，用 isn't 則誤把 has 當 be 動詞。"
+        },
+        {
+          "stem": "Complete the sentence: \"Let's go to the night market together, ___\"",
+          "options": [
+            "will you?",
+            "don't we?",
+            "shall we?",
+            "won't we?"
+          ],
+          "answer": 2,
+          "explanation": "以 Let's（Let us）開頭表示提議的祈使句，附加問句固定使用 shall we，用來邀請對方一起做某事。will you 用於一般命令句（如 Sit down, will you?），don't we 與 won't we 皆不符合 Let's 句型的固定用法。",
+          "trap": "看到句子是命令口氣就直覺選 will you，但只要是 Let's 開頭一律用 shall we。"
+        },
+        {
+          "stem": "Choose the correct inversion. \"I have never seen such a beautiful sunset.\" 可改寫為：\"___\"",
+          "options": [
+            "Never I have seen such a beautiful sunset.",
+            "Never seen have I such a beautiful sunset.",
+            "Never have I seen such a beautiful sunset.",
+            "Never I saw such a beautiful sunset."
+          ],
+          "answer": 2,
+          "explanation": "否定副詞 Never 置於句首時，其後的主詞與助動詞須倒裝。原句助動詞為 have，故倒裝後語序為「Never + have + I + 過去分詞 seen」。保持原時態現在完成式，只將助動詞提前，動詞主體 seen 不移動，因此正解為 Never have I seen such a beautiful sunset。",
+          "trap": "倒裝只把助動詞 have 移到主詞前，動詞 seen 要留在原位；也不可把時態改成過去簡單式 saw。"
+        },
+        {
+          "stem": "Complete the sentence: \"She couldn't solve the problem, and ___\"",
+          "options": [
+            "neither I could.",
+            "so could I.",
+            "neither could I.",
+            "either could I."
+          ],
+          "answer": 2,
+          "explanation": "前句為否定敘述，要表達「我也不能」須用 neither 開頭並倒裝：neither + 助動詞 could + 主詞 I。so 用於呼應肯定句（如 so could I 表示「我也能」），與否定語意不符；either 不可置於句首引導此倒裝結構；neither I could 語序未倒裝，錯誤。故正解為 neither could I。",
+          "trap": "否定呼應要用 neither 不能用 so；且 neither 之後必須倒裝成 could I，不是 I could。"
         }
       ]
     },
@@ -8954,6 +10245,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 2,
           "explanation": "Keep off the grass = 勿踏草坪;Do not pick the flowers = 不要採花,故要求人們遠離草坪並別摘花。",
           "trap": "⚠ Keep off 是「遠離/勿進入」,Do not pick 是否定祈使句「不要採」;兩個都是禁止,不是允許。"
+        },
+        {
+          "stem": "看到桌上的花瓶快掉下來了,你想請朋友「小心!」,下列哪一句最恰當?",
+          "options": [
+            "Careful you are!",
+            "How careful!",
+            "You are careful.",
+            "Be careful!"
+          ],
+          "answer": 3,
+          "explanation": "祈使句用來表達命令、請求或提醒,句首直接用動詞原形。提醒對方注意時,應用 be 的原形加上形容詞,構成「Be careful!」。其他選項語序錯誤,或只是單純的直述句,無法表達即時的提醒與警告語氣。"
+        },
+        {
+          "stem": "完成句子:「_______ delicious this soup is! I want another bowl.」",
+          "options": [
+            "What a",
+            "How",
+            "What",
+            "How a"
+          ],
+          "answer": 1,
+          "explanation": "感嘆句中,若強調的核心是形容詞(delicious),而非名詞,應使用「How + 形容詞 + 主詞 + 動詞」的結構。此處 delicious 為形容詞,故用 how,句意為「這湯真好喝!」使用 what 時後面須接名詞片語,不符此句結構;how 之後也不加冠詞。",
+          "trap": "what 後接名詞、how 後接形容詞或副詞;此處主詞後直接接形容詞,核心是形容詞而非名詞,且 how 之後不加冠詞。"
+        },
+        {
+          "stem": "下列哪一個祈使句是「否定的請求」,且文法完全正確?",
+          "options": [
+            "Don't make noise in the library, please.",
+            "Not make noise in the library.",
+            "Doesn't make noise in the library.",
+            "No make noise in the library."
+          ],
+          "answer": 0,
+          "explanation": "否定祈使句的結構是「Don't + 動詞原形」,主詞 you 省略,且不論人稱皆用 don't,不用 doesn't。加上 please 可讓請求更有禮貌。其餘選項或缺助動詞、或用錯助動詞形式、或直接以 no 開頭,皆不符否定祈使句的正確用法。",
+          "trap": "祈使句省略主詞,否定一律用 don't,不會因第三人稱而變 doesn't;no 不能直接加動詞。"
+        },
+        {
+          "stem": "重組並判斷:把 'a / what / student / hard-working / he / is' 組成正確的感嘆句,正確的是哪一句?",
+          "options": [
+            "How a hard-working student he is!",
+            "What hard-working student he is!",
+            "How hard-working student he is!",
+            "What a hard-working student he is!"
+          ],
+          "answer": 3,
+          "explanation": "當感嘆的核心是「單數可數名詞片語」時,結構為「What + a/an + 形容詞 + 單數名詞 + 主詞 + 動詞」。此處 student 為單數可數名詞,前面需有冠詞 a,並用 what 引導,故為「What a hard-working student he is!」。用 how 時後面不接名詞,且不加冠詞,故其餘皆錯。",
+          "trap": "核心是單數可數名詞時用 what 且不可漏掉冠詞 a;how 後不接名詞、不加冠詞,兩者結構別混用。"
         }
       ]
     },
@@ -9317,6 +10655,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 0,
           "explanation": "wh- 間接問句去掉助動詞 do、語序還原為 I wanted、時態後移 want→wanted。故「He asked what I wanted.」正確;保留 did want、保留 do want、或語序錯誤 wanted I 者皆錯。",
           "trap": "⚠ 含 do/does/did 的問句轉間接時要「消掉助動詞」並把時態併入主動詞(wanted),不可保留 did/do。"
+        },
+        {
+          "stem": "My brother said, \"I am tired.\" → My brother said that he ____ tired.",
+          "options": [
+            "is",
+            "was",
+            "were",
+            "had been"
+          ],
+          "answer": 1,
+          "explanation": "引述動詞 said 為過去式,從句時態必須後移一格:現在式 am 後移為 was。主詞 he 是單數,不能用 were;此處只需單純後移,不必用到過去完成 had been。故「was」正確。"
+        },
+        {
+          "stem": "\"Do you like this song?\" Kevin asked me. → Kevin asked me ____.",
+          "options": [
+            "if I liked that song",
+            "if I like this song",
+            "do I like that song",
+            "whether I like that song"
+          ],
+          "answer": 0,
+          "explanation": "是非問句轉間接引述用 if 或 whether 引導(兩者等義),並把倒裝還原成「主詞+動詞」的直述語序、去掉助動詞 do;動詞 like 隨引述動詞 asked 後移為 liked,指示詞 this 也轉為 that。正解的關鍵在於同時完成「like→liked」與「語序還原」:凡未後移仍作 like 者,不論用 if 或 whether 皆錯;保留 do 之倒裝者亦錯。故只做到後移且語序正確的「if I liked that song」正確。",
+          "trap": "⚠ 容易只做一半:記得刪掉助動詞 do、還原語序,卻忘了把 like 後移為 liked;whether 與 if 等義,不是判斷對錯的關鍵,時態後移才是。"
+        },
+        {
+          "stem": "Last Monday Sara said, \"I met your sister here yesterday.\" → Last Monday Sara said that she ____ my sister ____ ____.",
+          "options": [
+            "had met / here / the day before",
+            "met / there / yesterday",
+            "had met / there / yesterday",
+            "had met / there / the day before"
+          ],
+          "answer": 3,
+          "explanation": "多步驟轉換:過去式 met 後移為過去完成 had met;地方副詞 here 轉為 there;時間副詞 yesterday 以「說話當下」為基準,轉述時須改為 the day before(前一天)。三者都到位才正確,故「had met / there / the day before」正確。只後移動詞卻保留 here 或 yesterday、或動詞未到過去完成者皆不完整。",
+          "trap": "⚠ 三處都要改:here→there、yesterday→the day before(不是 the next day),動詞還要從 met 後移為 had met,漏改任何一項都算錯。"
+        },
+        {
+          "stem": "\"Please close the window,\" Mr. Lin said to the students. → Mr. Lin ____ the students ____ the window.",
+          "options": [
+            "said / to close",
+            "told / to close",
+            "told / close",
+            "asked / closing"
+          ],
+          "answer": 1,
+          "explanation": "祈使句轉間接用「tell sb to + 原形動詞」,Please 省略。tell 後可直接接受詞(the students),say 不可直接接人。故「told / to close」正確。用 said 直接接受詞違反 say 的用法;缺少 to 的 told / close 結構錯誤;用 closing 的動詞形式也錯。",
+          "trap": "⚠ 兩個重點:引述祈使句要用 tell 不用 say(say 不直接接人),且動詞用「to + 原形」,別漏掉 to 或誤用 -ing。"
         }
       ]
     },
@@ -9678,6 +11063,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "everybody 為不定代名詞單數 -> was given;each of them 中 each 配單數 -> was asked。正解 was / was。",
           "trap": "⚠ everybody、each of them 含複數概念誤選 were;不定代名詞 everybody 與 each 都配單數動詞。"
+        },
+        {
+          "stem": "My sister ___ to school by bus every morning.",
+          "options": [
+            "go",
+            "are going",
+            "goes",
+            "going"
+          ],
+          "answer": 2,
+          "explanation": "主詞「My sister」是第三人稱單數，一般現在式的動詞要加 -s，所以用「goes」。原形「go」只用於複數或第一、二人稱主詞；「are going」的 be 動詞與單數主詞不搭配（單數應搭 is）；「going」缺少助動詞，不能單獨當句子的動詞。"
+        },
+        {
+          "stem": "Each of the boys in the club ___ a school uniform on Fridays.",
+          "options": [
+            "wear",
+            "wears",
+            "are wearing",
+            "wearing"
+          ],
+          "answer": 1,
+          "explanation": "真正的主詞是「Each」，Each 恆為單數，動詞用第三人稱單數形「wears」。中間的「of the boys」只是修飾語，不影響動詞的單複數判斷。原形「wear」用於複數主詞；「are wearing」誤把主詞當複數；「wearing」缺少助動詞不能當動詞。",
+          "trap": "看到緊鄰的 boys（複數）就選複數動詞，但真正主詞是恆為單數的 Each。"
+        },
+        {
+          "stem": "Neither the teacher nor the students ___ sure about the new class schedule.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "has been"
+          ],
+          "answer": 1,
+          "explanation": "neither...nor 連接兩個主詞時，動詞依「就近原則」與較靠近的主詞一致。較近的是複數的「the students」，且全句為一般現在式陳述事實，故用「are」。「is」是單數不合；「was」「has been」是過去或現在完成，與現在時態的語境不符。",
+          "trap": "誤以為要跟前面的 teacher（單數）一致；neither...nor 是跟最靠近的 students（複數）一致，且要維持現在式。"
+        },
+        {
+          "stem": "The box of chocolates on the table ___ for the new students.",
+          "options": [
+            "are",
+            "is",
+            "were",
+            "have been"
+          ],
+          "answer": 1,
+          "explanation": "句子的主詞是單數的「The box」，介系詞片語「of chocolates」和「on the table」都只是修飾語，不決定動詞單複數；描述現在的事實用單數現在式「is」。複數的「are」「were」「have been」都與單數主詞 box 不一致。",
+          "trap": "緊鄰動詞的 chocolates 是複數，容易誤導；真正主詞是介系詞片語前的單數 box。"
         }
       ]
     },
@@ -10041,6 +11473,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "(D) 應用動詞 affects(影響),而非名詞 effects。affect 是動詞、effect 是名詞,此處需動詞,故 effects 用錯。(A)(B)(C) 皆正確的動詞用法。",
           "trap": "⚠ affect(v. 影響)與 effect(n. 影響)極易混淆;句中需動詞,正確為 affects,故 effects 為錯用字。"
+        },
+        {
+          "stem": "Read the sentence and choose the word that best fits the blank:\n\"The company decided to _____ its new smartphone next month, hoping to attract young customers.\"",
+          "options": [
+            "remove",
+            "delay",
+            "launch",
+            "cancel"
+          ],
+          "answer": 2,
+          "explanation": "句意為公司決定「推出」新手機以吸引年輕顧客。launch 除了「發射」外,常見一字多義用法是「(產品)推出、上市」,符合語境。remove(移除)、delay(延遲)、cancel(取消)皆與「吸引顧客」的正向目的矛盾。"
+        },
+        {
+          "stem": "In the sentence below, the word \"figure\" is closest in meaning to which choice?\n\"I can't figure out why the machine suddenly stopped working this morning.\"",
+          "options": [
+            "understand",
+            "count",
+            "draw",
+            "guess"
+          ],
+          "answer": 0,
+          "explanation": "片語 figure out 意為「弄清楚、想通」,此處指「想不通機器為何突然停止」,與 understand(理解、明白)最接近。figure 單看有「數字、算」之意,但片語 figure out 並非計算(count);draw(畫圖)與 guess(猜測)皆不符 figure out 的固定意思。",
+          "trap": "figure 單獨有「數字/算數」的意思,容易誤選 count;但題目考的是片語 figure out(弄懂),要看整個片語而非單字。"
+        },
+        {
+          "stem": "Choose the option in which \"present\" carries the SAME meaning as in this sentence:\n\"All the students were present at the morning assembly.\"",
+          "options": [
+            "Every member was present when the vote was taken.",
+            "She gave me a lovely present on my birthday.",
+            "The host will present the award to the winner.",
+            "Let me present our new team leader to you."
+          ],
+          "answer": 0,
+          "explanation": "題幹中 present 為形容詞,意為「出席的、在場的」。正解句「投票時每位成員都在場」的 present 同樣是「出席、在場」之意。其餘選項分別為名詞「禮物」、動詞「頒發」、動詞「介紹」,雖同拼作 present 但意思不同,屬一字多義的干擾。",
+          "trap": "四個選項都用了 present 這個字,但詞性與意思各異(在場/禮物/頒發/介紹);必須先判斷題幹 present 是「出席的」形容詞,再找意思相同者,不能只看拼字相同。"
+        },
+        {
+          "stem": "Read the short passage and choose the best word for the blank:\n\"Mr. Lin is a very _____ teacher. Even when students make the same mistake many times, he never gets angry and keeps explaining calmly.\"",
+          "options": [
+            "selfish",
+            "patient",
+            "careless",
+            "nervous"
+          ],
+          "answer": 1,
+          "explanation": "由「即使學生一再犯錯也不生氣,仍冷靜解說」可推知林老師「有耐心」,故填 patient(有耐心的)。selfish(自私的)、careless(粗心的)、nervous(緊張的)都與冷靜、不生氣的描述不符。",
+          "trap": "patient 一字多義:當名詞是「病人」,當形容詞是「有耐心的」。此處需要形容詞「有耐心的」來描述老師,別因熟悉「病人」的意思而排除它。"
         }
       ]
     },
@@ -10394,6 +11873,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "告示說明輕關門的「目的」是讓病人安靜休息,目的副詞子句用 so that(以便/為了)。",
           "trap": "⚠ so 單獨表結果、because 表原因(方向相反)、such that 須搭名詞;表「目的」須用 so that + 子句,別把目的誤當原因或結果。"
+        },
+        {
+          "stem": "Kevin studied really hard for the math exam. ______, he still didn't pass it.",
+          "options": [
+            "Therefore",
+            "Besides",
+            "However",
+            "For example"
+          ],
+          "answer": 2,
+          "explanation": "前句說 Kevin 很努力準備,後句說他還是沒通過,兩句意思相反,需要表示「轉折」的連接詞,意為「然而、但是」。表「因此」是因果關係、表「此外」是補充、表「舉例來說」是舉例,都不合語意。"
+        },
+        {
+          "stem": "The restaurant's food is delicious and cheap. ______, the service is fast and friendly. No wonder it is always full.",
+          "options": [
+            "Instead",
+            "Otherwise",
+            "What's more",
+            "In contrast"
+          ],
+          "answer": 2,
+          "explanation": "前句稱讚食物好吃又便宜,後句再加上服務又快又親切,是「再加上、而且」的補充累加關係,用來增添同方向的優點。表「取而代之」、表「否則」、表「相反地」都與遞進補充的語氣不符。",
+          "trap": "後句同樣是正面優點,屬於「累加補充」而非轉折或對比,別被兩個不同面向(食物 vs. 服務)誤導成相反關係。"
+        },
+        {
+          "stem": "Reading English news every day can build your vocabulary. ______, it helps you understand how sentences are put together. ______, spending just fifteen minutes a day makes a real difference over time.",
+          "options": [
+            "In addition; In short",
+            "On the other hand; However",
+            "For instance; Instead",
+            "As a result; Otherwise"
+          ],
+          "answer": 0,
+          "explanation": "第一格前後都在列舉讀英文新聞的好處(增加字彙、了解句子結構),需要「此外」表累加;第二格是把前面的重點收束成結論「總之、簡言之」。表「另一方面／然而」是轉折、表「舉例／取而代之」與「結果／否則」都不符兩格的累加＋總結邏輯。",
+          "trap": "兩格要同時成立:第一格必須是同方向的補充,第二格是總結收尾;只看單一格容易誤選轉折詞。"
+        },
+        {
+          "stem": "I wanted to go hiking this weekend. ______, the weather forecast says it will rain heavily, so I will stay home instead.",
+          "options": [
+            "Unfortunately",
+            "Fortunately",
+            "Similarly",
+            "Meanwhile"
+          ],
+          "answer": 0,
+          "explanation": "說話者原本想去健行,卻因為天氣預報說會下大雨而無法成行,這是不如意的轉折,用「不幸地、可惜」最貼切。表「幸運地」語氣相反、表「同樣地」是類比、表「與此同時」表時間,都不符合期待落空的語意。",
+          "trap": "空格帶有情緒評價:結果是壞消息(下雨得待在家),要選負面語氣的轉折副詞,別選成語氣相反的正面詞。"
         }
       ]
     },
@@ -10747,6 +12273,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 2,
           "explanation": "Only after...did + 主詞 + 原形 為倒裝強調,= The villagers returned home only after the storm passed(暴風雨過後才返家)。",
           "trap": "⚠ Only after 置句首須倒裝,還原後語意不變。before 把時序前移;never returned 否定返家;had already returned 改成風暴過前已回皆錯。倒裝只是強調,時間關係不變。"
+        },
+        {
+          "stem": "Choose the sentence that has almost the same meaning as:\n\"The concert was so loud that we couldn't hear each other.\"",
+          "options": [
+            "The concert was too loud for us to enjoy the songs.",
+            "We talked loudly so that we could enjoy the concert.",
+            "The concert was too loud for us to hear each other.",
+            "We couldn't go to the concert because it was too loud."
+          ],
+          "answer": 2,
+          "explanation": "「so + 形容詞 + that + 否定子句」表示「太……以致於不能……」,可改寫成「too + 形容詞 + for sb. + to V」。原句『太吵以致於我們無法聽見彼此』,語意等於『太吵,吵到我們無法互相聽見』,聽不見彼此這個結果必須保留。其他改寫把重點換成無法享受歌曲、大聲說話、或根本沒去,都改變了原意。"
+        },
+        {
+          "stem": "Which sentence keeps the same meaning as:\n\"Not until she read the letter did she understand the truth.\"",
+          "options": [
+            "She read the letter but still didn't understand the truth.",
+            "Before she read the letter, she had already known the truth.",
+            "She understood the truth, so she decided to read the letter.",
+            "She didn't understand the truth until she read the letter."
+          ],
+          "answer": 3,
+          "explanation": "「Not until ...」置於句首會造成主句倒裝(did she understand),意思是『直到她讀了信,她才明白真相』,還原成正常語序即為『在讀信之前她並不明白,讀了之後才明白』。因此保留「直到讀信才明白」語意的改寫才正確。把因果順序顛倒(先懂真相才讀信)、或說她讀了仍不懂、或讀信前早就知道,都與原意不符。",
+          "trap": "句首 Not until 造成的倒裝只是文法結構,別誤以為她『從頭到尾都不懂』;她其實在讀信『之後』就懂了。"
+        },
+        {
+          "stem": "Choose the option that best paraphrases the underlined part:\n\"I would rather stay home than go out in this heavy rain.\"",
+          "options": [
+            "I have to go out even though it is raining heavily.",
+            "I enjoy going out in the rain more than staying home.",
+            "I prefer staying home to going out in this heavy rain.",
+            "I can neither stay home nor go out in this heavy rain."
+          ],
+          "answer": 2,
+          "explanation": "「would rather A than B」表示『寧願A也不要B』,與「prefer A to B(較喜歡A勝於B)」意思相同。原句偏好『待在家』勝過『冒大雨出門』,故保留此偏好的改寫正確。說更喜歡淋雨出門正好相反;說必須出門或兩者都不行,則違背原意。",
+          "trap": "would rather 後接原形動詞,but prefer 後常接動名詞(staying, going);別因為動詞形式不同就誤判語意不同。"
+        },
+        {
+          "stem": "Read the short passage and choose the sentence closest in meaning to the underlined sentence.\n\n\"Tom promised to call me last night, but the phone never rang. _I ended up waiting for nothing._\"",
+          "options": [
+            "In the end, my waiting was worth it.",
+            "I decided not to wait for his call at all.",
+            "Waiting for his call made me feel happy.",
+            "In the end, all my waiting was useless."
+          ],
+          "answer": 3,
+          "explanation": "「end up + V-ing」表示『最後落得……的結果』,而「wait for nothing」意為『白等一場、徒勞無功』。結合前文『電話一直沒響』,可知說話者最後白白等待、毫無收穫,故『所有等待都是徒勞』的改寫最貼近。說等待值得、等待快樂皆與『for nothing』相反;說決定完全不等,則與『ended up waiting』矛盾——他其實等了。",
+          "trap": "for nothing 是『徒勞、白費』而非『免費』;且 ended up waiting 代表他確實等了,不能改寫成『決定不等』。"
         }
       ]
     },
@@ -11110,6 +12683,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 3,
           "explanation": "Add、Stir、Bake、cool before serving 等步驟性祈使句,且含材料與溫度時間,是「食譜/烹飪說明」。",
           "trap": "⚠ 依文體判斷要抓格式特徵:一連串祈使動詞 + 份量 + 溫度時間 = 食譜。別被單一字(cup, egg)誤導去想其他情境。"
+        },
+        {
+          "stem": "Read the advertisement and answer the question.\n\nSUPER SAVER SALE!\nAll winter jackets are 30% off this week.\nOriginal price: $50 each.\nSale ends this Friday!\n\nQuestion: How much does a customer pay for one winter jacket during the sale?",
+          "options": [
+            "$15",
+            "$30",
+            "$20",
+            "$35"
+          ],
+          "answer": 3,
+          "explanation": "原價 $50,「30% off」表示折扣 30%,顧客只需付原價的 70%。$50 × 0.7 = $35,故售價為 $35。常見錯誤是把 30% 當成直接減掉的金額($50−$30=$20),或誤以為只付折扣部分的 $30 或 $15。",
+          "trap": "「30% off」是打七折(付 70%),不是直接減 $30,也不是只付 $30;先算折扣再算實付金額。"
+        },
+        {
+          "stem": "Read the letter and answer the question.\n\nDear Amy,\nThank you so much for helping me with my science project last week. To show my thanks, I would like to invite you to my birthday party. It will be held this Saturday at 6 p.m. at Sunshine Restaurant. Please let me know if you can come.\nYour friend,\nKevin\n\nQuestion: What is the main purpose of Kevin's letter?",
+          "options": [
+            "To thank Amy for a birthday gift",
+            "To invite Amy to a birthday party",
+            "To ask Amy for help with a project",
+            "To introduce a new restaurant to Amy"
+          ],
+          "answer": 1,
+          "explanation": "信中雖然先向 Amy 道謝,但關鍵句「I would like to invite you to my birthday party」清楚說明寫信的主要目的是「邀請 Amy 參加生日派對」,並附上時間與地點。道謝只是開頭鋪陳,不是主要目的;Kevin 並未向 Amy 求助或介紹餐廳。"
+        },
+        {
+          "stem": "Read the notice and answer the question.\n\nRiverside Swimming Pool — Ticket Prices\nAdult: $8\nChild (under 12): $5\nFamily Ticket (2 adults + 2 children): $22\n\nMr. Lin takes his wife and their two sons, aged 8 and 10, to the pool.\n\nQuestion: If they choose the cheapest way to buy tickets, how much will they pay in total?",
+          "options": [
+            "$26",
+            "$30",
+            "$16",
+            "$22"
+          ],
+          "answer": 3,
+          "explanation": "兩個兒子(8 歲、10 歲)都未滿 12 歲,算兒童票。若分開買:2 位大人 2×$8=$16,加 2 位兒童 2×$5=$10,共 $26。但家庭票(2 大人+2 小孩)只要 $22,比分開買便宜,所以最省的方式是買家庭票,總共 $22。",
+          "trap": "兩個兒子都未滿 12 歲要用兒童票;且家庭票($22)比逐張買($26)划算,題目問「最省」要選家庭票的價格。"
+        },
+        {
+          "stem": "Read the notice and choose the best word to complete it.\n\nNotice: Because of the coming typhoon, tomorrow's school sports day has been ______ to next Monday. Please check your email for more information.\n\nQuestion: Which word best fits the blank?",
+          "options": [
+            "canceled",
+            "postponed",
+            "finished",
+            "reminded"
+          ],
+          "answer": 1,
+          "explanation": "因颱風把運動會「改到下週一」舉行,應用 postponed(延期)。句中「to next Monday」表示改到之後的時間,代表活動仍會舉行,只是延後,因此不是 canceled(取消);finished(結束)與 reminded(提醒)在語意與搭配上都不合。",
+          "trap": "空格後有「to next Monday」表示改期、活動照常舉行,別看到颱風就選 canceled(取消)。"
         }
       ]
     },
@@ -11473,6 +13093,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 1,
           "explanation": "全文列舉低成本、便利、環保等優點且 praising,作者整體目的是「說服讀者該系統的好處」,選 B。綜觀全文基調為正面推薦,而非中立或警告。",
           "trap": "⚠ 主旨/目的題要綜觀全文基調:通篇 praising 且只列優點,故非中立也非警告;別因看到單一細節就判斷,要看整體傾向。"
+        },
+        {
+          "stem": "In the passage, the word \"it\" is underlined: \"Lisa found an old wooden box in the attic. She was surprised that it was still locked after so many years.\" What does the word \"it\" refer to?\n\n閱讀短文,畫底線的 \"it\" 指的是什麼?",
+          "options": [
+            "The attic (閣樓)",
+            "The key (鑰匙)",
+            "Lisa (麗莎)",
+            "The wooden box (木箱)"
+          ],
+          "answer": 3,
+          "explanation": "代名詞 \"it\" 承接前一句的名詞。句子說 She was surprised that it was still locked(她很驚訝它還是鎖著的),能夠「被鎖住」的是那個木箱,所以 it 指的就是前一句出現的木箱。閣樓不會被上鎖描述為驚訝的重點,鑰匙文中並未出現,麗莎是人不能用 it 指代。"
+        },
+        {
+          "stem": "Read the note and answer the question.\n\n\"Dear Kevin, I can't come to the library at 3 p.m. as we planned. My mom asked me to take care of my little brother this afternoon. Can we meet tomorrow morning instead? — Amy\"\n\nWhy does Amy write this note to Kevin?",
+          "options": [
+            "To invite Kevin to visit her home this afternoon (邀請 Kevin 下午到她家)",
+            "To ask Kevin to help take care of her little brother (請 Kevin 幫忙照顧弟弟)",
+            "To change the time of their meeting (更改他們見面的時間)",
+            "To thank Kevin for going to the library with her (謝謝 Kevin 陪她去圖書館)"
+          ],
+          "answer": 2,
+          "explanation": "從紙條可推論寫作目的:Amy 說她 3 點無法去圖書館,並問「Can we meet tomorrow morning instead?」(我們改成明天早上見面好嗎?),顯示她要更改見面時間。她沒有邀請 Kevin 到家裡,也沒有請 Kevin 照顧弟弟(照顧弟弟是她自己要做的事),更不是道謝,因為兩人根本還沒去成圖書館。",
+          "trap": "容易被 take care of my little brother 誤導成『請 Kevin 幫忙照顧』,但照顧弟弟是 Amy 自己被媽媽要求做的,只是她無法赴約的原因,不是寫紙條的目的。"
+        },
+        {
+          "stem": "Read the paragraph and answer the question.\n\n\"When Mr. Wang walked into the classroom, all the students suddenly stopped talking and looked down at their books. A few of them quickly hid something under their desks. Mr. Wang said nothing, but he slowly walked around the room, checking every corner.\"\n\nWhat can we infer from the paragraph?",
+          "options": [
+            "The students were happy to see Mr. Wang (學生很開心看到王老師)",
+            "Mr. Wang was a new teacher the students had never met (王老師是學生沒見過的新老師)",
+            "The students were probably doing something they should not do (學生可能在做不該做的事)",
+            "Mr. Wang came to the classroom to give the students a prize (王老師是來發獎品的)"
+          ],
+          "answer": 2,
+          "explanation": "須綜合多個線索推論:學生「突然停止講話」「低頭看書」「迅速把東西藏到桌子底下」,而老師「一句話都沒說,慢慢繞教室檢查每個角落」,這些反應顯示學生心虛,可能在做不該做的事。若學生很開心,不會急著藏東西;文中沒有任何線索說王老師是新老師;老師沉默巡視也與發獎品的情境不符。",
+          "trap": "沒有任何一句話直接說學生在做壞事,必須把『停止講話+低頭+藏東西+老師沉默巡查』這些行為線索合起來推論,不能只看單一句子就選字面上提到的內容。"
+        },
+        {
+          "stem": "Read the conversation and answer the question.\n\nJohn: I heard you got the first prize in the science fair! Congratulations!\nMary: Thanks, but honestly, I couldn't have done it without Peter. He stayed up late with me every night for two weeks.\nJohn: Really? Then he should get some of the credit, too.\n\nWhat does Mary mean when she says \"I couldn't have done it without Peter\"?",
+          "options": [
+            "Peter forced her to join the science fair (Peter 逼她參加科展)",
+            "She did all the work by herself (她所有的事都自己完成)",
+            "Peter also won a prize in the science fair (Peter 也在科展得獎)",
+            "Peter's help was very important to her success (Peter 的幫忙對她的成功很重要)"
+          ],
+          "answer": 3,
+          "explanation": "須理解言外之意:\"I couldn't have done it without Peter\" 字面是『沒有 Peter 我就做不到』,意思是 Peter 的幫忙對她得獎非常重要,加上後面提到 He stayed up late with me every night(他每晚陪我熬夜),更確認這個推論。文中沒有說 Peter 逼她參加;『沒有他就做不到』正好與『所有事都自己完成』相反;文中只說 Peter 幫忙,並未提到 Peter 也得獎。",
+          "trap": "couldn't have done it without ~ 是雙重否定表達強烈的肯定(多虧了他),容易被 without 這個字誤看成 Peter 沒幫忙或她獨力完成,方向剛好相反。"
         }
       ]
     },
@@ -11836,6 +13503,53 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 0,
           "explanation": "要2天送達須選Express(2 days)。訂單>$100，較快選項享$10折扣，Express $12−$10=$2。Standard雖免費但要7天不符2天需求。",
           "trap": "⚠ 整合題:免費Standard($0)不符『2天』條件；Express享折扣後是$2而非原價$12，須同時套用文字的折扣與天數限制。"
+        },
+        {
+          "stem": "Which type of chart is BEST for showing how a value changes and trends over time (for example, monthly temperatures)?",
+          "options": [
+            "A pie chart",
+            "A bar chart",
+            "A line graph",
+            "A word list"
+          ],
+          "answer": 2,
+          "explanation": "折線圖(line graph)以連續的線條呈現數值隨時間的上升或下降,最適合表現『趨勢變化』;圓餅圖用來看各部分占整體的比例,長條圖用來比較數量大小,文字清單只是條列並非圖表。"
+        },
+        {
+          "stem": "A pie chart shows how 400 visitors travelled to a park: MRT 35%, Bus 30%, Car 20%, Bike 15%. How many MORE visitors took the MRT than rode a bike?",
+          "options": [
+            "20",
+            "60",
+            "80",
+            "140"
+          ],
+          "answer": 2,
+          "explanation": "先把百分比換算成人數:搭捷運=35%×400=140人;騎腳踏車=15%×400=60人。相差=140−60=80人。",
+          "trap": "⚠ 直接用百分比相減 35%−15%=20% 會誤選 20;題目問『多多少人』必須先各自換成人數(140、60)再相減。另 60 是騎車人數、140 是捷運人數,都不是差值。"
+        },
+        {
+          "stem": "A bar chart shows a bakery's cupcake sales: Thu 40, Fri 65, Sat 90, Sun 55. The text adds: 'Each cupcake sells for $3, but on Saturday there was a 20% discount.' On which day did the bakery earn the MOST money?",
+          "options": [
+            "Saturday",
+            "Friday",
+            "Sunday",
+            "Thursday"
+          ],
+          "answer": 0,
+          "explanation": "逐日計算收入:週四40×$3=$120;週五65×$3=$195;週六90×$3×0.8(打八折)=$216;週日55×$3=$165。週六$216 最高。",
+          "trap": "⚠ 整合題:週六有八折易被誤判成賺較少;但週六銷量最高(90),打折後仍有$216,高於週五的$195。必須把『數量×單價×折扣』一起算,不能只看有沒有打折。"
+        },
+        {
+          "stem": "A train timetable — Train 1: depart 08:45, arrive 09:40; Train 2: depart 09:20, arrive 09:50; Train 3: depart 09:40, arrive 10:40. Emma must arrive before 10:00 and wants to leave as late as possible. Which train should she take?",
+          "options": [
+            "Train 1",
+            "Train 3",
+            "Train 2",
+            "Any train is fine"
+          ],
+          "answer": 2,
+          "explanation": "先用『10:00 前抵達』篩選:第一班09:40、第二班09:50 都符合,第三班10:40 超過不符合。再從符合的兩班中挑『出發最晚』:第二班09:20 出發比第一班08:45 晚,故選第二班。",
+          "trap": "⚠ 出發最晚的其實是第三班(09:40 出發),但它10:40 才到,超過10:00 的限制;雙條件題要先用『抵達時間』刷掉不合格的車次,再從剩下的挑出發最晚的,不能一看到『越晚越好』就選出發最晚那班。"
         }
       ]
     },
@@ -12199,6 +13913,54 @@ window.STUDYSYNC.data.subjects.english = {
           "answer": 0,
           "explanation": "not only...but also... 對等連接兩個動詞(sing / dance),置於助動詞 can 之後:He can not only sing but also dance。",
           "trap": "⚠ not only 與 but also 須對稱連接同類成分(此處兩個原形動詞 sing/dance);本句未置於句首故不倒裝,且 can 共用於兩動詞。"
+        },
+        {
+          "stem": "Reorder the words into a correct sentence: \"always / after / does / homework / his / he / dinner\". Which is correct?",
+          "options": [
+            "He always does his homework after dinner.",
+            "He does always his homework after dinner.",
+            "He does his homework always after dinner.",
+            "Always he does his homework after dinner."
+          ],
+          "answer": 0,
+          "explanation": "一般動詞的頻率副詞 always 放在主詞與一般動詞之間(主詞 + always + 一般動詞);故主詞後先接 always 再接 does,受詞 his homework 隨後,時間片語 after dinner 收尾。",
+          "trap": "頻率副詞 always 修飾一般動詞時要放在該動詞之前、主詞之後;放到 does 之後或整句最前面都不自然。"
+        },
+        {
+          "stem": "Reorder: \"more / than / is / interesting / this / that / book / one\". The correct sentence is:",
+          "options": [
+            "This book is interesting more than that one.",
+            "This book is more interesting than that one.",
+            "This more book is interesting than that one.",
+            "This book more is interesting than that one."
+          ],
+          "answer": 1,
+          "explanation": "多音節形容詞的比較級用 more + 原級(more interesting),再用 than 帶出比較對象;語序為 主詞 + be 動詞 + more + 形容詞 + than + 比較對象,故 more interesting 相連、than that one 收尾。",
+          "trap": "more 要緊接在形容詞 interesting 之前組成比較級,不能放到形容詞之後,也不能插在主詞與名詞之間;than 才是引導被比較對象 that one。"
+        },
+        {
+          "stem": "Order the paragraph:\n(1) First, we visited an old temple in the morning.\n(2) Last summer, my family took a trip to Tainan.\n(3) In the evening, we enjoyed delicious local food.\n(4) Then, we walked along a famous old street.",
+          "options": [
+            "2 - 1 - 4 - 3",
+            "2 - 4 - 1 - 3",
+            "1 - 2 - 4 - 3",
+            "2 - 1 - 3 - 4"
+          ],
+          "answer": 0,
+          "explanation": "先用最概括、設定時間背景的主題句「去年夏天全家去台南旅行」開頭;其餘三句依時間先後串接:First 早上參觀寺廟→Then 走訪老街→In the evening 晚上享用美食。",
+          "trap": "開頭要選設定整體背景、不含順序詞的句子;別被含 First 的句子放在最前面而誤把它當第一句,First/Then/In the evening 是用來排中後段的時間線索。"
+        },
+        {
+          "stem": "Reorder: \"such / a / it / hot / day / was / that / we / inside / stayed\". The correct sentence is:",
+          "options": [
+            "It was so a hot day that we stayed inside.",
+            "It was such a hot day that we stayed inside.",
+            "It was such hot a day that we stayed inside.",
+            "It was a such hot day that we stayed inside."
+          ],
+          "answer": 1,
+          "explanation": "「如此…以致於…」在修飾『形容詞+單數可數名詞』時用 such + a + 形容詞 + 名詞(such a hot day),再接 that 引導結果子句;冠詞 a 放在 such 之後、形容詞 hot 之前。",
+          "trap": "修飾 a hot day 這種名詞片語要用 such,不是 so(so 只直接修飾形容詞,如 so hot);且冠詞位置為 such a hot day,不能寫成 such hot a 或 a such。"
         }
       ]
     }
