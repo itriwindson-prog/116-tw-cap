@@ -90,13 +90,15 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
       const dayNum = dt.getDate();
       if (dayNum === 15 || dayNum === 28) dayType = "monthly";
       else if (dow === 6) dayType = "weekly";
-      const setLabel = { daily: "每日測驗 10 題", weekly: "週測 20 題", monthly: "月考·本科綜合 30 題" }[dayType];
       const seq = SS.daysBetween(D.config.startDate, dateStr);
-      ["math", "chinese", "english"].forEach(cid => {
+      const setName = { daily: "每日測驗", weekly: "週測", monthly: "月考·本科綜合" }[dayType];
+      const sizeOf = cid => dayType === "weekly" ? 20 : dayType === "monthly" ? 30
+                          : (cid === "social" || cid === "science") ? 15 : 10;  // 每日:社/自15、數國英10
+      ["math", "chinese", "english", "social", "science"].forEach(cid => {
         const sd = SS.subjectData(cid), sm = SS.findSubject(cid);
         if (sd && sd.topics.length && sm) {
           const n = sd.topics.length, t = sd.topics[((seq % n) + n) % n];
-          coreDaily.push({ subject: cid, subjectName: sm.name, noteTopic: t.id, noteLabel: sm.name + "·" + t.name, quizSet: dayType, setLabel });
+          coreDaily.push({ subject: cid, subjectName: sm.name, noteTopic: t.id, noteLabel: sm.name + "·" + t.name, quizSet: dayType, setLabel: setName + " " + sizeOf(cid) + " 題" });
         }
       });
     }
@@ -240,6 +242,22 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     if (opts.topic && opts.topic !== "all") { const tp = sd.topics.find(t => t.id === opts.topic); return tp ? sample((tp.quiz || []).map((q, qi) => ({ topicId: tp.id, qi, q })), 10) : []; }  // 單一主題：隨機 10 題
     if (!opts.set || opts.set === "all") return all;
     const ds = opts.dateStr || SS.todayStr(), seq = SS.daysBetween(D.config.startDate, ds), n = sd.topics.length;
+    // 社會/自然：題數按子科目平均（每日15=5/5/5、週測20、月考30），該子科不足以整子科補滿
+    if ((subjectId === "social" || subjectId === "science") && (opts.set === "daily" || opts.set === "weekly" || opts.set === "monthly")) {
+      const subOf = {}; sd.topics.forEach(t => (subOf[t.id] = t.sub));
+      const subs = [...new Set(sd.topics.map(t => t.sub).filter(Boolean))];
+      const target = { daily: 15, weekly: 20, monthly: 30 }[opts.set];
+      const base = Math.floor(target / subs.length), extra = target - base * subs.length;
+      let out = [];
+      subs.forEach((s, i) => {
+        const need = base + (i < extra ? 1 : 0);
+        const subPool = all.filter(x => subOf[x.topicId] === s);
+        let pool = subPool;
+        if (opts.set === "daily") { const st = sd.topics.filter(t => t.sub === s); const t = st[pickIdx(seq + i, st.length)]; pool = all.filter(x => x.topicId === t.id); }
+        out = out.concat(sample(pool, need, subPool));
+      });
+      return out;
+    }
     if (opts.set === "daily") {            // 當日輪播主題優先，隨機補滿共 10 題
       const t = sd.topics[pickIdx(seq, n)];
       return sample(all.filter(x => x.topicId === t.id), 10, all);

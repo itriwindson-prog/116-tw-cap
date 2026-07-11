@@ -56,7 +56,7 @@
     const ymd = SS.todayStr(), seq = SS.daysBetween(SS.data.config.startDate, ymd), dow = SS.parseDate(ymd).getDay();
     const monSeq = seq - (dow === 0 ? 6 : dow - 1);
     setId = setParam === "daily" ? ("daily-" + ymd) : setParam === "weekly" ? ("weekly-" + monSeq) : setParam === "monthly" ? ("monthly-" + ymd.slice(0, 7)) : setParam;
-    modeName = { daily: "每日測驗（10 題）", weekly: "週測（20 題）", monthly: "本科綜合·月考（30 題）" }[setParam] || "測驗";
+    modeName = ({ daily: "每日測驗", weekly: "週測", monthly: "本科綜合·月考" }[setParam] || "測驗") + "（" + built.length + " 題）";
   } else {
     const tid = topicId || data.topics[0].id;
     built = SS.buildQuizSet(subjId, { topic: tid });
