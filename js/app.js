@@ -82,13 +82,16 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
       }
     }
 
-    // 每日核心：讀書日(週日休息除外)從 國/英/數 各挑當日筆記主題 + 對應測驗份量
-    // 平日=每日10題；週六=週測20題；每月 15、28 號=本科綜合月考30題
+    // 每日核心：讀書日(週日休息除外)從 五科各挑當日筆記主題 + 對應測驗份量
+    // 平日=每日10題(社/自15)；週六=週測20題；每月 15、28 號=本科綜合月考30題(逢週日順延隔天週一)
     const coreDaily = [];
     let dayType = "daily";
     if (dow !== 0) {
       const dayNum = dt.getDate();
-      if (dayNum === 15 || dayNum === 28) dayType = "monthly";
+      // 月考 15/28 號;若逢週日(休息)則順延到隔天(週一)。用「昨天」判斷可正確跨月(如 2/28 週日→3/1)
+      const prev = new Date(dt.getFullYear(), dt.getMonth(), dayNum - 1);
+      const postponedMonthly = prev.getDay() === 0 && (prev.getDate() === 15 || prev.getDate() === 28);
+      if (dayNum === 15 || dayNum === 28 || postponedMonthly) dayType = "monthly";
       else if (dow === 6) dayType = "weekly";
       const seq = SS.daysBetween(D.config.startDate, dateStr);
       const setName = { daily: "每日測驗", weekly: "週測", monthly: "月考·本科綜合" }[dayType];
