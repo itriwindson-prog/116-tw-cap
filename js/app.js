@@ -100,7 +100,8 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
       ["math", "chinese", "english", "social", "science"].forEach(cid => {
         const sd = SS.subjectData(cid), sm = SS.findSubject(cid);
         if (sd && sd.topics.length && sm) {
-          const n = sd.topics.length, t = sd.topics[((seq % n) + n) % n];
+          const sched = SS.scheduledTopics(cid, dateStr);            // 有 schedule 指定主題就用它，筆記與測驗同主題
+          const n = sd.topics.length, t = (sched.length && sd.topics.find(x => x.id === sched[0])) || sd.topics[((seq % n) + n) % n];
           coreDaily.push({ subject: cid, subjectName: sm.name, noteTopic: t.id, noteLabel: sm.name + "·" + t.name, quizSet: dayType, setLabel: setName + " " + sizeOf(cid) + " 題" });
         }
       });
@@ -236,6 +237,20 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     if (s.length < count && fallback) { const seen = new Set(s.map(x => x.topicId + ":" + x.qi)); s = s.concat(shuffle(fallback).filter(x => !seen.has(x.topicId + ":" + x.qi))); }
     return s.slice(0, count);
   }
+  // schedule 當週為某科指定的主題 id（來自 week.links / dayOverrides.links）；沒有則回 []
+  SS.scheduledTopics = function (subjectId, dateStr) {
+    const S = D.schedule, ym = dateStr.slice(0, 7);
+    const month = (S.months || []).find(m => m.ym === ym);
+    if (!month || !month.weeks || !month.weeks.length) return [];
+    const dt = SS.parseDate(dateStr);
+    const ov = (S.dayOverrides || {})[dateStr];
+    const week = month.weeks[Math.min(month.weeks.length - 1, Math.floor((dt.getDate() - 1) / 7))];
+    const raw = (ov && ov.links) || (week && week.links) || [];
+    const sd = SS.subjectData(subjectId); if (!sd) return [];
+    const valid = new Set(sd.topics.map(t => t.id));
+    return [...new Set(raw.filter(l => l.subject === subjectId && l.topic && valid.has(l.topic)).map(l => l.topic))];
+  };
+
   // 回傳 [{topicId, qi, q}]；opts: {set:'daily'|'weekly'|'monthly'|'all', topic, dateStr}
   SS.buildQuizSet = function (subjectId, opts) {
     opts = opts || {};
@@ -244,6 +259,14 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     if (opts.topic && opts.topic !== "all") { const tp = sd.topics.find(t => t.id === opts.topic); return tp ? sample((tp.quiz || []).map((q, qi) => ({ topicId: tp.id, qi, q })), 10) : []; }  // 單一主題：隨機 10 題
     if (!opts.set || opts.set === "all") return all;
     const ds = opts.dateStr || SS.todayStr(), seq = SS.daysBetween(D.config.startDate, ds), n = sd.topics.length;
+    // 日/週測：schedule 當週有指定本科主題 → 從那些主題出題（跟進度連動）；月考維持綜合、無指定則回退輪播
+    if (opts.set === "daily" || opts.set === "weekly") {
+      const sched = SS.scheduledTopics(subjectId, ds);
+      if (sched.length) {
+        const target = opts.set === "weekly" ? 20 : (subjectId === "social" || subjectId === "science") ? 15 : 10;
+        return sample(all.filter(x => sched.includes(x.topicId)), target, all);
+      }
+    }
     // 社會/自然：題數按子科目平均（每日15=5/5/5、週測20、月考30），該子科不足以整子科補滿
     if ((subjectId === "social" || subjectId === "science") && (opts.set === "daily" || opts.set === "weekly" || opts.set === "monthly")) {
       const subOf = {}; sd.topics.forEach(t => (subOf[t.id] = t.sub));
