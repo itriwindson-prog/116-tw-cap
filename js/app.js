@@ -59,7 +59,7 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     // 快速連結：優先用手寫 links（精準到主題）；否則自動掃 focus 內的科目/子科名（科目層級）
     const raw = (ov && ov.links) || (week && week.links) || null;
     const links = [];
-    if (raw) {
+    if (dow !== 0 && raw) {                          // 週日休息:本週重點也一併隱藏
       raw.forEach(l => {
         const sm = SS.findSubject(l.subject); if (!sm) return;
         const sd = SS.subjectData(l.subject);
@@ -67,7 +67,7 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
         links.push({ subject: l.subject, topic: t ? l.topic : null, label: sm.name + (t ? "·" + t.name : ""),
                      hasQuiz: t ? !!(t.quiz && t.quiz.length) : !!(sd && SS.aggregateQuiz(sd).length) });
       });
-    } else if (weekFocus) {
+    } else if (dow !== 0 && weekFocus) {
       (D.config.subjects || []).forEach(sm => {
         const hit = weekFocus.includes(sm.name) || (sm.subs && sm.subs.some(su => weekFocus.includes(su.name)));
         if (!hit) return;
@@ -110,12 +110,11 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
              weekLabel, weekFocus, quizTarget, note: ov ? (ov.note || "") : "", isOverride: !!ov, tasks, links, coreDaily, dayType };
   };
 
-  // 把連結陣列畫成「📖 筆記 / ✏ 測驗」按鈕列（週重點連結用）
+  // 把連結陣列畫成「📖 筆記」按鈕列（本週重點只給筆記；測驗併入週六週測，不另出）
   SS.renderLinks = function (arr) {
     const wrap = SS.el("div", { style: "margin-top:8px;display:flex;flex-wrap:wrap;gap:8px" });
     (arr || []).forEach(l => {
       wrap.appendChild(SS.el("a", { class: "btn small ghost", href: "subject.html?subject=" + l.subject + (l.topic ? "&topic=" + l.topic : ""), text: "📖 " + l.label + " 筆記" }));
-      if (l.hasQuiz) wrap.appendChild(SS.el("a", { class: "btn small", href: "quiz.html?subject=" + l.subject + "&set=weekly", text: "✏ 測驗（20 題）" }));
     });
     return wrap;
   };
