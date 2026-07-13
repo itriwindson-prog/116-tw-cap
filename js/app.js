@@ -56,30 +56,16 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     else if (dow === 6) tasks = week ? ["本週綜合測驗 + 訂正", "整理本週錯題"] : ((phase && phase.dailyTemplate) || []);
     else tasks = (phase && phase.dailyTemplate) || [];
 
-    // 快速連結：優先用手寫 links（精準到主題）；否則自動掃 focus 內的科目/子科名（科目層級）
-    const raw = (ov && ov.links) || (week && week.links) || null;
+    // 本週重點：五科各列「當週主題」筆記（週日休息隱藏）；測驗併入每日核心/週六週測，故只給筆記。
+    // 綜合/模考週該科無單一主題 → 連到整科筆記（topic:null）。
     const links = [];
-    if (dow !== 0 && raw) {                          // 週日休息:本週重點也一併隱藏
-      raw.forEach(l => {
-        const sm = SS.findSubject(l.subject); if (!sm) return;
-        const sd = SS.subjectData(l.subject);
-        const t = l.topic && sd && sd.topics.find(x => x.id === l.topic);
-        links.push({ subject: l.subject, topic: t ? l.topic : null, label: sm.name + (t ? "·" + t.name : ""),
-                     hasQuiz: t ? !!(t.quiz && t.quiz.length) : !!(sd && SS.aggregateQuiz(sd).length) });
+    if (dow !== 0) {
+      ["math", "chinese", "english", "social", "science"].forEach(sid => {
+        const sm = SS.findSubject(sid), sd = SS.subjectData(sid); if (!sm || !sd) return;
+        const wt = SS.weekTopic(sid, dateStr);
+        const t = (!wt.comprehensive && wt.topic) ? sd.topics.find(x => x.id === wt.topic) : null;
+        links.push({ subject: sid, topic: t ? t.id : null, label: sm.name + (t ? "·" + t.name : "") });
       });
-    } else if (dow !== 0 && weekFocus) {
-      (D.config.subjects || []).forEach(sm => {
-        const hit = weekFocus.includes(sm.name) || (sm.subs && sm.subs.some(su => weekFocus.includes(su.name)));
-        if (!hit) return;
-        const sd = SS.subjectData(sm.id);
-        links.push({ subject: sm.id, topic: null, label: sm.name, hasQuiz: !!(sd && SS.aggregateQuiz(sd).length) });
-      });
-      if (!links.length) {  // B：複習週等 focus 沒寫科目名 → 以核心三科保底
-        ["math", "chinese", "english"].forEach(sid => {
-          const sd = SS.subjectData(sid), sm = SS.findSubject(sid);
-          if (sd && sm) links.push({ subject: sid, topic: null, label: sm.name, hasQuiz: !!SS.aggregateQuiz(sd).length });
-        });
-      }
     }
 
     // 每日核心：讀書日(週日休息除外)從 五科各挑當日筆記主題 + 對應測驗份量
@@ -100,8 +86,8 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
       ["math", "chinese", "english", "social", "science"].forEach(cid => {
         const sd = SS.subjectData(cid), sm = SS.findSubject(cid);
         if (sd && sd.topics.length && sm) {
-          const sched = SS.scheduledTopics(cid, dateStr);            // 有 schedule 指定主題就用它，筆記與測驗同主題
-          const n = sd.topics.length, t = (sched.length && sd.topics.find(x => x.id === sched[0])) || sd.topics[((seq % n) + n) % n];
+          const wt = SS.weekTopic(cid, dateStr);                     // 筆記主題跟著當週指定/自動主題，與測驗一致
+          const n = sd.topics.length, t = (wt.topic && sd.topics.find(x => x.id === wt.topic)) || sd.topics[((seq % n) + n) % n];
           coreDaily.push({ subject: cid, subjectName: sm.name, noteTopic: t.id, noteLabel: sm.name + "·" + t.name, quizSet: dayType, setLabel: setName + " " + sizeOf(cid) + " 題" });
         }
       });
@@ -237,18 +223,30 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     if (s.length < count && fallback) { const seen = new Set(s.map(x => x.topicId + ":" + x.qi)); s = s.concat(shuffle(fallback).filter(x => !seen.has(x.topicId + ":" + x.qi))); }
     return s.slice(0, count);
   }
-  // schedule 當週為某科指定的主題 id（來自 week.links / dayOverrides.links）；沒有則回 []
-  SS.scheduledTopics = function (subjectId, dateStr) {
+  // 找日期所屬的 schedule 週：{week, gWeek}（gWeek=全期週序，供無指定主題時自動進度）
+  function findWeek(dateStr) {
     const S = D.schedule, ym = dateStr.slice(0, 7);
-    const month = (S.months || []).find(m => m.ym === ym);
-    if (!month || !month.weeks || !month.weeks.length) return [];
-    const dt = SS.parseDate(dateStr);
-    const ov = (S.dayOverrides || {})[dateStr];
-    const week = month.weeks[Math.min(month.weeks.length - 1, Math.floor((dt.getDate() - 1) / 7))];
-    const raw = (ov && ov.links) || (week && week.links) || [];
-    const sd = SS.subjectData(subjectId); if (!sd) return [];
+    const mi = (S.months || []).findIndex(m => m.ym === ym);
+    if (mi < 0) return null;
+    const month = S.months[mi]; if (!month.weeks || !month.weeks.length) return null;
+    const wpos = Math.min(month.weeks.length - 1, Math.floor((SS.parseDate(dateStr).getDate() - 1) / 7));
+    return { week: month.weeks[wpos], gWeek: mi * 5 + wpos };
+  }
+  // 某科在該週要考的主題：{comprehensive, topics:[id…], topic:主要id(供筆記顯示)}
+  //  1) 該週 comprehensive → 全科綜合  2) links 有點名本科 → 用該主題  3) 沒點名 → 依全期週序自動前進一個主題
+  SS.weekTopic = function (subjectId, dateStr) {
+    const sd = SS.subjectData(subjectId);
+    if (!sd || !sd.topics.length) return { comprehensive: false, topics: [], topic: null };
+    const n = sd.topics.length, w = findWeek(dateStr);
+    const gi = w ? w.gWeek : SS.daysBetween(D.config.startDate, dateStr);
+    const autoId = sd.topics[((gi % n) + n) % n].id;
+    if (!w) return { comprehensive: false, topics: [autoId], topic: autoId };
+    if (w.week.comprehensive) return { comprehensive: true, topics: [], topic: autoId };
+    const ov = (D.schedule.dayOverrides || {})[dateStr];
+    const raw = (ov && ov.links) || w.week.links || [];
     const valid = new Set(sd.topics.map(t => t.id));
-    return [...new Set(raw.filter(l => l.subject === subjectId && l.topic && valid.has(l.topic)).map(l => l.topic))];
+    const explicit = [...new Set(raw.filter(l => l.subject === subjectId && l.topic && valid.has(l.topic)).map(l => l.topic))];
+    return explicit.length ? { comprehensive: false, topics: explicit, topic: explicit[0] } : { comprehensive: false, topics: [autoId], topic: autoId };
   };
 
   // 回傳 [{topicId, qi, q}]；opts: {set:'daily'|'weekly'|'monthly'|'all', topic, dateStr}
@@ -258,42 +256,24 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     const all = []; sd.topics.forEach(t => (t.quiz || []).forEach((q, qi) => all.push({ topicId: t.id, qi, q })));
     if (opts.topic && opts.topic !== "all") { const tp = sd.topics.find(t => t.id === opts.topic); return tp ? sample((tp.quiz || []).map((q, qi) => ({ topicId: tp.id, qi, q })), 10) : []; }  // 單一主題：隨機 10 題
     if (!opts.set || opts.set === "all") return all;
-    const ds = opts.dateStr || SS.todayStr(), seq = SS.daysBetween(D.config.startDate, ds), n = sd.topics.length;
-    // 日/週測：schedule 當週有指定本科主題 → 從那些主題出題（跟進度連動）；月考維持綜合、無指定則回退輪播
-    if (opts.set === "daily" || opts.set === "weekly") {
-      const sched = SS.scheduledTopics(subjectId, ds);
-      if (sched.length) {
-        const target = opts.set === "weekly" ? 20 : (subjectId === "social" || subjectId === "science") ? 15 : 10;
-        return sample(all.filter(x => sched.includes(x.topicId)), target, all);
-      }
-    }
-    // 社會/自然：題數按子科目平均（每日15=5/5/5、週測20、月考30），該子科不足以整子科補滿
-    if ((subjectId === "social" || subjectId === "science") && (opts.set === "daily" || opts.set === "weekly" || opts.set === "monthly")) {
+    const ds = opts.dateStr || SS.todayStr();
+    const isSub = subjectId === "social" || subjectId === "science";
+    // 社/自綜合：題數按子科目平均抽 target 題（史/地/公民 或 物化/生/地科 均分）
+    const subBalanced = (target) => {
       const subOf = {}; sd.topics.forEach(t => (subOf[t.id] = t.sub));
       const subs = [...new Set(sd.topics.map(t => t.sub).filter(Boolean))];
-      const target = { daily: 15, weekly: 20, monthly: 30 }[opts.set];
+      if (!subs.length) return sample(all, target);
       const base = Math.floor(target / subs.length), extra = target - base * subs.length;
-      let out = [];
-      subs.forEach((s, i) => {
-        const need = base + (i < extra ? 1 : 0);
-        const subPool = all.filter(x => subOf[x.topicId] === s);
-        let pool = subPool;
-        if (opts.set === "daily") { const st = sd.topics.filter(t => t.sub === s); const t = st[pickIdx(seq + i, st.length)]; pool = all.filter(x => x.topicId === t.id); }
-        out = out.concat(sample(pool, need, subPool));
-      });
+      let out = []; subs.forEach((s, i) => { out = out.concat(sample(all.filter(x => subOf[x.topicId] === s), base + (i < extra ? 1 : 0), all)); });
       return out;
-    }
-    if (opts.set === "daily") {            // 當日輪播主題優先，隨機補滿共 10 題
-      const t = sd.topics[pickIdx(seq, n)];
-      return sample(all.filter(x => x.topicId === t.id), 10, all);
-    }
-    if (opts.set === "weekly") {           // 本週(週一起 6 個輪播主題)範圍，隨機 20 題
-      const dow = SS.parseDate(ds).getDay(), monSeq = seq - (dow === 0 ? 6 : dow - 1);
-      const ids = new Set(); for (let k = 0; k < 6; k++) ids.add(sd.topics[pickIdx(monSeq + k, n)].id);
-      return sample(all.filter(x => ids.has(x.topicId)), 20, all);
-    }
-    if (opts.set === "monthly") return sample(all, 30);  // 本科綜合 隨機 30 題
-    return all;
+    };
+    if (opts.set === "monthly") return isSub ? subBalanced(30) : sample(all, 30);   // 月考：本科綜合
+    // 日/週測：依 schedule 當週主題出題（跟進度連動）；綜合/模考週 = 全科
+    const target = opts.set === "weekly" ? 20 : (isSub ? 15 : 10);
+    const wt = SS.weekTopic(subjectId, ds);
+    if (wt.comprehensive) return isSub ? subBalanced(target) : sample(all, target);
+    if (wt.topics.length) return sample(all.filter(x => wt.topics.includes(x.topicId)), target, all);
+    return isSub ? subBalanced(target) : sample(all, target);
   };
 
   // ---------- 深色模式 ----------
