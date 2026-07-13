@@ -75,7 +75,7 @@
     if (p.weekFocus) body.appendChild(SS.el("div", { class: "muted", text: (p.weekLabel ? p.weekLabel + "｜" : "") + p.weekFocus }));
     if (p.note) body.appendChild(SS.el("div", { class: "trap", html: "📌 " + p.note }));
     p.tasks.forEach(t => body.appendChild(SS.el("div", { text: "・" + t })));
-    if (p.coreDaily && p.coreDaily.length) { const h = { daily: "今日測驗（每科10題）", weekly: "週測（每科20題）", monthly: "月考綜合（每科30題）" }[p.dayType] || "每日核心"; body.appendChild(SS.el("div", { class: "muted", style: "margin-top:6px", text: h + "：" })); body.appendChild(SS.renderCoreDaily(p)); }
+    if (p.coreDaily && p.coreDaily.length) { const h = { daily: "今日測驗（數國英10·社自15題）", weekly: "週測（每科20題）", monthly: "月考綜合（每科30題）" }[p.dayType] || "每日核心"; body.appendChild(SS.el("div", { class: "muted", style: "margin-top:6px", text: h + "：" })); body.appendChild(SS.renderCoreDaily(p)); }
     if (p.links && p.links.length) { body.appendChild(SS.el("div", { class: "muted", style: "margin-top:6px", text: "本週重點：" })); body.appendChild(SS.renderDayLinks(p)); }
     return SS.el("div", { class: "phase" + (p.date === today ? " now" : "") }, [SS.el("span", { class: "dot" }), body]);
   }
