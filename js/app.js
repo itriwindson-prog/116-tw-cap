@@ -173,15 +173,10 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
       return { answered, correct, wrong: answered - correct };
     },
     getQuiz(subject, topic) { return this.get("quiz." + subject + "." + topic, null); },
+    // 測驗平均＝總答對 ÷ 總題數（pooled，與下方「對/錯」計數一致；未作答計為錯）
     quizAverage() {
-      let sum = 0, n = 0;
-      for (let i = 0; i < localStorage.length; i++) {
-        const key = localStorage.key(i);
-        if (key && key.startsWith("ss.quiz.")) {
-          try { const o = JSON.parse(localStorage.getItem(key)); if (o && o.total) { sum += o.score / o.total; n++; } } catch (e) {}
-        }
-      }
-      return n ? Math.round((sum / n) * 100) : 0;
+      const s = this.stats();
+      return s.answered ? Math.round(s.correct / s.answered * 100) : 0;
     },
     // 各科已完成測驗的主題數
     subjectDone(subjectId) {
