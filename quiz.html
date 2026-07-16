@@ -50,17 +50,18 @@
   const data = SS.subjectData(subjId);
   if (!data) { document.getElementById("quizArea").innerHTML = "<p class='muted'>找不到此科目。</p>"; return; }
 
+  // setId 先算出來，才能查「這份測驗已出過哪些題」→ 重測時依同一進度範圍重抽、盡量不重複
   let built, setId, modeName, backTopic = "";
   if (setParam) {
-    built = SS.buildQuizSet(subjId, { set: setParam });
     const ymd = SS.todayStr(), seq = SS.daysBetween(SS.data.config.startDate, ymd), dow = SS.parseDate(ymd).getDay();
     const monSeq = seq - (dow === 0 ? 6 : dow - 1);
     setId = setParam === "daily" ? ("daily-" + ymd) : setParam === "weekly" ? ("weekly-" + monSeq) : setParam === "monthly" ? ("monthly-" + ymd.slice(0, 7)) : setParam;
+    built = SS.buildQuizSet(subjId, { set: setParam, avoid: SS.progress.getSeen(subjId, setId) });
     modeName = ({ daily: "每日測驗", weekly: "週測", monthly: "本科綜合·月考" }[setParam] || "測驗") + "（" + built.length + " 題）";
   } else {
     const tid = topicId || data.topics[0].id;
-    built = SS.buildQuizSet(subjId, { topic: tid });
     setId = tid;
+    built = SS.buildQuizSet(subjId, { topic: tid, avoid: SS.progress.getSeen(subjId, setId) });
     modeName = tid === "all" ? "綜合測驗（全主題）" : ((data.topics.find(t => t.id === tid) || {}).name || tid);
     if (tid !== "all") backTopic = "&topic=" + tid;
   }
@@ -131,6 +132,8 @@
     const score = answers.reduce((s, a, i) => s + (a === Q[i].answer ? 1 : 0), 0);
     const wrongN = Q.length - score;
     SS.progress.saveQuiz(subjId, setId, score, Q.length, answers, refs);
+    SS.progress.logQuiz(subjId, setParam || "topic", setId, score, Q.length);  // 每次都記一筆(行事曆當天可查)
+    SS.progress.addSeen(subjId, setId, refs);                                  // 累積已出過的題，重測時避開
     const pct = Math.round(score / Q.length * 100);
     const res = document.getElementById("result");
     res.innerHTML = "";

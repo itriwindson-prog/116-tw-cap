@@ -75,6 +75,16 @@
     if (p.weekFocus) body.appendChild(SS.el("div", { class: "muted", text: (p.weekLabel ? p.weekLabel + "｜" : "") + p.weekFocus }));
     if (p.note) body.appendChild(SS.el("div", { class: "trap", html: "📌 " + p.note }));
     p.tasks.forEach(t => body.appendChild(SS.el("div", { text: "・" + t })));
+    // 當天測驗紀錄：每次作答都列一筆（重測會多列，看得出進步）
+    const logs = SS.progress.quizLogByDate(p.date);
+    if (logs.length) {
+      body.appendChild(SS.el("div", { class: "muted", style: "margin-top:6px", text: "📊 當天測驗紀錄：" }));
+      logs.forEach(l => {
+        const sm = SS.findSubject(l.s), tn = { daily: "每日測驗", weekly: "週測", monthly: "月考", topic: "主題測驗" }[l.t] || l.t;
+        const pct = l.tt ? Math.round(l.sc / l.tt * 100) : 0;
+        body.appendChild(SS.el("div", { text: "・" + (sm ? sm.name : l.s) + " " + tn + "：" + l.sc + " / " + l.tt + " 題（" + pct + " 分）" }));
+      });
+    }
     if (p.coreDaily && p.coreDaily.length) { const h = { daily: "今日測驗（數國英10·社自15題）", weekly: "週測（每科20題）", monthly: "月考綜合（每科30題）" }[p.dayType] || "每日核心"; body.appendChild(SS.el("div", { class: "muted", style: "margin-top:6px", text: h + "：" })); body.appendChild(SS.renderCoreDaily(p)); }
     if (p.links && p.links.length) { body.appendChild(SS.el("div", { class: "muted", style: "margin-top:6px", text: "本週重點：" })); body.appendChild(SS.renderDayLinks(p)); }
     return SS.el("div", { class: "phase" + (p.date === today ? " now" : "") }, [SS.el("span", { class: "dot" }), body]);

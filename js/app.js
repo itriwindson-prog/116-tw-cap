@@ -161,6 +161,19 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     saveQuiz(subject, topic, score, total, answers, refs) {
       this.set("quiz." + subject + "." + topic, { score, total, answers, refs: refs || null, date: SS.todayStr() });
     },
+    // 每次測驗都記一筆（哪天/哪科/哪種測驗/幾分）；行事曆點當天可查看（重測會多一筆，不覆蓋）
+    logQuiz(subject, setType, setId, score, total) {
+      const log = this.get("qlog", []);
+      log.push({ d: SS.todayStr(), s: subject, t: setType, id: setId, sc: score, tt: total });
+      this.set("qlog", log);
+    },
+    quizLogByDate(date) { return this.get("qlog", []).filter(x => x.d === date); },
+    // 已出過的題（重測時盡量避開重複）：以 科目+setId 累積 "topicId:qi"
+    getSeen(subject, setId) { return new Set(this.get("seen." + subject + "." + setId, [])); },
+    addSeen(subject, setId, refs) {
+      const k = "seen." + subject + "." + setId;
+      this.set(k, [...new Set(this.get(k, []).concat((refs || []).map(r => r.topicId + ":" + r.qi)))]);
+    },
     // 整體作答統計：總作答、答對、答錯題數
     stats() {
       let answered = 0, correct = 0;
@@ -213,9 +226,13 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
   function pickIdx(seq, n) { return ((seq % n) + n) % n; }
   function shuffle(arr) { const c = arr.slice(); for (let i = c.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[c[i], c[j]] = [c[j], c[i]]; } return c; }
   // 從 pool 隨機抽 count 題；不足時用 fallback（整科）補滿且不重複
-  function sample(pool, count, fallback) {
-    let s = shuffle(pool);
-    if (s.length < count && fallback) { const seen = new Set(s.map(x => x.topicId + ":" + x.qi)); s = s.concat(shuffle(fallback).filter(x => !seen.has(x.topicId + ":" + x.qi))); }
+  // avoid（Set of "topicId:qi"）＝已出過的題：重測時優先給沒出過的，不夠才補已出過的
+  function sample(pool, count, fallback, avoid) {
+    const kk = x => x.topicId + ":" + x.qi;
+    let s = (avoid && avoid.size)
+      ? shuffle(pool.filter(x => !avoid.has(kk(x)))).concat(shuffle(pool.filter(x => avoid.has(kk(x)))))
+      : shuffle(pool);
+    if (s.length < count && fallback) { const seen = new Set(s.map(kk)); s = s.concat(shuffle(fallback).filter(x => !seen.has(kk(x)))); }
     return s.slice(0, count);
   }
   // 找日期所屬的 schedule 週：{week, gWeek}（gWeek=全期週序，供無指定主題時自動進度）
@@ -249,7 +266,8 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     opts = opts || {};
     const sd = SS.subjectData(subjectId); if (!sd || !sd.topics.length) return [];
     const all = []; sd.topics.forEach(t => (t.quiz || []).forEach((q, qi) => all.push({ topicId: t.id, qi, q })));
-    if (opts.topic && opts.topic !== "all") { const tp = sd.topics.find(t => t.id === opts.topic); return tp ? sample((tp.quiz || []).map((q, qi) => ({ topicId: tp.id, qi, q })), 10) : []; }  // 單一主題：隨機 10 題
+    const av = opts.avoid;   // 重測時避開已出過的題（Set of "topicId:qi"）
+    if (opts.topic && opts.topic !== "all") { const tp = sd.topics.find(t => t.id === opts.topic); return tp ? sample((tp.quiz || []).map((q, qi) => ({ topicId: tp.id, qi, q })), 10, null, av) : []; }  // 單一主題：隨機 10 題
     if (!opts.set || opts.set === "all") return all;
     const ds = opts.dateStr || SS.todayStr();
     const isSub = subjectId === "social" || subjectId === "science";
@@ -257,18 +275,18 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
     const subBalanced = (target) => {
       const subOf = {}; sd.topics.forEach(t => (subOf[t.id] = t.sub));
       const subs = [...new Set(sd.topics.map(t => t.sub).filter(Boolean))];
-      if (!subs.length) return sample(all, target);
+      if (!subs.length) return sample(all, target, null, av);
       const base = Math.floor(target / subs.length), extra = target - base * subs.length;
-      let out = []; subs.forEach((s, i) => { out = out.concat(sample(all.filter(x => subOf[x.topicId] === s), base + (i < extra ? 1 : 0), all)); });
+      let out = []; subs.forEach((s, i) => { out = out.concat(sample(all.filter(x => subOf[x.topicId] === s), base + (i < extra ? 1 : 0), all, av)); });
       return out;
     };
-    if (opts.set === "monthly") return isSub ? subBalanced(30) : sample(all, 30);   // 月考：本科綜合
+    if (opts.set === "monthly") return isSub ? subBalanced(30) : sample(all, 30, null, av);   // 月考：本科綜合
     // 日/週測：依 schedule 當週主題出題（跟進度連動）；綜合/模考週 = 全科
     const target = opts.set === "weekly" ? 20 : (isSub ? 15 : 10);
     const wt = SS.weekTopic(subjectId, ds);
-    if (wt.comprehensive) return isSub ? subBalanced(target) : sample(all, target);
-    if (wt.topics.length) return sample(all.filter(x => wt.topics.includes(x.topicId)), target, all);
-    return isSub ? subBalanced(target) : sample(all, target);
+    if (wt.comprehensive) return isSub ? subBalanced(target) : sample(all, target, null, av);
+    if (wt.topics.length) return sample(all.filter(x => wt.topics.includes(x.topicId)), target, all, av);
+    return isSub ? subBalanced(target) : sample(all, target, null, av);
   };
 
   // ---------- 深色模式 ----------
