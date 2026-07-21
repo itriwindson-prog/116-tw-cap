@@ -138,10 +138,19 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
       if (audioSrc) { this.audio = new Audio(audioSrc); this.audio.playbackRate = this.rate; this.audio.play(); return; }
       if (!("speechSynthesis" in window)) { alert("此瀏覽器不支援語音朗讀，請改用 Edge / Chrome"); return; }
       if (!this.voice) this.pickVoice();
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = "zh-TW"; u.rate = this.rate; u.pitch = 1.15;  // pitch 略高 → 偏溫柔
-      if (this.voice) u.voice = this.voice;
-      speechSynthesis.speak(u);
+      // 長文切成短句、每段 ≤160 字分段朗讀（iOS/Chrome 對長句常無聲或中斷）；用 match 不用 lookbehind（舊 iOS 不支援）
+      const sents = String(text).match(/[^。！？；!?;\n]+[。！？；!?;\n]?/g) || [String(text)];
+      const parts = []; let buf = "";
+      sents.forEach(s => { if ((buf + s).length > 160 && buf) { parts.push(buf); buf = s; } else buf += s; });
+      if (buf) parts.push(buf);
+      parts.forEach(p => {
+        const u = new SpeechSynthesisUtterance(p);
+        u.lang = "zh-TW"; u.rate = this.rate; u.pitch = 1.15;  // pitch 略高 → 偏溫柔
+        if (this.voice) u.voice = this.voice;
+        speechSynthesis.speak(u);
+      });
+      // Chrome 偶爾卡在 paused 狀態而無聲，nudge 一下
+      setTimeout(() => { try { if (speechSynthesis.paused) speechSynthesis.resume(); } catch (e) {} }, 250);
     },
     stop() { if (window.speechSynthesis) speechSynthesis.cancel(); if (this.audio) { this.audio.pause(); this.audio = null; } }
   };
