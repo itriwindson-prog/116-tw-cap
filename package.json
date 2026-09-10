@@ -1,0 +1,19 @@
+{
+  "name": "cap116-studysync",
+  "version": "1.0.0",
+  "description": "會考總複習 — Capacitor 打包成 Android APK",
+  "private": true,
+  "scripts": {
+    "build:www": "node build-www.mjs",
+    "sync": "npm run build:www && npx cap sync android",
+    "apk:debug": "npm run sync && cd android && gradlew.bat assembleDebug",
+    "open:android": "npm run sync && npx cap open android"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.2.0"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/android": "^6.2.0"
+  }
+}

@@ -9,3 +9,9 @@ _bank/_temp_*
 
 # 來源段考卷原始檔(3.8G,不進版控)
 國中考題/
+
+# Capacitor / Node 打包產物(可由 npm install / build-www / cap add android 重建)
+node_modules/
+www/
+android/
+.gradle/
