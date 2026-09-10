@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>自組測驗卷</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#e0917a">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="會考總複習">
+<script>document.documentElement.setAttribute("data-theme", localStorage.getItem("ss.theme") || "light");</script>
+<style>
+  .cmp-sel { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; align-items:center }
+  .cmp-sel select { padding:6px 8px; border-radius:8px; border:1px solid var(--line,#d8ccc0); background:var(--card,#fff); color:inherit; font-size:14px }
+  .eq { border:1px solid var(--line,#e5d9cd); border-radius:10px; padding:12px; margin-top:12px }
+  .eq .stem { font-weight:700; white-space:pre-wrap }
+  .eq .opt { display:block; width:100%; text-align:left; margin-top:6px; padding:8px 10px; border:1px solid var(--line,#e5d9cd); border-radius:8px; background:var(--card,#fff); color:inherit; cursor:pointer }
+  .eq .opt.chosen { border-color:var(--primary,#e0917a); background:var(--hover,#fbeee6) }
+  .eq .opt.correct { border-color:var(--good,#5aa874); background:#e9f6ee }
+  .eq .opt.wrong { border-color:var(--bad,#d9534f); background:#fbeaea }
+  .eq .ans { margin-top:8px; padding:8px; border-radius:8px; background:var(--hover,#f6efe8); font-size:14px }
+  .figimg { width:100%; border:1px solid var(--line,#e5d9cd); border-radius:8px; margin-top:8px; background:#fff }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <span class="brand">📚 會考總複習</span>
+  <a href="index.html">儀表板</a>
+  <a href="schedule.html">進度計畫</a>
+  <a href="subject.html?subject=math">各科筆記</a>
+  <a href="mistakes.html">錯題本</a>
+  <a href="exam.html">段考卷</a>
+  <a href="compose.html" class="active">自組卷</a>
+  <span class="spacer"></span>
+  <button class="theme-btn" id="themeBtn" title="深色／淺色">🌙</button>
+</nav>
+
+<div class="wrap">
+  <div class="card">
+    <h2 style="margin-top:0">自組測驗卷 📝</h2>
+    <div class="muted">從段考真卷抽出的題庫，隨機組成一份新測驗卷（每次不同）。選擇題可作答計分；填充／計算題按「顯示答案」對照；需看圖的題可展開原卷附圖。</div>
+    <div class="cmp-sel" id="controls"></div>
+    <div style="margin-top:10px"><button class="btn" id="genBtn">🎲 產生測驗卷</button></div>
+  </div>
+  <div id="paper"></div>
+</div>
+
+<script src="js/data/config.js"></script>
+<script src="js/data/papers.js"></script>
+<script src="js/data/exambank.js"></script>
+<script src="js/app.js"></script>
+<script>
+(function () {
+  const SS = window.STUDYSYNC;
+  document.getElementById("themeBtn").addEventListener("click", () => SS.theme.toggle());
+  const bank = (SS.data && SS.data.exambank) || [];
+  const papers = (SS.data && SS.data.papers) || [];
+  const paperById = {}; papers.forEach(p => paperById[p.id] = p);
+  const ctl = document.getElementById("controls"), paperEl = document.getElementById("paper");
+
+  if (!bank.length) { paperEl.innerHTML = "<div class='card'><p class='muted'>題庫尚無資料（段考卷逐題抽取進行中）。</p></div>"; return; }
+
+  const uniq = (k, base) => [...new Set(base.map(x => x[k]))].filter(Boolean);
+  // 控制項：模式 + 條件
+  const modeSel = SS.el("select");
+  [["dan", "段考模擬卷（科目·年級·學期·段考）"], ["hui", "全年級會考卷（只依科目）"]].forEach(([v, t]) => modeSel.appendChild(SS.el("option", { value: v, text: t })));
+  const dimSels = {};
+  ["subject", "grade", "sem", "exam", "version"].forEach(k => dimSels[k] = SS.el("select"));
+  const labels = { subject: "科目", grade: "年級", sem: "學期", exam: "段考", version: "版本" };
+
+  function refreshDims() {
+    const mode = modeSel.value;
+    const active = mode === "hui" ? ["subject"] : ["subject", "grade", "sem", "exam", "version"];
+    ctl.innerHTML = ""; ctl.appendChild(modeSel);
+    active.forEach(k => {
+      const base = bank.filter(x => active.every(k2 => k2 === k || !dimSels[k2].value || x[k2] === dimSels[k2].value));
+      const sel = dimSels[k]; const cur = sel.value; sel.innerHTML = "";
+      if (k !== "subject") sel.appendChild(SS.el("option", { value: "", text: labels[k] + "：全部" }));
+      uniq(k, base).forEach(o => { const op = SS.el("option", { value: o, text: o }); if (cur === o) op.selected = true; sel.appendChild(op); });
+      ctl.appendChild(sel);
+    });
+  }
+  modeSel.addEventListener("change", refreshDims);
+  Object.values(dimSels).forEach(s => s.addEventListener("change", refreshDims));
+  refreshDims();
+
+  function shuffle(a) { const c = a.slice(); for (let i = c.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [c[i], c[j]] = [c[j], c[i]]; } return c; }
+  function sample(a, n) { return shuffle(a).slice(0, n); }
+
+  document.getElementById("genBtn").addEventListener("click", () => {
+    const mode = modeSel.value;
+    const active = mode === "hui" ? ["subject"] : ["subject", "grade", "sem", "exam", "version"];
+    let pool = bank.filter(x => active.every(k => !dimSels[k].value || x[k] === dimSels[k].value));
+    if (!pool.length) { paperEl.innerHTML = "<div class='card'><p class='muted'>此條件下暫無題目。</p></div>"; return; }
+    let picks;
+    if (mode === "hui") {
+      // 會考卷：選擇題為主，隨機 25 題（不足則全取）
+      picks = sample(pool.filter(x => x.section === "選擇"), 25);
+      if (picks.length < 10) picks = sample(pool, Math.min(25, pool.length));
+    } else {
+      // 段考模擬：仿真卷結構，各大題各抽一部分
+      const bySec = s => pool.filter(x => x.section === s);
+      picks = [].concat(sample(bySec("選擇"), 8), sample(bySec("填充"), 12), sample(bySec("計算"), 2));
+      if (!picks.length) picks = sample(pool, Math.min(20, pool.length));
+    }
+    renderPaper(picks, mode);
+  });
+
+  function renderPaper(qs, mode) {
+    paperEl.innerHTML = "";
+    const title = mode === "hui" ? (dimSels.subject.value + " 全年級會考模擬卷") :
+      [dimSels.subject.value, dimSels.grade.value, dimSels.sem.value, dimSels.exam.value].filter(Boolean).join(" ") + " 模擬卷";
+    const card = SS.el("div", { class: "card", style: "margin-top:16px" });
+    card.appendChild(SS.el("h3", { style: "margin-top:0", text: title + "（" + qs.length + " 題，選擇題可計分）" }));
+    const mcState = [];  // {q, btns, idx}
+    qs.forEach((q, i) => {
+      const box = SS.el("div", { class: "eq" });
+      box.appendChild(SS.el("div", { class: "stem", text: (i + 1) + ". [" + q.section + "] " + q.stem }));
+      if (q.needsFigure) {
+        const p = paperById[q.paperId];
+        const fb = SS.el("button", { class: "btn small ghost", style: "margin-top:6px", text: "🖼 看原卷附圖" });
+        const fbox = SS.el("div", { style: "display:none" });
+        (p ? p.paperImgs : []).forEach(src => fbox.appendChild(SS.el("img", { class: "figimg", src: src, loading: "lazy" })));
+        fb.addEventListener("click", () => { const sh = fbox.style.display === "none"; fbox.style.display = sh ? "block" : "none"; fb.textContent = sh ? "🙈 收合原卷" : "🖼 看原卷附圖"; });
+        box.appendChild(fb); box.appendChild(fbox);
+      }
+      if (q.section === "選擇" && q.options && q.options.length) {
+        const btns = []; const st = { q, btns, idx: null };
+        q.options.forEach((opt, oi) => {
+          const b = SS.el("button", { class: "opt", text: opt });
+          b.addEventListener("click", () => { if (card.dataset.done) return; st.idx = oi; btns.forEach((x, j) => x.classList.toggle("chosen", j === oi)); });
+          btns.push(b); box.appendChild(b);
+        });
+        mcState.push(st);
+      } else {
+        const ansBtn = SS.el("button", { class: "btn small", style: "margin-top:6px", text: "顯示答案" });
+        const ansEl = SS.el("div", { class: "ans", style: "display:none", text: "答案：" + q.answer });
+        ansBtn.addEventListener("click", () => { ansEl.style.display = ansEl.style.display === "none" ? "block" : "none"; });
+        box.appendChild(ansBtn); box.appendChild(ansEl);
+      }
+      card.appendChild(box);
+    });
+    // 交卷（只計選擇題）
+    if (mcState.length) {
+      const submit = SS.el("button", { class: "btn", style: "margin-top:14px", text: "交卷（計選擇題）" });
+      const result = SS.el("div", { style: "margin-top:8px;font-weight:700" });
+      submit.addEventListener("click", () => {
+        if (card.dataset.done) return; card.dataset.done = "1"; submit.disabled = true;
+        const L = ["A", "B", "C", "D", "E"];
+        let correct = 0;
+        mcState.forEach(st => {
+          const ai = L.indexOf((st.q.answer || "").trim().toUpperCase());
+          st.btns.forEach(b => b.disabled = true);
+          if (ai >= 0 && st.btns[ai]) st.btns[ai].classList.add("correct");
+          if (st.idx !== null && st.idx !== ai) st.btns[st.idx].classList.add("wrong");
+          if (st.idx === ai) correct++;
+        });
+        result.textContent = "選擇題：答對 " + correct + " / " + mcState.length + "（" + Math.round(correct / mcState.length * 100) + " 分）";
+      });
+      card.appendChild(submit); card.appendChild(result);
+    }
+    paperEl.appendChild(card);
+    card.scrollIntoView({ behavior: "smooth" });
+  }
+})();
+</script>
+</body>
+</html>
