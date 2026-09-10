@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>段考卷</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#e0917a">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="會考總複習">
+<script>document.documentElement.setAttribute("data-theme", localStorage.getItem("ss.theme") || "light");</script>
+<style>
+  .exam-sel { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px }
+  .exam-sel select { padding:6px 8px; border-radius:8px; border:1px solid var(--line,#d8ccc0); background:var(--card,#fff); color:inherit; font-size:14px }
+  .paper-card { display:flex; justify-content:space-between; align-items:center; gap:10px; padding:10px 12px; border:1px solid var(--line,#e5d9cd); border-radius:10px; margin-top:8px; cursor:pointer }
+  .paper-card:hover { background:var(--hover,#f6efe8) }
+  .paper-page { width:100%; border:1px solid var(--line,#e5d9cd); border-radius:8px; margin:10px 0; background:#fff }
+  .ans-wrap { border-top:2px dashed var(--primary,#e0917a); margin-top:16px; padding-top:8px }
+</style>
+</head>
+<body>
+<nav class="nav">
+  <span class="brand">📚 會考總複習</span>
+  <a href="index.html">儀表板</a>
+  <a href="schedule.html">進度計畫</a>
+  <a href="subject.html?subject=math">各科筆記</a>
+  <a href="mistakes.html">錯題本</a>
+  <a href="exam.html" class="active">段考卷</a>
+  <span class="spacer"></span>
+  <button class="theme-btn" id="themeBtn" title="深色／淺色">🌙</button>
+</nav>
+
+<div class="wrap">
+  <div class="card">
+    <h2 style="margin-top:0">段考卷 📄</h2>
+    <div class="muted">各校歷屆段考真卷(原卷掃描、圖形完整保留)。選好條件後點卷子即可作答，再按「顯示答案」對照。</div>
+    <div class="exam-sel" id="filters"></div>
+  </div>
+  <div id="list"></div>
+  <div id="viewer"></div>
+</div>
+
+<script src="js/data/config.js"></script>
+<script src="js/data/papers.js"></script>
+<script src="js/app.js"></script>
+<script>
+(function () {
+  const SS = window.STUDYSYNC;
+  document.getElementById("themeBtn").addEventListener("click", () => SS.theme.toggle());
+  const papers = (SS.data && SS.data.papers) || [];
+  const filtersEl = document.getElementById("filters"), listEl = document.getElementById("list"), viewerEl = document.getElementById("viewer");
+
+  if (!papers.length) { listEl.innerHTML = "<div class='card'><p class='muted'>目前尚無段考卷。</p></div>"; return; }
+
+  // 篩選欄位（依此順序層層過濾）
+  const dims = [["subject", "科目"], ["grade", "年級"], ["sem", "學期"], ["exam", "段考"], ["version", "版本"]];
+  const state = {};
+  function uniq(key, base) { return [...new Set(base.map(p => p[key]))]; }
+  function filtered() { return papers.filter(p => dims.every(([k]) => !state[k] || p[k] === state[k])); }
+
+  function buildFilters() {
+    filtersEl.innerHTML = "";
+    dims.forEach(([k, label]) => {
+      // 依已選的前置條件縮小可選項
+      const base = papers.filter(p => dims.every(([k2]) => k2 === k || !state[k2] || p[k2] === state[k2]));
+      const opts = uniq(k, base);
+      const sel = SS.el("select");
+      sel.appendChild(SS.el("option", { value: "", text: label + "：全部" }));
+      opts.forEach(o => { const op = SS.el("option", { value: o, text: o }); if (state[k] === o) op.selected = true; sel.appendChild(op); });
+      sel.addEventListener("change", () => { state[k] = sel.value; renderList(); });
+      filtersEl.appendChild(sel);
+    });
+  }
+
+  function renderList() {
+    viewerEl.innerHTML = "";
+    const ps = filtered();
+    listEl.innerHTML = "";
+    const head = SS.el("div", { class: "muted", style: "margin:12px 0 4px", text: "共 " + ps.length + " 份符合" });
+    listEl.appendChild(head);
+    ps.forEach(p => {
+      const card = SS.el("div", { class: "paper-card" }, [
+        SS.el("div", {}, [
+          SS.el("div", { style: "font-weight:700", text: p.school + "　" + p.year + " 學年" }),
+          SS.el("div", { class: "muted", style: "font-size:13px", text: [p.grade, p.sem, p.exam, p.subject, p.version].join(" · ") })
+        ]),
+        SS.el("span", { class: "btn small", text: "作答 →" })
+      ]);
+      card.addEventListener("click", () => openPaper(p));
+      listEl.appendChild(card);
+    });
+  }
+
+  function openPaper(p) {
+    viewerEl.innerHTML = "";
+    const card = SS.el("div", { class: "card", style: "margin-top:16px" });
+    card.appendChild(SS.el("div", { style: "display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px" }, [
+      SS.el("h3", { style: "margin:0", text: p.school + "　" + [p.grade, p.sem, p.exam, p.subject].join(" ") }),
+      SS.el("button", { class: "btn small ghost", text: "✕ 收合", onclick: () => { viewerEl.innerHTML = ""; window.scrollTo(0, 0); } })
+    ]));
+    (p.paperImgs || []).forEach(src => card.appendChild(SS.el("img", { class: "paper-page", src: src, loading: "lazy", alt: "試卷" })));
+
+    const ansBtn = SS.el("button", { class: "btn", style: "margin-top:10px", text: "📝 顯示答案" });
+    const ansBox = SS.el("div", { class: "ans-wrap", style: "display:none" });
+    (p.answerImgs || []).forEach(src => ansBox.appendChild(SS.el("img", { class: "paper-page", src: src, loading: "lazy", alt: "答案" })));
+    if (!(p.answerImgs || []).length) ansBox.appendChild(SS.el("p", { class: "muted", text: "此卷無答案檔。" }));
+    ansBtn.addEventListener("click", () => {
+      const show = ansBox.style.display === "none";
+      ansBox.style.display = show ? "block" : "none";
+      ansBtn.textContent = show ? "🙈 隱藏答案" : "📝 顯示答案";
+      if (show) ansBox.scrollIntoView({ behavior: "smooth" });
+    });
+    card.appendChild(ansBtn);
+    card.appendChild(ansBox);
+    viewerEl.appendChild(card);
+    card.scrollIntoView({ behavior: "smooth" });
+  }
+
+  buildFilters();
+  renderList();
+})();
+</script>
+</body>
+</html>
