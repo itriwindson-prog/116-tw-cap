@@ -100,9 +100,10 @@
       picks = sample(pool.filter(x => x.section === "選擇"), 25);
       if (picks.length < 10) picks = sample(pool, Math.min(25, pool.length));
     } else {
-      // 段考模擬：仿真卷結構，各大題各抽一部分
-      const bySec = s => pool.filter(x => x.section === s);
-      picks = [].concat(sample(bySec("選擇"), 8), sample(bySec("填充"), 12), sample(bySec("計算"), 2));
+      // 段考模擬:選擇題計分 + 其餘各大題(填充/計算/閱讀測驗/非選擇…)混合,依科目自動適應
+      const mc = sample(pool.filter(x => x.section === "選擇"), 10);
+      const rest = sample(pool.filter(x => x.section !== "選擇"), 12);
+      picks = [].concat(mc, rest);
       if (!picks.length) picks = sample(pool, Math.min(20, pool.length));
     }
     renderPaper(picks, mode);
