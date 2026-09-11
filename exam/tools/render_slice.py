@@ -10,6 +10,8 @@
 #
 # 需要: pip install pymupdf
 import fitz, os, glob, json, sys
+try: sys.stdout.reconfigure(encoding="utf-8"); sys.stderr.reconfigure(encoding="utf-8")
+except Exception: pass
 
 def main(src, prefix, paper_glob, width=1200, quality=82, limit=None):
     proj = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
