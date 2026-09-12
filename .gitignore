@@ -16,3 +16,6 @@ www/
 android/
 .gradle/
 __pycache__/
+
+# 大批擴充切片的整頁圖:留本地供 figureRef/APK,不推 GitHub Pages(已追蹤的 m9/c9/n9 仍保留)
+exam/img/

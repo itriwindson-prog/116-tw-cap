@@ -101,10 +101,11 @@
       if (picks.length < 10) picks = sample(pool, Math.min(25, pool.length));
     } else {
       // 段考模擬:選擇題計分 + 其餘各大題(填充/計算/閱讀測驗/非選擇…)混合,依科目自動適應
+      // 聽力題暫排除(尚無音檔,待 TTS 生成後再納入)
       const mc = sample(pool.filter(x => x.section === "選擇"), 10);
-      const rest = sample(pool.filter(x => x.section !== "選擇"), 12);
+      const rest = sample(pool.filter(x => x.section !== "選擇" && x.section !== "聽力"), 12);
       picks = [].concat(mc, rest);
-      if (!picks.length) picks = sample(pool, Math.min(20, pool.length));
+      if (!picks.length) picks = sample(pool.filter(x => x.section !== "聽力"), Math.min(20, pool.length));
     }
     renderPaper(picks, mode);
   });
@@ -121,11 +122,16 @@
       box.appendChild(SS.el("div", { class: "stem", text: (i + 1) + ". [" + q.section + "] " + q.stem }));
       if (q.needsFigure) {
         const p = paperById[q.paperId];
-        const fb = SS.el("button", { class: "btn small ghost", style: "margin-top:6px", text: "🖼 看原卷附圖" });
-        const fbox = SS.el("div", { style: "display:none" });
-        (p ? p.paperImgs : []).forEach(src => fbox.appendChild(SS.el("img", { class: "figimg", src: src, loading: "lazy" })));
-        fb.addEventListener("click", () => { const sh = fbox.style.display === "none"; fbox.style.display = sh ? "block" : "none"; fb.textContent = sh ? "🙈 收合原卷" : "🖼 看原卷附圖"; });
-        box.appendChild(fb); box.appendChild(fbox);
+        const imgs = (p && p.paperImgs) || [];
+        if (imgs.length) {  // 原卷頁圖已上線者才給看圖按鈕
+          const fb = SS.el("button", { class: "btn small ghost", style: "margin-top:6px", text: "🖼 看原卷附圖" });
+          const fbox = SS.el("div", { style: "display:none" });
+          imgs.forEach(src => fbox.appendChild(SS.el("img", { class: "figimg", src: src, loading: "lazy" })));
+          fb.addEventListener("click", () => { const sh = fbox.style.display === "none"; fbox.style.display = sh ? "block" : "none"; fb.textContent = sh ? "🙈 收合原卷" : "🖼 看原卷附圖"; });
+          box.appendChild(fb); box.appendChild(fbox);
+        } else {  // 圖僅存本地/APK版,未上線
+          box.appendChild(SS.el("div", { class: "muted", style: "margin-top:4px;font-size:.85em", text: "🖼 此題附圖僅離線(APK)版提供" }));
+        }
       }
       if (q.section === "選擇" && q.options && q.options.length) {
         const btns = []; const st = { q, btns, idx: null };

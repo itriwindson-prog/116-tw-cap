@@ -42,6 +42,7 @@ def main(manifest_path, qdir, fresh=False):
             bank.append({"paperId": pid, "school": m["school"], "year": m["year"], "grade": m["grade"],
                          "sem": m["sem"], "exam": m["exam"], "subject": m["subject"], "version": m["version"],
                          **({"domain": m["domain"]} if m.get("domain") else {}),
+                         **({"needsAudio": True} if q.get("needsAudio") else {}),
                          "n": q.get("n", ""), "section": q.get("section", ""), "stem": q.get("stem", ""),
                          "options": q.get("options", []), "answer": q.get("answer", ""),
                          "needsFigure": bool(q.get("needsFigure")), "figureRef": q.get("figureRef", "")})
