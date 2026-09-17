@@ -4,6 +4,8 @@
 
 ## 三步驟
 
+> ⚠ 新切片改用 `triage_slice.py`(見下方「省 token 分流管線」),它是 render_slice 的超集且涵蓋雜命名/docx。以下 render_slice 三步為歷史說明(已完成切片沿用)。
+
 **1. 渲染真卷 → 頁圖（保真、圖形完整保留）**
 ```bash
 python exam/tools/render_slice.py "國中考題/九年級/數學-康軒-上學期-第一次段考" m9u1e1 "*康軒 試卷.pdf" > manifest.json
@@ -24,11 +26,17 @@ python exam/tools/aggregate.py manifest.json <含 q_*.json 的資料夾>
 輸出 `js/data/exambank.js`（附卷別中繼、跨校去重）。自組卷 compose.html 用。
 
 ## 省 token 分流管線(策略 1+3+5,2026-09-17 起,取代舊三步)
-`render_slice.py` 升級為 `triage_slice.py`:渲染之餘,抽「試卷/答案」PDF/docx 文字層寫成 sidecar
-(`exam/img/<id>/text.txt`、`answer.txt`),並分流每份卷:
+`render_slice.py` 升級為 `triage_slice.py`(v2):**自動探索資料夾內所有試卷**(正規康軒/雜命名/docx),
+渲染 PDF 頁圖之餘,抽「試卷/答案」文字層寫成 sidecar(`exam/img/<id>/text.txt`、`answer.txt`),並分流每份卷:
 ```bash
-python exam/tools/triage_slice.py "國中考題/九年級/數學-康軒-上學期-第三次段考" m9u3e "*康軒 試卷.pdf" > manifest_m9u3e.json
+python exam/tools/triage_slice.py "國中考題/九年級/數學-康軒-上學期-第三次段考" m9u3e > manifest_m9u3e.json
+python exam/tools/triage_slice.py --selftest   # 配對/年份/角色邏輯自檢
 ```
+**檔案涵蓋**(v2):同一資料夾常混三種命名,皆處理——
+- 正規 `…康軒 試卷.pdf/.docx` + `…答案…`:精確配對。docx 用 zipfile 抽文字(無頁圖)。
+- 雜命名 pdf 對(如 大灣「試題/解答」、台北仁愛「試題卷/參考答案」):關鍵字分試卷/答案 + **同學年+最長共同中文子字串**配對。
+- 單檔雜命名(如 高雄陽明-數學):當試卷、無答案 → text-noans(數/自可自算)。
+- **略過**:`.doc`(舊二進位,無 stdlib 解析器,少數,約每資料夾3份)、`.mp3`(英聽,留待 TTS)、`.xls*`——皆 stderr 警告。切片中繼一律取自**資料夾名**(穩健);校名+學年由檔名 regex 盡力抽,自然領域由檔名關鍵字判 domain。
 - route=**text**(試卷+答案皆有文字層,實測數學/理化/英文多屬此):派**輕量 agent 只讀 sidecar 純文字**抽題,不開 q*.jpg → 視覺 token 大降。答案鍵通常極乾淨(如 `ＣＡＣＢＤ…`)。
 - route=**text+visionAns**(題目有文字、答案是掃描圖):agent 讀 text.txt + a*.jpg。
 - route=**vision**(掃描卷無文字層):照舊讀 q*.jpg 全視覺。
