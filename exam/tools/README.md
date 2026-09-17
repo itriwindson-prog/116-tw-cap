@@ -23,6 +23,22 @@ python exam/tools/aggregate.py manifest.json <含 q_*.json 的資料夾>
 ```
 輸出 `js/data/exambank.js`（附卷別中繼、跨校去重）。自組卷 compose.html 用。
 
+## 省 token 分流管線(策略 1+3+5,2026-09-17 起,取代舊三步)
+`render_slice.py` 升級為 `triage_slice.py`:渲染之餘,抽「試卷/答案」PDF/docx 文字層寫成 sidecar
+(`exam/img/<id>/text.txt`、`answer.txt`),並分流每份卷:
+```bash
+python exam/tools/triage_slice.py "國中考題/九年級/數學-康軒-上學期-第三次段考" m9u3e "*康軒 試卷.pdf" > manifest_m9u3e.json
+```
+- route=**text**(試卷+答案皆有文字層,實測數學/理化/英文多屬此):派**輕量 agent 只讀 sidecar 純文字**抽題,不開 q*.jpg → 視覺 token 大降。答案鍵通常極乾淨(如 `ＣＡＣＢＤ…`)。
+- route=**text+visionAns**(題目有文字、答案是掃描圖):agent 讀 text.txt + a*.jpg。
+- route=**vision**(掃描卷無文字層):照舊讀 q*.jpg 全視覺。
+- route=**text-noans**(有題無答案):自然/數學可自算;國文非選留待確認。
+- route=**skip-misfiled**(國文夾誤置數學卷,關鍵字揪出):跳過。
+
+**#3 省提示**:抽題規格集中在 `exam/tools/EXTRACT.md`,派工提示只需一句指到該檔(~60 token,取代舊~400),並要求「一次讀完即抽、勿反覆重讀整頁、勿寫後回讀驗證」。
+**#5 省往返**:每批 6 份、**整批只回報一次**(題數/section/待確認),完成即 aggregate+commit(bank progress)。
+> ⚠️ glob `*康軒 試卷.pdf` 只吃正規化卷;少數 `試卷.docx`(如林園/埔心 108)與原始雜檔(高雄陽明…)會被略過,量少,需要時再補 docx 試卷分支。
+
 ## 已完成切片 —— 九上第一次+第二次段考(康軒)四科全數位化 ✅
 **第一次段考(prefix …u1e1)**:數學27/國文27/自然48/英文37 = 139份、5405題。
 **第二次段考(prefix …u2e)**:自然37/英文30/國文20/數學21 = 108份、+約4200題。
