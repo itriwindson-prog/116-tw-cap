@@ -15,6 +15,11 @@ from collections import Counter
 
 def norm(s): return re.sub(r"\s+", "", re.sub(r"[，,。.、；;：:（）()？?！!\"'「」]", "", s or ""))
 
+# section 正規化:去掉多餘「題」等變體,對齊 compose.html 認得的 7 類(選擇只此一種才會計分)
+SECN = {"選擇題": "選擇", "填充題": "填充", "計算題": "計算", "是非題": "是非",
+        "非選擇題": "非選擇", "非選題": "非選擇", "閱讀測驗題": "閱讀測驗", "聽力題": "聽力", "閱讀": "閱讀測驗"}
+def secnorm(s): return SECN.get(s, s)
+
 def load_existing(path):
     if not os.path.exists(path): return []
     txt = open(path, encoding="utf-8").read()
@@ -43,7 +48,7 @@ def main(manifest_path, qdir, fresh=False):
                          "sem": m["sem"], "exam": m["exam"], "subject": m["subject"], "version": m["version"],
                          **({"domain": m["domain"]} if m.get("domain") else {}),
                          **({"needsAudio": True} if q.get("needsAudio") else {}),
-                         "n": q.get("n", ""), "section": q.get("section", ""), "stem": q.get("stem", ""),
+                         "n": q.get("n", ""), "section": secnorm(q.get("section", "")), "stem": q.get("stem", ""),
                          "options": q.get("options", []), "answer": q.get("answer", ""),
                          "needsFigure": bool(q.get("needsFigure")), "figureRef": q.get("figureRef", "")})
             added += 1
