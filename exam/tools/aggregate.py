@@ -34,7 +34,12 @@ def main(manifest_path, qdir, fresh=False):
     new_pids = set(meta)
     # 既有題庫:去掉本次 manifest 涵蓋的 paperId(重跑=刷新),其餘保留
     bank = [] if fresh else [b for b in load_existing(out) if b.get("paperId") not in new_pids]
-    seen = {norm(b.get("stem", "")) for b in bank if len(norm(b.get("stem", ""))) > 12}
+    # 去重:norm(stem) → 已出現的 paperId 集合。只跨「不同卷」去重(同校同題重出才刪),
+    # 同一份卷內 stem 相同的題(如克漏字把整篇短文抄進每格 stem)一律保留。
+    seen = {}
+    for b in bank:
+        k = norm(b.get("stem", ""))
+        if len(k) > 12: seen.setdefault(k, set()).add(b.get("paperId"))
     added = 0
     for f in sorted(glob.glob(os.path.join(qdir, "q_*.json"))):
         pid = os.path.basename(f)[2:-5]
@@ -42,8 +47,8 @@ def main(manifest_path, qdir, fresh=False):
         if not m: print("跳過(無中繼):", pid, file=sys.stderr); continue
         for q in json.load(open(f, encoding="utf-8")):
             k = norm(q.get("stem", ""))
-            if len(k) > 12 and k in seen: continue
-            seen.add(k)
+            if len(k) > 12 and k in seen and pid not in seen[k]: continue  # 別卷已有相同題幹→跨校去重
+            if len(k) > 12: seen.setdefault(k, set()).add(pid)
             bank.append({"paperId": pid, "school": m["school"], "year": m["year"], "grade": m["grade"],
                          "sem": m["sem"], "exam": m["exam"], "subject": m["subject"], "version": m["version"],
                          **({"domain": m["domain"]} if m.get("domain") else {}),
