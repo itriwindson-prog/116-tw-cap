@@ -28,6 +28,13 @@ GUO  = re.compile(r"注音|國字|閱讀測驗|字形|字音|作文|默寫|語�
 ANS  = re.compile(r"答案|解答|詳解")                      # 判別「答案卷」的關鍵字
 DOMS = [("理化", r"理化"), ("地球科學", r"地球科學|地科"), ("生物", r"生物")]
 CJK  = lambda s: "".join(re.findall(r"[一-鿿]", s))
+# 配對時要剝掉的樣板字(否則 LCS 會被共同的年級/學期/科目/段考/版本字灌爆,跨校亂配)。長詞在前。
+BOILER = re.compile(r"國民中學|高級中學|完全中學|附設國中|市立|縣立|私立|國立|附設|高中|國中|國小|"
+    r"學年度|上學期|下學期|第一學期|第二學期|學年|學期|定期評量|定期考查|第[一二三四五六]次|"
+    r"段考|期中考|期末考|期中|期末|評量|測驗|九年級|八年級|七年級|三年級|二年級|一年級|年級|"
+    r"自然科學領域|數學領域|國語文|英語文|理化|地球科學|地科|生物|自然|數學|國文|英文|英語|"
+    r"社會|公民|歷史|地理|康軒|南一|翰林|佳音|參考答案|答案卷|答案|解答|詳解|試題卷|試卷|試題|題目卷|題目|科|版|卷")
+core = lambda s: BOILER.sub("", CJK(s))   # 只留校名等辨識字
 
 def docx_text(path):
     try:
@@ -104,14 +111,16 @@ def gather(src):
                          pf.replace("試卷.docx", "答案.pdf"), pf.replace("試卷.pdf", "答案.docx")):
                 if cand != pf and os.path.exists(cand) and cand not in used:
                     ans = cand; break
-        # 2) 雜名:同學年 + 最長共同中文子字串 ≥3
+        # 2) 雜名:同學年 + 校名核心最長共同子字串 ≥2(先剝樣板字,避免跨校誤配)
         if not ans:
-            y = year_of(b); best, score = None, 0
+            y = year_of(b); pc = core(b); best, score = None, 0
             for a in answers:
                 if a in used or (y and year_of(os.path.basename(a)) != y): continue
-                s = lcs(b, os.path.basename(a))
+                s = lcs(pc, core(os.path.basename(a)))   # 比對校名核心,非整檔名
                 if s > score: best, score = a, s
-            if score >= 3: ans = best
+            if score >= 2: ans = best
+            if best and score < 2:
+                warns.append(f"[未配到答案:校名核心無交集] {b}")
         if ans: used.add(ans)
         out.append((pf, ans))
     lone = [a for a in answers if a not in used]
@@ -162,8 +171,11 @@ def main(src, prefix, limit=None):
 def _selftest():
     assert year_of("112-1-3  台北仁愛-九年級數學科試題卷.pdf") == "112"
     assert year_of("市立中山國中 九年級 109 上學期 康軒 試卷.pdf") == "109"
-    assert lcs("112-1-3  台北仁愛-九年級數學科試題卷", "112台北仁愛...參考答案") >= 3  # 台北仁愛
-    assert lcs("112-高雄大灣國中-…數學三年級試題", "112-高雄大灣國中-…數學三年級解答") >= 3
+    assert lcs(core("112-1-3 台北仁愛-九年級數學科試題卷"), core("112 台北仁愛 臺北市立仁愛國民中學參考答案")) >= 2  # 台北仁愛
+    assert lcs(core("112-高雄大灣國中-第三次段考數學三年級試題"), core("112-高雄大灣國中-第三次段考數學三年級解答")) >= 2
+    # 跨校不可誤配:同德(試卷) vs 大同(答案) 剝樣板後只剩「同德」vs「大同」,共同子字串<2
+    assert lcs(core("市立同德國中 九年級 108 上學期 自然科學領域 地球科學 第三次段考 期末考 康軒 試卷"),
+               core("縣立大同國中 九年級 108 上學期 自然科學領域 自然 第三次段考 期末考 康軒 答案")) < 2
     assert ANS.search("試題(解答).pdf") and not ANS.search("自然科試題.pdf")
     assert school_of("112-高雄大灣國中-…試題.pdf").endswith("國中")
     print("selftest OK")
