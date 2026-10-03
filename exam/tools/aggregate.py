@@ -20,6 +20,10 @@ SECN = {"選擇題": "選擇", "填充題": "填充", "計算題": "計算", "�
         "非選擇題": "非選擇", "非選題": "非選擇", "閱讀測驗題": "閱讀測驗", "聽力題": "聽力", "閱讀": "閱讀測驗"}
 def secnorm(s): return SECN.get(s, s)
 
+# 無官方答案、由抽題者自判的答案:q 檔可直接標 selfAns,或 answer 內帶慣用標記(如「[無答案卷·推定]」)
+SELF = re.compile(r"推定|自擬|非官方|自判|無官方答案|此為參考|參考答案|參考證明|參考[,:,:]|補寫")
+def is_self(q): return bool(q.get("selfAns") or SELF.search(q.get("answer") or ""))
+
 def load_existing(path):
     if not os.path.exists(path): return []
     txt = open(path, encoding="utf-8").read()
@@ -53,6 +57,7 @@ def main(manifest_path, qdir, fresh=False):
                          "sem": m["sem"], "exam": m["exam"], "subject": m["subject"], "version": m["version"],
                          **({"domain": m["domain"]} if m.get("domain") else {}),
                          **({"needsAudio": True} if q.get("needsAudio") else {}),
+                         **({"selfAns": True} if is_self(q) else {}),
                          "n": q.get("n", ""), "section": secnorm(q.get("section", "")), "stem": q.get("stem", ""),
                          "options": q.get("options", []), "answer": q.get("answer", ""),
                          "needsFigure": bool(q.get("needsFigure")), "figureRef": q.get("figureRef", "")})

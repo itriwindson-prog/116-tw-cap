@@ -127,6 +127,7 @@
     qs.forEach((q, i) => {
       const box = SS.el("div", { class: "eq" });
       box.appendChild(SS.el("div", { class: "stem", text: (i + 1) + ". [" + q.section + "] " + q.stem }));
+      if (q.selfAns) box.appendChild(SS.el("div", { class: "muted", style: "font-size:.85em", text: "⚠ 原卷無官方答案,本題答案為推定,僅供參考" }));
       if (q.needsFigure) {
         const p = paperById[q.paperId];
         const imgs = (p && p.paperImgs) || [];
