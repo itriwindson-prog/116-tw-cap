@@ -110,6 +110,13 @@
     renderPaper(picks, mode);
   });
 
+  // 選擇題正解索引:吃 "B"、"(C)解說…"、"D(送分)"、"B、D"、"AD" 等;多答任一即算對
+  // ponytail: 不分「官方雙答案」與「複選」,一律任一即對;要嚴格複選再加 multi 旗標
+  function okIdx(a) {
+    const m = (a || "").trim().toUpperCase().match(/^\(?([A-E](?:[、,，\s或和及()]*[A-E])*)/);
+    return m ? [...new Set(m[1].replace(/[^A-E]/g, ""))].map(c => "ABCDE".indexOf(c)) : [];
+  }
+
   function renderPaper(qs, mode) {
     paperEl.innerHTML = "";
     const title = mode === "hui" ? (dimSels.subject.value + " 全年級會考模擬卷") :
@@ -133,7 +140,7 @@
           box.appendChild(SS.el("div", { class: "muted", style: "margin-top:4px;font-size:.85em", text: "🖼 此題附圖僅離線(APK)版提供" }));
         }
       }
-      if (q.section === "選擇" && q.options && q.options.length) {
+      if (q.section === "選擇" && q.options && q.options.length && okIdx(q.answer).length) {
         const btns = []; const st = { q, btns, idx: null };
         q.options.forEach((opt, oi) => {
           const b = SS.el("button", { class: "opt", text: opt });
@@ -155,14 +162,13 @@
       const result = SS.el("div", { style: "margin-top:8px;font-weight:700" });
       submit.addEventListener("click", () => {
         if (card.dataset.done) return; card.dataset.done = "1"; submit.disabled = true;
-        const L = ["A", "B", "C", "D", "E"];
         let correct = 0;
         mcState.forEach(st => {
-          const ai = L.indexOf((st.q.answer || "").trim().toUpperCase());
+          const ok = okIdx(st.q.answer);
           st.btns.forEach(b => b.disabled = true);
-          if (ai >= 0 && st.btns[ai]) st.btns[ai].classList.add("correct");
-          if (st.idx !== null && st.idx !== ai) st.btns[st.idx].classList.add("wrong");
-          if (st.idx === ai) correct++;
+          ok.forEach(ai => st.btns[ai] && st.btns[ai].classList.add("correct"));
+          if (st.idx !== null && !ok.includes(st.idx)) st.btns[st.idx].classList.add("wrong");
+          if (ok.includes(st.idx)) correct++;
         });
         result.textContent = "選擇題：答對 " + correct + " / " + mcState.length + "（" + Math.round(correct / mcState.length * 100) + " 分）";
       });
