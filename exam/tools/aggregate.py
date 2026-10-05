@@ -31,6 +31,26 @@ def load_existing(path):
     if i < 0 or j < 0: return []
     return json.loads(txt[i:j+1])  # 陣列本體是 json.dumps 輸出,可直接 parse
 
+# 題組後續題只寫「(同第N題短文)」時,前置同卷來源題全文,自組卷單題抽出仍可作答。
+# 修過的題幹會變長(≥220)而不再命中,故可重複執行。
+REFPAT = re.compile(r"[（(]\s*同(第)?\s*\d+\s*(題|-\d+題)?\s*(短文|文章|題組|上文)|同上(文|篇|題組)|見上文|見第\s*\d+\s*題(短文|文章)")
+REFNUM = re.compile(r"同\s*第?\s*(\d+)")
+def inline_passages(bank):
+    by = {}
+    for i, b in enumerate(bank): by.setdefault(b["paperId"], []).append(i)
+    orig = [b.get("stem") or "" for b in bank]
+    for i, b in enumerate(bank):
+        st = orig[i]
+        if len(st) >= 220 or not REFPAT.search(st): continue
+        idx, m, ref = by[b["paperId"]], REFNUM.search(st), None
+        if m:  # 依題號對回來源題
+            ref = next((j for j in idx if str(bank[j].get("n")) == m.group(1) and len(orig[j]) >= 220), None)
+        if ref is None:  # 否則取同大題 8 題內最近的前一篇長文
+            ref = next((j for j in reversed(idx) if j < i and i - j <= 8 and len(orig[j]) >= 220
+                        and bank[j].get("section") == b.get("section")), None)
+        if ref is not None:
+            b["stem"] = f"〔題組文章,同第{bank[ref].get('n')}題〕{orig[ref]}\n〔本題〕{st}"
+
 def main(manifest_path, qdir, fresh=False):
     proj = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
     out = os.path.join(proj, "js/data/exambank.js")
@@ -62,6 +82,7 @@ def main(manifest_path, qdir, fresh=False):
                          "options": q.get("options", []), "answer": q.get("answer", ""),
                          "needsFigure": bool(q.get("needsFigure")), "figureRef": q.get("figureRef", "")})
             added += 1
+    inline_passages(bank)
     hdr = ("// exambank.js — 由段考真卷逐題抽取的結構化題庫(供自組測驗卷/會考卷)。每題可回溯 paperId 看原卷附圖。\n"
            "window.STUDYSYNC = window.STUDYSYNC || { data: {} };\nwindow.STUDYSYNC.data.exambank = [\n")
     open(out, "w", encoding="utf-8").write(
@@ -69,6 +90,19 @@ def main(manifest_path, qdir, fresh=False):
     print(f"本次新增 {added} 題;題庫共 {len(bank)} 題 | {dict(Counter(b['subject'] for b in bank))} | "
           f"section {dict(Counter(b['section'] for b in bank))} | 需圖 {sum(b['needsFigure'] for b in bank)}", file=sys.stderr)
 
+def selftest():
+    long = "P" * 300
+    bank = [{"paperId": "x", "n": "21", "section": "閱讀測驗", "stem": long},
+            {"paperId": "x", "n": "22", "section": "閱讀測驗", "stem": "(同第21題短文) Q22?"},
+            {"paperId": "y", "n": "5", "section": "閱讀測驗", "stem": "(同上文) Q5?"}]  # y 卷無來源 → 不動
+    inline_passages(bank); s1 = bank[1]["stem"]
+    assert s1.startswith("〔題組文章,同第21題〕" + long) and s1.endswith("Q22?"), s1[:40]
+    assert bank[2]["stem"] == "(同上文) Q5?"
+    inline_passages(bank); assert bank[1]["stem"] == s1  # 冪等
+    assert is_self({"answer": "B [無答案卷·推定]"}) and not is_self({"answer": "B"})
+    print("selftest ok")
+
 if __name__ == "__main__":
+    if sys.argv[1:] == ["--selftest"]: selftest(); sys.exit()
     a = [x for x in sys.argv[1:] if x != "--fresh"]
     main(a[0], a[1], fresh="--fresh" in sys.argv)
