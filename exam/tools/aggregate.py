@@ -17,7 +17,7 @@ def norm(s): return re.sub(r"\s+", "", re.sub(r"[，,。.、；;：:（）()？?
 
 # section 正規化:去掉多餘「題」等變體,對齊 compose.html 認得的 7 類(選擇只此一種才會計分)
 SECN = {"選擇題": "選擇", "填充題": "填充", "計算題": "計算", "是非題": "是非",
-        "非選擇題": "非選擇", "非選題": "非選擇", "閱讀測驗題": "閱讀測驗", "聽力題": "聽力", "閱讀": "閱讀測驗"}
+        "非選擇題": "非選擇", "非選題": "非選擇", "非選": "非選擇", "閱讀測驗題": "閱讀測驗", "聽力題": "聽力", "閱讀": "閱讀測驗"}
 def secnorm(s): return SECN.get(s, s)
 
 # 無官方答案、由抽題者自判的答案:q 檔可直接標 selfAns,或 answer 內帶慣用標記(如「[無答案卷·推定]」)
@@ -58,6 +58,7 @@ def main(manifest_path, qdir, fresh=False):
     new_pids = set(meta)
     # 既有題庫:去掉本次 manifest 涵蓋的 paperId(重跑=刷新),其餘保留
     bank = [] if fresh else [b for b in load_existing(out) if b.get("paperId") not in new_pids]
+    for b in bank: b["section"] = secnorm(b.get("section", ""))  # 舊題也套最新正規化
     # 去重:norm(stem) → 已出現的 paperId 集合。只跨「不同卷」去重(同校同題重出才刪),
     # 同一份卷內 stem 相同的題(如克漏字把整篇短文抄進每格 stem)一律保留。
     seen = {}
