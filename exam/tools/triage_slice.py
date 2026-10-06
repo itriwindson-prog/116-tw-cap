@@ -51,9 +51,9 @@ def text_of(path):
     return ""   # .doc 等無解析
 
 def slice_meta(src):
-    # src = ".../國中考題/<年級>/<科目>-<版本>-<學期>-<段考>"
+    # src = ".../國中考題/<年級>/[<學期>/]<科目>-<版本>-<學期>-<段考>"(八年級多一層學期資料夾)
     src = os.path.normpath(src)
-    grade = os.path.basename(os.path.dirname(src))
+    grade = next((x for x in reversed(src.split(os.sep)[:-1]) if x.endswith("年級")), "")
     p = os.path.basename(src).split("-")
     subject, version, sem, exam = (p + ["", "", "", ""])[:4]
     return dict(grade=grade, subject=subject, version=version, sem=sem, exam=exam)
@@ -169,6 +169,8 @@ def main(src, prefix, limit=None):
     print("route 分佈:", dict(Counter(m["route"] for m in manifest)), file=sys.stderr)
 
 def _selftest():
+    assert slice_meta(os.path.join("國中考題", "八年級", "上學期", "數學-翰林-上學期-第一次段考"))["grade"] == "八年級"
+    assert slice_meta(os.path.join("國中考題", "九年級", "數學-翰林-下學期-第二次段考"))["grade"] == "九年級"
     assert year_of("112-1-3  台北仁愛-九年級數學科試題卷.pdf") == "112"
     assert year_of("市立中山國中 九年級 109 上學期 康軒 試卷.pdf") == "109"
     assert lcs(core("112-1-3 台北仁愛-九年級數學科試題卷"), core("112 台北仁愛 臺北市立仁愛國民中學參考答案")) >= 2  # 台北仁愛
