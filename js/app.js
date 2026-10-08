@@ -355,7 +355,7 @@ window.STUDYSYNC = window.STUDYSYNC || { data: {} };
   // ---------- PWA：註冊 service worker（僅 http/https；file:// 不支援，照常離線運作）----------
   if ("serviceWorker" in navigator && location.protocol.indexOf("http") === 0) {
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("sw.js").catch(() => {});
+      if (!window.Capacitor) navigator.serviceWorker.register("sw.js").catch(() => {});  // APK 內資源已在本機,免 SW 重複快取 1.7GB 頁圖
       checkUpdate();
     });
   }
